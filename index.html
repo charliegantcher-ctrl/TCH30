@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TCH30 Index</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* Layout idea: a fund factsheet. Index header + weight strip first, then the six-per-tier
+   constituent board; a side drawer opens a company's eight fundamentals. */
+:root{
+  --ink:#14202e; --muted:#5b6878; --paper:#f3f5f7; --card:#ffffff; --rule:#d9dfe6;
+  --accent:#2347c5; --accent-soft:#e3e9fb;
+  --up:#13804a; --up-soft:#dcf1e5; --down:#c2332b; --down-soft:#f9e0de; --na:#9aa5b1; --na-soft:#eceff2;
+  --display:"Archivo","Helvetica Neue",Arial,sans-serif;
+  --body:"Public Sans","Helvetica Neue",Arial,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ink:#e6ebf1; --muted:#97a3b2; --paper:#0f151d; --card:#17202b; --rule:#2a3542;
+  --accent:#7d9bff; --accent-soft:#1e2a4a;
+  --up:#3fc47d; --up-soft:#13321f; --down:#ff6b5e; --down-soft:#3a1a18; --na:#6c7886; --na-soft:#222c37;
+  color-scheme:dark;}}
+:root[data-theme="dark"]{
+  --ink:#e6ebf1; --muted:#97a3b2; --paper:#0f151d; --card:#17202b; --rule:#2a3542;
+  --accent:#7d9bff; --accent-soft:#1e2a4a;
+  --up:#3fc47d; --up-soft:#13321f; --down:#ff6b5e; --down-soft:#3a1a18; --na:#6c7886; --na-soft:#222c37;
+  color-scheme:dark;}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--paper);color:var(--ink);font:15px/1.5 var(--body)}
+a{color:var(--accent)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+header.top{border-bottom:1px solid var(--rule);background:var(--card)}
+header.top .wrap{display:flex;align-items:center;gap:24px;flex-wrap:wrap;min-height:60px}
+.brand{font:800 22px/1 var(--display);letter-spacing:.02em}
+.brand span{color:var(--accent)}
+nav{display:flex;gap:4px;flex-wrap:wrap}
+nav a{text-decoration:none;color:var(--muted);font-weight:600;padding:8px 12px;border-radius:6px}
+nav a[aria-current="page"]{background:var(--accent-soft);color:var(--accent)}
+nav a:focus-visible,button:focus-visible,.card:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.asof{margin-left:auto;color:var(--muted);font:12px var(--mono)}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0}
+.view{display:none;padding:28px 0 60px}
+.view.on{display:block}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.up{color:var(--up)} .down{color:var(--down)} .na{color:var(--na)}
+
+/* index header */
+.index-head{display:grid;grid-template-columns:1.1fr 2fr;gap:24px;background:var(--card);border:1px solid var(--rule);border-radius:10px;padding:22px}
+.idx-name{font:700 13px var(--display);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.idx-val{font:600 44px/1.1 var(--mono);margin:6px 0}
+.idx-sub{color:var(--muted);font-size:13px;max-width:52ch}
+.idx-sub .spark{height:90px;margin:6px 0}
+.pill{display:inline-block;font:600 12px var(--mono);padding:2px 8px;border-radius:99px}
+.pill.up{background:var(--up-soft)} .pill.down{background:var(--down-soft)} .pill.na{background:var(--na-soft)}
+.strip{display:flex;height:34px;border-radius:6px;overflow:hidden;border:1px solid var(--rule);margin:8px 0 10px}
+.strip div{height:100%;display:flex;align-items:center;justify-content:center;font:600 11px var(--mono);color:#fff;border-right:1px solid var(--card);min-width:0;overflow:hidden;white-space:nowrap}
+.legend{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:4px 16px;font-size:12.5px}
+.legend span{display:flex;justify-content:space-between;gap:8px;border-bottom:1px dotted var(--rule);padding:2px 0}
+.mix{font-size:12px;color:var(--muted);margin-top:8px}
+
+/* tiers */
+.tier{margin-top:34px}
+.tier-h{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;border-bottom:2px solid var(--ink);padding-bottom:6px;margin-bottom:14px}
+.tier-h h2{font-size:22px}
+.tier-h p{margin:0;color:var(--muted);font-size:13.5px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--rule);border-radius:10px;padding:14px 14px 12px;cursor:pointer;display:grid;gap:8px;text-align:left;font:inherit;color:inherit;width:100%;transition:border-color .15s, transform .15s}
+.card:hover{border-color:var(--accent);transform:translateY(-1px)}
+.card-top{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.tk{font:800 19px var(--display)}
+.rank{font:600 11px var(--mono);color:var(--muted);margin-right:6px}
+.nm{color:var(--muted);font-size:12.5px;line-height:1.3}
+.px{text-align:right}
+.px .p{font:600 15px var(--mono)}
+.spark{width:100%;height:54px;display:block}
+.dots{display:flex;gap:5px;align-items:center}
+.dot{width:14px;height:14px;border-radius:3px;flex:none}
+.dot.g{background:var(--up)} .dot.r{background:var(--down)} .dot.x{background:var(--na-soft);border:1px solid var(--na)}
+.card-foot{display:flex;justify-content:space-between;font-size:12px;color:var(--muted)}
+.dotkey{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;color:var(--muted);margin-top:16px}
+.dotkey b{font-family:var(--mono);color:var(--ink)}
+
+/* others */
+.cat{margin-top:26px}
+.cat h3{font-size:16px;margin-bottom:8px}
+.otbl{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--rule);border-radius:8px;overflow:hidden}
+.tblwrap{overflow-x:auto}
+.otbl th,.otbl td{padding:8px 10px;border-bottom:1px solid var(--rule);text-align:left;font-size:13px}
+.otbl th{font:600 11px var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.04em;white-space:nowrap}
+.otbl td.c{text-align:center}
+.otbl tr:last-child td{border-bottom:0}
+.otbl .dot{display:inline-block}
+
+/* drawer */
+.scrim{position:fixed;inset:0;background:rgba(10,15,22,.45);display:none;z-index:10}
+.scrim.on{display:block}
+.drawer{position:fixed;top:0;right:0;height:100%;width:min(560px,100%);background:var(--card);border-left:1px solid var(--rule);z-index:11;transform:translateX(100%);transition:transform .2s;overflow-y:auto;padding:22px}
+.drawer.on{transform:none}
+.dr-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.close{background:none;border:1px solid var(--rule);color:var(--ink);border-radius:6px;padding:6px 10px;cursor:pointer;font:inherit}
+.mgrid{display:grid;gap:8px;margin-top:16px}
+.metric{display:grid;grid-template-columns:1fr auto;gap:2px 12px;padding:10px 12px;border-radius:8px;border-left:4px solid var(--na);background:var(--na-soft)}
+.metric.g{border-color:var(--up);background:var(--up-soft)}
+.metric.r{border-color:var(--down);background:var(--down-soft)}
+.metric .lbl{font-weight:600}
+.metric .val{font:600 14px var(--mono);text-align:right}
+.metric .why{grid-column:1/-1;font-size:12.5px;color:var(--muted)}
+.facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;margin-top:16px}
+.fact{border:1px solid var(--rule);border-radius:8px;padding:8px 10px}
+.fact small{display:block;color:var(--muted);font-size:11.5px}
+.fact b{font:600 14px var(--mono)}
+.note{font-size:13.5px;line-height:1.55;margin-top:14px}
+.prose{max-width:70ch}
+.prose h2{font-size:22px;margin:26px 0 8px}
+.prose table{border-collapse:collapse;margin:8px 0;font-size:13.5px}
+.prose td,.prose th{border:1px solid var(--rule);padding:6px 10px;text-align:left}
+@media (max-width:760px){.index-head{grid-template-columns:1fr}.idx-val{font-size:36px}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div class="brand">TCH<span>30</span></div>
+  <nav>
+    <a href="#tch30" data-v="tch30">TCH30 index</a>
+    <a href="#watchlist" data-v="watchlist">The other 70</a>
+    <a href="#method" data-v="method">How it works</a>
+  </nav>
+  <div class="asof" id="asof"></div>
+</div></header>
+
+<main class="wrap">
+  <section class="view" id="v-tch30">
+    <div class="index-head">
+      <div>
+        <div class="idx-name">TCH30 · market-cap weighted</div>
+        <div class="idx-val num" id="idxval">1,000.00</div>
+        <div id="idxchg"></div>
+        <p class="idx-sub" id="idxsub"></p>
+      </div>
+      <div>
+        <div class="idx-name">Constituent weights</div>
+        <div class="strip" id="strip"></div>
+        <div class="legend" id="legend"></div>
+        <div class="mix">Weight = each member's share of the 30 members' total market capitalisation, like the S&amp;P 500.</div>
+      </div>
+    </div>
+    <div class="dotkey" id="dotkey"></div>
+    <div id="tiers"></div>
+  </section>
+
+  <section class="view" id="v-watchlist">
+    <h1 style="font-size:28px">The other 70</h1>
+    <p class="prose" style="color:var(--muted)">The rest of the 100-stock watchlist. Each square is one of the eight fundamentals from the latest reported quarter: green is positive, red is negative, grey is not disclosed or not applicable. Full figures open only for TCH30 members.</p>
+    <div class="dotkey" id="dotkey2"></div>
+    <div id="others"></div>
+  </section>
+
+  <section class="view prose" id="v-method">
+    <h1 style="font-size:28px">How TCH30 works</h1>
+    <h2>Membership</h2>
+    <p>TCH30 holds the 30 highest-ranked companies from a 100-stock tech watchlist (semiconductors, AI infrastructure, power and nuclear, space, quantum, robotics, software). Rankings score each company on durability of its 10–15 year role (~30%), growth quality with organic preferred over acquired (~25%), margins and their trend (~20%), free cash flow and balance sheet (~15%), and customer concentration and execution risk (~10%). Share price and valuation play no part in the ranking.</p>
+    <p>The list is reviewed on the 1st of each month: 10 new companies are researched, the 10 weakest leave the watchlist, and the top 30 is re-ranked. A company enters TCH30 when it ranks in the top 30 and leaves when it falls out.</p>
+    <h2>Weighting</h2>
+    <p>Each member's weight is its share of the 30 members' total market capitalisation, the same way the S&amp;P 500 is weighted. Bigger companies by market value count for more.</p>
+    <p>Each company page also shows a "business weight" for comparison: its share of the group's trailing-12-month sales, net income (losses count as zero), book value and dividends, equally blended. When a company's market weight is far above its business weight, the market is pricing in a lot of future growth; when it is below, the market is paying less for today's business.</p>
+    <p>The index started at 1,000.00 on <span id="m-asof"></span>. The prior-month figure shown on the index page is hypothetical: today's weights applied to each member's price change over the month before launch.</p>
+    <h2>Colors</h2>
+    <p>Green means the figure is positive (growth up, margin above zero, cash flow positive, NRR at or above 100%). Red means negative. Grey means the company does not disclose it or it does not apply, such as NRR for a chipmaker. Operating margin uses the GAAP figure.</p>
+    <h2>Limits</h2>
+    <p>Prices and fundamentals are a snapshot, not live. Quarters differ by company. Figures come from company releases and data aggregators, which companies shape to show themselves well; several figures are computed. This page is for learning and research, not financial advice.</p>
+  </section>
+</main>
+
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="dr-title"></aside>
+
+<script>
+let D, P = null;
+const METRICS = [
+  ["rev","Revenue growth (YoY)","How quickly the company is growing"],
+  ["organic","Organic revenue growth","How much growth comes from the existing business rather than acquisitions"],
+  ["cust","Customer growth","Whether the company is attracting more customers"],
+  ["revcust","Revenue per customer","Whether existing customers are spending more"],
+  ["gp","Gross profit growth","Whether the company is generating more profit from its products"],
+  ["opm","Operating margin","Whether the business is becoming more efficient"],
+  ["fcf","Free cash flow","Whether growth is translating into actual cash"],
+  ["nrr","Net revenue retention (NRR)","Whether existing customers are expanding their spending"]
+];
+const TIERS = {
+  1:["Tier 1","Bottleneck owners with elite margins and cash"],
+  2:["Tier 2","High-quality growth, one flaw each"],
+  3:["Tier 3","Durable franchises with a margin, cash or acquisition asterisk"],
+  4:["Tier 4","Strong businesses with a durability or cycle discount"],
+  5:["Tier 5","Steady compounders and long-dated bets"]
+};
+const PALETTE = ["#2347c5","#3a63d8","#5580e0","#7099e6","#8aafe9","#a3c2ec","#5b6878","#7f8b99","#a2acb8"];
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const cls = s => s > 0 ? "g" : s < 0 ? "r" : "x";
+const usd = v => "$" + v.toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2});
+const pct = (v, d=1) => v == null ? "n/d" : (v > 0 ? "+" : v < 0 ? "−" : "") + Math.abs(v).toFixed(d) + "%";
+const tone = v => v == null ? "na" : v > 0 ? "up" : v < 0 ? "down" : "na";
+const money = b => b == null ? "n/d" : (b < 0 ? "−" : "") + "$" + (Math.abs(b) >= 1000 ? (Math.abs(b)/1000).toFixed(2) + "T" : Math.abs(b) >= 1 ? Math.abs(b).toFixed(1) + "B" : (Math.abs(b)*1000).toFixed(0) + "M");
+
+function liveSeries(t){ return P && P.series && P.series[t] && P.series[t].length > 5 ? P.series[t] : null; }
+function lineChart(s, w, h, up, baseDate){
+  const ys = s.map(p => p[1]), lo = Math.min(...ys), hi = Math.max(...ys), pad = 6, n = s.length;
+  const X = i => pad + i/(n-1)*(w-2*pad), Y = y => pad + (hi-y)/((hi-lo)||1)*(h-2*pad-10);
+  const col = up ? "var(--up)" : "var(--down)";
+  const line = s.map((p,i) => X(i).toFixed(1) + "," + Y(p[1]).toFixed(1)).join(" ");
+  const bi = baseDate ? s.findIndex(p => p[0] >= baseDate) : -1;
+  return `<svg class="spark" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none" aria-label="daily closes ${s[0][0]} to ${s[n-1][0]}">
+    <line x1="${pad}" x2="${w-pad}" y1="${h-10}" y2="${h-10}" stroke="var(--rule)"/>
+    ${bi > 0 ? `<line x1="${X(bi)}" x2="${X(bi)}" y1="${pad}" y2="${h-10}" stroke="var(--muted)" stroke-dasharray="2 3"/>` : ""}
+    <polygon points="${X(0)},${h-10} ${line} ${X(n-1)},${h-10}" fill="${col}" opacity=".12"/>
+    <polyline points="${line}" fill="none" stroke="${col}" stroke-width="1.6" vector-effect="non-scaling-stroke"/>
+    <circle cx="${X(n-1)}" cy="${Y(s[n-1][1])}" r="3" fill="${col}"/>
+    <text x="${pad}" y="${h-1}" font-size="9" fill="var(--muted)" font-family="IBM Plex Mono, monospace">${s[0][0]}</text>
+    <text x="${w-pad}" y="${h-1}" font-size="9" fill="var(--muted)" text-anchor="end" font-family="IBM Plex Mono, monospace">${s[n-1][0]}</text></svg>`;
+}
+function spark(m, w=260, h=54, t=null){
+  const s = t && liveSeries(t);
+  if (s) return lineChart(s, w, h, (m.chg_1m_pct ?? 0) >= 0);
+  const now = m.price, pts = [];
+  if (m.chg_1y_pct != null) pts.push([0, now/(1+m.chg_1y_pct/100), "1y ago"]);
+  else if (m.chg_since_ipo_pct != null) pts.push([0.6, now/(1+m.chg_since_ipo_pct/100), "IPO"]);
+  if (m.chg_1m_pct != null) pts.push([11/12, now/(1+m.chg_1m_pct/100), "1m ago"]);
+  pts.push([1, now, "now"]);
+  const ys = pts.map(p => p[1]), lo = Math.min(...ys), hi = Math.max(...ys), pad = 6;
+  const X = x => pad + x*(w-2*pad), Y = y => hi === lo ? h/2 : pad + (hi-y)/(hi-lo)*(h-2*pad-10);
+  const col = (m.chg_1m_pct ?? 0) >= 0 ? "var(--up)" : "var(--down)";
+  const line = pts.map(p => X(p[0]).toFixed(1) + "," + Y(p[1]).toFixed(1)).join(" ");
+  const area = `${X(pts[0][0])},${h-10} ${line} ${X(1)},${h-10}`;
+  const lbls = pts.filter(p => p[0] !== 11/12).map(p => `<text x="${X(p[0])}" y="${h-1}" font-size="9" fill="var(--muted)" text-anchor="${p[0]===1?'end':p[0]===0?'start':'middle'}" font-family="IBM Plex Mono, monospace">${p[2]}</text>`).join("");
+  const last = pts[pts.length-1];
+  return `<svg class="spark" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none" aria-label="price 1 year ago, 1 month ago (dashed line) and now">
+    <line x1="${pad}" x2="${w-pad}" y1="${h-10}" y2="${h-10}" stroke="var(--rule)"/>
+    <polygon points="${area}" fill="${col}" opacity=".12"/>
+    <polyline points="${line}" fill="none" stroke="${col}" stroke-width="2" vector-effect="non-scaling-stroke"/>
+    ${pts.filter(p => p[0] === 11/12).map(p => `<line x1="${X(p[0])}" x2="${X(p[0])}" y1="${pad}" y2="${h-10}" stroke="var(--rule)" stroke-dasharray="2 3"/>`).join("")}<circle cx="${X(last[0])}" cy="${Y(last[1])}" r="3" fill="${col}"/>${lbls}</svg>`;
+}
+const dots = c => `<div class="dots">${METRICS.map(([k,l]) => `<span class="dot ${cls(c.signs[k])}" title="${esc(l)}"></span>`).join("")}</div>`;
+const dotKey = () => METRICS.map(([k,l],i) => `<span><b>${i+1}</b> ${esc(l)}</span>`).join("") +
+  `<span><span class="dot g" style="display:inline-block;vertical-align:-2px"></span> positive</span><span><span class="dot r" style="display:inline-block;vertical-align:-2px"></span> negative</span><span><span class="dot x" style="display:inline-block;vertical-align:-2px"></span> not disclosed / n/a</span>`;
+
+function renderIndex(){
+  $("#asof").textContent = "Prices: " + D.asof;
+  $("#m-asof").textContent = D.asof;
+  $("#idxval").textContent = D.index_value.toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2});
+  if (D.period_ret_pct != null) {
+    $("#idxchg").innerHTML = `<span class="pill ${tone(D.period_ret_pct)}">${pct(D.period_ret_pct)}</span> <span style="color:var(--muted);font-size:13px">since ${esc(D.since)}</span>`;
+  } else {
+    const c1 = D.index_1m_pct;
+    $("#idxchg").innerHTML = `<span class="pill ${tone(c1)}">${pct(c1)}</span> <span style="color:var(--muted);font-size:13px">hypothetical prior month</span>`;
+  }
+  if (P && P.index && P.index.length > 1) {
+    const ix = P.index, last = ix[ix.length-1][1], base = ix.find(p => p[0] >= P.base_date) || ix[0];
+    const ch = (last / base[1] - 1) * 100;
+    $("#asof").textContent = "Prices updated " + P.updated;
+    $("#idxval").textContent = last.toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2});
+    $("#idxchg").innerHTML = `<span class="pill ${tone(ch)}">${pct(ch)}</span> <span style="color:var(--muted);font-size:13px">since ${esc(P.base_date)} rebalance</span>`;
+    $("#idxsub").innerHTML = lineChart(ix, 420, 90, ch >= 0, P.base_date) +
+      `<span>Daily closes. Left of the dashed line is a back-test with current weights.</span>`;
+    return renderBoard();
+  }
+  const h0 = D.history[0];
+  $("#idxsub").textContent = `Base 1,000.00 set at ${h0.asof}. Valued at ${D.asof} prices; recalculated at each monthly refresh (${D.history.length} reading${D.history.length>1?"s":""} so far). Live tracking is not available on this page.`;
+  renderBoard();
+}
+function renderBoard(){
+  const top = [...D.top].sort((a,b) => b.weight - a.weight);
+  const big = top.slice(0, 8), rest = top.slice(8), restW = rest.reduce((s,c) => s + c.weight, 0);
+  $("#strip").innerHTML = big.map((c,i) => `<div style="width:${(c.weight*100).toFixed(2)}%;background:${PALETTE[i]}" title="${c.ticker} ${(c.weight*100).toFixed(1)}%">${c.weight > .045 ? c.ticker : ""}</div>`).join("") +
+    `<div style="width:${(restW*100).toFixed(2)}%;background:${PALETTE[8]}" title="22 others ${(restW*100).toFixed(1)}%">${restW > .06 ? "+" + rest.length : ""}</div>`;
+  $("#legend").innerHTML = top.map(c => `<span><b>${c.ticker}</b><span class="num">${(c.weight*100).toFixed(2)}%</span></span>`).join("");
+  $("#dotkey").innerHTML = dotKey();
+  $("#tiers").innerHTML = [1,2,3,4,5].map(t => {
+    const cs = D.top.filter(c => c.tier === t).sort((a,b) => a.rank - b.rank);
+    return `<section class="tier"><div class="tier-h"><h2>${TIERS[t][0]}</h2><p>${TIERS[t][1]}</p></div><div class="grid">${cs.map(card).join("")}</div></section>`;
+  }).join("");
+  document.querySelectorAll(".card").forEach(el => el.addEventListener("click", () => openDrawer(el.dataset.t)));
+}
+function withLive(c){
+  const L = P && P.latest && P.latest[c.ticker];
+  return L ? {...c.mkt, price: L.price, chg_1m_pct: L.chg_1m_pct, chg_1y_pct: L.chg_1y_pct, chg_1d_pct: L.chg_1d_pct} : c.mkt;
+}
+function card(c){
+  const m = withLive(c);
+  return `<button class="card" data-t="${c.ticker}" aria-label="Open ${esc(c.name)} fundamentals">
+    <div class="card-top"><div><span class="rank">#${c.rank}</span><span class="tk">${c.ticker}</span><div class="nm">${esc(c.name)}</div></div>
+    <div class="px"><div class="p">${usd(m.price)}</div><span class="pill ${tone(m.chg_1m_pct)}">${pct(m.chg_1m_pct)} 1m</span></div></div>
+    ${spark(m, 260, 54, c.ticker)}
+    ${dots(c)}
+    <div class="card-foot"><span>Weight <b class="num" style="color:var(--ink)">${(c.weight*100).toFixed(2)}%</b></span><span>Mkt cap <span class="num">${money(m.mcap_b)}</span></span></div>
+  </button>`;
+}
+function openDrawer(t){
+  const c = D.top.find(x => x.ticker === t), m = withLive(c);
+  $("#drawer").innerHTML = `<div class="dr-head"><div><span class="rank">Tier ${c.tier} · #${c.rank}</span><h2 id="dr-title" style="font-size:26px">${c.ticker} <span style="font-weight:500;color:var(--muted);font-size:18px">${esc(c.name)}</span></h2>
+      <div style="color:var(--muted);font-size:13px">${esc(c.category)} · latest quarter ${esc(c.period)}</div></div>
+      <button class="close" id="closeBtn">Close</button></div>
+    ${spark(m, 520, 80, c.ticker)}
+    <div class="mgrid">${METRICS.map(([k,l,why]) => `<div class="metric ${cls(c.signs[k])}"><span class="lbl">${esc(l)}</span><span class="val">${esc(c[k])}</span><span class="why">${esc(why)}</span></div>`).join("")}</div>
+    <p class="note"><b>Why it ranks here.</b> ${esc(c.why)}</p>
+    <h3 style="margin-top:18px;font-size:15px">Market vs. business</h3>
+    <div class="facts">
+      <div class="fact"><small>Price (${esc(P && P.latest[c.ticker] ? P.latest[c.ticker].date : D.asof)})</small><b>${usd(m.price)}</b></div>
+      <div class="fact"><small>1-month change</small><b class="${tone(m.chg_1m_pct)}">${pct(m.chg_1m_pct)}</b></div>
+      <div class="fact"><small>${m.chg_1y_pct==null?'Since IPO':'1-year change'}</small><b class="${tone(m.chg_1y_pct ?? m.chg_since_ipo_pct)}">${pct(m.chg_1y_pct ?? m.chg_since_ipo_pct)}</b></div>
+      <div class="fact"><small>Market cap</small><b>${money(m.mcap_b)}</b></div>
+      <div class="fact"><small>Sales (TTM)</small><b>${money(m.rev_ttm_b)}</b></div>
+      <div class="fact"><small>Net income (TTM)</small><b class="${tone(m.ni_ttm_b)}">${money(m.ni_ttm_b)}</b></div>
+      <div class="fact"><small>Book value</small><b>${money(m.book_b)}</b></div>
+      <div class="fact"><small>Price / sales</small><b>${m.rev_ttm_b ? (m.mcap_b/m.rev_ttm_b).toFixed(1) + "×" : "n/d"}</b></div>
+      <div class="fact"><small>Price / earnings</small><b>${m.ni_ttm_b > 0 ? (m.mcap_b/m.ni_ttm_b).toFixed(1) + "×" : "n/m"}</b></div>
+      <div class="fact"><small>TCH30 weight</small><b>${(c.weight*100).toFixed(2)}%</b></div>
+      <div class="fact"><small>Business weight (reference)</small><b>${(c.w_fund*100).toFixed(2)}%</b></div>
+    </div>
+    <p class="note" style="color:var(--muted);font-size:12px">Figures from company releases and data aggregators; quarters differ by company. Not financial advice.</p>`;
+  $("#drawer").classList.add("on"); $("#scrim").classList.add("on"); $("#drawer").setAttribute("aria-hidden","false");
+  $("#closeBtn").addEventListener("click", closeDrawer); $("#closeBtn").focus();
+}
+function closeDrawer(){ $("#drawer").classList.remove("on"); $("#scrim").classList.remove("on"); $("#drawer").setAttribute("aria-hidden","true"); }
+$("#scrim").addEventListener("click", closeDrawer);
+document.addEventListener("keydown", e => { if (e.key === "Escape") closeDrawer(); });
+
+function renderOthers(){
+  $("#dotkey2").innerHTML = dotKey();
+  const bySec = {};
+  D.others.forEach(c => (bySec[c.section] ||= []).push(c));
+  $("#others").innerHTML = Object.entries(bySec).map(([s, cs]) => `<div class="cat"><h3>${esc(s)}</h3><div class="tblwrap"><table class="otbl">
+    <thead><tr><th>Ticker</th><th>Company</th>${METRICS.map((m,i) => `<th class="c" title="${esc(m[1])}">${i+1}</th>`).join("")}</tr></thead>
+    <tbody>${cs.map(c => `<tr><td><b>${c.ticker}</b></td><td>${esc(c.name)}</td>${METRICS.map(([k,l]) => `<td class="c"><span class="dot ${cls(c.signs[k])}" title="${esc(l)}"></span></td>`).join("")}</tr>`).join("")}</tbody></table></div></div>`).join("");
+}
+
+function route(){
+  const v = (location.hash || "#tch30").slice(1);
+  const name = ["tch30","watchlist","method"].includes(v) ? v : "tch30";
+  document.querySelectorAll(".view").forEach(el => el.classList.toggle("on", el.id === "v-" + name));
+  document.querySelectorAll("nav a").forEach(a => { if (a.dataset.v === name) a.setAttribute("aria-current","page"); else a.removeAttribute("aria-current"); });
+  window.scrollTo(0,0);
+}
+Promise.all([
+  fetch("site_data.json").then(r => r.json()),
+  fetch("prices.json").then(r => r.ok ? r.json() : null).catch(() => null)
+]).then(([d, p]) => { D = d; P = p; renderIndex(); renderOthers(); route(); })
+  .catch(e => { document.querySelector("main").innerHTML = "<p style='padding:40px 0'>Could not load site_data.json. Open this page from a web server (GitHub Pages), not as a local file.</p>"; });
+window.addEventListener("hashchange", route);
+</script>
+</body>
+</html>
