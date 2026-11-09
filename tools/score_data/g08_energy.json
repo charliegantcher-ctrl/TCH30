@@ -1,0 +1,588 @@
+[
+ {
+  "ticker": "CEG",
+  "period": "Q3 2026 (Sep-26); TTM to Sep-26",
+  "rev_ttm_b": 34.25,
+  "rev_growth_ttm_pct": 37.9,
+  "rev_growth_q_pct": 45.4,
+  "organic_share": null,
+  "gross_margin_pct": 53.9,
+  "gross_margin_prior_pct": 45.7,
+  "op_margin_pct": 26.1,
+  "op_margin_prior_pct": 16.5,
+  "fcf_ttm_b": null,
+  "cash_b": 0.603,
+  "debt_b": 23.387,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "raised",
+  "contracts_90d": [
+   {
+    "what": "20-yr Google PPA (~890 MW nuclear uprates) plus 15-yr 2,700 MW load-following agreement in PJM",
+    "value_b": null,
+    "date": "2026-10",
+    "source": "CEG 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001868275/000186827526000116/ceg-20261109991.htm"
+   },
+   {
+    "what": "20-yr 690 MW Amazon PPA tied to Calvert Cliffs, incl. 190 MW expansion 2030-32",
+    "value_b": null,
+    "date": "2026-09",
+    "source": "CEG 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001868275/000186827526000116/ceg-20261109991.htm"
+   },
+   {
+    "what": "20-yr 270 MW Peak+ agreement starting 2028",
+    "value_b": null,
+    "date": "2026-Q3",
+    "source": "CEG 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001868275/000186827526000116/ceg-20261109991.htm"
+   }
+  ],
+  "investments": "Google-backed uprate program (>$4.3B) with DOE conditional loan commitment up to $5.0B; 9M26 capex $3.46B; buying 609 MW Rhode Island State Energy Center for $715M; Calpine acquired Jan 2026.",
+  "news_90d": [
+   {
+    "what": "Q3 GAAP EPS $5.19 vs $2.97; FY26 adjusted EPS guide midpoint raised to $12.50-12.80",
+    "tone": "good",
+    "date": "2026-11-09",
+    "source": "CEG 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001868275/000186827526000116/ceg-20261109991.htm"
+   }
+  ],
+  "industries_served": [
+   "utilities/wholesale power",
+   "hyperscale data centers",
+   "commercial & industrial retail power",
+   "natural gas retail"
+  ],
+  "bottleneck_note": "Largest US nuclear fleet; existing licensed nuclear capacity cannot be replicated quickly, giving strong position in firm carbon-free PPAs; competitors VST, TLN, NEE, utilities.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001868275/000186827526000116/ceg-20261109991.htm",
+   "https://www.businesswire.com/news/home/20260223802465/en/Constellation-Reports-Fourth-Quarter-and-Full-Year-2025-Results/"
+  ]
+ },
+ {
+  "ticker": "VST",
+  "period": "Q3 2026 (Sep-26); TTM to Sep-26",
+  "rev_ttm_b": 20.588,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 27.7,
+  "organic_share": null,
+  "gross_margin_pct": 60.1,
+  "gross_margin_prior_pct": 52.3,
+  "op_margin_pct": 26.9,
+  "op_margin_prior_pct": 20.9,
+  "fcf_ttm_b": null,
+  "cash_b": 2.743,
+  "debt_b": null,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "raised",
+  "contracts_90d": [
+   {
+    "what": "20-yr 207 MW PPA with New Era Energy and Digital at Odessa, TX",
+    "value_b": null,
+    "date": "2026-Q3",
+    "source": "Vistra 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001692819/000169281926000023/vistra-20260930xearningsre.htm"
+   }
+  ],
+  "investments": "Cogentrix (~5.5 GW gas) closed Oct 2026 for ~$2.2B cash plus ~$1.7B debt repaid; 9M26 capex incl. nuclear fuel $2.32B; buyback authorization +$1.5B; 2027 adj. EBITDA guide $7.7-8.5B.",
+  "news_90d": [
+   {
+    "what": "Q3 revenue missed consensus but EPS beat; $559M of net income was unrealized hedge gains; shares rose ~10%",
+    "tone": "good",
+    "date": "2026-11-06",
+    "source": "XTB",
+    "url": "https://www.xtb.com/en/market-analysis/vistra-shares-surge-nearly-10-after-earnings-driven-by-strong-ai-power-demand"
+   },
+   {
+    "what": "Closed Cogentrix acquisition adding ~5,500 MW gas generation",
+    "tone": "neutral",
+    "date": "2026-10",
+    "source": "Vistra 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001692819/000169281926000023/vistra-20260930xearningsre.htm"
+   }
+  ],
+  "industries_served": [
+   "wholesale power (ERCOT, PJM)",
+   "retail electricity",
+   "hyperscale data centers"
+  ],
+  "bottleneck_note": "Largest US competitive generator with nuclear plus gas fleet; scale and existing sites hard to replicate; competes with CEG, TLN, NRG, utilities.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001692819/000169281926000023/vistra-20260930xearningsre.htm",
+   "https://seekingalpha.com/pr/20414965"
+  ]
+ },
+ {
+  "ticker": "BWXT",
+  "period": "Q3 2026 (Sep-26); TTM to Sep-26",
+  "rev_ttm_b": 3.601,
+  "rev_growth_ttm_pct": 17.7,
+  "rev_growth_q_pct": 10.0,
+  "organic_share": null,
+  "gross_margin_pct": 23.8,
+  "gross_margin_prior_pct": 21.8,
+  "op_margin_pct": 13.9,
+  "op_margin_prior_pct": 13.1,
+  "fcf_ttm_b": 0.372,
+  "cash_b": 0.569,
+  "debt_b": 2.022,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": 8.556,
+  "backlog_growth_pct": 15.8,
+  "guidance": "maintained",
+  "contracts_90d": [
+   {
+    "what": "BANR microreactor selected for US Army Janus Program at Fort Campbell and Prodigy transportable nuclear plant in Canada",
+    "value_b": null,
+    "date": "2026-11-02",
+    "source": "BWXT 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001486957/000148695726000053/bwxt_93026xerexhibit991.htm"
+   }
+  ],
+  "investments": "9M26 acquisitions $187M; one business classified held for sale (~$700M assets); R&D small (~$14M in FY25, <1% of revenue); FY26 FCF guide $350-360M.",
+  "news_90d": [
+   {
+    "what": "Q3 revenue +10%, FCF +59%, backlog $8.56B; FY26 guidance narrowed (revenue ~$3.8B reaffirmed)",
+    "tone": "good",
+    "date": "2026-11-02",
+    "source": "BWXT 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001486957/000148695726000053/bwxt_93026xerexhibit991.htm"
+   }
+  ],
+  "industries_served": [
+   "naval nuclear propulsion (US Navy)",
+   "commercial nuclear components",
+   "nuclear fuel/TRISO",
+   "medical isotopes",
+   "microreactors"
+  ],
+  "bottleneck_note": "Sole-source supplier of naval reactors to the US Navy (effective monopoly); commercial competitors include Framatome, Westinghouse, Curtiss-Wright.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001486957/000148695726000053/bwxt_93026xerexhibit991.htm",
+   "https://www.sec.gov/Archives/edgar/data/1486957/000148695726000005/bwxt_123125xerexhibit991.htm"
+  ]
+ },
+ {
+  "ticker": "CCJ",
+  "period": "Q3 2026 (Sep-26); figures in CAD",
+  "rev_ttm_b": null,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 0.7,
+  "organic_share": 1.0,
+  "gross_margin_pct": 19.7,
+  "gross_margin_prior_pct": 27.6,
+  "op_margin_pct": null,
+  "op_margin_prior_pct": null,
+  "fcf_ttm_b": null,
+  "cash_b": 0.86,
+  "debt_b": 1.0,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "cut",
+  "contracts_90d": [],
+  "investments": "49% Westinghouse stake (Polish orders, Slovakia FEED); non-binding US-Korea framework for up to 8 new US reactors; 2026 dividend C$0.24.",
+  "news_90d": [
+   {
+    "what": "Q3 adjusted loss C$2M; Key Lake mill outage overran, production guide narrowed to 19.5-20.5M lb; shares fell ~9%",
+    "tone": "bad",
+    "date": "2026-10-30",
+    "source": "Canadian Press/CP24",
+    "url": "https://www.cp24.com/news/money/2026/10/30/uranium-miner-cameco-reports-43m-q3-profit-revenue-edges-up-from-year-ago/"
+   },
+   {
+    "what": "CFO transition: Leah Hipperson to succeed Heidi Shockey Jan 1, 2027",
+    "tone": "neutral",
+    "date": "2026-10-30",
+    "source": "Cameco 6-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001009001/000119312526439858/d106072dex991.htm"
+   }
+  ],
+  "industries_served": [
+   "nuclear utilities",
+   "uranium mining",
+   "fuel conversion/fabrication",
+   "reactor services (Westinghouse)"
+  ],
+  "bottleneck_note": "Tier-1 Western uranium supplier with high-grade Athabasca assets and Westinghouse stake; competitors Kazatomprom, Orano, NexGen (future).",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001009001/000119312526439858/d106072dex991.htm",
+   "https://www.cp24.com/news/money/2026/10/30/uranium-miner-cameco-reports-43m-q3-profit-revenue-edges-up-from-year-ago/"
+  ],
+  "rev_size_est_b": 2.4
+ },
+ {
+  "ticker": "LEU",
+  "period": "Q3 2026 (Sep-26)",
+  "rev_ttm_b": null,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": -25.9,
+  "organic_share": null,
+  "gross_margin_pct": -19.1,
+  "gross_margin_prior_pct": -5.7,
+  "op_margin_pct": -53.5,
+  "op_margin_prior_pct": null,
+  "fcf_ttm_b": null,
+  "cash_b": 2.236,
+  "debt_b": null,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": 7.0,
+  "backlog_growth_pct": null,
+  "guidance": null,
+  "contracts_90d": [],
+  "investments": "Piketon centrifuge build-out: FY26 capital deployment $350-500M; 9M26 capex $226M; ~$5.4B contingent LEU/HALEU commitments tied to expansion; acquired Westerman.",
+  "news_90d": [
+   {
+    "what": "Q3 revenue -26%, gross loss widened; GAAP profit came from warrant gain",
+    "tone": "bad",
+    "date": "2026-11-04",
+    "source": "Centrus 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001065059/000162828026070229/ex991-10q2026_11x04.htm"
+   },
+   {
+    "what": "DOE does not plan to exercise further HALEU contract options; ~$0.8B backlog unfunded in FY27 budget proposal",
+    "tone": "bad",
+    "date": "2026-11-04",
+    "source": "Centrus 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001065059/000162828026070229/ex991-10q2026_11x04.htm"
+   },
+   {
+    "what": "Centrifuge shipments from Oak Ridge began ahead of target",
+    "tone": "good",
+    "date": "2026-11-04",
+    "source": "Centrus 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001065059/000162828026070229/ex991-10q2026_11x04.htm"
+   }
+  ],
+  "industries_served": [
+   "nuclear utilities (LEU)",
+   "advanced reactors (HALEU)",
+   "US government/DOE"
+  ],
+  "bottleneck_note": "Only US-owned enrichment technology and HALEU producer; competitors Urenco (incl. US plant), Orano, Rosatom (restricted).",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001065059/000162828026070229/ex991-10q2026_11x04.htm",
+   "https://www.sec.gov/Archives/edgar/data/1065059/000162828026006909/ex991-10k2026_02x10.htm"
+  ],
+  "rev_size_est_b": 0.4
+ },
+ {
+  "ticker": "OKLO",
+  "period": "Q3 2026 (Sep-26)",
+  "rev_ttm_b": null,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": null,
+  "organic_share": 1.0,
+  "gross_margin_pct": null,
+  "gross_margin_prior_pct": null,
+  "op_margin_pct": null,
+  "op_margin_prior_pct": null,
+  "fcf_ttm_b": null,
+  "cash_b": 3.131,
+  "debt_b": null,
+  "pre_revenue": true,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "none",
+  "contracts_90d": [
+   {
+    "what": "Capacity reservation with U.S. Forged Rings equal to 27 Aurora modules over 2030-35",
+    "value_b": null,
+    "date": "2026-11-06",
+    "source": "Earnings Whispers/Finviz",
+    "url": "https://finviz.com/news/418461/oklo-narrows-its-loss-against-expectations-but-an-aurora-slip-and-pjm-setback-overshadow-construction-progress"
+   },
+   {
+    "what": "Groves 2 selected for NRIC Nuclear Energy Launch Pad; fuel bought from Framatome",
+    "value_b": null,
+    "date": "2026-11-06",
+    "source": "Earnings Whispers/Finviz",
+    "url": "https://finviz.com/news/418461/oklo-narrows-its-loss-against-expectations-but-an-aurora-slip-and-pjm-setback-overshadow-construction-progress"
+   }
+  ],
+  "investments": "9M26 PP&E spend $281M on Aurora-INL (now at structural steel); $68.7M prepaid enriched uranium; ~$2.3B YTD ATM equity issuance (dilution).",
+  "news_90d": [
+   {
+    "what": "First Aurora startup window widened to 2028-2029 from 2028",
+    "tone": "bad",
+    "date": "2026-11-06",
+    "source": "Earnings Whispers/Finviz",
+    "url": "https://finviz.com/news/418461/oklo-narrows-its-loss-against-expectations-but-an-aurora-slip-and-pjm-setback-overshadow-construction-progress"
+   },
+   {
+    "what": "PJM withdrew Virginia interconnection application and FERC dismissed Oklo complaint",
+    "tone": "bad",
+    "date": "2026-11-06",
+    "source": "Earnings Whispers/Finviz",
+    "url": "https://finviz.com/news/418461/oklo-narrows-its-loss-against-expectations-but-an-aurora-slip-and-pjm-setback-overshadow-construction-progress"
+   }
+  ],
+  "industries_served": [
+   "data centers",
+   "utilities",
+   "DOE/defense",
+   "nuclear fuel recycling"
+  ],
+  "bottleneck_note": "Pre-license owner-operator model; no moat yet; competes with NuScale, Kairos, TerraPower, X-energy, GE-Hitachi BWRX-300.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001849056/000162828026071319/oklo-20260930.htm",
+   "https://finviz.com/news/418461/oklo-narrows-its-loss-against-expectations-but-an-aurora-slip-and-pjm-setback-overshadow-construction-progress"
+  ]
+ },
+ {
+  "ticker": "SMR",
+  "period": "Q3 2026 (Sep-26)",
+  "rev_ttm_b": null,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": -96.6,
+  "organic_share": 1.0,
+  "gross_margin_pct": 47.3,
+  "gross_margin_prior_pct": 32.9,
+  "op_margin_pct": null,
+  "op_margin_prior_pct": null,
+  "fcf_ttm_b": null,
+  "cash_b": 1.86,
+  "debt_b": null,
+  "pre_revenue": true,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "none",
+  "contracts_90d": [
+   {
+    "what": "Doosan Enerbility agreement to manufacture NuScale Power Modules",
+    "value_b": null,
+    "date": "2026-10-29",
+    "source": "Earnings Whispers/Finviz",
+    "url": "https://finviz.com/news/411025/nuscales-third-quarter-report-hinges-on-tva-clarity-as-shares-sink-near-lows"
+   }
+  ],
+  "investments": "Opex-heavy (Q3 op loss $64.8M); 9M26 operating cash burn ~$401M; capex minimal; cash and investments ~$1.86B.",
+  "news_90d": [
+   {
+    "what": "Barclays cut rating, citing commercial execution risk",
+    "tone": "bad",
+    "date": "2026-10-20",
+    "source": "Earnings Whispers/Finviz",
+    "url": "https://finviz.com/news/411025/nuscales-third-quarter-report-hinges-on-tva-clarity-as-shares-sink-near-lows"
+   },
+   {
+    "what": "TVA/ENTRA1 PPA still unsigned at Q3 report; shares near 52-week lows",
+    "tone": "bad",
+    "date": "2026-11-05",
+    "source": "Earnings Whispers/Finviz",
+    "url": "https://finviz.com/news/411025/nuscales-third-quarter-report-hinges-on-tva-clarity-as-shares-sink-near-lows"
+   }
+  ],
+  "industries_served": [
+   "utilities",
+   "data centers",
+   "industrial"
+  ],
+  "bottleneck_note": "Only NRC-certified US SMR design (first-mover licensing edge) but no firm orders; competitors GE-Hitachi BWRX-300, Westinghouse AP300, Holtec, X-energy.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001822966/000182296626000089/pressreleasenuscale2026q.htm",
+   "https://finviz.com/news/411025/nuscales-third-quarter-report-hinges-on-tva-clarity-as-shares-sink-near-lows"
+  ],
+  "rev_size_est_b": 0.03
+ },
+ {
+  "ticker": "NNE",
+  "period": "Fiscal Q3 2026 (Jun-26); FY ends Sep",
+  "rev_ttm_b": null,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": null,
+  "organic_share": null,
+  "gross_margin_pct": null,
+  "gross_margin_prior_pct": null,
+  "op_margin_pct": null,
+  "op_margin_prior_pct": null,
+  "fcf_ttm_b": null,
+  "cash_b": 0.58,
+  "debt_b": null,
+  "pre_revenue": true,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "none",
+  "contracts_90d": [],
+  "investments": "~$580M cash after $378.5M private placement (Oct 2025) and ATM; KRONOS MMR at Univ. of Illinois (construction targeted 2H27); acquired STS (~$7M revenue in 2025).",
+  "news_90d": [],
+  "industries_served": [
+   "data centers",
+   "military",
+   "remote/industrial sites",
+   "universities"
+  ],
+  "bottleneck_note": "Pre-commercial microreactor developer with no moat yet; NRC construction permit under review (SER expected Q3 2027); competitors Oklo, Westinghouse eVinci, BWXT BANR, Radiant.",
+  "sources": [
+   "https://ir.nanonuclearenergy.com/news-releases/news-release-details/nano-nuclear-reports-q3-fy-2026-financial-results-and-provides"
+  ]
+ },
+ {
+  "ticker": "STDN",
+  "period": "Q2 2026 (Jun-26); Q3 not found",
+  "rev_ttm_b": null,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 756.4,
+  "organic_share": 1.0,
+  "gross_margin_pct": 67.2,
+  "gross_margin_prior_pct": -113.9,
+  "op_margin_pct": -90.7,
+  "op_margin_prior_pct": null,
+  "fcf_ttm_b": null,
+  "cash_b": 0.102,
+  "debt_b": null,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": 0.577,
+  "backlog_growth_pct": null,
+  "guidance": "none",
+  "contracts_90d": [
+   {
+    "what": "Multi-year HALEU TRISO fuel supply agreement with Antares (1 MTU firm plus option up to 7 MTU)",
+    "value_b": null,
+    "date": "2026-08",
+    "source": "STDN Q2 release",
+    "url": "https://www.sec.gov/Archives/edgar/data/0002086716/000162828026059143/q2_2026xearningsxpr.htm"
+   }
+  ],
+  "investments": "6M26 capex $17.4M; building SN-TN and SN-ID TRISO lines (target Q4 2026) and Framatome JV in Richland (production 2027); IPO July 2026 raised ~$137.7M net.",
+  "news_90d": [
+   {
+    "what": "Q2 revenue $4.7M vs $0.6M; backlog rose to $577M after Antares deal (mostly options/unfunded)",
+    "tone": "good",
+    "date": "2026-08-26",
+    "source": "STDN Q2 release",
+    "url": "https://www.sec.gov/Archives/edgar/data/0002086716/000162828026059143/q2_2026xearningsxpr.htm"
+   },
+   {
+    "what": "IPO cut to ~$150M from $356M planned, priced at $15 on July 17, 2026",
+    "tone": "bad",
+    "date": "2026-07-17",
+    "source": "IPO Scoop",
+    "url": "https://www.iposcoop.com/38870-2/"
+   }
+  ],
+  "industries_served": [
+   "advanced reactor developers",
+   "microreactors",
+   "DOE/defense"
+  ],
+  "bottleneck_note": "One of few licensed TRISO fuel fabricators; competitors BWXT, X-energy TRISO-X, Kairos in-house; depends on reactor developers reaching market.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0002086716/000162828026059143/q2_2026xearningsxpr.htm",
+   "https://www.iposcoop.com/38870-2/"
+  ],
+  "rev_size_est_b": 0.03
+ },
+ {
+  "ticker": "FRVO",
+  "period": "Q2 2026 (Jun-26); Q3 released 11/9 not retrieved",
+  "rev_ttm_b": null,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": null,
+  "organic_share": 1.0,
+  "gross_margin_pct": null,
+  "gross_margin_prior_pct": null,
+  "op_margin_pct": null,
+  "op_margin_prior_pct": null,
+  "fcf_ttm_b": null,
+  "cash_b": 2.106,
+  "debt_b": null,
+  "pre_revenue": true,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": 7.2,
+  "backlog_growth_pct": null,
+  "guidance": null,
+  "contracts_90d": [],
+  "investments": "Cape Station build: Q2 capex $226.5M, 2H26 capex guide $850-900M; Phase II 400 MW by 2028 at ~$5,500/kW; 2030 target raised to 1.1 GW; ~$2.2B IPO May 2026.",
+  "news_90d": [
+   {
+    "what": "Stock down ~68% from peak ahead of Q3; first Cape Station power expected Q4 2026 pending grid sync",
+    "tone": "bad",
+    "date": "2026-11-02",
+    "source": "Earnings Whispers/Finviz",
+    "url": "https://finviz.com/news/413414/fervos-cape-first-power-timeline-faces-its-real-test-after-a-68-slide"
+   },
+   {
+    "what": "2027 revenue outlook $60-80M widened due to third-party transmission curtailment risk",
+    "tone": "bad",
+    "date": "2026-08-12",
+    "source": "Fervo Q2 release",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001853868/000162828026055942/exhibit991earningsrelease8.htm"
+   }
+  ],
+  "industries_served": [
+   "utilities",
+   "data centers (behind-the-meter)",
+   "clean firm power"
+  ],
+  "bottleneck_note": "Leading enhanced-geothermal developer with drilling know-how lead; competitors Sage Geosystems, Quaise, conventional geothermal (Ormat), plus other firm clean power.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001853868/000162828026055942/exhibit991earningsrelease8.htm",
+   "https://finviz.com/news/413414/fervos-cape-first-power-timeline-faces-its-real-test-after-a-68-slide"
+  ]
+ }
+]

@@ -1,4 +1,111 @@
 {
+ "news": {
+  "week_of": "Nov 2, 2026",
+  "generated": "2026-11-09",
+  "items": [
+   {
+    "tickers": [
+     "NVDA"
+    ],
+    "impact": "bad",
+    "date": "Nov 8, 2026",
+    "title": "Nvidia board probes CEO Huang's ties to alleged Chinese spy",
+    "summary": "Nvidia's board opened an investigation after CEO Jensen Huang acknowledged an affair with a woman alleged to be a Chinese spy. A governance and security cloud over the CEO is a real risk given Nvidia's sensitivity to U.S.-China export policy.",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html"
+   },
+   {
+    "tickers": [
+     "PLTR"
+    ],
+    "impact": "good",
+    "date": "Nov 2, 2026",
+    "title": "Palantir revenue nearly doubles; full-year outlook raised again",
+    "summary": "Q3 revenue rose 96% to $2.31B and U.S. commercial revenue jumped 148%, overtaking U.S. government sales for the first time. Palantir lifted full-year revenue guidance to about $8.53B.",
+    "source": "Palantir (SEC filing)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001321655/000132165526000045/a2026q3ex991pressrelease.htm"
+   },
+   {
+    "tickers": [
+     "AMD"
+    ],
+    "impact": "good",
+    "date": "Nov 3, 2026",
+    "title": "AMD data center sales nearly double, guidance tops estimates",
+    "summary": "AMD's data center revenue nearly doubled in Q3 and it forecast next-quarter revenue above Wall Street expectations, with CEO Lisa Su expecting growth to accelerate further.",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html"
+   },
+   {
+    "tickers": [
+     "CEG",
+     "GOOGL",
+     "AMZN"
+    ],
+    "impact": "good",
+    "date": "Nov 9, 2026",
+    "title": "Constellation lands 20-year nuclear power deals with Google and Amazon",
+    "summary": "Constellation signed a ~890 MW, 20-year nuclear PPA with Google and a 690 MW, 20-year deal with Amazon for Calvert Cliffs, and raised its 2026 EPS guidance to $12.50-12.80. Locks in long-term contracted demand from hyperscalers.",
+    "source": "Constellation (SEC filing)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001868275/000186827526000116/ceg-20261109991.htm"
+   },
+   {
+    "tickers": [
+     "ANET"
+    ],
+    "impact": "good",
+    "date": "Nov 3, 2026",
+    "title": "Arista posts fastest growth since IPO on AI networking",
+    "summary": "Q3 revenue grew 58.5% to $3.66B, beating its own $3.3B guide, and Q4 guidance of $3.9-4.0B points to continued AI data center demand.",
+    "source": "Arista Networks (SEC filing)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001596532/000159653226000252/ex991q326-earningsrelease.htm"
+   },
+   {
+    "tickers": [
+     "APP"
+    ],
+    "impact": "good",
+    "date": "Nov 4, 2026",
+    "title": "AppLovin revenue up 55% with 84% EBITDA margin; buyback expanded",
+    "summary": "Q3 revenue rose 55% to $2.19B and adjusted EBITDA margin hit 84%. AppLovin guided Q4 higher and added $3.2B to its buyback authorization.",
+    "source": "AppLovin (SEC filing)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001751008/000175100826000068/exhibit991-3q26earningspre.htm"
+   },
+   {
+    "tickers": [
+     "RKLB"
+    ],
+    "impact": "mixed",
+    "date": "Nov 9, 2026",
+    "title": "Rocket Lab hits record revenue and backlog, but Neutron slips to 2027",
+    "summary": "Q3 revenue rose 73% to a record $268M and backlog grew 52% in a quarter to about $3.6B. However, the first Neutron launch is now targeted no earlier than 2027, delaying its medium-lift ambitions.",
+    "source": "Rocket Lab (SEC filing)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001819994/000181999426000073/rklb-11092026ex991.htm"
+   },
+   {
+    "tickers": [
+     "IONQ"
+    ],
+    "impact": "good",
+    "date": "Nov 5, 2026",
+    "title": "IonQ revenue quadruples and full-year outlook raised",
+    "summary": "Q3 revenue jumped 336% to $174M, remaining performance obligations doubled to $1.2B, and 2026 revenue guidance rose to $505-515M. The SkyWater foundry acquisition has closed, adding manufacturing revenue.",
+    "source": "IonQ (SEC filing)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001824920/000119312526449779/ionq-ex99_1.htm"
+   },
+   {
+    "tickers": [
+     "DDOG"
+    ],
+    "impact": "good",
+    "date": "Nov 4, 2026",
+    "title": "Datadog grows 35% with large-customer count up 20%",
+    "summary": "Q3 revenue rose 35% to $1.2B with a 21% free cash flow margin, and customers paying $100K+ a year grew 20% to about 4,860, signaling steady enterprise demand for observability.",
+    "source": "Datadog (SEC filing)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001561550/000162828026069792/ex-991x20260930x8k.htm"
+   }
+  ]
+ },
  "index_value": 1000.0,
  "period_ret_pct": null,
  "since": null,
@@ -10,7 +117,7 @@
  ],
  "asof": "Nov 6, 2026 close",
  "built": "2026-11-09",
- "index_1m_pct": -15.34848181311707,
+ "index_1m_pct": -13.77092361287809,
  "top": [
   {
    "ticker": "NVDA",
@@ -36,12 +143,70 @@
     "fcf": 1,
     "nrr": 0
    },
+   "why": "Score 877/1000. Strongest in growth and cash & balance sheet; weakest in industry momentum. Loses 40 points for AI boom risk. | Revenue rose +106% and data center +117%, with a 66.2% operating margin and $21.3B of quarterly FCF. Its Q3 guide is $108B. No other company in the set combines growth, margin and cash at this scale.",
+   "score": 877,
+   "score_parts": {
+    "growth": {
+     "pts": 157,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 148,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 131,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 67,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 99,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 79,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 209,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": -40,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 1,
    "tier": 1,
    "rank": 1,
-   "why": "Revenue rose +106% and data center +117%, with a 66.2% operating margin and $21.3B of quarterly FCF. Its Q3 guide is $108B. No other company in the set combines growth, margin and cash at this scale.",
-   "w_mcap": 0.172688756277198,
-   "w_fund": 0.14339458649140194,
-   "weight": 0.172688756277198,
+   "w_mcap": 0.1702592243880672,
+   "w_fund": 0.1545451097004014,
+   "weight": 0.1702592243880672,
    "mkt": {
     "price": 186.64,
     "mcap_b": 4510,
@@ -55,206 +220,10 @@
     "price_date": "2026-11-06"
    },
    "w_parts": {
-    "sales": 0.10390705194049345,
-    "earnings": 0.1802578075424547,
-    "book": 0.0748486552215583,
-    "dividends": 0.21456483126110126
-   }
-  },
-  {
-   "ticker": "TSM",
-   "name": "TSMC",
-   "category": "Foundry",
-   "period": "Q3'26",
-   "rev": "+41% (USD)",
-   "organic": "~same",
-   "cust": "n/d",
-   "revcust": "n/d",
-   "gp": "+69%",
-   "opm": "58.7%",
-   "fcf": "n/d",
-   "nrr": "n/a",
-   "section": "Semiconductors: compute, IP and power chips",
-   "signs": {
-    "rev": 1,
-    "organic": 1,
-    "cust": 0,
-    "revcust": 0,
-    "gp": 1,
-    "opm": 1,
-    "fcf": 0,
-    "nrr": 0
-   },
-   "tier": 1,
-   "rank": 2,
-   "why": "Revenue rose +41% in USD, gross profit +69% and operating margin reached 58.7%. Q4 is guided at +58% YoY. It is the leading-edge foundry that every AI chip in this list depends on.",
-   "w_mcap": 0.06760133020119581,
-   "w_fund": 0.09227804103885821,
-   "weight": 0.06760133020119581,
-   "mkt": {
-    "price": 375.44,
-    "mcap_b": 1765.5,
-    "chg_1m_pct": -22.2,
-    "chg_1y_pct": 35.84,
-    "chg_since_ipo_pct": null,
-    "rev_ttm_b": 155.16,
-    "ni_ttm_b": 79.31,
-    "book_b": 221.0,
-    "div_ttm_b": 19.09,
-    "price_date": "2026-11-06"
-   },
-   "w_parts": {
-    "sales": 0.053213909558989206,
-    "earnings": 0.07411990209556243,
-    "book": 0.07224016422379415,
-    "dividends": 0.16953818827708705
-   }
-  },
-  {
-   "ticker": "ASML",
-   "name": "ASML",
-   "category": "Lithography",
-   "period": "Q3'26",
-   "rev": "+55%",
-   "organic": "~same",
-   "cust": "n/d",
-   "revcust": "n/d",
-   "gp": "~+73%",
-   "opm": "~42% (est.)",
-   "fcf": "n/d",
-   "nrr": "n/a",
-   "section": "Semiconductor equipment and EDA",
-   "signs": {
-    "rev": 1,
-    "organic": 1,
-    "cust": 0,
-    "revcust": 0,
-    "gp": 1,
-    "opm": 1,
-    "fcf": 0,
-    "nrr": 0
-   },
-   "tier": 1,
-   "rank": 3,
-   "why": "Revenue rose +55% and gross margin widened to 57.5% from 51.6%. Management says supply stays short of demand through 2028. Its EUV monopoly makes it the most durable 15-year asset in semis.",
-   "w_mcap": 0.020955072205725532,
-   "w_fund": 0.01624929797700437,
-   "weight": 0.020955072205725532,
-   "mkt": {
-    "price": 1424.75,
-    "mcap_b": 547.27,
-    "chg_1m_pct": -19.5,
-    "chg_1y_pct": 36.5,
-    "chg_since_ipo_pct": null,
-    "rev_ttm_b": 44.98,
-    "ni_ttm_b": 15.36,
-    "book_b": 25.14,
-    "div_ttm_b": 3.04,
-    "price_date": "2026-11-06"
-   },
-   "w_parts": {
-    "sales": 0.015426409203166631,
-    "earnings": 0.014354831625114601,
-    "book": 0.00821772727867052,
-    "dividends": 0.026998223801065722
-   }
-  },
-  {
-   "ticker": "AVGO",
-   "name": "Broadcom",
-   "category": "Custom AI/networking",
-   "period": "FQ3'26 (Aug)",
-   "rev": "+86%",
-   "organic": "~same",
-   "cust": "n/d",
-   "revcust": "n/d",
-   "gp": "+91%",
-   "opm": "54% / 68%",
-   "fcf": "$13.7B",
-   "nrr": "n/a",
-   "section": "Semiconductors: compute, IP and power chips",
-   "signs": {
-    "rev": 1,
-    "organic": 1,
-    "cust": 0,
-    "revcust": 0,
-    "gp": 1,
-    "opm": 1,
-    "fcf": 1,
-    "nrr": 0
-   },
-   "tier": 1,
-   "rank": 4,
-   "why": "Revenue rose +86% and AI semis +221%. FCF was $13.7B, 46% of revenue. VMware is already in the base, so the growth is effectively organic.",
-   "w_mcap": 0.053606265806669,
-   "w_fund": 0.052236376645542364,
-   "weight": 0.053606265806669,
-   "mkt": {
-    "price": 293.69,
-    "mcap_b": 1400,
-    "chg_1m_pct": -21.9,
-    "chg_1y_pct": -18.19,
-    "chg_since_ipo_pct": null,
-    "rev_ttm_b": 89.1,
-    "ni_ttm_b": 38.27,
-    "book_b": 99.69,
-    "div_ttm_b": 12.39,
-    "price_date": "2026-11-06"
-   },
-   "w_parts": {
-    "sales": 0.03055787149849148,
-    "earnings": 0.03576558634720937,
-    "book": 0.03258652475778298,
-    "dividends": 0.11003552397868563
-   }
-  },
-  {
-   "ticker": "MSFT",
-   "name": "Microsoft",
-   "category": "Cloud/AI platform",
-   "period": "FQ1'27 (Sep)",
-   "rev": "+19%",
-   "organic": "~same",
-   "cust": "n/d",
-   "revcust": "n/d",
-   "gp": "+17%",
-   "opm": "49.7%",
-   "fcf": "positive, n/d (capex $39.4B)",
-   "nrr": "n/d",
-   "section": "Megacap platforms and enterprise cloud",
-   "signs": {
-    "rev": 1,
-    "organic": 1,
-    "cust": 0,
-    "revcust": 0,
-    "gp": 1,
-    "opm": 1,
-    "fcf": 1,
-    "nrr": 0
-   },
-   "tier": 1,
-   "rank": 5,
-   "why": "Revenue grew +19% on a very large base, with a 49.7% operating margin. Azure grew +48% and RPO reached $677B (+73%). Quarterly capex of $39.4B is the main watch item.",
-   "w_mcap": 0.15086334805591134,
-   "w_fund": 0.16611015260831327,
-   "weight": 0.15086334805591134,
-   "mkt": {
-    "price": 530.61,
-    "mcap_b": 3940,
-    "chg_1m_pct": 0.2,
-    "chg_1y_pct": 4.62,
-    "chg_since_ipo_pct": null,
-    "rev_ttm_b": 346.45,
-    "ni_ttm_b": 142.63,
-    "book_b": 470.51,
-    "div_ttm_b": 29.11,
-    "price_date": "2026-11-06"
-   },
-   "w_parts": {
-    "sales": 0.11881901886254068,
-    "earnings": 0.13329620017513644,
-    "book": 0.1537996365110289,
-    "dividends": 0.2585257548845471
+    "sales": 0.12372343970519054,
+    "earnings": 0.20564763331431954,
+    "book": 0.1033441289991804,
+    "dividends": 0.1854652367829151
    }
   },
   {
@@ -281,12 +250,70 @@
     "fcf": 1,
     "nrr": 0
    },
+   "why": "Score 876/1000. Strongest in growth and profitability; weakest in forward signals. | Revenue rose +96% organically, US commercial +148%. GAAP operating margin was 47% and adjusted FCF margin 53%, and FY26 is guided to +91% (Palantir 8-K). Reliance on government revenue and the difficulty of sustaining this pace keep it at #6.",
+   "score": 876,
+   "score_parts": {
+    "growth": {
+     "pts": 157,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 157,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 131,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 66,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 81,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 79,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 178,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 2,
    "tier": 1,
-   "rank": 6,
-   "why": "Revenue rose +96% organically, US commercial +148%. GAAP operating margin was 47% and adjusted FCF margin 53%, and FY26 is guided to +91% (Palantir 8-K). Reliance on government revenue and the difficulty of sustaining this pace keep it at #6.",
-   "w_mcap": 0.014796860970235122,
-   "w_fund": 0.0024100235213630524,
-   "weight": 0.014796860970235122,
+   "rank": 2,
+   "w_mcap": 0.014588686180160685,
+   "w_fund": 0.0030031167864695133,
+   "weight": 0.014588686180160685,
    "mkt": {
     "price": 160.38,
     "mcap_b": 386.44,
@@ -300,26 +327,26 @@
     "price_date": "2026-11-06"
    },
    "w_parts": {
-    "sales": 0.0025001894862402125,
-    "earnings": 0.0034298328166777726,
-    "book": 0.003710071782534224,
+    "sales": 0.00297700721342324,
+    "earnings": 0.003912934540976528,
+    "book": 0.005122525391478285,
     "dividends": 0.0
    }
   },
   {
-   "ticker": "GOOGL",
-   "name": "Alphabet",
-   "category": "Cloud/AI/ads",
+   "ticker": "TSM",
+   "name": "TSMC",
+   "category": "Foundry",
    "period": "Q3'26",
-   "rev": "+25%",
+   "rev": "+41% (USD)",
    "organic": "~same",
    "cust": "n/d",
    "revcust": "n/d",
-   "gp": "~+25%",
-   "opm": "31.8%",
-   "fcf": "\u2212$9.1B (TTM +$19.7B)",
-   "nrr": "n/d",
-   "section": "Megacap platforms and enterprise cloud",
+   "gp": "+69%",
+   "opm": "58.7%",
+   "fcf": "n/d",
+   "nrr": "n/a",
+   "section": "Semiconductors: compute, IP and power chips",
    "signs": {
     "rev": 1,
     "organic": 1,
@@ -327,32 +354,411 @@
     "revcust": 0,
     "gp": 1,
     "opm": 1,
-    "fcf": -1,
+    "fcf": 0,
     "nrr": 0
    },
-   "tier": 2,
-   "rank": 7,
-   "why": "Revenue rose +25% with a 31.8% operating margin, and Cloud grew +103% at a 36% margin. AI capex pushed quarterly FCF to \u2212$9.1B (TTM still +$19.7B), which keeps it out of Tier 1.",
-   "w_mcap": 0.13401566451667252,
-   "w_fund": 0.17485110099777346,
-   "weight": 0.13401566451667252,
+   "why": "Score 864/1000. Strongest in growth and profitability; weakest in forward signals. Loses 4 points for AI boom risk. | Revenue rose +41% in USD, gross profit +69% and operating margin reached 58.7%. Q4 is guided at +58% YoY. It is the leading-edge foundry that every AI chip in this list depends on.",
+   "score": 864,
+   "score_parts": {
+    "growth": {
+     "pts": 127,
+     "max": 127,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 116,
+     "max": 116,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 143,
+     "max": 145,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 29,
+     "max": 35,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 74,
+     "max": 116,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 61,
+     "max": 145,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 87,
+     "max": 87,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 231,
+     "max": 231,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": -4,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 3,
+   "tier": 1,
+   "rank": 3,
+   "w_mcap": 0.06665025735191411,
+   "w_fund": 0.09855252837494444,
+   "weight": 0.06665025735191411,
    "mkt": {
-    "price": 284.78,
-    "mcap_b": 3500,
-    "chg_1m_pct": -17.4,
-    "chg_1y_pct": 0.17,
+    "price": 375.44,
+    "mcap_b": 1765.5,
+    "chg_1m_pct": -22.2,
+    "chg_1y_pct": 35.84,
     "chg_since_ipo_pct": null,
-    "rev_ttm_b": 471.1,
-    "ni_ttm_b": 235.69,
-    "book_b": 677.55,
-    "div_ttm_b": 10.82,
+    "rev_ttm_b": 155.16,
+    "ni_ttm_b": 79.31,
+    "book_b": 221.0,
+    "div_ttm_b": 19.09,
     "price_date": "2026-11-06"
    },
    "w_parts": {
-    "sales": 0.1615691724235616,
-    "earnings": 0.2202662933413581,
-    "book": 0.2214765758815915,
-    "dividends": 0.0960923623445826
+    "sales": 0.06336247451779833,
+    "earnings": 0.08455990148360992,
+    "book": 0.09974256489133929,
+    "dividends": 0.14654517260703018
+   }
+  },
+  {
+   "ticker": "AVGO",
+   "name": "Broadcom",
+   "category": "Custom AI/networking",
+   "period": "FQ3'26 (Aug)",
+   "rev": "+86%",
+   "organic": "~same",
+   "cust": "n/d",
+   "revcust": "n/d",
+   "gp": "+91%",
+   "opm": "54% / 68%",
+   "fcf": "$13.7B",
+   "nrr": "n/a",
+   "section": "Semiconductors: compute, IP and power chips",
+   "signs": {
+    "rev": 1,
+    "organic": 1,
+    "cust": 0,
+    "revcust": 0,
+    "gp": 1,
+    "opm": 1,
+    "fcf": 1,
+    "nrr": 0
+   },
+   "why": "Score 834/1000. Strongest in growth and profitability; weakest in forward signals. Loses 37 points for AI boom risk. | Revenue rose +86% and AI semis +221%. FCF was $13.7B, 46% of revenue. VMware is already in the base, so the growth is effectively organic.",
+   "score": 834,
+   "score_parts": {
+    "growth": {
+     "pts": 157,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 157,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 120,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 67,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 55,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 79,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 209,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": -37,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 4,
+   "tier": 1,
+   "rank": 4,
+   "w_mcap": 0.052852087393191596,
+   "w_fund": 0.05432343322622164,
+   "weight": 0.052852087393191596,
+   "mkt": {
+    "price": 293.69,
+    "mcap_b": 1400,
+    "chg_1m_pct": -21.9,
+    "chg_1y_pct": -18.19,
+    "chg_since_ipo_pct": null,
+    "rev_ttm_b": 89.1,
+    "ni_ttm_b": 38.27,
+    "book_b": 99.69,
+    "div_ttm_b": 12.39,
+    "price_date": "2026-11-06"
+   },
+   "w_parts": {
+    "sales": 0.036385643719617375,
+    "earnings": 0.040803271085332896,
+    "book": 0.04499247191863173,
+    "dividends": 0.09511234618130456
+   }
+  },
+  {
+   "ticker": "ASML",
+   "name": "ASML",
+   "category": "Lithography",
+   "period": "Q3'26",
+   "rev": "+55%",
+   "organic": "~same",
+   "cust": "n/d",
+   "revcust": "n/d",
+   "gp": "~+73%",
+   "opm": "~42% (est.)",
+   "fcf": "n/d",
+   "nrr": "n/a",
+   "section": "Semiconductor equipment and EDA",
+   "signs": {
+    "rev": 1,
+    "organic": 1,
+    "cust": 0,
+    "revcust": 0,
+    "gp": 1,
+    "opm": 1,
+    "fcf": 0,
+    "nrr": 0
+   },
+   "why": "Score 834/1000. Strongest in durability & moat and profitability; weakest in forward signals. Loses 4 points for AI boom risk. | Revenue rose +55% and gross margin widened to 57.5% from 51.6%. Management says supply stays short of demand through 2028. Its EUV monopoly makes it the most durable 15-year asset in semis.",
+   "score": 834,
+   "score_parts": {
+    "growth": {
+     "pts": 166,
+     "max": 181,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 179,
+     "max": 181,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 0,
+     "max": 0,
+     "of": 125,
+     "missing": true
+    },
+    "customers": {
+     "pts": 31,
+     "max": 36,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 82,
+     "max": 120,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 85,
+     "max": 151,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 54,
+     "max": 90,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 241,
+     "max": 241,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": -4,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 5,
+   "tier": 1,
+   "rank": 5,
+   "w_mcap": 0.020660258476908545,
+   "w_fund": 0.017357034314364195,
+   "weight": 0.020660258476908545,
+   "mkt": {
+    "price": 1424.75,
+    "mcap_b": 547.27,
+    "chg_1m_pct": -19.5,
+    "chg_1y_pct": 36.5,
+    "chg_since_ipo_pct": null,
+    "rev_ttm_b": 44.98,
+    "ni_ttm_b": 15.36,
+    "book_b": 25.14,
+    "div_ttm_b": 3.04,
+    "price_date": "2026-11-06"
+   },
+   "w_parts": {
+    "sales": 0.018368420364852856,
+    "earnings": 0.016376750558419473,
+    "book": 0.01134628091116864,
+    "dividends": 0.023336685423015806
+   }
+  },
+  {
+   "ticker": "APP",
+   "name": "AppLovin",
+   "category": "AI ad-tech",
+   "period": "Q3'26",
+   "rev": "+55%",
+   "organic": "~same",
+   "cust": "n/d",
+   "revcust": "n/d",
+   "gp": "+58%",
+   "opm": "~78%",
+   "fcf": "$1.42B (65%)",
+   "nrr": "n/d",
+   "section": "Data, AI and application software",
+   "signs": {
+    "rev": 1,
+    "organic": 1,
+    "cust": 0,
+    "revcust": 0,
+    "gp": 1,
+    "opm": 1,
+    "fcf": 1,
+    "nrr": 0
+   },
+   "why": "Score 828/1000. Strongest in growth and profitability; weakest in forward signals. | Revenue rose +55% with a ~78% GAAP operating margin and $1.42B FCF (65%) (AppLovin 8-K). Its financials are top-tier, but ad-tech is less clearly \"necessary\" in 15 years, and it depends on the Apple and Google platforms.",
+   "score": 828,
+   "score_parts": {
+    "growth": {
+     "pts": 166,
+     "max": 166,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 110,
+     "max": 110,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 137,
+     "max": 138,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 28,
+     "max": 33,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 70,
+     "max": 110,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 63,
+     "max": 138,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 66,
+     "max": 83,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 188,
+     "max": 221,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 6,
+   "tier": 1,
+   "rank": 6,
+   "w_mcap": 0.004893348262789639,
+   "w_fund": 0.0024846723056842278,
+   "weight": 0.004893348262789639,
+   "mkt": {
+    "price": 391.22,
+    "mcap_b": 129.62,
+    "chg_1m_pct": 41,
+    "chg_1y_pct": -36.6,
+    "chg_since_ipo_pct": null,
+    "rev_ttm_b": 7.61,
+    "ni_ttm_b": 5.01,
+    "book_b": 3.3,
+    "div_ttm_b": 0,
+    "price_date": "2026-11-06"
+   },
+   "w_parts": {
+    "sales": 0.003107685170665412,
+    "earnings": 0.005341635436046976,
+    "book": 0.0014893686160245233,
+    "dividends": 0.0
    }
   },
   {
@@ -379,12 +785,70 @@
     "fcf": 1,
     "nrr": 0
    },
+   "why": "Score 805/1000. Strongest in growth and cross-industry use; weakest in forward signals. Loses 19 points for AI boom risk. | Revenue rose +58.5% with no acquisitions, at a 44.9% GAAP operating margin and ~$3.8B of 9-month FCF (Arista 8-K). Concentration in a few large buyers is the flagged risk.",
+   "score": 805,
+   "score_parts": {
+    "growth": {
+     "pts": 157,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 136,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 99,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 89,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 60,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 79,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 178,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": -19,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 7,
    "tier": 2,
-   "rank": 8,
-   "why": "Revenue rose +58.5% with no acquisitions, at a 44.9% GAAP operating margin and ~$3.8B of 9-month FCF (Arista 8-K). Concentration in a few large buyers is the flagged risk.",
-   "w_mcap": 0.00826264007030079,
-   "w_fund": 0.0034735304730956623,
-   "weight": 0.00826264007030079,
+   "rank": 7,
+   "w_mcap": 0.008146394241840582,
+   "w_fund": 0.004336051138091399,
+   "weight": 0.008146394241840582,
    "mkt": {
     "price": 170.8,
     "mcap_b": 215.79,
@@ -398,108 +862,10 @@
     "price_date": "2026-11-06"
    },
    "w_parts": {
-    "sales": 0.004077812481672994,
-    "earnings": 0.0044391569153186435,
-    "book": 0.0053771524953910126,
+    "sales": 0.004855502848779468,
+    "earnings": 0.005064424814615397,
+    "book": 0.00742427688897073,
     "dividends": 0.0
-   }
-  },
-  {
-   "ticker": "KLAC",
-   "name": "KLA",
-   "category": "Process control",
-   "period": "FQ1'27 (Sep)",
-   "rev": "+29%",
-   "organic": "~same",
-   "cust": "n/d",
-   "revcust": "n/d",
-   "gp": "+30%",
-   "opm": "45.0%",
-   "fcf": "$1.34B",
-   "nrr": "n/a",
-   "section": "Semiconductor equipment and EDA",
-   "signs": {
-    "rev": 1,
-    "organic": 1,
-    "cust": 0,
-    "revcust": 0,
-    "gp": 1,
-    "opm": 1,
-    "fcf": 1,
-    "nrr": 0
-   },
-   "tier": 2,
-   "rank": 9,
-   "why": "Revenue rose +29% at a 45% GAAP operating margin, the highest in wafer-fab equipment, with TTM FCF of $4.0B. Next quarter is guided ~+14% sequentially (KLA 8-K).",
-   "w_mcap": 0.006909464760581015,
-   "w_fund": 0.005670148934930201,
-   "weight": 0.006909464760581015,
-   "mkt": {
-    "price": 138.49,
-    "mcap_b": 180.45,
-    "chg_1m_pct": -29.9,
-    "chg_1y_pct": 12.86,
-    "chg_since_ipo_pct": null,
-    "rev_ttm_b": 14.51,
-    "ni_ttm_b": 5.26,
-    "book_b": 6.52,
-    "div_ttm_b": 1.2,
-    "price_date": "2026-11-06"
-   },
-   "w_parts": {
-    "sales": 0.004976371666028187,
-    "earnings": 0.004915782184121276,
-    "book": 0.0021312482838875017,
-    "dividends": 0.010657193605683837
-   }
-  },
-  {
-   "ticker": "GEV",
-   "name": "GE Vernova",
-   "category": "Turbines/grid",
-   "period": "Q3'26",
-   "rev": "+27%",
-   "organic": "+18%",
-   "cust": "n/d",
-   "revcust": "n/d",
-   "gp": "n/d (Power/Elec. seg. +60%/+63%)",
-   "opm": "n/d (adj. EBITDA 15.4%)",
-   "fcf": "$5.41B",
-   "nrr": "n/a",
-   "section": "Data-center power, cooling and grid equipment",
-   "signs": {
-    "rev": 1,
-    "organic": 1,
-    "cust": 0,
-    "revcust": 0,
-    "gp": 0,
-    "opm": 0,
-    "fcf": 1,
-    "nrr": 0
-   },
-   "tier": 2,
-   "rank": 10,
-   "why": "Revenue rose +27% (+18% organic) and orders +96% organic. Backlog is $197B and quarterly FCF $5.4B (GE Vernova 8-K). Customer deposits inflate that FCF, and wind still loses money.",
-   "w_mcap": 0.00780392359575515,
-   "w_fund": 0.0084003475743408,
-   "weight": 0.00780392359575515,
-   "mkt": {
-    "price": 774.11,
-    "mcap_b": 203.81,
-    "chg_1m_pct": -24.8,
-    "chg_1y_pct": 38.31,
-    "chg_since_ipo_pct": null,
-    "rev_ttm_b": 44.04,
-    "ni_ttm_b": 10.37,
-    "book_b": 12.54,
-    "div_ttm_b": 0.53,
-    "price_date": "2026-11-06"
-   },
-   "w_parts": {
-    "sales": 0.015104025373665151,
-    "earnings": 0.009691380465653543,
-    "book": 0.004099057282200808,
-    "dividends": 0.004706927175843695
    }
   },
   {
@@ -526,12 +892,70 @@
     "fcf": 1,
     "nrr": 0
    },
+   "why": "Score 780/1000. Strongest in cross-industry use and growth; weakest in forward signals. Loses 21 points for AI boom risk. | Revenue rose +61% (+55% organic), organic orders more than doubled, GAAP operating margin was 22.8% and adjusted FCF $652M (Vertiv 8-K). It has the most diversified customer base among the AI-hardware names.",
+   "score": 780,
+   "score_parts": {
+    "growth": {
+     "pts": 148,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 99,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 99,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 91,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 81,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 79,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 178,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": -21,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 8,
    "tier": 2,
-   "rank": 11,
-   "why": "Revenue rose +61% (+55% organic), organic orders more than doubled, GAAP operating margin was 22.8% and adjusted FCF $652M (Vertiv 8-K). It has the most diversified customer base among the AI-hardware names.",
-   "w_mcap": 0.0026960122681768317,
-   "w_fund": 0.002287040349223372,
-   "weight": 0.0026960122681768317,
+   "rank": 8,
+   "w_mcap": 0.0026580824809675856,
+   "w_fund": 0.002711685066200654,
+   "weight": 0.0026580824809675856,
    "mkt": {
     "price": 182.86,
     "mcap_b": 70.41,
@@ -545,10 +969,117 @@
     "price_date": "2026-11-06"
    },
    "w_parts": {
-    "sales": 0.004499655152190889,
-    "earnings": 0.001962574636246137,
-    "book": 0.001797832141316144,
-    "dividends": 0.0008880994671403199
+    "sales": 0.005357796246929067,
+    "earnings": 0.0022390088654089123,
+    "book": 0.0024822810267075388,
+    "dividends": 0.000767654125757099
+   }
+  },
+  {
+   "ticker": "GEV",
+   "name": "GE Vernova",
+   "category": "Turbines/grid",
+   "period": "Q3'26",
+   "rev": "+27%",
+   "organic": "+18%",
+   "cust": "n/d",
+   "revcust": "n/d",
+   "gp": "n/d (Power/Elec. seg. +60%/+63%)",
+   "opm": "n/d (adj. EBITDA 15.4%)",
+   "fcf": "$5.41B",
+   "nrr": "n/a",
+   "section": "Data-center power, cooling and grid equipment",
+   "signs": {
+    "rev": 1,
+    "organic": 1,
+    "cust": 0,
+    "revcust": 0,
+    "gp": 0,
+    "opm": 0,
+    "fcf": 1,
+    "nrr": 0
+   },
+   "why": "Score 777/1000. Strongest in cross-industry use and industry momentum; weakest in growth. | Revenue rose +27% (+18% organic) and orders +96% organic. Backlog is $197B and quarterly FCF $5.4B (GE Vernova 8-K). Customer deposits inflate that FCF, and wind still loses money.",
+   "score": 777,
+   "score_parts": {
+    "growth": {
+     "pts": 83,
+     "max": 154,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 0,
+     "max": 0,
+     "of": 150,
+     "missing": true
+    },
+    "cash": {
+     "pts": 63,
+     "max": 105,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 36,
+     "max": 42,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 121,
+     "max": 140,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 132,
+     "max": 175,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 105,
+     "max": 105,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 238,
+     "max": 280,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 9,
+   "tier": 2,
+   "rank": 9,
+   "w_mcap": 0.007694131379718842,
+   "w_fund": 0.00969229012229714,
+   "weight": 0.007694131379718842,
+   "mkt": {
+    "price": 774.11,
+    "mcap_b": 203.81,
+    "chg_1m_pct": -24.8,
+    "chg_1y_pct": 38.31,
+    "chg_since_ipo_pct": null,
+    "rev_ttm_b": 44.04,
+    "ni_ttm_b": 10.37,
+    "book_b": 12.54,
+    "div_ttm_b": 0.53,
+    "price_date": "2026-11-06"
+   },
+   "w_parts": {
+    "sales": 0.017984553865453976,
+    "earnings": 0.011056439016328771,
+    "book": 0.005659600740893188,
+    "dividends": 0.004068566866512625
    }
   },
   {
@@ -575,12 +1106,70 @@
     "fcf": 1,
     "nrr": 0
    },
+   "why": "Score 771/1000. Strongest in growth and profitability; weakest in forward signals. Loses 8 points for AI boom risk. | Revenue rose +54% organically with a 40% GAAP operating margin and $3.24B quarterly FCF (Lam 8-K). China at 35% of revenue and memory-capex cyclicality are the discounts.",
+   "score": 771,
+   "score_parts": {
+    "growth": {
+     "pts": 154,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 139,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 99,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 71,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 48,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 63,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 178,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": -8,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 10,
    "tier": 2,
-   "rank": 12,
-   "why": "Revenue rose +54% organically with a 40% GAAP operating margin and $3.24B quarterly FCF (Lam 8-K). China at 35% of revenue and memory-capex cyclicality are the discounts.",
-   "w_mcap": 0.009587863541421372,
-   "w_fund": 0.009014783295525821,
-   "weight": 0.009587863541421372,
+   "rank": 10,
+   "w_mcap": 0.009452973345182268,
+   "w_fund": 0.009656056149007372,
+   "weight": 0.009452973345182268,
    "mkt": {
     "price": 200.44,
     "mcap_b": 250.4,
@@ -594,24 +1183,345 @@
     "price_date": "2026-11-06"
    },
    "w_parts": {
-    "sales": 0.008961584537099691,
-    "earnings": 0.007897026512514217,
-    "book": 0.004546880924674103,
-    "dividends": 0.014653641207815276
+    "sales": 0.01067067194605614,
+    "earnings": 0.009009345196526337,
+    "book": 0.0062779143784548845,
+    "dividends": 0.012666293074992131
    }
   },
   {
-   "ticker": "AMAT",
-   "name": "Applied Materials",
-   "category": "Dep/etch",
-   "period": "FQ3'26 (Jul)",
-   "rev": "+25%",
+   "ticker": "SPCX",
+   "name": "SpaceX",
+   "category": "Launch/Starlink/AI",
+   "period": "Q3'26",
+   "rev": "+161%",
+   "organic": "~+150% ex-Cursor",
+   "cust": "Starlink subs +13% QoQ",
+   "revcust": "ARPU $69/mo (+5% QoQ)",
+   "gp": "n/d",
+   "opm": "~19%",
+   "fcf": "n/d (likely deeply negative)",
+   "nrr": "n/a",
+   "section": "Space",
+   "signs": {
+    "rev": 1,
+    "organic": 1,
+    "cust": 1,
+    "revcust": 1,
+    "gp": 0,
+    "opm": 1,
+    "fcf": -1,
+    "nrr": 0
+   },
+   "why": "Score 769/1000. Strongest in cross-industry use and growth; weakest in cash & balance sheet. | Revenue rose +161% (~+150% excluding the Cursor acquisition), Starlink reached 13.6M subscribers with ARPU of $69, and operating margin was ~19%. Q3 capex of $19.6B vs $8.8B adj. EBITDA means deep burn, funded by $89.9B of cash and securities (TeslaNorth). This is a long-dated space bet.",
+   "score": 769,
+   "score_parts": {
+    "growth": {
+     "pts": 129,
+     "max": 135,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 66,
+     "max": 123,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 46,
+     "max": 92,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 31,
+     "max": 37,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 92,
+     "max": 123,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 103,
+     "max": 153,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 92,
+     "max": 92,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 209,
+     "max": 245,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 11,
+   "tier": 2,
+   "rank": 11,
+   "w_mcap": 0.06870771361114907,
+   "w_fund": 0.007580719101378404,
+   "weight": 0.06870771361114907,
+   "mkt": {
+    "price": 134.27,
+    "mcap_b": 1820,
+    "chg_1m_pct": -17.4,
+    "chg_1y_pct": null,
+    "chg_since_ipo_pct": -0.5,
+    "rev_ttm_b": 28.3,
+    "ni_ttm_b": -3.86,
+    "book_b": 41.58,
+    "div_ttm_b": 0,
+    "price_date": "2026-11-06"
+   },
+   "w_parts": {
+    "sales": 0.01155683184360462,
+    "earnings": 0.0,
+    "book": 0.018766044561908994,
+    "dividends": 0.0
+   }
+  },
+  {
+   "ticker": "CEG",
+   "name": "Constellation",
+   "category": "Nuclear/gas IPP",
+   "period": "Q3'26",
+   "rev": "+45%",
+   "organic": "n/d (Calpine)",
+   "cust": "n/d",
+   "revcust": "n/d",
+   "gp": "+72% (proxy)",
+   "opm": "26.1%",
+   "fcf": "n/d (9M $1.52B)",
+   "nrr": "n/a",
+   "section": "Power generation and nuclear",
+   "signs": {
+    "rev": 1,
+    "organic": 0,
+    "cust": 0,
+    "revcust": 0,
+    "gp": 1,
+    "opm": 1,
+    "fcf": 1,
+    "nrr": 0
+   },
+   "why": "Score 768/1000. Strongest in growth and customers; weakest in industry momentum. Loses 4 points for AI boom risk. | It signed 20-year PPAs with Google and Amazon and earned a 26.1% GAAP operating margin. Its +45% growth is mostly the Calpine acquisition, and 9-month OCF less capex was only $1.5B (Constellation 8-K).",
+   "score": 768,
+   "score_parts": {
+    "growth": {
+     "pts": 141,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 122,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 82,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 48,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 111,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 63,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 178,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": -4,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 12,
+   "tier": 2,
+   "rank": 12,
+   "w_mcap": 0.00334327204252932,
+   "w_fund": 0.008898251019869085,
+   "weight": 0.00334327204252932,
+   "mkt": {
+    "price": 249.95,
+    "mcap_b": 88.56,
+    "chg_1m_pct": -16,
+    "chg_1y_pct": -31.2,
+    "chg_since_ipo_pct": null,
+    "rev_ttm_b": 31.27,
+    "ni_ttm_b": 3.47,
+    "book_b": 32.32,
+    "div_ttm_b": 0.591,
+    "price_date": "2026-11-06"
+   },
+   "w_parts": {
+    "sales": 0.012769686634258533,
+    "earnings": 0.0036996956014137745,
+    "book": 0.014586785960579574,
+    "dividends": 0.004536835883224454
+   }
+  },
+  {
+   "ticker": "MSFT",
+   "name": "Microsoft",
+   "category": "Cloud/AI platform",
+   "period": "FQ1'27 (Sep)",
+   "rev": "+19%",
    "organic": "~same",
    "cust": "n/d",
    "revcust": "n/d",
-   "gp": "+29%",
-   "opm": "33.7%",
-   "fcf": "$2.33B",
+   "gp": "+17%",
+   "opm": "49.7%",
+   "fcf": "positive, n/d (capex $39.4B)",
+   "nrr": "n/d",
+   "section": "Megacap platforms and enterprise cloud",
+   "signs": {
+    "rev": 1,
+    "organic": 1,
+    "cust": 0,
+    "revcust": 0,
+    "gp": 1,
+    "opm": 1,
+    "fcf": 1,
+    "nrr": 0
+   },
+   "why": "Score 764/1000. Strongest in cross-industry use and durability & moat; weakest in industry momentum. | Revenue grew +19% on a very large base, with a 49.7% operating margin. Azure grew +48% and RPO reached $677B (+73%). Quarterly capex of $39.4B is the main watch item.",
+   "score": 764,
+   "score_parts": {
+    "growth": {
+     "pts": 95,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 132,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 99,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 48,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 75,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 79,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 209,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 13,
+   "tier": 3,
+   "rank": 13,
+   "w_mcap": 0.1487408745208392,
+   "w_fund": 0.18234178622000607,
+   "weight": 0.1487408745208392,
+   "mkt": {
+    "price": 530.61,
+    "mcap_b": 3940,
+    "chg_1m_pct": 0.2,
+    "chg_1y_pct": 4.62,
+    "chg_since_ipo_pct": null,
+    "rev_ttm_b": 346.45,
+    "ni_ttm_b": 142.63,
+    "book_b": 470.51,
+    "div_ttm_b": 29.11,
+    "price_date": "2026-11-06"
+   },
+   "w_parts": {
+    "sales": 0.1414793071454707,
+    "earnings": 0.1520713497491777,
+    "book": 0.21235237197748438,
+    "dividends": 0.22346411600789148
+   }
+  },
+  {
+   "ticker": "KLAC",
+   "name": "KLA",
+   "category": "Process control",
+   "period": "FQ1'27 (Sep)",
+   "rev": "+29%",
+   "organic": "~same",
+   "cust": "n/d",
+   "revcust": "n/d",
+   "gp": "+30%",
+   "opm": "45.0%",
+   "fcf": "$1.34B",
    "nrr": "n/a",
    "section": "Semiconductor equipment and EDA",
    "signs": {
@@ -624,77 +1534,193 @@
     "fcf": 1,
     "nrr": 0
    },
+   "why": "Score 763/1000. Strongest in durability & moat and cash & balance sheet; weakest in forward signals. | Revenue rose +29% at a 45% GAAP operating margin, the highest in wafer-fab equipment, with TTM FCF of $4.0B. Next quarter is guided ~+14% sequentially (KLA 8-K).",
+   "score": 763,
+   "score_parts": {
+    "growth": {
+     "pts": 80,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 140,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 125,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 71,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 48,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 63,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 209,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 14,
    "tier": 3,
-   "rank": 13,
-   "why": "Revenue rose +25% with a 33.7% GAAP operating margin and $2.33B FCF, and next quarter is guided ~+12% sequentially (AMAT release). It is solid but grows slower than Lam and KLA.",
-   "w_mcap": 0.010108610123543298,
-   "w_fund": 0.010634566826576493,
-   "weight": 0.010108610123543298,
+   "rank": 14,
+   "w_mcap": 0.006812256550072444,
+   "w_fund": 0.005922023392372846,
+   "weight": 0.006812256550072444,
    "mkt": {
-    "price": 332.72,
-    "mcap_b": 264.0,
-    "chg_1m_pct": -37.3,
-    "chg_1y_pct": 44.8,
+    "price": 138.49,
+    "mcap_b": 180.45,
+    "chg_1m_pct": -29.9,
+    "chg_1y_pct": 12.86,
     "chg_since_ipo_pct": null,
-    "rev_ttm_b": 30.84,
-    "ni_ttm_b": 9.27,
-    "book_b": 25.63,
-    "div_ttm_b": 1.68,
+    "rev_ttm_b": 14.51,
+    "ni_ttm_b": 5.26,
+    "book_b": 6.52,
+    "div_ttm_b": 1.2,
     "price_date": "2026-11-06"
    },
    "w_parts": {
-    "sales": 0.01057693329981456,
-    "earnings": 0.008663365180000803,
-    "book": 0.008377897778533231,
-    "dividends": 0.01492007104795737
+    "sales": 0.005925428623699754,
+    "earnings": 0.005608184110500418,
+    "book": 0.0029426313262060277,
+    "dividends": 0.009211849509085187
    }
   },
   {
-   "ticker": "CDNS",
-   "name": "Cadence",
-   "category": "EDA/IP",
-   "period": "Q3'26",
-   "rev": "+22%",
-   "organic": "n/d (some M&A)",
+   "ticker": "LITE",
+   "name": "Lumentum",
+   "category": "Lasers/optics",
+   "period": "FQ1'27 (Sep)",
+   "rev": "+137%",
+   "organic": "~same",
    "cust": "n/d",
    "revcust": "n/d",
-   "gp": "+21%",
-   "opm": "26.2% / 44.1%",
-   "fcf": "n/d (9M $1.25B)",
+   "gp": "+255%",
+   "opm": "28.5% / 42.3%",
+   "fcf": "n/d",
    "nrr": "n/a",
-   "section": "Semiconductor equipment and EDA",
+   "section": "AI networking, optics and servers",
    "signs": {
     "rev": 1,
-    "organic": 0,
+    "organic": 1,
     "cust": 0,
     "revcust": 0,
     "gp": 1,
     "opm": 1,
-    "fcf": 1,
+    "fcf": 0,
     "nrr": 0
    },
+   "score": 753,
+   "score_parts": {
+    "growth": {
+     "pts": 170,
+     "max": 170,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 137,
+     "max": 170,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 57,
+     "max": 57,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 29,
+     "max": 34,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 97,
+     "max": 114,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 99,
+     "max": 142,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 85,
+     "max": 85,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 159,
+     "max": 227,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": -80,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 15,
+   "why": "Score 753/1000. Strongest in growth and cash & balance sheet; weakest in forward signals. Loses 80 points for AI boom risk.",
    "tier": 3,
-   "rank": 14,
-   "why": "Revenue rose +22% with an 85.6% gross margin and 26.2% GAAP operating margin, and backlog reached a record $8.2B (Cadence 8-K). It is one half of the EDA duopoly. $2.14B of 2026 acquisitions blur the organic rate.",
-   "w_mcap": 0.0033611128660781466,
-   "w_fund": 0.0014102426488735915,
-   "weight": 0.0033611128660781466,
+   "rank": 15,
+   "w_mcap": 0.001843782820202484,
+   "w_fund": 0.000897462124137584,
+   "weight": 0.001843782820202484,
    "mkt": {
-    "price": 319.92,
-    "mcap_b": 87.78,
-    "chg_1m_pct": -9.3,
-    "chg_1y_pct": -2.35,
+    "price": 538.59,
+    "mcap_b": 48.84,
+    "chg_1m_pct": -52.5,
+    "chg_1y_pct": 131.4,
     "chg_since_ipo_pct": null,
-    "rev_ttm_b": 6.13,
-    "ni_ttm_b": 1.38,
-    "book_b": 6.88,
+    "rev_ttm_b": 3.74,
+    "ni_ttm_b": null,
+    "book_b": 4.57,
     "div_ttm_b": 0,
     "price_date": "2026-11-06"
    },
    "w_parts": {
-    "sales": 0.002102354122174554,
-    "earnings": 0.0012896919038188899,
-    "book": 0.002248924569500922,
+    "sales": 0.0015272986252678898,
+    "earnings": 0.0,
+    "book": 0.0020625498712824463,
     "dividends": 0.0
    }
   },
@@ -722,12 +1748,70 @@
     "fcf": 1,
     "nrr": 0
    },
+   "why": "Score 749/1000. Strongest in growth and cross-industry use; weakest in forward signals. Loses 10 points for AI boom risk. | Revenue rose +45%, data center +97%, and Q4 is guided at +66%. FCF was only $554M because of inventory build, and GAAP operating margin was 21%.",
+   "score": 749,
+   "score_parts": {
+    "growth": {
+     "pts": 157,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 109,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 106,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 67,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 69,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 79,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 147,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": -10,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 16,
    "tier": 3,
-   "rank": 15,
-   "why": "Revenue rose +45%, data center +97%, and Q4 is guided at +66%. FCF was only $554M because of inventory build, and GAAP operating margin was 21%.",
-   "w_mcap": 0.028199193225699613,
-   "w_fund": 0.011265184808767495,
-   "weight": 0.028199193225699613,
+   "rank": 16,
+   "w_mcap": 0.02780246305827849,
+   "w_fund": 0.01438667744582001,
+   "weight": 0.02780246305827849,
    "mkt": {
     "price": 449.04,
     "mcap_b": 736.46,
@@ -741,73 +1825,345 @@
     "price_date": "2026-11-06"
    },
    "w_parts": {
-    "sales": 0.01558417150270991,
-    "earnings": 0.007121342251521697,
-    "book": 0.02235522548083838,
+    "sales": 0.018556269928388477,
+    "earnings": 0.008124403597340912,
+    "book": 0.03086603625755065,
     "dividends": 0.0
    }
   },
   {
-   "ticker": "META",
-   "name": "Meta Platforms",
-   "category": "AI/ads",
+   "ticker": "GOOGL",
+   "name": "Alphabet",
+   "category": "Cloud/AI/ads",
    "period": "Q3'26",
-   "rev": "+26%",
+   "rev": "+25%",
    "organic": "~same",
-   "cust": "DAP +3%",
-   "revcust": "price/ad +14%",
-   "gp": "n/d",
-   "opm": "20% (35% ex-legal)",
-   "fcf": "\u2212$2.1B",
-   "nrr": "n/a",
+   "cust": "n/d",
+   "revcust": "n/d",
+   "gp": "~+25%",
+   "opm": "31.8%",
+   "fcf": "\u2212$9.1B (TTM +$19.7B)",
+   "nrr": "n/d",
    "section": "Megacap platforms and enterprise cloud",
    "signs": {
     "rev": 1,
     "organic": 1,
-    "cust": 1,
-    "revcust": 1,
-    "gp": 0,
+    "cust": 0,
+    "revcust": 0,
+    "gp": 1,
     "opm": 1,
     "fcf": -1,
     "nrr": 0
    },
+   "why": "Score 745/1000. Strongest in cross-industry use and durability & moat; weakest in forward signals. | Revenue rose +25% with a 31.8% operating margin, and Cloud grew +103% at a 36% margin. AI capex pushed quarterly FCF to \u2212$9.1B (TTM still +$19.7B), which keeps it out of Tier 1.",
+   "score": 745,
+   "score_parts": {
+    "growth": {
+     "pts": 130,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 110,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 86,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 48,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 57,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 79,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 209,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 17,
    "tier": 3,
-   "rank": 16,
-   "why": "Revenue rose +26%, with a 35% operating margin excluding a $9.9B legal charge (20% reported). Quarterly capex of $34.9B drove FCF to \u2212$2.1B.",
-   "w_mcap": 0.05973269618457403,
-   "w_fund": 0.07250168237172887,
-   "weight": 0.05973269618457403,
+   "rank": 17,
+   "w_mcap": 0.13213021848297898,
+   "w_fund": 0.20813212905283063,
+   "weight": 0.13213021848297898,
    "mkt": {
-    "price": 610.15,
-    "mcap_b": 1560,
+    "price": 284.78,
+    "mcap_b": 3500,
     "chg_1m_pct": -17.4,
-    "chg_1y_pct": -4.06,
+    "chg_1y_pct": 0.17,
     "chg_since_ipo_pct": null,
-    "rev_ttm_b": 241.61,
-    "ni_ttm_b": 75.25,
-    "book_b": 272.39,
-    "div_ttm_b": 5.38,
+    "rev_ttm_b": 471.1,
+    "ni_ttm_b": 235.69,
+    "book_b": 677.55,
+    "div_ttm_b": 10.82,
     "price_date": "2026-11-06"
    },
    "w_parts": {
-    "sales": 0.08286293302750312,
-    "earnings": 0.07032559113215324,
-    "book": 0.0890384539951099,
-    "dividends": 0.0477797513321492
+    "sales": 0.19238245517746067,
+    "earnings": 0.25129142832772694,
+    "book": 0.30579445629921687,
+    "dividends": 0.08306017640691811
    }
   },
   {
-   "ticker": "AMZN",
-   "name": "Amazon",
-   "category": "Cloud/e-com",
-   "period": "Q3'26",
-   "rev": "+12%",
-   "organic": "~+16% ex-Prime Day",
+   "ticker": "CIEN",
+   "name": "Ciena",
+   "category": "Optical networking",
+   "period": "FQ3'26 (Aug)",
+   "rev": "+37%",
+   "organic": "~same",
+   "cust": "n/d (2 cust. = 41.7%)",
+   "revcust": "n/d",
+   "gp": "+51%",
+   "opm": "18.0% / 22.5%",
+   "fcf": "n/d (9M $0.49B)",
+   "nrr": "n/a",
+   "section": "AI networking, optics and servers",
+   "signs": {
+    "rev": 1,
+    "organic": 1,
+    "cust": 0,
+    "revcust": 0,
+    "gp": 1,
+    "opm": 1,
+    "fcf": 1,
+    "nrr": 0
+   },
+   "score": 730,
+   "score_parts": {
+    "growth": {
+     "pts": 126,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 107,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 84,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 89,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 81,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 79,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 147,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": -9,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 18,
+   "why": "Score 730/1000. Strongest in cross-industry use and customers; weakest in forward signals. Loses 9 points for AI boom risk.",
+   "tier": 3,
+   "rank": 18,
+   "w_mcap": 0.0013028039542421726,
+   "w_fund": 0.00113418032537101,
+   "weight": 0.0013028039542421726,
+   "mkt": {
+    "price": 243.39,
+    "mcap_b": 34.51,
+    "chg_1m_pct": -45.1,
+    "chg_1y_pct": 24.3,
+    "chg_since_ipo_pct": null,
+    "rev_ttm_b": 6.02,
+    "ni_ttm_b": 0.654,
+    "book_b": 3.06,
+    "div_ttm_b": 0,
+    "price_date": "2026-11-06"
+   },
+   "w_parts": {
+    "sales": 0.002458379070618368,
+    "earnings": 0.0006972913323702042,
+    "book": 0.001381050898495467,
+    "dividends": 0.0
+   }
+  },
+  {
+   "ticker": "AMAT",
+   "name": "Applied Materials",
+   "category": "Dep/etch",
+   "period": "FQ3'26 (Jul)",
+   "rev": "+25%",
+   "organic": "~same",
+   "cust": "n/d",
+   "revcust": "n/d",
+   "gp": "+29%",
+   "opm": "33.7%",
+   "fcf": "$2.33B",
+   "nrr": "n/a",
+   "section": "Semiconductor equipment and EDA",
+   "signs": {
+    "rev": 1,
+    "organic": 1,
+    "cust": 0,
+    "revcust": 0,
+    "gp": 1,
+    "opm": 1,
+    "fcf": 1,
+    "nrr": 0
+   },
+   "why": "Score 725/1000. Strongest in cross-industry use and customers; weakest in growth. | Revenue rose +25% with a 33.7% GAAP operating margin and $2.33B FCF, and next quarter is guided ~+12% sequentially (AMAT release). It is solid but grows slower than Lam and KLA.",
+   "score": 725,
+   "score_parts": {
+    "growth": {
+     "pts": 68,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 120,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 99,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 71,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 82,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 79,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 178,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 19,
+   "tier": 4,
+   "rank": 19,
+   "w_mcap": 0.00996639362271613,
+   "w_fund": 0.011735432968781096,
+   "weight": 0.00996639362271613,
+   "mkt": {
+    "price": 332.72,
+    "mcap_b": 264.0,
+    "chg_1m_pct": -37.3,
+    "chg_1y_pct": 44.8,
+    "chg_since_ipo_pct": null,
+    "rev_ttm_b": 30.84,
+    "ni_ttm_b": 9.27,
+    "book_b": 25.63,
+    "div_ttm_b": 1.68,
+    "price_date": "2026-11-06"
+   },
+   "w_parts": {
+    "sales": 0.012594088129214365,
+    "earnings": 0.009883624848733627,
+    "book": 0.01156742958445713,
+    "dividends": 0.012896589312719262
+   }
+  },
+  {
+   "ticker": "ORCL",
+   "name": "Oracle",
+   "category": "Cloud/AI infra",
+   "period": "FQ1'27 (Aug)",
+   "rev": "+30%",
+   "organic": "~same",
    "cust": "n/d",
    "revcust": "n/d",
    "gp": "n/d",
-   "opm": "13.9%",
-   "fcf": "TTM \u2212$42.4B",
+   "opm": "35%",
+   "fcf": "\u2212$5B",
    "nrr": "n/d",
    "section": "Megacap platforms and enterprise cloud",
    "signs": {
@@ -820,29 +2176,301 @@
     "fcf": -1,
     "nrr": 0
    },
-   "tier": 3,
-   "rank": 17,
-   "why": "AWS grew +39% and backlog is $578B. A 13.9% operating margin and TTM FCF of \u2212$42.4B hold it in the middle.",
-   "w_mcap": 0.107212531613338,
-   "w_fund": 0.15000767371598506,
-   "weight": 0.107212531613338,
+   "score": 724,
+   "score_parts": {
+    "growth": {
+     "pts": 84,
+     "max": 127,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 141,
+     "max": 173,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 43,
+     "max": 87,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 29,
+     "max": 35,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 53,
+     "max": 116,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 108,
+     "max": 145,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 69,
+     "max": 87,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 197,
+     "max": 231,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 20,
+   "why": "Score 724/1000. Strongest in durability & moat and customers; weakest in industry momentum.",
+   "tier": 4,
+   "rank": 20,
+   "w_mcap": 0.013664907195509687,
+   "w_fund": 0.03188094156907338,
+   "weight": 0.013664907195509687,
    "mkt": {
-    "price": 259.3,
-    "mcap_b": 2800,
-    "chg_1m_pct": 1.2,
-    "chg_1y_pct": 3.64,
+    "price": 116.1,
+    "mcap_b": 361.97,
+    "chg_1m_pct": -19.8,
+    "chg_1y_pct": -53.62,
     "chg_since_ipo_pct": null,
-    "rev_ttm_b": 797.46,
-    "ni_ttm_b": 134.78,
-    "book_b": 613.6,
-    "div_ttm_b": 0,
+    "rev_ttm_b": 71.78,
+    "ni_ttm_b": 18.74,
+    "book_b": 67.2,
+    "div_ttm_b": 6.24,
     "price_date": "2026-11-06"
    },
    "w_parts": {
-    "sales": 0.27349809433431,
-    "earnings": 0.12595990927297826,
-    "book": 0.200572691256652,
-    "dividends": 0.0
+    "sales": 0.029312699283884795,
+    "earnings": 0.019980488637030006,
+    "book": 0.03032896090813575,
+    "dividends": 0.04790161744724297
+   }
+  },
+  {
+   "ticker": "MPWR",
+   "name": "Monolithic Power",
+   "category": "Power ICs",
+   "period": "Q3'26",
+   "rev": "+63%",
+   "organic": "~same",
+   "cust": "n/d",
+   "revcust": "n/d",
+   "gp": "+64%",
+   "opm": "29.7% / 38.6%",
+   "fcf": "n/d",
+   "nrr": "n/a",
+   "section": "Semiconductors: compute, IP and power chips",
+   "signs": {
+    "rev": 1,
+    "organic": 1,
+    "cust": 0,
+    "revcust": 0,
+    "gp": 1,
+    "opm": 1,
+    "fcf": 0,
+    "nrr": 0
+   },
+   "why": "Score 722/1000. Strongest in growth and cross-industry use; weakest in forward signals. Loses 22 points for AI boom risk. | Revenue rose +63% organically, gross profit +64% and Enterprise Data +165%, at a 29.7% GAAP operating margin (MPS 8-K). FCF was not disclosed, and revenue is concentrated in AI-GPU power.",
+   "score": 722,
+   "score_parts": {
+    "growth": {
+     "pts": 192,
+     "max": 192,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 93,
+     "max": 128,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 0,
+     "max": 0,
+     "of": 125,
+     "missing": true
+    },
+    "customers": {
+     "pts": 33,
+     "max": 38,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 82,
+     "max": 128,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 68,
+     "max": 160,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 96,
+     "max": 96,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 179,
+     "max": 256,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": -22,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 21,
+   "tier": 4,
+   "rank": 21,
+   "w_mcap": 0.0022103497977652626,
+   "w_fund": 0.0017298413978165154,
+   "weight": 0.0022103497977652626,
+   "mkt": {
+    "price": 1190.44,
+    "mcap_b": 58.55,
+    "chg_1m_pct": -14,
+    "chg_1y_pct": 9.1,
+    "chg_since_ipo_pct": null,
+    "rev_ttm_b": 3.74,
+    "ni_ttm_b": 0.8,
+    "book_b": 3.73,
+    "div_ttm_b": 0.372,
+    "price_date": "2026-11-06"
+   },
+   "w_parts": {
+    "sales": 0.0015272986252678898,
+    "earnings": 0.0008529557582510142,
+    "book": 0.001683437859930749,
+    "dividends": 0.002855673347816408
+   }
+  },
+  {
+   "ticker": "TER",
+   "name": "Teradyne",
+   "category": "Test + robotics",
+   "period": "Q3'26",
+   "rev": "+70%",
+   "organic": "~same",
+   "cust": "n/d",
+   "revcust": "n/d",
+   "gp": "+72%",
+   "opm": "30.8%",
+   "fcf": "$0.23B",
+   "nrr": "n/a",
+   "section": "Semiconductor equipment and EDA",
+   "signs": {
+    "rev": 1,
+    "organic": 1,
+    "cust": 0,
+    "revcust": 0,
+    "gp": 1,
+    "opm": 1,
+    "fcf": 1,
+    "nrr": 0
+   },
+   "score": 721,
+   "score_parts": {
+    "growth": {
+     "pts": 143,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 131,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 114,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 71,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 55,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 63,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 147,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": -29,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 22,
+   "why": "Score 721/1000. Strongest in growth and customers; weakest in forward signals. Loses 29 points for AI boom risk.",
+   "tier": 4,
+   "rank": 22,
+   "w_mcap": 0.0012861932982043125,
+   "w_fund": 0.0013088353598381998,
+   "weight": 0.0012861932982043125,
+   "mkt": {
+    "price": 218.22,
+    "mcap_b": 34.07,
+    "chg_1m_pct": -49.3,
+    "chg_1y_pct": 51.4,
+    "chg_since_ipo_pct": null,
+    "rev_ttm_b": 4.46,
+    "ni_ttm_b": 1.15,
+    "book_b": 3.47,
+    "div_ttm_b": 0.081,
+    "price_date": "2026-11-06"
+   },
+   "w_parts": {
+    "sales": 0.0018213240290627776,
+    "earnings": 0.001226123902485833,
+    "book": 0.0015660936659409382,
+    "dividends": 0.0006217998418632501
    }
   },
   {
@@ -869,12 +2497,70 @@
     "fcf": 1,
     "nrr": 0
    },
-   "tier": 3,
-   "rank": 18,
-   "why": "Revenue rose +28% (+19% organic), segment margin hit a record 25.3% and FCF was $1.03B. The Boyd Thermal acquisition cut gross margin to 34.7% from 38.3% (Eaton 8-K).",
-   "w_mcap": 0.005083405606066698,
-   "w_fund": 0.009167544838604543,
-   "weight": 0.005083405606066698,
+   "why": "Score 717/1000. Strongest in cross-industry use and customers; weakest in growth. | Revenue rose +28% (+19% organic), segment margin hit a record 25.3% and FCF was $1.03B. The Boyd Thermal acquisition cut gross margin to 34.7% from 38.3% (Eaton 8-K).",
+   "score": 717,
+   "score_parts": {
+    "growth": {
+     "pts": 89,
+     "max": 186,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 0,
+     "max": 0,
+     "of": 150,
+     "missing": true
+    },
+    "cash": {
+     "pts": 99,
+     "max": 155,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 32,
+     "max": 37,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 107,
+     "max": 124,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 85,
+     "max": 155,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 93,
+     "max": 93,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 211,
+     "max": 248,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 23,
+   "tier": 4,
+   "rank": 23,
+   "w_mcap": 0.005011887944514368,
+   "w_fund": 0.009957874996015716,
+   "weight": 0.005011887944514368,
    "mkt": {
     "price": 341.72,
     "mcap_b": 132.76,
@@ -888,58 +2574,116 @@
     "price_date": "2026-11-06"
    },
    "w_parts": {
-    "sales": 0.010967909433465293,
-    "earnings": 0.0036447814673142543,
-    "book": 0.006870987565539154,
-    "dividends": 0.015186500888099468
+    "sales": 0.013059628351889603,
+    "earnings": 0.004158159321473695,
+    "book": 0.009486826760253175,
+    "dividends": 0.013126885550446391
    }
   },
   {
-   "ticker": "ISRG",
-   "name": "Intuitive Surgical",
-   "category": "Surgical robotics",
-   "period": "Q3'26",
-   "rev": "+22%",
-   "organic": "n/d (small M&A)",
-   "cust": "procedures +15%",
+   "ticker": "PL",
+   "name": "Planet Labs",
+   "category": "Earth observation",
+   "period": "FQ2'27 (Jul)",
+   "rev": "+58%",
+   "organic": "~same",
+   "cust": "n/d",
    "revcust": "n/d",
-   "gp": "+25%",
-   "opm": "19.4% / 41.6%",
-   "fcf": "n/d",
-   "nrr": "n/a",
-   "section": "Defense tech, robotics and future mobility",
+   "gp": "+55%",
+   "opm": "\u221211.6%",
+   "fcf": "n/d (6M +$21M)",
+   "nrr": "n/d",
+   "section": "Space",
    "signs": {
     "rev": 1,
-    "organic": 0,
-    "cust": 1,
+    "organic": 1,
+    "cust": 0,
     "revcust": 0,
     "gp": 1,
-    "opm": 1,
+    "opm": -1,
     "fcf": 0,
     "nrr": 0
    },
+   "score": 715,
+   "score_parts": {
+    "growth": {
+     "pts": 163,
+     "max": 170,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 73,
+     "max": 170,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 57,
+     "max": 57,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 29,
+     "max": 34,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 85,
+     "max": 114,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 97,
+     "max": 142,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 85,
+     "max": 85,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 125,
+     "max": 227,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 24,
+   "why": "Score 715/1000. Strongest in cash & balance sheet and cross-industry use; weakest in profitability.",
    "tier": 4,
-   "rank": 19,
-   "why": "Revenue rose +22%, procedures +15% and the installed base +12%, with a 41.6% non-GAAP operating margin. Its razor/razorblade model makes it the best robotics compounder in the set. GAAP margin (19.4%) absorbed a $450M antitrust charge (Intuitive 8-K).",
-   "w_mcap": 0.00601155980831931,
-   "w_fund": 0.0030017681637275395,
-   "weight": 0.00601155980831931,
+   "rank": 24,
+   "w_mcap": 0.00017252431384777542,
+   "w_fund": 0.00010222749329639957,
+   "weight": 0.00017252431384777542,
    "mkt": {
-    "price": 452.8,
-    "mcap_b": 157.0,
-    "chg_1m_pct": 11.9,
-    "chg_1y_pct": -16.8,
+    "price": 12.55,
+    "mcap_b": 4.57,
+    "chg_1m_pct": null,
+    "chg_1y_pct": -5.28,
     "chg_since_ipo_pct": null,
-    "rev_ttm_b": 11.58,
-    "ni_ttm_b": 2.96,
-    "book_b": 16.12,
+    "rev_ttm_b": 0.378,
+    "ni_ttm_b": -0.36,
+    "book_b": 0.564,
     "div_ttm_b": 0,
     "price_date": "2026-11-06"
    },
    "w_parts": {
-    "sales": 0.003971494410241654,
-    "earnings": 0.0027662956777564597,
-    "book": 0.005269282566912044,
+    "sales": 0.00015436333699231613,
+    "earnings": 0.0,
+    "book": 0.00025454663619328216,
     "dividends": 0.0
    }
   },
@@ -967,12 +2711,70 @@
     "fcf": 1,
     "nrr": 0
    },
-   "tier": 4,
-   "rank": 20,
-   "why": "Revenue rose +26%, ARR +25% and net new ARR +51%, with a 26% FCF margin and rising retention. GAAP operating margin is still \u22122.3% (CrowdStrike IR).",
-   "w_mcap": 0.008522247557564514,
-   "w_fund": 0.0008935508096273034,
-   "weight": 0.008522247557564514,
+   "why": "Score 707/1000. Strongest in cross-industry use and cash & balance sheet; weakest in profitability. | Revenue rose +26%, ARR +25% and net new ARR +51%, with a 26% FCF margin and rising retention. GAAP operating margin is still \u22122.3% (CrowdStrike IR).",
+   "score": 707,
+   "score_parts": {
+    "growth": {
+     "pts": 71,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 65,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 128,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 62,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 98,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 79,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 178,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 25,
+   "tier": 5,
+   "rank": 25,
+   "w_mcap": 0.008402349350787609,
+   "w_fund": 0.0011432434350693082,
+   "weight": 0.008402349350787609,
    "mkt": {
     "price": 216.9,
     "mcap_b": 222.57,
@@ -986,29 +2788,29 @@
     "price_date": "2026-11-06"
    },
    "w_parts": {
-    "sales": 0.001851992212029787,
-    "earnings": 4.2055170776702936e-05,
-    "book": 0.0016801558557027235,
+    "sales": 0.002205190528461659,
+    "earnings": 4.797876140161955e-05,
+    "book": 0.0023198044504139544,
     "dividends": 0.0
    }
   },
   {
-   "ticker": "APP",
-   "name": "AppLovin",
-   "category": "AI ad-tech",
+   "ticker": "CDNS",
+   "name": "Cadence",
+   "category": "EDA/IP",
    "period": "Q3'26",
-   "rev": "+55%",
-   "organic": "~same",
+   "rev": "+22%",
+   "organic": "n/d (some M&A)",
    "cust": "n/d",
    "revcust": "n/d",
-   "gp": "+58%",
-   "opm": "~78%",
-   "fcf": "$1.42B (65%)",
-   "nrr": "n/d",
-   "section": "Data, AI and application software",
+   "gp": "+21%",
+   "opm": "26.2% / 44.1%",
+   "fcf": "n/d (9M $1.25B)",
+   "nrr": "n/a",
+   "section": "Semiconductor equipment and EDA",
    "signs": {
     "rev": 1,
-    "organic": 1,
+    "organic": 0,
     "cust": 0,
     "revcust": 0,
     "gp": 1,
@@ -1016,96 +2818,105 @@
     "fcf": 1,
     "nrr": 0
    },
-   "tier": 4,
-   "rank": 21,
-   "why": "Revenue rose +55% with a ~78% GAAP operating margin and $1.42B FCF (65%) (AppLovin 8-K). Its financials are top-tier, but ad-tech is less clearly \"necessary\" in 15 years, and it depends on the Apple and Google platforms.",
-   "w_mcap": 0.004963174409900312,
-   "w_fund": 0.002092694701035407,
-   "weight": 0.004963174409900312,
+   "why": "Score 702/1000. Strongest in cross-industry use and durability & moat; weakest in growth. | Revenue rose +22% with an 85.6% gross margin and 26.2% GAAP operating margin, and backlog reached a record $8.2B (Cadence 8-K). It is one half of the EDA duopoly. $2.14B of 2026 acquisitions blur the organic rate.",
+   "score": 702,
+   "score_parts": {
+    "growth": {
+     "pts": 56,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 80,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 94,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 71,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 86,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 79,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 209,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 26,
+   "tier": 5,
+   "rank": 26,
+   "w_mcap": 0.003313825879553113,
+   "w_fund": 0.0017699390509757443,
+   "weight": 0.003313825879553113,
    "mkt": {
-    "price": 391.22,
-    "mcap_b": 129.62,
-    "chg_1m_pct": 41,
-    "chg_1y_pct": -36.6,
+    "price": 319.92,
+    "mcap_b": 87.78,
+    "chg_1m_pct": -9.3,
+    "chg_1y_pct": -2.35,
     "chg_since_ipo_pct": null,
-    "rev_ttm_b": 7.61,
-    "ni_ttm_b": 5.01,
-    "book_b": 3.3,
+    "rev_ttm_b": 6.13,
+    "ni_ttm_b": 1.38,
+    "book_b": 6.88,
     "div_ttm_b": 0,
     "price_date": "2026-11-06"
    },
    "w_parts": {
-    "sales": 0.0026099371728790146,
-    "earnings": 0.004682142346472926,
-    "book": 0.0010786992847896864,
+    "sales": 0.002503299618420365,
+    "earnings": 0.0014713486829829995,
+    "book": 0.003105107902499612,
     "dividends": 0.0
    }
   },
   {
-   "ticker": "MPWR",
-   "name": "Monolithic Power",
-   "category": "Power ICs",
-   "period": "Q3'26",
-   "rev": "+63%",
-   "organic": "~same",
+   "ticker": "MRVL",
+   "name": "Marvell",
+   "category": "Custom ASIC/optics",
+   "period": "FQ2'27 (Jul)",
+   "rev": "+37%",
+   "organic": "n/d (M&A/divest.)",
    "cust": "n/d",
    "revcust": "n/d",
-   "gp": "+64%",
-   "opm": "29.7% / 38.6%",
-   "fcf": "n/d",
+   "gp": "+44%",
+   "opm": "16.8% / 36.6%",
+   "fcf": "$0.48B",
    "nrr": "n/a",
    "section": "Semiconductors: compute, IP and power chips",
    "signs": {
     "rev": 1,
-    "organic": 1,
-    "cust": 0,
-    "revcust": 0,
-    "gp": 1,
-    "opm": 1,
-    "fcf": 0,
-    "nrr": 0
-   },
-   "tier": 4,
-   "rank": 22,
-   "why": "Revenue rose +63% organically, gross profit +64% and Enterprise Data +165%, at a 29.7% GAAP operating margin (MPS 8-K). FCF was not disclosed, and revenue is concentrated in AI-GPU power.",
-   "w_mcap": 0.0022418906164146215,
-   "w_fund": 0.0016383276640528008,
-   "weight": 0.0022418906164146215,
-   "mkt": {
-    "price": 1190.44,
-    "mcap_b": 58.55,
-    "chg_1m_pct": -14,
-    "chg_1y_pct": 9.1,
-    "chg_since_ipo_pct": null,
-    "rev_ttm_b": 3.74,
-    "ni_ttm_b": 0.8,
-    "book_b": 3.73,
-    "div_ttm_b": 0.372,
-    "price_date": "2026-11-06"
-   },
-   "w_parts": {
-    "sales": 0.0012826760875910006,
-    "earnings": 0.0007476474804747189,
-    "book": 0.001219257070383494,
-    "dividends": 0.0033037300177619893
-   }
-  },
-  {
-   "ticker": "CEG",
-   "name": "Constellation",
-   "category": "Nuclear/gas IPP",
-   "period": "Q3'26",
-   "rev": "+45%",
-   "organic": "n/d (Calpine)",
-   "cust": "n/d",
-   "revcust": "n/d",
-   "gp": "+72% (proxy)",
-   "opm": "26.1%",
-   "fcf": "n/d (9M $1.52B)",
-   "nrr": "n/a",
-   "section": "Power generation and nuclear",
-   "signs": {
-    "rev": 1,
     "organic": 0,
     "cust": 0,
     "revcust": 0,
@@ -1114,176 +2925,87 @@
     "fcf": 1,
     "nrr": 0
    },
-   "tier": 4,
-   "rank": 23,
-   "why": "It signed 20-year PPAs with Google and Amazon and earned a 26.1% GAAP operating margin. Its +45% growth is mostly the Calpine acquisition, and 9-month OCF less capex was only $1.5B (Constellation 8-K).",
-   "w_mcap": 0.0033909792141704337,
-   "w_fund": 0.007445177742652449,
-   "weight": 0.0033909792141704337,
-   "mkt": {
-    "price": 249.95,
-    "mcap_b": 88.56,
-    "chg_1m_pct": -16,
-    "chg_1y_pct": -31.2,
-    "chg_since_ipo_pct": null,
-    "rev_ttm_b": 31.27,
-    "ni_ttm_b": 3.47,
-    "book_b": 32.32,
-    "div_ttm_b": 0.591,
-    "price_date": "2026-11-06"
+   "score": 701,
+   "score_parts": {
+    "growth": {
+     "pts": 120,
+     "max": 166,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 55,
+     "max": 110,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 113,
+     "max": 138,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 28,
+     "max": 33,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 71,
+     "max": 110,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 81,
+     "max": 138,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 83,
+     "max": 83,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 155,
+     "max": 221,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": -4,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
    },
-   "w_parts": {
-    "sales": 0.010724406753735451,
-    "earnings": 0.003242920946559093,
-    "book": 0.010564715419515959,
-    "dividends": 0.00524866785079929
-   }
-  },
-  {
-   "ticker": "MU",
-   "name": "Micron",
-   "category": "DRAM/HBM",
-   "period": "FQ4'26 (Sep)",
-   "rev": "+379%",
-   "organic": "~same",
-   "cust": "n/a",
-   "revcust": "n/d",
-   "gp": "+832%",
-   "opm": "80.7%",
-   "fcf": "$33.2B adj.",
-   "nrr": "n/a",
-   "section": "Memory and storage",
-   "signs": {
-    "rev": 1,
-    "organic": 1,
-    "cust": 0,
-    "revcust": 0,
-    "gp": 1,
-    "opm": 1,
-    "fcf": 1,
-    "nrr": 0
-   },
-   "tier": 4,
-   "rank": 24,
-   "why": "It generated $33.2B of FCF in one quarter and is the only scaled US-headquartered HBM maker. Its 86.8% gross margin is historically unprecedented for memory, so the rank reflects an explicit peak-cycle penalty (Micron 8-K).",
-   "w_mcap": 0.029892385421393112,
-   "w_fund": 0.044090271505045846,
-   "weight": 0.029892385421393112,
-   "mkt": {
-    "price": 690.0,
-    "mcap_b": 780.68,
-    "chg_1m_pct": -33,
-    "chg_1y_pct": 190.5,
-    "chg_since_ipo_pct": null,
-    "rev_ttm_b": 133.19,
-    "ni_ttm_b": 84.97,
-    "book_b": 138.38,
-    "div_ttm_b": 0.68,
-    "price_date": "2026-11-06"
-   },
-   "w_parts": {
-    "sales": 0.04567904494819395,
-    "earnings": 0.07940950801992107,
-    "book": 0.045233456675514185,
-    "dividends": 0.006039076376554175
-   }
-  },
-  {
-   "ticker": "BWXT",
-   "name": "BWX Technologies",
-   "category": "Naval/commercial nuclear",
-   "period": "Q3'26",
-   "rev": "+10%",
-   "organic": "n/d (small M&A)",
-   "cust": "n/d",
-   "revcust": "n/d",
-   "gp": "+20%",
-   "opm": "13.9%",
-   "fcf": "$0.15B",
-   "nrr": "n/a",
-   "section": "Power generation and nuclear",
-   "signs": {
-    "rev": 1,
-    "organic": 0,
-    "cust": 0,
-    "revcust": 0,
-    "gp": 1,
-    "opm": 1,
-    "fcf": 1,
-    "nrr": 0
-   },
+   "score_rank": 27,
+   "why": "Score 701/1000. Strongest in cross-industry use and customers; weakest in profitability. Loses 4 points for AI boom risk.",
    "tier": 5,
-   "rank": 25,
-   "why": "Revenue rose +10% and gross profit +20%. FCF rose +59% to $150.5M and backlog +16% to $8.56B (BWXT 8-K). It is the sole-source naval-reactor supplier and the cleanest profile in nuclear, though growth is slow.",
-   "w_mcap": 0.0004192775789878754,
-   "w_fund": 0.0007203315534781295,
-   "weight": 0.0004192775789878754,
+   "rank": 27,
+   "w_mcap": 0.004680052338667116,
+   "w_fund": 0.004164154518318237,
+   "weight": 0.004680052338667116,
    "mkt": {
-    "price": 119.52,
-    "mcap_b": 10.95,
-    "chg_1m_pct": -17,
-    "chg_1y_pct": -38.4,
+    "price": 141.2,
+    "mcap_b": 123.97,
+    "chg_1m_pct": -50.8,
+    "chg_1y_pct": 51.99,
     "chg_since_ipo_pct": null,
-    "rev_ttm_b": 3.6,
-    "ni_ttm_b": 0.375,
-    "book_b": 1.33,
-    "div_ttm_b": 0.097,
+    "rev_ttm_b": 9.45,
+    "ni_ttm_b": 2.64,
+    "book_b": 18.53,
+    "div_ttm_b": 0.211,
     "price_date": "2026-11-06"
    },
    "w_parts": {
-    "sales": 0.0012346614746865246,
-    "earnings": 0.00035045975647252445,
-    "book": 0.00043474849962735847,
-    "dividends": 0.0008614564831261102
-   }
-  },
-  {
-   "ticker": "DDOG",
-   "name": "Datadog",
-   "category": "Observability",
-   "period": "Q3'26",
-   "rev": "+35%",
-   "organic": "~same",
-   "cust": "+4.7%",
-   "revcust": "~$143K (+29%)",
-   "gp": "+35%",
-   "opm": "6% / 28%",
-   "fcf": "$0.25B (21%)",
-   "nrr": "low-120s",
-   "section": "Data, AI and application software",
-   "signs": {
-    "rev": 1,
-    "organic": 1,
-    "cust": 1,
-    "revcust": 1,
-    "gp": 1,
-    "opm": 1,
-    "fcf": 1,
-    "nrr": 1
-   },
-   "tier": 5,
-   "rank": 26,
-   "why": "Revenue rose +35%, NRR is in the low-120s and rising, revenue per customer +29% and FCF margin 21%. The Q4 guide is flat because its largest customer cut usage (Datadog 8-K; sec-api).",
-   "w_mcap": 0.0024750778726736317,
-   "w_fund": 0.0007852973036419783,
-   "weight": 0.0024750778726736317,
-   "mkt": {
-    "price": 179.04,
-    "mcap_b": 64.64,
-    "chg_1m_pct": -39,
-    "chg_1y_pct": -6.2,
-    "chg_since_ipo_pct": null,
-    "rev_ttm_b": 4.28,
-    "ni_ttm_b": 0.262,
-    "book_b": 4.37,
-    "div_ttm_b": 0,
-    "price_date": "2026-11-06"
-   },
-   "w_parts": {
-    "sales": 0.0014678753087939793,
-    "earnings": 0.0002448545498554704,
-    "book": 0.0014284593559184635,
-    "dividends": 0.0
+    "sales": 0.003859083424807903,
+    "earnings": 0.0028147540022283473,
+    "book": 0.008363030440889218,
+    "dividends": 0.0016197502053474787
    }
   },
   {
@@ -1310,12 +3032,70 @@
     "fcf": 0,
     "nrr": 0
    },
+   "why": "Score 696/1000. Strongest in cross-industry use and cash & balance sheet; weakest in forward signals. | Revenue rose +27% and data-center royalties doubled. Arm holds more than 50% of top-hyperscaler server CPUs (Arm newsroom). GAAP margin is ~14%, FCF was not disclosed, and its move into its own silicon risks conflict with licensees.",
+   "score": 696,
+   "score_parts": {
+    "growth": {
+     "pts": 67,
+     "max": 127,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 52,
+     "max": 116,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 129,
+     "max": 145,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 29,
+     "max": 35,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 74,
+     "max": 116,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 61,
+     "max": 145,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 87,
+     "max": 87,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 197,
+     "max": 231,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 28,
    "tier": 5,
-   "rank": 27,
-   "why": "Revenue rose +27% and data-center royalties doubled. Arm holds more than 50% of top-hyperscaler server CPUs (Arm newsroom). GAAP margin is ~14%, FCF was not disclosed, and its move into its own silicon risks conflict with licensees.",
-   "w_mcap": 0.007154139073798598,
-   "w_fund": 0.0014296609167922117,
-   "weight": 0.007154139073798598,
+   "rank": 28,
+   "w_mcap": 0.007053488577531369,
+   "w_fund": 0.0018325461085028144,
+   "weight": 0.007053488577531369,
    "mkt": {
     "price": 174.62,
     "mcap_b": 186.84,
@@ -1329,161 +3109,12 @@
     "price_date": "2026-11-06"
    },
    "w_parts": {
-    "sales": 0.0018725699032745623,
-    "earnings": 0.000874747552155421,
-    "book": 0.0029713262117388633,
+    "sales": 0.0022296926454445664,
+    "earnings": 0.0009979582371536866,
+    "book": 0.004102533551413005,
     "dividends": 0.0
    }
   },
-  {
-   "ticker": "SPCX",
-   "name": "SpaceX",
-   "category": "Launch/Starlink/AI",
-   "period": "Q3'26",
-   "rev": "+161%",
-   "organic": "~+150% ex-Cursor",
-   "cust": "Starlink subs +13% QoQ",
-   "revcust": "ARPU $69/mo (+5% QoQ)",
-   "gp": "n/d",
-   "opm": "~19%",
-   "fcf": "n/d (likely deeply negative)",
-   "nrr": "n/a",
-   "section": "Space",
-   "signs": {
-    "rev": 1,
-    "organic": 1,
-    "cust": 1,
-    "revcust": 1,
-    "gp": 0,
-    "opm": 1,
-    "fcf": -1,
-    "nrr": 0
-   },
-   "tier": 5,
-   "rank": 28,
-   "why": "Revenue rose +161% (~+150% excluding the Cursor acquisition), Starlink reached 13.6M subscribers with ARPU of $69, and operating margin was ~19%. Q3 capex of $19.6B vs $8.8B adj. EBITDA means deep burn, funded by $89.9B of cash and securities (TeslaNorth). This is a long-dated space bet.",
-   "w_mcap": 0.06968814554866971,
-   "w_fund": 0.0058243555063672795,
-   "weight": 0.06968814554866971,
-   "mkt": {
-    "price": 134.27,
-    "mcap_b": 1820,
-    "chg_1m_pct": -17.4,
-    "chg_1y_pct": null,
-    "chg_since_ipo_pct": -0.5,
-    "rev_ttm_b": 28.3,
-    "ni_ttm_b": -3.86,
-    "book_b": 41.58,
-    "div_ttm_b": 0,
-    "price_date": "2026-11-06"
-   },
-   "w_parts": {
-    "sales": 0.009705811037119068,
-    "earnings": 0.0,
-    "book": 0.013591610988350048,
-    "dividends": 0.0
-   }
-  },
-  {
-   "ticker": "RKLB",
-   "name": "Rocket Lab",
-   "category": "Launch/space systems",
-   "period": "Q2'26 (Jun)",
-   "rev": "+62%",
-   "organic": "n/d",
-   "cust": "n/d",
-   "revcust": "n/d",
-   "gp": "+82%",
-   "opm": "\u221224.6%",
-   "fcf": "n/d (6M \u2212$0.19B)",
-   "nrr": "n/a",
-   "section": "Space",
-   "signs": {
-    "rev": 1,
-    "organic": 0,
-    "cust": 0,
-    "revcust": 0,
-    "gp": 1,
-    "opm": -1,
-    "fcf": -1,
-    "nrr": 0
-   },
-   "tier": 5,
-   "rank": 29,
-   "why": "Revenue rose +62% and gross profit +82%, backlog reached $2.36B (+137%), adj. EBITDA was near break-even (\u22123.8%) and cash is ~$2.39B (Rocket Lab 8-K). It is a high-risk bet on Neutron.",
-   "w_mcap": 0.0012160964300141483,
-   "w_fund": 0.00035113590569043804,
-   "weight": 0.0012160964300141483,
-   "mkt": {
-    "price": 53.07,
-    "mcap_b": 31.76,
-    "chg_1m_pct": -22,
-    "chg_1y_pct": -5.9,
-    "chg_since_ipo_pct": null,
-    "rev_ttm_b": 0.769,
-    "ni_ttm_b": -0.165,
-    "book_b": 3.49,
-    "div_ttm_b": 0,
-    "price_date": "2026-11-06"
-   },
-   "w_parts": {
-    "sales": 0.0002637374094538715,
-    "earnings": 0.0,
-    "book": 0.0011408062133078805,
-    "dividends": 0.0
-   }
-  },
-  {
-   "ticker": "IONQ",
-   "name": "IonQ",
-   "category": "Trapped ion + foundry",
-   "period": "Q3'26",
-   "rev": "+336%",
-   "organic": "not organic (SkyWater 48%)",
-   "cust": "n/d",
-   "revcust": "n/d",
-   "gp": "n/d",
-   "opm": "n/d (adj. EBITDA ~\u221277%)",
-   "fcf": "n/d",
-   "nrr": "n/a",
-   "section": "Quantum computing",
-   "signs": {
-    "rev": 1,
-    "organic": 0,
-    "cust": 0,
-    "revcust": 0,
-    "gp": 0,
-    "opm": 0,
-    "fcf": 0,
-    "nrr": 0
-   },
-   "tier": 5,
-   "rank": 30,
-   "why": "This is the quantum bet. Platform revenue rose +127%, RPO is $1.2B and pro forma cash is $3.7B (~7-year runway). But 48% of revenue is the acquired SkyWater foundry, and adj. EBITDA was \u2212$133.6M (IonQ release).",
-   "w_mcap": 0.0005402745789514998,
-   "w_fund": 0.00036510310998012904,
-   "weight": 0.0005402745789514998,
-   "mkt": {
-    "price": 32.62,
-    "mcap_b": 14.11,
-    "chg_1m_pct": -18,
-    "chg_1y_pct": -43.2,
-    "chg_since_ipo_pct": null,
-    "rev_ttm_b": 0.38,
-    "ni_ttm_b": 0.255,
-    "book_b": 3.34,
-    "div_ttm_b": 0,
-    "price_date": "2026-11-06"
-   },
-   "w_parts": {
-    "sales": 0.0001303253778835776,
-    "earnings": 0.00023831263440131663,
-    "book": 0.001091774427635622,
-    "dividends": 0.0
-   }
-  }
- ],
- "others": [
   {
    "ticker": "AAPL",
    "name": "Apple",
@@ -1507,431 +3138,88 @@
     "opm": 1,
     "fcf": 0,
     "nrr": 0
-   }
-  },
-  {
-   "ticker": "ORCL",
-   "name": "Oracle",
-   "category": "Cloud/AI infra",
-   "period": "FQ1'27 (Aug)",
-   "rev": "+30%",
-   "organic": "~same",
-   "cust": "n/d",
-   "revcust": "n/d",
-   "gp": "n/d",
-   "opm": "35%",
-   "fcf": "\u2212$5B",
-   "nrr": "n/d",
-   "section": "Megacap platforms and enterprise cloud",
-   "signs": {
-    "rev": 1,
-    "organic": 1,
-    "cust": 0,
-    "revcust": 0,
-    "gp": 0,
-    "opm": 1,
-    "fcf": -1,
-    "nrr": 0
-   }
-  },
-  {
-   "ticker": "IBM",
-   "name": "IBM",
-   "category": "Hybrid cloud/software",
-   "period": "Q3'26",
-   "rev": "+5% (+6% cc)",
-   "organic": "n/d (M&A $11.4B YTD)",
-   "cust": "n/d",
-   "revcust": "n/d",
-   "gp": "+3%",
-   "opm": "14.6% pretax / 19.3%",
-   "fcf": "$3.0B",
-   "nrr": "n/d",
-   "section": "Megacap platforms and enterprise cloud",
-   "signs": {
-    "rev": 1,
-    "organic": 0,
-    "cust": 0,
-    "revcust": 0,
-    "gp": 1,
-    "opm": 1,
-    "fcf": 1,
-    "nrr": 0
-   }
-  },
-  {
-   "ticker": "MRVL",
-   "name": "Marvell",
-   "category": "Custom ASIC/optics",
-   "period": "FQ2'27 (Jul)",
-   "rev": "+37%",
-   "organic": "n/d (M&A/divest.)",
-   "cust": "n/d",
-   "revcust": "n/d",
-   "gp": "+44%",
-   "opm": "16.8% / 36.6%",
-   "fcf": "$0.48B",
-   "nrr": "n/a",
-   "section": "Semiconductors: compute, IP and power chips",
-   "signs": {
-    "rev": 1,
-    "organic": 0,
-    "cust": 0,
-    "revcust": 0,
-    "gp": 1,
-    "opm": 1,
-    "fcf": 1,
-    "nrr": 0
-   }
-  },
-  {
-   "ticker": "INTC",
-   "name": "Intel",
-   "category": "IDM/foundry",
-   "period": "Q3'26",
-   "rev": "+21%",
-   "organic": "n/d (higher ex-Altera)",
-   "cust": "n/d",
-   "revcust": "n/d",
-   "gp": "+36%",
-   "opm": "15.3% / 19.6%",
-   "fcf": "$1.64B adj.",
-   "nrr": "n/a",
-   "section": "Semiconductors: compute, IP and power chips",
-   "signs": {
-    "rev": 1,
-    "organic": 0,
-    "cust": 0,
-    "revcust": 0,
-    "gp": 1,
-    "opm": 1,
-    "fcf": 1,
-    "nrr": 0
-   }
-  },
-  {
-   "ticker": "ON",
-   "name": "onsemi",
-   "category": "Power/SiC",
-   "period": "Q3'26",
-   "rev": "+11%",
-   "organic": "~same",
-   "cust": "n/d",
-   "revcust": "n/d",
-   "gp": "+21%",
-   "opm": "22.0% / 23.2%",
-   "fcf": "$0.49B",
-   "nrr": "n/a",
-   "section": "Semiconductors: compute, IP and power chips",
-   "signs": {
-    "rev": 1,
-    "organic": 1,
-    "cust": 0,
-    "revcust": 0,
-    "gp": 1,
-    "opm": 1,
-    "fcf": 1,
-    "nrr": 0
-   }
-  },
-  {
-   "ticker": "SKHY",
-   "name": "SK Hynix",
-   "category": "DRAM/HBM",
-   "period": "Q3'26",
-   "rev": "+328% (KRW)",
-   "organic": "~same",
-   "cust": "n/a",
-   "revcust": "n/d",
-   "gp": "n/d",
-   "opm": "~80%",
-   "fcf": "n/d (cash +\u20a926.5T QoQ)",
-   "nrr": "n/a",
-   "section": "Memory and storage",
-   "signs": {
-    "rev": 1,
-    "organic": 1,
-    "cust": 0,
-    "revcust": 0,
-    "gp": 0,
-    "opm": 1,
-    "fcf": 0,
-    "nrr": 0
-   }
-  },
-  {
-   "ticker": "SNDK",
-   "name": "SanDisk",
-   "category": "NAND/SSD",
-   "period": "FQ1'27 (Oct)",
-   "rev": "+378%",
-   "organic": "~same",
-   "cust": "n/d",
-   "revcust": "n/d",
-   "gp": "+1,265%",
-   "opm": "79.6%",
-   "fcf": "$6.3B",
-   "nrr": "n/a",
-   "section": "Memory and storage",
-   "signs": {
-    "rev": 1,
-    "organic": 1,
-    "cust": 0,
-    "revcust": 0,
-    "gp": 1,
-    "opm": 1,
-    "fcf": 1,
-    "nrr": 0
-   }
-  },
-  {
-   "ticker": "P",
-   "name": "Everpure (ex-Pure Storage)",
-   "category": "Flash storage",
-   "period": "FQ2'27 (Aug)",
-   "rev": "+38%",
-   "organic": "~same",
-   "cust": "n/d",
-   "revcust": "n/d",
-   "gp": "+34%",
-   "opm": "5.3% / 19.4%",
-   "fcf": "\u2212$0.24B",
-   "nrr": "n/d (sub. ARR +20%)",
-   "section": "Memory and storage",
-   "signs": {
-    "rev": 1,
-    "organic": 1,
-    "cust": 0,
-    "revcust": 0,
-    "gp": 1,
-    "opm": 1,
-    "fcf": -1,
-    "nrr": 0
-   }
-  },
-  {
-   "ticker": "TER",
-   "name": "Teradyne",
-   "category": "Test + robotics",
-   "period": "Q3'26",
-   "rev": "+70%",
-   "organic": "~same",
-   "cust": "n/d",
-   "revcust": "n/d",
-   "gp": "+72%",
-   "opm": "30.8%",
-   "fcf": "$0.23B",
-   "nrr": "n/a",
-   "section": "Semiconductor equipment and EDA",
-   "signs": {
-    "rev": 1,
-    "organic": 1,
-    "cust": 0,
-    "revcust": 0,
-    "gp": 1,
-    "opm": 1,
-    "fcf": 1,
-    "nrr": 0
-   }
-  },
-  {
-   "ticker": "SNPS",
-   "name": "Synopsys",
-   "category": "EDA/IP/simulation",
-   "period": "FQ3'26 (Jul)",
-   "rev": "+42%",
-   "organic": "n/d (mostly Ansys; IP +11%)",
-   "cust": "n/d",
-   "revcust": "n/d",
-   "gp": "+32%",
-   "opm": "14.4% / 41.6%",
-   "fcf": "n/d (9M $2.14B)",
-   "nrr": "n/a",
-   "section": "Semiconductor equipment and EDA",
-   "signs": {
-    "rev": 1,
-    "organic": 0,
-    "cust": 0,
-    "revcust": 0,
-    "gp": 1,
-    "opm": 1,
-    "fcf": 1,
-    "nrr": 0
-   }
-  },
-  {
-   "ticker": "ALAB",
-   "name": "Astera Labs",
-   "category": "AI connectivity silicon",
-   "period": "Q3'26",
-   "rev": "+154%",
-   "organic": "~same",
-   "cust": "n/d",
-   "revcust": "n/d",
-   "gp": "+141%",
-   "opm": "30.6% / 44.7%",
-   "fcf": "n/d (9M $0.27B)",
-   "nrr": "n/a",
-   "section": "AI networking, optics and servers",
-   "signs": {
-    "rev": 1,
-    "organic": 1,
-    "cust": 0,
-    "revcust": 0,
-    "gp": 1,
-    "opm": 1,
-    "fcf": 1,
-    "nrr": 0
-   }
-  },
-  {
-   "ticker": "CRDO",
-   "name": "Credo",
-   "category": "AECs/SerDes",
-   "period": "FQ1'27 (Aug)",
-   "rev": "+115%",
-   "organic": "n/d (large acq.)",
-   "cust": "n/d",
-   "revcust": "n/d",
-   "gp": "+106%",
-   "opm": "25.2% / 48.2%",
-   "fcf": "n/d",
-   "nrr": "n/a",
-   "section": "AI networking, optics and servers",
-   "signs": {
-    "rev": 1,
-    "organic": 0,
-    "cust": 0,
-    "revcust": 0,
-    "gp": 1,
-    "opm": 1,
-    "fcf": 0,
-    "nrr": 0
-   }
-  },
-  {
-   "ticker": "COHR",
-   "name": "Coherent",
-   "category": "Optical transceivers",
-   "period": "FQ1'27 (Sep)",
-   "rev": "+50%",
-   "organic": "+56% pro forma",
-   "cust": "n/d",
-   "revcust": "n/d",
-   "gp": "+60%",
-   "opm": "15.9% / 23.2%",
-   "fcf": "\u2212$0.87B",
-   "nrr": "n/a",
-   "section": "AI networking, optics and servers",
-   "signs": {
-    "rev": 1,
-    "organic": 1,
-    "cust": 0,
-    "revcust": 0,
-    "gp": 1,
-    "opm": 1,
-    "fcf": -1,
-    "nrr": 0
-   }
-  },
-  {
-   "ticker": "LITE",
-   "name": "Lumentum",
-   "category": "Lasers/optics",
-   "period": "FQ1'27 (Sep)",
-   "rev": "+137%",
-   "organic": "~same",
-   "cust": "n/d",
-   "revcust": "n/d",
-   "gp": "+255%",
-   "opm": "28.5% / 42.3%",
-   "fcf": "n/d",
-   "nrr": "n/a",
-   "section": "AI networking, optics and servers",
-   "signs": {
-    "rev": 1,
-    "organic": 1,
-    "cust": 0,
-    "revcust": 0,
-    "gp": 1,
-    "opm": 1,
-    "fcf": 0,
-    "nrr": 0
-   }
-  },
-  {
-   "ticker": "CIEN",
-   "name": "Ciena",
-   "category": "Optical networking",
-   "period": "FQ3'26 (Aug)",
-   "rev": "+37%",
-   "organic": "~same",
-   "cust": "n/d (2 cust. = 41.7%)",
-   "revcust": "n/d",
-   "gp": "+51%",
-   "opm": "18.0% / 22.5%",
-   "fcf": "n/d (9M $0.49B)",
-   "nrr": "n/a",
-   "section": "AI networking, optics and servers",
-   "signs": {
-    "rev": 1,
-    "organic": 1,
-    "cust": 0,
-    "revcust": 0,
-    "gp": 1,
-    "opm": 1,
-    "fcf": 1,
-    "nrr": 0
-   }
-  },
-  {
-   "ticker": "CBRS",
-   "name": "Cerebras",
-   "category": "Wafer-scale AI compute",
-   "period": "Q2'26 (Jun)",
-   "rev": "+74% (core +103%)",
-   "organic": "~same",
-   "cust": "n/d",
-   "revcust": "n/d",
-   "gp": "\u221220%",
-   "opm": "\u2212265%",
-   "fcf": "n/d (6M \u2212$0.60B)",
-   "nrr": "n/a",
-   "section": "AI networking, optics and servers",
-   "signs": {
-    "rev": 1,
-    "organic": 1,
-    "cust": 0,
-    "revcust": 0,
-    "gp": -1,
-    "opm": -1,
-    "fcf": -1,
-    "nrr": 0
-   }
-  },
-  {
-   "ticker": "SMCI",
-   "name": "Super Micro",
-   "category": "AI servers",
-   "period": "FQ1'27 (Sep)",
-   "rev": "+298%",
-   "organic": "~same",
-   "cust": "n/d",
-   "revcust": "n/d",
-   "gp": "+444%",
-   "opm": "10.4%",
-   "fcf": "\u2212$0.48B",
-   "nrr": "n/a",
-   "section": "AI networking, optics and servers",
-   "signs": {
-    "rev": 1,
-    "organic": 1,
-    "cust": 0,
-    "revcust": 0,
-    "gp": 1,
-    "opm": 1,
-    "fcf": -1,
-    "nrr": 0
+   },
+   "score": 695,
+   "score_parts": {
+    "growth": {
+     "pts": 77,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 105,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 127,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 48,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 55,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 79,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 178,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 29,
+   "why": "Score 695/1000. Strongest in cross-industry use and cash & balance sheet; weakest in forward signals.",
+   "tier": 5,
+   "rank": 29,
+   "w_mcap": 0.18781366770080585,
+   "w_fund": 0.12687564484867606,
+   "weight": 0.18781366770080585,
+   "mkt": {
+    "price": 342.37,
+    "mcap_b": 4975,
+    "chg_1m_pct": 2.6,
+    "chg_1y_pct": 26.74,
+    "chg_since_ipo_pct": null,
+    "rev_ttm_b": 478.83,
+    "ni_ttm_b": 132.18,
+    "book_b": 112.09,
+    "div_ttm_b": 15.69,
+    "price_date": "2026-11-06"
+   },
+   "w_parts": {
+    "sales": 0.19553914458209187,
+    "earnings": 0.14092961515702385,
+    "book": 0.05058888732429964,
+    "dividends": 0.12044493233128882
    }
   },
   {
@@ -1957,7 +3245,1351 @@
     "opm": 1,
     "fcf": 1,
     "nrr": 0
+   },
+   "score": 691,
+   "score_parts": {
+    "growth": {
+     "pts": 157,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 86,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 58,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 89,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 86,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 79,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 147,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": -37,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 30,
+   "why": "Score 691/1000. Strongest in growth and cross-industry use; weakest in cash & balance sheet. Loses 37 points for AI boom risk.",
+   "tier": 5,
+   "rank": 30,
+   "w_mcap": 0.007885531439064185,
+   "w_fund": 0.021544112388168963,
+   "weight": 0.007885531439064185,
+   "mkt": {
+    "price": 328.53,
+    "mcap_b": 208.88,
+    "chg_1m_pct": -42.8,
+    "chg_1y_pct": 100.8,
+    "chg_since_ipo_pct": null,
+    "rev_ttm_b": 151.2,
+    "ni_ttm_b": 11.38,
+    "book_b": -1.43,
+    "div_ttm_b": 1.602,
+    "price_date": "2026-11-06"
+   },
+   "w_parts": {
+    "sales": 0.06174533479692645,
+    "earnings": 0.012133295661120678,
+    "book": 0.0,
+    "dividends": 0.012297819094628725
    }
+  }
+ ],
+ "others": [
+  {
+   "ticker": "AMZN",
+   "name": "Amazon",
+   "category": "Cloud/e-com",
+   "period": "Q3'26",
+   "rev": "+12%",
+   "organic": "~+16% ex-Prime Day",
+   "cust": "n/d",
+   "revcust": "n/d",
+   "gp": "n/d",
+   "opm": "13.9%",
+   "fcf": "TTM \u2212$42.4B",
+   "nrr": "n/d",
+   "section": "Megacap platforms and enterprise cloud",
+   "signs": {
+    "rev": 1,
+    "organic": 1,
+    "cust": 0,
+    "revcust": 0,
+    "gp": 0,
+    "opm": 1,
+    "fcf": -1,
+    "nrr": 0
+   },
+   "why": "Score 680/1000. Strongest in cross-industry use and durability & moat; weakest in industry momentum. | AWS grew +39% and backlog is $578B. A 13.9% operating margin and TTM FCF of \u2212$42.4B hold it in the middle.",
+   "score": 680,
+   "score_parts": {
+    "growth": {
+     "pts": 71,
+     "max": 127,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 93,
+     "max": 173,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 43,
+     "max": 87,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 29,
+     "max": 35,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 53,
+     "max": 116,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 73,
+     "max": 145,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 87,
+     "max": 87,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 231,
+     "max": 231,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 32
+  },
+  {
+   "ticker": "META",
+   "name": "Meta Platforms",
+   "category": "AI/ads",
+   "period": "Q3'26",
+   "rev": "+26%",
+   "organic": "~same",
+   "cust": "DAP +3%",
+   "revcust": "price/ad +14%",
+   "gp": "n/d",
+   "opm": "20% (35% ex-legal)",
+   "fcf": "\u2212$2.1B",
+   "nrr": "n/a",
+   "section": "Megacap platforms and enterprise cloud",
+   "signs": {
+    "rev": 1,
+    "organic": 1,
+    "cust": 1,
+    "revcust": 1,
+    "gp": 0,
+    "opm": 1,
+    "fcf": -1,
+    "nrr": 0
+   },
+   "why": "Score 673/1000. Strongest in cross-industry use and growth; weakest in forward signals. | Revenue rose +26%, with a 35% operating margin excluding a $9.9B legal charge (20% reported). Quarterly capex of $34.9B drove FCF to \u2212$2.1B.",
+   "score": 673,
+   "score_parts": {
+    "growth": {
+     "pts": 109,
+     "max": 127,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 110,
+     "max": 173,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 43,
+     "max": 87,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 29,
+     "max": 35,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 53,
+     "max": 116,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 46,
+     "max": 145,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 87,
+     "max": 87,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 197,
+     "max": 231,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 37
+  },
+  {
+   "ticker": "IBM",
+   "name": "IBM",
+   "category": "Hybrid cloud/software",
+   "period": "Q3'26",
+   "rev": "+5% (+6% cc)",
+   "organic": "n/d (M&A $11.4B YTD)",
+   "cust": "n/d",
+   "revcust": "n/d",
+   "gp": "+3%",
+   "opm": "14.6% pretax / 19.3%",
+   "fcf": "$3.0B",
+   "nrr": "n/d",
+   "section": "Megacap platforms and enterprise cloud",
+   "signs": {
+    "rev": 1,
+    "organic": 0,
+    "cust": 0,
+    "revcust": 0,
+    "gp": 1,
+    "opm": 1,
+    "fcf": 1,
+    "nrr": 0
+   },
+   "score": 554,
+   "score_parts": {
+    "growth": {
+     "pts": 22,
+     "max": 199,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 0,
+     "max": 0,
+     "of": 150,
+     "missing": true
+    },
+    "cash": {
+     "pts": 60,
+     "max": 99,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 34,
+     "max": 40,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 60,
+     "max": 132,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 94,
+     "max": 166,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 99,
+     "max": 99,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 185,
+     "max": 265,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 72,
+   "why": "Score 554/1000. Strongest in cross-industry use and customers; weakest in growth."
+  },
+  {
+   "ticker": "INTC",
+   "name": "Intel",
+   "category": "IDM/foundry",
+   "period": "Q3'26",
+   "rev": "+21%",
+   "organic": "n/d (higher ex-Altera)",
+   "cust": "n/d",
+   "revcust": "n/d",
+   "gp": "+36%",
+   "opm": "15.3% / 19.6%",
+   "fcf": "$1.64B adj.",
+   "nrr": "n/a",
+   "section": "Semiconductors: compute, IP and power chips",
+   "signs": {
+    "rev": 1,
+    "organic": 0,
+    "cust": 0,
+    "revcust": 0,
+    "gp": 1,
+    "opm": 1,
+    "fcf": 1,
+    "nrr": 0
+   },
+   "score": 616,
+   "score_parts": {
+    "growth": {
+     "pts": 107,
+     "max": 166,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 52,
+     "max": 110,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 94,
+     "max": 138,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 28,
+     "max": 33,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 71,
+     "max": 110,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 59,
+     "max": 138,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 83,
+     "max": 83,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 122,
+     "max": 221,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 56,
+   "why": "Score 616/1000. Strongest in cross-industry use and customers; weakest in forward signals."
+  },
+  {
+   "ticker": "ON",
+   "name": "onsemi",
+   "category": "Power/SiC",
+   "period": "Q3'26",
+   "rev": "+11%",
+   "organic": "~same",
+   "cust": "n/d",
+   "revcust": "n/d",
+   "gp": "+21%",
+   "opm": "22.0% / 23.2%",
+   "fcf": "$0.49B",
+   "nrr": "n/a",
+   "section": "Semiconductors: compute, IP and power chips",
+   "signs": {
+    "rev": 1,
+    "organic": 1,
+    "cust": 0,
+    "revcust": 0,
+    "gp": 1,
+    "opm": 1,
+    "fcf": 1,
+    "nrr": 0
+   },
+   "score": 596,
+   "score_parts": {
+    "growth": {
+     "pts": 48,
+     "max": 175,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 69,
+     "max": 117,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 79,
+     "max": 88,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 30,
+     "max": 35,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 75,
+     "max": 117,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 62,
+     "max": 146,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 70,
+     "max": 88,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 164,
+     "max": 234,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 61,
+   "why": "Score 596/1000. Strongest in cash & balance sheet and customers; weakest in growth."
+  },
+  {
+   "ticker": "MU",
+   "name": "Micron",
+   "category": "DRAM/HBM",
+   "period": "FQ4'26 (Sep)",
+   "rev": "+379%",
+   "organic": "~same",
+   "cust": "n/a",
+   "revcust": "n/d",
+   "gp": "+832%",
+   "opm": "80.7%",
+   "fcf": "$33.2B adj.",
+   "nrr": "n/a",
+   "section": "Memory and storage",
+   "signs": {
+    "rev": 1,
+    "organic": 1,
+    "cust": 0,
+    "revcust": 0,
+    "gp": 1,
+    "opm": 1,
+    "fcf": 1,
+    "nrr": 0
+   },
+   "why": "Score 672/1000. Strongest in cash & balance sheet and cross-industry use; weakest in forward signals. Loses 80 points for AI boom risk. | It generated $33.2B of FCF in one quarter and is the only scaled US-headquartered HBM maker. Its 86.8% gross margin is historically unprecedented for memory, so the rank reflects an explicit peak-cycle penalty (Micron 8-K).",
+   "score": 672,
+   "score_parts": {
+    "growth": {
+     "pts": 102,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 102,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 131,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 85,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 49,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 79,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 178,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": -80,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 38
+  },
+  {
+   "ticker": "SKHY",
+   "name": "SK Hynix",
+   "category": "DRAM/HBM",
+   "period": "Q3'26",
+   "rev": "+328% (KRW)",
+   "organic": "~same",
+   "cust": "n/a",
+   "revcust": "n/d",
+   "gp": "n/d",
+   "opm": "~80%",
+   "fcf": "n/d (cash +\u20a926.5T QoQ)",
+   "nrr": "n/a",
+   "section": "Memory and storage",
+   "signs": {
+    "rev": 1,
+    "organic": 1,
+    "cust": 0,
+    "revcust": 0,
+    "gp": 0,
+    "opm": 1,
+    "fcf": 0,
+    "nrr": 0
+   },
+   "score": 655,
+   "score_parts": {
+    "growth": {
+     "pts": 85,
+     "max": 131,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 116,
+     "max": 179,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 60,
+     "max": 60,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 30,
+     "max": 36,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 97,
+     "max": 119,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 56,
+     "max": 149,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 89,
+     "max": 89,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 202,
+     "max": 238,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": -80,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 44,
+   "why": "Score 655/1000. Strongest in cash & balance sheet and cross-industry use; weakest in forward signals. Loses 80 points for AI boom risk."
+  },
+  {
+   "ticker": "SNDK",
+   "name": "SanDisk",
+   "category": "NAND/SSD",
+   "period": "FQ1'27 (Oct)",
+   "rev": "+378%",
+   "organic": "~same",
+   "cust": "n/d",
+   "revcust": "n/d",
+   "gp": "+1,265%",
+   "opm": "79.6%",
+   "fcf": "$6.3B",
+   "nrr": "n/a",
+   "section": "Memory and storage",
+   "signs": {
+    "rev": 1,
+    "organic": 1,
+    "cust": 0,
+    "revcust": 0,
+    "gp": 1,
+    "opm": 1,
+    "fcf": 1,
+    "nrr": 0
+   },
+   "score": 585,
+   "score_parts": {
+    "growth": {
+     "pts": 102,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 102,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 99,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 85,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 56,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 47,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 147,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": -80,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 66,
+   "why": "Score 585/1000. Strongest in customers and industry momentum; weakest in forward signals. Loses 80 points for AI boom risk."
+  },
+  {
+   "ticker": "P",
+   "name": "Everpure (ex-Pure Storage)",
+   "category": "Flash storage",
+   "period": "FQ2'27 (Aug)",
+   "rev": "+38%",
+   "organic": "~same",
+   "cust": "n/d",
+   "revcust": "n/d",
+   "gp": "+34%",
+   "opm": "5.3% / 19.4%",
+   "fcf": "\u2212$0.24B",
+   "nrr": "n/d (sub. ARR +20%)",
+   "section": "Memory and storage",
+   "signs": {
+    "rev": 1,
+    "organic": 1,
+    "cust": 0,
+    "revcust": 0,
+    "gp": 1,
+    "opm": 1,
+    "fcf": -1,
+    "nrr": 0
+   },
+   "score": 647,
+   "score_parts": {
+    "growth": {
+     "pts": 96,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 67,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 84,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 85,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 79,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 63,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 147,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 48,
+   "why": "Score 647/1000. Strongest in customers and industry momentum; weakest in profitability."
+  },
+  {
+   "ticker": "SNPS",
+   "name": "Synopsys",
+   "category": "EDA/IP/simulation",
+   "period": "FQ3'26 (Jul)",
+   "rev": "+42%",
+   "organic": "n/d (mostly Ansys; IP +11%)",
+   "cust": "n/d",
+   "revcust": "n/d",
+   "gp": "+32%",
+   "opm": "14.4% / 41.6%",
+   "fcf": "n/d (9M $2.14B)",
+   "nrr": "n/a",
+   "section": "Semiconductor equipment and EDA",
+   "signs": {
+    "rev": 1,
+    "organic": 0,
+    "cust": 0,
+    "revcust": 0,
+    "gp": 1,
+    "opm": 1,
+    "fcf": 1,
+    "nrr": 0
+   },
+   "score": 683,
+   "score_parts": {
+    "growth": {
+     "pts": 62,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 80,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 82,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 71,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 74,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 79,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 209,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 31,
+   "why": "Score 683/1000. Strongest in cross-industry use and durability & moat; weakest in growth."
+  },
+  {
+   "ticker": "ALAB",
+   "name": "Astera Labs",
+   "category": "AI connectivity silicon",
+   "period": "Q3'26",
+   "rev": "+154%",
+   "organic": "~same",
+   "cust": "n/d",
+   "revcust": "n/d",
+   "gp": "+141%",
+   "opm": "30.6% / 44.7%",
+   "fcf": "n/d (9M $0.27B)",
+   "nrr": "n/a",
+   "section": "AI networking, optics and servers",
+   "signs": {
+    "rev": 1,
+    "organic": 1,
+    "cust": 0,
+    "revcust": 0,
+    "gp": 1,
+    "opm": 1,
+    "fcf": 1,
+    "nrr": 0
+   },
+   "score": 642,
+   "score_parts": {
+    "growth": {
+     "pts": 157,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 116,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 99,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 89,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 55,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 31,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 147,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": -80,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 52,
+   "why": "Score 642/1000. Strongest in growth and customers; weakest in cross-industry use. Loses 80 points for AI boom risk."
+  },
+  {
+   "ticker": "CRDO",
+   "name": "Credo",
+   "category": "AECs/SerDes",
+   "period": "FQ1'27 (Aug)",
+   "rev": "+115%",
+   "organic": "n/d (large acq.)",
+   "cust": "n/d",
+   "revcust": "n/d",
+   "gp": "+106%",
+   "opm": "25.2% / 48.2%",
+   "fcf": "n/d",
+   "nrr": "n/a",
+   "section": "AI networking, optics and servers",
+   "signs": {
+    "rev": 1,
+    "organic": 0,
+    "cust": 0,
+    "revcust": 0,
+    "gp": 1,
+    "opm": 1,
+    "fcf": 0,
+    "nrr": 0
+   },
+   "score": 602,
+   "score_parts": {
+    "growth": {
+     "pts": 164,
+     "max": 181,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 98,
+     "max": 181,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 0,
+     "max": 0,
+     "of": 125,
+     "missing": true
+    },
+    "customers": {
+     "pts": 31,
+     "max": 36,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 102,
+     "max": 120,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 63,
+     "max": 151,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 54,
+     "max": 90,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 169,
+     "max": 241,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": -80,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 58,
+   "why": "Score 602/1000. Strongest in growth and customers; weakest in forward signals. Loses 80 points for AI boom risk."
+  },
+  {
+   "ticker": "COHR",
+   "name": "Coherent",
+   "category": "Optical transceivers",
+   "period": "FQ1'27 (Sep)",
+   "rev": "+50%",
+   "organic": "+56% pro forma",
+   "cust": "n/d",
+   "revcust": "n/d",
+   "gp": "+60%",
+   "opm": "15.9% / 23.2%",
+   "fcf": "\u2212$0.87B",
+   "nrr": "n/a",
+   "section": "AI networking, optics and servers",
+   "signs": {
+    "rev": 1,
+    "organic": 1,
+    "cust": 0,
+    "revcust": 0,
+    "gp": 1,
+    "opm": 1,
+    "fcf": -1,
+    "nrr": 0
+   },
+   "score": 647,
+   "score_parts": {
+    "growth": {
+     "pts": 157,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 79,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 50,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 89,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 48,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 79,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 147,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": -27,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 49,
+   "why": "Score 647/1000. Strongest in growth and cross-industry use; weakest in forward signals. Loses 27 points for AI boom risk."
+  },
+  {
+   "ticker": "CBRS",
+   "name": "Cerebras",
+   "category": "Wafer-scale AI compute",
+   "period": "Q2'26 (Jun)",
+   "rev": "+74% (core +103%)",
+   "organic": "~same",
+   "cust": "n/d",
+   "revcust": "n/d",
+   "gp": "\u221220%",
+   "opm": "\u2212265%",
+   "fcf": "n/d (6M \u2212$0.60B)",
+   "nrr": "n/a",
+   "section": "AI networking, optics and servers",
+   "signs": {
+    "rev": 1,
+    "organic": 1,
+    "cust": 0,
+    "revcust": 0,
+    "gp": -1,
+    "opm": -1,
+    "fcf": -1,
+    "nrr": 0
+   },
+   "score": 484,
+   "score_parts": {
+    "growth": {
+     "pts": 115,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 0,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 64,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 89,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 70,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 63,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 115,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": -59,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 85,
+   "why": "Score 484/1000. Strongest in customers and industry momentum; weakest in profitability. Loses 59 points for AI boom risk."
+  },
+  {
+   "ticker": "SMCI",
+   "name": "Super Micro",
+   "category": "AI servers",
+   "period": "FQ1'27 (Sep)",
+   "rev": "+298%",
+   "organic": "~same",
+   "cust": "n/d",
+   "revcust": "n/d",
+   "gp": "+444%",
+   "opm": "10.4%",
+   "fcf": "\u2212$0.48B",
+   "nrr": "n/a",
+   "section": "AI networking, optics and servers",
+   "signs": {
+    "rev": 1,
+    "organic": 1,
+    "cust": 0,
+    "revcust": 0,
+    "gp": 1,
+    "opm": 1,
+    "fcf": -1,
+    "nrr": 0
+   },
+   "score": 564,
+   "score_parts": {
+    "growth": {
+     "pts": 157,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 89,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 50,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 89,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 55,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 63,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 115,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": -80,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 69,
+   "why": "Score 564/1000. Strongest in growth and customers; weakest in cash & balance sheet. Loses 80 points for AI boom risk."
   },
   {
    "ticker": "CLS",
@@ -1982,7 +4614,66 @@
     "opm": 1,
     "fcf": 1,
     "nrr": 0
-   }
+   },
+   "score": 655,
+   "score_parts": {
+    "growth": {
+     "pts": 157,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 53,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 99,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 89,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 74,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 79,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 147,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": -70,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 45,
+   "why": "Score 655/1000. Strongest in growth and cross-industry use; weakest in profitability. Loses 70 points for AI boom risk."
   },
   {
    "ticker": "BE",
@@ -2007,7 +4698,66 @@
     "opm": 1,
     "fcf": -1,
     "nrr": 0
-   }
+   },
+   "score": 661,
+   "score_parts": {
+    "growth": {
+     "pts": 157,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 107,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 92,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 91,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 74,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 79,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 115,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": -80,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 43,
+   "why": "Score 661/1000. Strongest in growth and cross-industry use; weakest in durability & moat. Loses 80 points for AI boom risk."
   },
   {
    "ticker": "CRWV",
@@ -2032,7 +4782,66 @@
     "opm": -1,
     "fcf": -1,
     "nrr": 0
-   }
+   },
+   "score": 473,
+   "score_parts": {
+    "growth": {
+     "pts": 157,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 26,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 22,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 11,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 89,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 70,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 63,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 115,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": -80,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 87,
+   "why": "Score 473/1000. Strongest in growth and industry momentum; weakest in profitability. Loses 80 points for AI boom risk."
   },
   {
    "ticker": "NBIS",
@@ -2057,7 +4866,66 @@
     "opm": -1,
     "fcf": 0,
     "nrr": 0
-   }
+   },
+   "score": 592,
+   "score_parts": {
+    "growth": {
+     "pts": 181,
+     "max": 181,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 66,
+     "max": 181,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 0,
+     "max": 0,
+     "of": 125,
+     "missing": true
+    },
+    "customers": {
+     "pts": 31,
+     "max": 36,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 102,
+     "max": 120,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 70,
+     "max": 151,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 90,
+     "max": 90,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 133,
+     "max": 241,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": -80,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 65,
+   "why": "Score 592/1000. Strongest in growth and cross-industry use; weakest in profitability. Loses 80 points for AI boom risk."
   },
   {
    "ticker": "IREN",
@@ -2082,7 +4950,66 @@
     "opm": -1,
     "fcf": -1,
     "nrr": 0
-   }
+   },
+   "score": 436,
+   "score_parts": {
+    "growth": {
+     "pts": 0,
+     "max": 0,
+     "of": 150,
+     "missing": true
+    },
+    "profit": {
+     "pts": 0,
+     "max": 132,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 28,
+     "max": 166,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 34,
+     "max": 40,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 113,
+     "max": 132,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 71,
+     "max": 166,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 79,
+     "max": 99,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 111,
+     "max": 265,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 89,
+   "why": "Score 436/1000. Strongest in industry momentum and customers; weakest in profitability."
   },
   {
    "ticker": "APLD",
@@ -2107,7 +5034,66 @@
     "opm": -1,
     "fcf": -1,
     "nrr": 0
-   }
+   },
+   "score": 412,
+   "score_parts": {
+    "growth": {
+     "pts": 157,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 11,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 22,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 89,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 51,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 47,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 88,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": -80,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 91,
+   "why": "Score 412/1000. Strongest in growth and customers; weakest in profitability. Loses 80 points for AI boom risk."
   },
   {
    "ticker": "EQIX",
@@ -2132,7 +5118,150 @@
     "opm": 1,
     "fcf": -1,
     "nrr": 0
-   }
+   },
+   "score": 631,
+   "score_parts": {
+    "growth": {
+     "pts": 36,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 98,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 50,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 89,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 74,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 79,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 178,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 53,
+   "why": "Score 631/1000. Strongest in cross-industry use and customers; weakest in growth."
+  },
+  {
+   "ticker": "IONQ",
+   "name": "IonQ",
+   "category": "Trapped ion + foundry",
+   "period": "Q3'26",
+   "rev": "+336%",
+   "organic": "not organic (SkyWater 48%)",
+   "cust": "n/d",
+   "revcust": "n/d",
+   "gp": "n/d",
+   "opm": "n/d (adj. EBITDA ~\u221277%)",
+   "fcf": "n/d",
+   "nrr": "n/a",
+   "section": "Quantum computing",
+   "signs": {
+    "rev": 1,
+    "organic": 0,
+    "cust": 0,
+    "revcust": 0,
+    "gp": 0,
+    "opm": 0,
+    "fcf": 0,
+    "nrr": 0
+   },
+   "why": "Score 647/1000. Strongest in cash & balance sheet and cross-industry use; weakest in profitability. | This is the quantum bet. Platform revenue rose +127%, RPO is $1.2B and pro forma cash is $3.7B (~7-year runway). But 48% of revenue is the acquired SkyWater foundry, and adj. EBITDA was \u2212$133.6M (IonQ release).",
+   "score": 647,
+   "score_parts": {
+    "growth": {
+     "pts": 104,
+     "max": 170,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 57,
+     "max": 170,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 57,
+     "max": 57,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 29,
+     "max": 34,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 92,
+     "max": 114,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 127,
+     "max": 142,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 85,
+     "max": 85,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 95,
+     "max": 227,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 50
   },
   {
    "ticker": "RGTI",
@@ -2157,7 +5286,66 @@
     "opm": -1,
     "fcf": -1,
     "nrr": 0
-   }
+   },
+   "score": 542,
+   "score_parts": {
+    "growth": {
+     "pts": 166,
+     "max": 166,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 0,
+     "max": 110,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 68,
+     "max": 138,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 28,
+     "max": 33,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 90,
+     "max": 110,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 54,
+     "max": 138,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 66,
+     "max": 83,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 71,
+     "max": 221,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 74,
+   "why": "Score 542/1000. Strongest in growth and customers; weakest in profitability."
   },
   {
    "ticker": "QBTS",
@@ -2182,7 +5370,66 @@
     "opm": -1,
     "fcf": -1,
     "nrr": 0
-   }
+   },
+   "score": 376,
+   "score_parts": {
+    "growth": {
+     "pts": 0,
+     "max": 166,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 0,
+     "max": 110,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 68,
+     "max": 138,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 28,
+     "max": 33,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 90,
+     "max": 110,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 54,
+     "max": 138,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 66,
+     "max": 83,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 71,
+     "max": 221,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 92,
+   "why": "Score 376/1000. Strongest in customers and industry momentum; weakest in growth."
   },
   {
    "ticker": "QUBT",
@@ -2207,7 +5454,66 @@
     "opm": 0,
     "fcf": 0,
     "nrr": 0
-   }
+   },
+   "score": 489,
+   "score_parts": {
+    "growth": {
+     "pts": 0,
+     "max": 0,
+     "of": 150,
+     "missing": true
+    },
+    "profit": {
+     "pts": 0,
+     "max": 0,
+     "of": 150,
+     "missing": true
+    },
+    "cash": {
+     "pts": 0,
+     "max": 0,
+     "of": 125,
+     "missing": true
+    },
+    "customers": {
+     "pts": 48,
+     "max": 57,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 153,
+     "max": 189,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 92,
+     "max": 236,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 113,
+     "max": 142,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 83,
+     "max": 377,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 84,
+   "why": "Score 489/1000. Strongest in customers and industry momentum; weakest in durability & moat."
   },
   {
    "ticker": "NET",
@@ -2232,7 +5538,66 @@
     "opm": -1,
     "fcf": 1,
     "nrr": 0
-   }
+   },
+   "score": 627,
+   "score_parts": {
+    "growth": {
+     "pts": 104,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 34,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 99,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 62,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 77,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 79,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 147,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 54,
+   "why": "Score 627/1000. Strongest in cross-industry use and customers; weakest in profitability."
   },
   {
    "ticker": "ZS",
@@ -2257,7 +5622,66 @@
     "opm": -1,
     "fcf": 1,
     "nrr": 0
-   }
+   },
+   "score": 595,
+   "score_parts": {
+    "growth": {
+     "pts": 65,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 54,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 119,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 62,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 43,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 79,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 147,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 63,
+   "why": "Score 595/1000. Strongest in cross-industry use and cash & balance sheet; weakest in forward signals."
   },
   {
    "ticker": "PANW",
@@ -2282,7 +5706,66 @@
     "opm": 1,
     "fcf": 1,
     "nrr": 0
-   }
+   },
+   "score": 648,
+   "score_parts": {
+    "growth": {
+     "pts": 83,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 30,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 131,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 62,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 59,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 79,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 178,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 47,
+   "why": "Score 648/1000. Strongest in cash & balance sheet and cross-industry use; weakest in profitability."
   },
   {
    "ticker": "OKTA",
@@ -2307,7 +5790,66 @@
     "opm": 1,
     "fcf": 1,
     "nrr": 1
-   }
+   },
+   "score": 567,
+   "score_parts": {
+    "growth": {
+     "pts": 23,
+     "max": 115,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 91,
+     "max": 156,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 99,
+     "max": 130,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 52,
+     "max": 78,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 61,
+     "max": 104,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 49,
+     "max": 130,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 78,
+     "max": 78,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 115,
+     "max": 208,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 68,
+   "why": "Score 567/1000. Strongest in cross-industry use and cash & balance sheet; weakest in growth."
   },
   {
    "ticker": "S",
@@ -2332,7 +5874,66 @@
     "opm": -1,
     "fcf": -1,
     "nrr": 0
-   }
+   },
+   "score": 522,
+   "score_parts": {
+    "growth": {
+     "pts": 47,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 33,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 83,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 62,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 77,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 79,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 115,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 79,
+   "why": "Score 522/1000. Strongest in cross-industry use and customers; weakest in profitability."
   },
   {
    "ticker": "RBRK",
@@ -2357,7 +5958,66 @@
     "opm": 0,
     "fcf": 1,
     "nrr": 0
-   }
+   },
+   "score": 679,
+   "score_parts": {
+    "growth": {
+     "pts": 110,
+     "max": 186,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 0,
+     "max": 0,
+     "of": 150,
+     "missing": true
+    },
+    "cash": {
+     "pts": 118,
+     "max": 155,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 32,
+     "max": 37,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 73,
+     "max": 124,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 116,
+     "max": 155,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 93,
+     "max": 93,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 137,
+     "max": 248,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 33,
+   "why": "Score 679/1000. Strongest in cross-industry use and customers; weakest in durability & moat."
   },
   {
    "ticker": "NOW",
@@ -2382,7 +6042,66 @@
     "opm": 1,
     "fcf": 1,
     "nrr": 0
-   }
+   },
+   "score": 620,
+   "score_parts": {
+    "growth": {
+     "pts": 57,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 39,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 124,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 66,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 51,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 79,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 178,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 55,
+   "why": "Score 620/1000. Strongest in cross-industry use and cash & balance sheet; weakest in profitability."
   },
   {
    "ticker": "CRM",
@@ -2407,7 +6126,66 @@
     "opm": 1,
     "fcf": 1,
     "nrr": 0
-   }
+   },
+   "score": 596,
+   "score_parts": {
+    "growth": {
+     "pts": 30,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 77,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 112,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 66,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 58,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 79,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 147,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 62,
+   "why": "Score 596/1000. Strongest in cross-industry use and customers; weakest in growth."
   },
   {
    "ticker": "SNOW",
@@ -2432,7 +6210,150 @@
     "opm": -1,
     "fcf": 1,
     "nrr": 1
-   }
+   },
+   "score": 671,
+   "score_parts": {
+    "growth": {
+     "pts": 91,
+     "max": 150,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 62,
+     "max": 150,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 110,
+     "max": 125,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 67,
+     "max": 75,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 63,
+     "max": 100,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 64,
+     "max": 125,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 75,
+     "max": 75,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 140,
+     "max": 200,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 39,
+   "why": "Score 671/1000. Strongest in cross-industry use and customers; weakest in profitability."
+  },
+  {
+   "ticker": "DDOG",
+   "name": "Datadog",
+   "category": "Observability",
+   "period": "Q3'26",
+   "rev": "+35%",
+   "organic": "~same",
+   "cust": "+4.7%",
+   "revcust": "~$143K (+29%)",
+   "gp": "+35%",
+   "opm": "6% / 28%",
+   "fcf": "$0.25B (21%)",
+   "nrr": "low-120s",
+   "section": "Data, AI and application software",
+   "signs": {
+    "rev": 1,
+    "organic": 1,
+    "cust": 1,
+    "revcust": 1,
+    "gp": 1,
+    "opm": 1,
+    "fcf": 1,
+    "nrr": 1
+   },
+   "why": "Score 679/1000. Strongest in cross-industry use and cash & balance sheet; weakest in forward signals. | Revenue rose +35%, NRR is in the low-120s and rising, revenue per customer +29% and FCF margin 21%. The Q4 guide is flat because its largest customer cut usage (Datadog 8-K; sec-api).",
+   "score": 679,
+   "score_parts": {
+    "growth": {
+     "pts": 98,
+     "max": 150,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 73,
+     "max": 150,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 122,
+     "max": 125,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 52,
+     "max": 75,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 63,
+     "max": 100,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 55,
+     "max": 125,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 75,
+     "max": 75,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 140,
+     "max": 200,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 34
   },
   {
    "ticker": "MDB",
@@ -2457,7 +6378,66 @@
     "opm": 1,
     "fcf": 1,
     "nrr": 0
-   }
+   },
+   "score": 677,
+   "score_parts": {
+    "growth": {
+     "pts": 81,
+     "max": 150,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 77,
+     "max": 150,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 115,
+     "max": 125,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 53,
+     "max": 75,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 63,
+     "max": 100,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 74,
+     "max": 125,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 75,
+     "max": 75,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 140,
+     "max": 200,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 35,
+   "why": "Score 677/1000. Strongest in cross-industry use and cash & balance sheet; weakest in profitability."
   },
   {
    "ticker": "IOT",
@@ -2482,7 +6462,66 @@
     "opm": 1,
     "fcf": 1,
     "nrr": 0
-   }
+   },
+   "score": 593,
+   "score_parts": {
+    "growth": {
+     "pts": 83,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 70,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 103,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 66,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 51,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 79,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 115,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 64,
+   "why": "Score 593/1000. Strongest in cross-industry use and customers; weakest in forward signals."
   },
   {
    "ticker": "FIG",
@@ -2507,7 +6546,66 @@
     "opm": -1,
     "fcf": 1,
     "nrr": 1
-   }
+   },
+   "score": 670,
+   "score_parts": {
+    "growth": {
+     "pts": 121,
+     "max": 150,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 55,
+     "max": 150,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 102,
+     "max": 125,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 70,
+     "max": 75,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 63,
+     "max": 100,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 74,
+     "max": 125,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 75,
+     "max": 75,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 110,
+     "max": 200,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 40,
+   "why": "Score 670/1000. Strongest in cross-industry use and customers; weakest in profitability."
   },
   {
    "ticker": "TEM",
@@ -2532,7 +6630,66 @@
     "opm": -1,
     "fcf": -1,
     "nrr": 0
-   }
+   },
+   "score": 536,
+   "score_parts": {
+    "growth": {
+     "pts": 74,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 54,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 60,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 66,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 77,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 63,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 115,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 76,
+   "why": "Score 536/1000. Strongest in customers and cross-industry use; weakest in profitability."
   },
   {
    "ticker": "GTLB",
@@ -2557,7 +6714,66 @@
     "opm": -1,
     "fcf": 1,
     "nrr": 1
-   }
+   },
+   "score": 511,
+   "score_parts": {
+    "growth": {
+     "pts": 50,
+     "max": 150,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 10,
+     "max": 150,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 108,
+     "max": 125,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 48,
+     "max": 75,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 63,
+     "max": 100,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 46,
+     "max": 125,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 75,
+     "max": 75,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 110,
+     "max": 200,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 81,
+   "why": "Score 511/1000. Strongest in cross-industry use and cash & balance sheet; weakest in profitability."
   },
   {
    "ticker": "VST",
@@ -2582,7 +6798,150 @@
     "opm": 1,
     "fcf": 1,
     "nrr": 0
-   }
+   },
+   "score": 667,
+   "score_parts": {
+    "growth": {
+     "pts": 109,
+     "max": 166,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 130,
+     "max": 166,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 50,
+     "max": 83,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 28,
+     "max": 33,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 51,
+     "max": 110,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 95,
+     "max": 138,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 50,
+     "max": 83,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 155,
+     "max": 221,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 41,
+   "why": "Score 667/1000. Strongest in customers and profitability; weakest in industry momentum."
+  },
+  {
+   "ticker": "BWXT",
+   "name": "BWX Technologies",
+   "category": "Naval/commercial nuclear",
+   "period": "Q3'26",
+   "rev": "+10%",
+   "organic": "n/d (small M&A)",
+   "cust": "n/d",
+   "revcust": "n/d",
+   "gp": "+20%",
+   "opm": "13.9%",
+   "fcf": "$0.15B",
+   "nrr": "n/a",
+   "section": "Power generation and nuclear",
+   "signs": {
+    "rev": 1,
+    "organic": 0,
+    "cust": 0,
+    "revcust": 0,
+    "gp": 1,
+    "opm": 1,
+    "fcf": 1,
+    "nrr": 0
+   },
+   "why": "Score 602/1000. Strongest in cross-industry use and customers; weakest in growth. | Revenue rose +10% and gross profit +20%. FCF rose +59% to $150.5M and backlog +16% to $8.56B (BWXT 8-K). It is the sole-source naval-reactor supplier and the cleanest profile in nuclear, though growth is slow.",
+   "score": 602,
+   "score_parts": {
+    "growth": {
+     "pts": 43,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 78,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 86,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 48,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 63,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 79,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 178,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 59
   },
   {
    "ticker": "CCJ",
@@ -2607,7 +6966,66 @@
     "opm": 0,
     "fcf": 0,
     "nrr": 0
-   }
+   },
+   "score": 501,
+   "score_parts": {
+    "growth": {
+     "pts": 2,
+     "max": 205,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 0,
+     "max": 0,
+     "of": 150,
+     "missing": true
+    },
+    "cash": {
+     "pts": 64,
+     "max": 68,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 35,
+     "max": 41,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 63,
+     "max": 137,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 23,
+     "max": 171,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 82,
+     "max": 103,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 233,
+     "max": 274,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 83,
+   "why": "Score 501/1000. Strongest in cash & balance sheet and customers; weakest in growth."
   },
   {
    "ticker": "LEU",
@@ -2632,7 +7050,66 @@
     "opm": -1,
     "fcf": -1,
     "nrr": 0
-   }
+   },
+   "score": 339,
+   "score_parts": {
+    "growth": {
+     "pts": 0,
+     "max": 135,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 0,
+     "max": 123,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 14,
+     "max": 92,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 31,
+     "max": 37,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 56,
+     "max": 123,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 47,
+     "max": 153,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 55,
+     "max": 92,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 135,
+     "max": 245,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 94,
+   "why": "Score 339/1000. Strongest in customers and cross-industry use; weakest in growth."
   },
   {
    "ticker": "OKLO",
@@ -2657,7 +7134,66 @@
     "opm": 0,
     "fcf": -1,
     "nrr": 0
-   }
+   },
+   "score": 288,
+   "score_parts": {
+    "growth": {
+     "pts": 0,
+     "max": 175,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 0,
+     "max": 117,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 0,
+     "max": 88,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 30,
+     "max": 35,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 54,
+     "max": 117,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 59,
+     "max": 146,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 70,
+     "max": 88,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 75,
+     "max": 234,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 97,
+   "why": "Score 288/1000. Strongest in customers and cross-industry use; weakest in growth."
   },
   {
    "ticker": "SMR",
@@ -2682,7 +7218,66 @@
     "opm": 0,
     "fcf": -1,
     "nrr": 0
-   }
+   },
+   "score": 261,
+   "score_parts": {
+    "growth": {
+     "pts": 0,
+     "max": 175,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 0,
+     "max": 117,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 0,
+     "max": 88,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 30,
+     "max": 35,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 54,
+     "max": 117,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 50,
+     "max": 146,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 53,
+     "max": 88,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 75,
+     "max": 234,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 99,
+   "why": "Score 261/1000. Strongest in customers and cross-industry use; weakest in growth."
   },
   {
    "ticker": "NNE",
@@ -2707,7 +7302,66 @@
     "opm": 0,
     "fcf": -1,
     "nrr": 0
-   }
+   },
+   "score": 262,
+   "score_parts": {
+    "growth": {
+     "pts": 0,
+     "max": 175,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 0,
+     "max": 117,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 0,
+     "max": 88,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 30,
+     "max": 35,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 54,
+     "max": 117,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 57,
+     "max": 146,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 70,
+     "max": 88,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 51,
+     "max": 234,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 98,
+   "why": "Score 262/1000. Strongest in customers and cross-industry use; weakest in growth."
   },
   {
    "ticker": "STDN",
@@ -2732,7 +7386,66 @@
     "opm": -1,
     "fcf": -1,
     "nrr": 0
-   }
+   },
+   "score": 436,
+   "score_parts": {
+    "growth": {
+     "pts": 135,
+     "max": 135,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 0,
+     "max": 123,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 14,
+     "max": 92,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 31,
+     "max": 37,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 56,
+     "max": 123,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 66,
+     "max": 153,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 55,
+     "max": 92,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 79,
+     "max": 245,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 90,
+   "why": "Score 436/1000. Strongest in growth and customers; weakest in profitability."
   },
   {
    "ticker": "FRVO",
@@ -2757,7 +7470,66 @@
     "opm": 0,
     "fcf": 0,
     "nrr": 0
-   }
+   },
+   "score": 251,
+   "score_parts": {
+    "growth": {
+     "pts": 0,
+     "max": 175,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 0,
+     "max": 117,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 0,
+     "max": 88,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 30,
+     "max": 35,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 54,
+     "max": 117,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 40,
+     "max": 146,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 53,
+     "max": 88,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 75,
+     "max": 234,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 100,
+   "why": "Score 251/1000. Strongest in customers and cross-industry use; weakest in growth."
   },
   {
    "ticker": "EOSE",
@@ -2782,7 +7554,66 @@
     "opm": -1,
     "fcf": -1,
     "nrr": 0
-   }
+   },
+   "score": 510,
+   "score_parts": {
+    "growth": {
+     "pts": 127,
+     "max": 127,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 58,
+     "max": 173,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 13,
+     "max": 87,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 29,
+     "max": 35,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 50,
+     "max": 116,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 66,
+     "max": 145,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 69,
+     "max": 87,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 97,
+     "max": 231,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 82,
+   "why": "Score 510/1000. Strongest in growth and customers; weakest in cash & balance sheet."
   },
   {
    "ticker": "FLNC",
@@ -2807,7 +7638,66 @@
     "opm": -1,
     "fcf": -1,
     "nrr": 0
-   }
+   },
+   "score": 368,
+   "score_parts": {
+    "growth": {
+     "pts": 17,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 16,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 63,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 45,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 22,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 63,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 115,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 93,
+   "why": "Score 368/1000. Strongest in customers and cross-industry use; weakest in profitability."
   },
   {
    "ticker": "FSLR",
@@ -2832,7 +7722,66 @@
     "opm": 0,
     "fcf": 0,
     "nrr": 0
-   }
+   },
+   "score": 562,
+   "score_parts": {
+    "growth": {
+     "pts": 15,
+     "max": 170,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 169,
+     "max": 170,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 57,
+     "max": 57,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 29,
+     "max": 34,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 49,
+     "max": 114,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 33,
+     "max": 142,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 51,
+     "max": 85,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 159,
+     "max": 227,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 71,
+   "why": "Score 562/1000. Strongest in cash & balance sheet and profitability; weakest in growth."
   },
   {
    "ticker": "QS",
@@ -2857,7 +7806,66 @@
     "opm": 0,
     "fcf": -1,
     "nrr": 0
-   }
+   },
+   "score": 298,
+   "score_parts": {
+    "growth": {
+     "pts": 0,
+     "max": 166,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 0,
+     "max": 110,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 55,
+     "max": 138,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 28,
+     "max": 33,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 48,
+     "max": 110,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 69,
+     "max": 138,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 50,
+     "max": 83,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 49,
+     "max": 221,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 96,
+   "why": "Score 298/1000. Strongest in customers and cross-industry use; weakest in growth."
   },
   {
    "ticker": "ALB",
@@ -2882,7 +7890,66 @@
     "opm": 1,
     "fcf": 1,
     "nrr": 0
-   }
+   },
+   "score": 651,
+   "score_parts": {
+    "growth": {
+     "pts": 84,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 91,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 99,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 45,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 80,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 79,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 147,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 46,
+   "why": "Score 651/1000. Strongest in cross-industry use and customers; weakest in industry momentum."
   },
   {
    "ticker": "MP",
@@ -2907,7 +7974,150 @@
     "opm": -1,
     "fcf": -1,
     "nrr": 0
-   }
+   },
+   "score": 643,
+   "score_parts": {
+    "growth": {
+     "pts": 157,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 65,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 64,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 45,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 60,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 79,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 147,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 51,
+   "why": "Score 643/1000. Strongest in growth and cross-industry use; weakest in profitability."
+  },
+  {
+   "ticker": "RKLB",
+   "name": "Rocket Lab",
+   "category": "Launch/space systems",
+   "period": "Q2'26 (Jun)",
+   "rev": "+62%",
+   "organic": "n/d",
+   "cust": "n/d",
+   "revcust": "n/d",
+   "gp": "+82%",
+   "opm": "\u221224.6%",
+   "fcf": "n/d (6M \u2212$0.19B)",
+   "nrr": "n/a",
+   "section": "Space",
+   "signs": {
+    "rev": 1,
+    "organic": 0,
+    "cust": 0,
+    "revcust": 0,
+    "gp": 1,
+    "opm": -1,
+    "fcf": -1,
+    "nrr": 0
+   },
+   "why": "Score 674/1000. Strongest in cross-industry use and growth; weakest in profitability. | Revenue rose +62% and gross profit +82%, backlog reached $2.36B (+137%), adj. EBITDA was near break-even (\u22123.8%) and cash is ~$2.39B (Rocket Lab 8-K). It is a high-risk bet on Neutron.",
+   "score": 674,
+   "score_parts": {
+    "growth": {
+     "pts": 141,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 49,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 64,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 79,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 89,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 79,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 147,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 36
   },
   {
    "ticker": "ASTS",
@@ -2932,7 +8142,66 @@
     "opm": -1,
     "fcf": 0,
     "nrr": 0
-   }
+   },
+   "score": 601,
+   "score_parts": {
+    "growth": {
+     "pts": 139,
+     "max": 139,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 0,
+     "max": 127,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 55,
+     "max": 63,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 32,
+     "max": 38,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 95,
+     "max": 127,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 64,
+     "max": 158,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 76,
+     "max": 95,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 139,
+     "max": 253,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 60,
+   "why": "Score 601/1000. Strongest in growth and cash & balance sheet; weakest in profitability."
   },
   {
    "ticker": "FLY",
@@ -2957,32 +8226,66 @@
     "opm": -1,
     "fcf": -1,
     "nrr": 0
-   }
-  },
-  {
-   "ticker": "PL",
-   "name": "Planet Labs",
-   "category": "Earth observation",
-   "period": "FQ2'27 (Jul)",
-   "rev": "+58%",
-   "organic": "~same",
-   "cust": "n/d",
-   "revcust": "n/d",
-   "gp": "+55%",
-   "opm": "\u221211.6%",
-   "fcf": "n/d (6M +$21M)",
-   "nrr": "n/d",
-   "section": "Space",
-   "signs": {
-    "rev": 1,
-    "organic": 1,
-    "cust": 0,
-    "revcust": 0,
-    "gp": 1,
-    "opm": -1,
-    "fcf": 0,
-    "nrr": 0
-   }
+   },
+   "score": 606,
+   "score_parts": {
+    "growth": {
+     "pts": 143,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 52,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 64,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 79,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 91,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 63,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 88,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 57,
+   "why": "Score 606/1000. Strongest in growth and customers; weakest in profitability."
   },
   {
    "ticker": "LUNR",
@@ -3007,7 +8310,66 @@
     "opm": -1,
     "fcf": -1,
     "nrr": 0
-   }
+   },
+   "score": 532,
+   "score_parts": {
+    "growth": {
+     "pts": 109,
+     "max": 120,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 64,
+     "max": 164,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 33,
+     "max": 137,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 28,
+     "max": 33,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 82,
+     "max": 109,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 58,
+     "max": 137,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 66,
+     "max": 82,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 92,
+     "max": 219,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 78,
+   "why": "Score 532/1000. Strongest in growth and customers; weakest in cash & balance sheet."
   },
   {
    "ticker": "RDW",
@@ -3032,7 +8394,66 @@
     "opm": -1,
     "fcf": -1,
     "nrr": 0
-   }
+   },
+   "score": 564,
+   "score_parts": {
+    "growth": {
+     "pts": 99,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 61,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 53,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 79,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 96,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 63,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 88,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 70,
+   "why": "Score 564/1000. Strongest in customers and cross-industry use; weakest in profitability."
   },
   {
    "ticker": "KTOS",
@@ -3057,7 +8478,66 @@
     "opm": -1,
     "fcf": -1,
     "nrr": 0
-   }
+   },
+   "score": 581,
+   "score_parts": {
+    "growth": {
+     "pts": 71,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 39,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 74,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 55,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 90,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 79,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 147,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 67,
+   "why": "Score 581/1000. Strongest in cross-industry use and customers; weakest in profitability."
   },
   {
    "ticker": "AVAV",
@@ -3082,7 +8562,150 @@
     "opm": -1,
     "fcf": -1,
     "nrr": 0
-   }
+   },
+   "score": 553,
+   "score_parts": {
+    "growth": {
+     "pts": 35,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 72,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 78,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 55,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 62,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 79,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 147,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 73,
+   "why": "Score 553/1000. Strongest in cross-industry use and customers; weakest in growth."
+  },
+  {
+   "ticker": "ISRG",
+   "name": "Intuitive Surgical",
+   "category": "Surgical robotics",
+   "period": "Q3'26",
+   "rev": "+22%",
+   "organic": "n/d (small M&A)",
+   "cust": "procedures +15%",
+   "revcust": "n/d",
+   "gp": "+25%",
+   "opm": "19.4% / 41.6%",
+   "fcf": "n/d",
+   "nrr": "n/a",
+   "section": "Defense tech, robotics and future mobility",
+   "signs": {
+    "rev": 1,
+    "organic": 0,
+    "cust": 1,
+    "revcust": 0,
+    "gp": 1,
+    "opm": 1,
+    "fcf": 0,
+    "nrr": 0
+   },
+   "why": "Score 665/1000. Strongest in cash & balance sheet and durability & moat; weakest in forward signals. | Revenue rose +22%, procedures +15% and the installed base +12%, with a 41.6% non-GAAP operating margin. Its razor/razorblade model makes it the best robotics compounder in the set. GAAP margin (19.4%) absorbed a $450M antitrust charge (Intuitive 8-K).",
+   "score": 665,
+   "score_parts": {
+    "growth": {
+     "pts": 77,
+     "max": 181,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 66,
+     "max": 120,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 60,
+     "max": 60,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 31,
+     "max": 36,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 63,
+     "max": 120,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 55,
+     "max": 151,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 72,
+     "max": 90,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 241,
+     "max": 241,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 42
   },
   {
    "ticker": "SYM",
@@ -3107,7 +8730,66 @@
     "opm": 1,
     "fcf": -1,
     "nrr": 0
-   }
+   },
+   "score": 536,
+   "score_parts": {
+    "growth": {
+     "pts": 72,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 82,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 64,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 55,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 59,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 63,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 115,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 77,
+   "why": "Score 536/1000. Strongest in customers and cross-industry use; weakest in forward signals."
   },
   {
    "ticker": "SERV",
@@ -3132,7 +8814,66 @@
     "opm": -1,
     "fcf": -1,
     "nrr": 0
-   }
+   },
+   "score": 439,
+   "score_parts": {
+    "growth": {
+     "pts": 55,
+     "max": 120,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 55,
+     "max": 164,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 67,
+     "max": 137,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 28,
+     "max": 33,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 57,
+     "max": 109,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 80,
+     "max": 137,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 49,
+     "max": 82,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 48,
+     "max": 219,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 88,
+   "why": "Score 439/1000. Strongest in customers and cross-industry use; weakest in durability & moat."
   },
   {
    "ticker": "TSLA",
@@ -3157,7 +8898,66 @@
     "opm": 1,
     "fcf": 1,
     "nrr": 0
-   }
+   },
+   "score": 480,
+   "score_parts": {
+    "growth": {
+     "pts": 11,
+     "max": 166,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 48,
+     "max": 166,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 50,
+     "max": 83,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 28,
+     "max": 33,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 58,
+     "max": 110,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 48,
+     "max": 138,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 83,
+     "max": 83,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 155,
+     "max": 221,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 86,
+   "why": "Score 480/1000. Strongest in cross-industry use and customers; weakest in growth."
   },
   {
    "ticker": "MBLY",
@@ -3182,7 +8982,66 @@
     "opm": -1,
     "fcf": 1,
     "nrr": 0
-   }
+   },
+   "score": 516,
+   "score_parts": {
+    "growth": {
+     "pts": 5,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 58,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 99,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 55,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 94,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 63,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 115,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 80,
+   "why": "Score 516/1000. Strongest in customers and cross-industry use; weakest in growth."
   },
   {
    "ticker": "ACHR",
@@ -3207,7 +9066,66 @@
     "opm": 0,
     "fcf": -1,
     "nrr": 0
-   }
+   },
+   "score": 317,
+   "score_parts": {
+    "growth": {
+     "pts": 0,
+     "max": 166,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 0,
+     "max": 110,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 55,
+     "max": 138,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 28,
+     "max": 33,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 58,
+     "max": 110,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 77,
+     "max": 138,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 50,
+     "max": 83,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 49,
+     "max": 221,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 95,
+   "why": "Score 317/1000. Strongest in customers and cross-industry use; weakest in growth."
   },
   {
    "ticker": "JOBY",
@@ -3232,7 +9150,67 @@
     "opm": -1,
     "fcf": -1,
     "nrr": 0
-   }
+   },
+   "score": 539,
+   "score_parts": {
+    "growth": {
+     "pts": 123,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "profit": {
+     "pts": 52,
+     "max": 157,
+     "of": 150,
+     "missing": false
+    },
+    "cash": {
+     "pts": 64,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "customers": {
+     "pts": 27,
+     "max": 31,
+     "of": 75,
+     "missing": false
+    },
+    "momentum": {
+     "pts": 55,
+     "max": 105,
+     "of": 100,
+     "missing": false
+    },
+    "forward": {
+     "pts": 104,
+     "max": 131,
+     "of": 125,
+     "missing": false
+    },
+    "utility": {
+     "pts": 47,
+     "max": 79,
+     "of": 75,
+     "missing": false
+    },
+    "durability": {
+     "pts": 67,
+     "max": 209,
+     "of": 200,
+     "missing": false
+    },
+    "boom": {
+     "pts": 0,
+     "max": 0,
+     "of": 80,
+     "missing": false
+    }
+   },
+   "score_rank": 75,
+   "why": "Score 539/1000. Strongest in customers and forward signals; weakest in durability & moat."
   }
- ]
+ ],
+ "base_date": "2026-11-06"
 }

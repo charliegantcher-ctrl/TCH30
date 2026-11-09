@@ -1,0 +1,522 @@
+[
+ {
+  "ticker": "ANET",
+  "period": "Q3 FY26 (Sep-26)",
+  "rev_ttm_b": 11.89,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 58.5,
+  "organic_share": 1.0,
+  "gross_margin_pct": 63.6,
+  "gross_margin_prior_pct": 64.6,
+  "op_margin_pct": 44.9,
+  "op_margin_prior_pct": 42.4,
+  "fcf_ttm_b": null,
+  "cash_b": 14.36,
+  "debt_b": 0.0,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": 6.84,
+  "backlog_growth_pct": null,
+  "guidance": null,
+  "contracts_90d": [],
+  "investments": "R&D about 13% of revenue ($487M in Q3); light capex ($185M over 9M); 9M FCF about $3.8B.",
+  "news_90d": [
+   {
+    "what": "Q3 revenue up 58.5% to $3.66B on AI networking demand; Q4 guide $3.9-4.0B",
+    "tone": "good",
+    "date": "2026-11-03",
+    "source": "Arista 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001596532/000159653226000252/ex991q326-earningsrelease.htm"
+   }
+  ],
+  "industries_served": [
+   "AI data centers",
+   "cloud/hyperscale",
+   "enterprise campus",
+   "service providers",
+   "financial services"
+  ],
+  "bottleneck_note": "Leading merchant data-center Ethernet switch vendor with EOS software lock-in; competes with Nvidia Spectrum-X, Cisco, Juniper/HPE and white-box ODMs; hyperscaler concentration.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001596532/000159653226000252/ex991q326-earningsrelease.htm",
+   "https://247wallst.com/cards/arista-networks-q3-2026-earnings-anet-01m6hm6v5atgmt0qczy1xw4ymp"
+  ]
+ },
+ {
+  "ticker": "ALAB",
+  "period": "Q3 FY26 (Sep-26)",
+  "rev_ttm_b": null,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 153.7,
+  "organic_share": 1.0,
+  "gross_margin_pct": 72.3,
+  "gross_margin_prior_pct": 76.2,
+  "op_margin_pct": 30.6,
+  "op_margin_prior_pct": 24.0,
+  "fcf_ttm_b": null,
+  "cash_b": 1.38,
+  "debt_b": 0.0,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": null,
+  "contracts_90d": [],
+  "investments": "R&D about 29% of revenue ($171M in Q3); 9M capex $73M; $69M of small acquisitions YTD; Amazon holds warrants (reduced revenue by $30.4M over 9M).",
+  "news_90d": [
+   {
+    "what": "Q3 revenue up about 154% to $585M; GAAP gross margin fell to 72.3% as Scorpio switch mix grows; Q4 guide $730-750M",
+    "tone": "good",
+    "date": null,
+    "source": "Astera 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001736297/000173629726000044/q326exhibit991.htm"
+   }
+  ],
+  "industries_served": [
+   "AI data centers",
+   "cloud/hyperscale"
+  ],
+  "bottleneck_note": "Key supplier of PCIe/CXL retimers and AI scale-up fabric switches; competes with Broadcom, Marvell, Nvidia NVLink and in-house hyperscaler silicon; high customer concentration.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001736297/000173629726000044/q326exhibit991.htm"
+  ],
+  "rev_size_est_b": 2.2
+ },
+ {
+  "ticker": "CRDO",
+  "period": "Q1 FY27 (Aug-26)",
+  "rev_ttm_b": null,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 114.7,
+  "organic_share": null,
+  "gross_margin_pct": 64.5,
+  "gross_margin_prior_pct": 67.4,
+  "op_margin_pct": 25.2,
+  "op_margin_prior_pct": 27.2,
+  "fcf_ttm_b": null,
+  "cash_b": 0.76,
+  "debt_b": null,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": null,
+  "contracts_90d": [],
+  "investments": "R&D about 24% of revenue ($115M in FQ1); acquired DustPhotonics (silicon photonics) for about $750M, closed in FQ1 (goodwill up about $894M).",
+  "news_90d": [
+   {
+    "what": "FQ1 revenue up about 115% to $479M; FQ2 guide $525-535M",
+    "tone": "good",
+    "date": null,
+    "source": "Credo 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001807794/000162828026059795/credoq12027ex-991.htm"
+   },
+   {
+    "what": "Completed DustPhotonics acquisition, adding silicon photonics PICs",
+    "tone": "neutral",
+    "date": null,
+    "source": "Converge Digest",
+    "url": "https://convergedigest.com/credo-completes-dustphotonics-acquisition-adds-silicon-photonics-pics/"
+   }
+  ],
+  "industries_served": [
+   "AI data centers",
+   "cloud/hyperscale",
+   "networking equipment"
+  ],
+  "bottleneck_note": "Dominant active electrical cable (AEC) supplier plus SerDes/optical DSPs; competes with Marvell, Broadcom and optics substitution; few hyperscaler customers.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001807794/000162828026059795/credoq12027ex-991.htm",
+   "https://rallies.ai/news/credo-to-acquire-dustphotonics-for-750m-targets-500m-optical-revenue-in-fy2027"
+  ],
+  "rev_size_est_b": 1.8
+ },
+ {
+  "ticker": "COHR",
+  "period": "Q1 FY27 (Sep-26)",
+  "rev_ttm_b": null,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 49.9,
+  "organic_share": 1.0,
+  "gross_margin_pct": 39.1,
+  "gross_margin_prior_pct": 36.6,
+  "op_margin_pct": 15.9,
+  "op_margin_prior_pct": 16.4,
+  "fcf_ttm_b": null,
+  "cash_b": 1.75,
+  "debt_b": 4.0,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": null,
+  "contracts_90d": [],
+  "investments": "Very heavy capacity build: Q1 capex $776M (OCF negative), funded partly by $773M of new credit; R&D about 10% of revenue.",
+  "news_90d": [
+   {
+    "what": "Q1 revenue up 50% (56% pro forma ex A&D divestiture); Q2 guide $2.55-2.75B; targets first $3B quarter by end of FY27",
+    "tone": "good",
+    "date": null,
+    "source": "Coherent release via Finviz",
+    "url": "https://finviz.com/news/415844/coherent-corp-reports-first-quarter-fiscal-2027-results"
+   },
+   {
+    "what": "Quarterly FCF about -$868M on capex surge; total debt rose to $4.0B",
+    "tone": "bad",
+    "date": null,
+    "source": "Coherent release via Finviz",
+    "url": "https://finviz.com/news/415844/coherent-corp-reports-first-quarter-fiscal-2027-results"
+   }
+  ],
+  "industries_served": [
+   "AI data centers",
+   "telecom",
+   "industrial lasers",
+   "semiconductor equipment",
+   "consumer electronics"
+  ],
+  "bottleneck_note": "Top-tier vertically integrated optical transceiver and indium-phosphide laser maker; competes with Lumentum, InnoLight, Eoptolink and Broadcom.",
+  "sources": [
+   "https://finviz.com/news/415844/coherent-corp-reports-first-quarter-fiscal-2027-results"
+  ],
+  "rev_size_est_b": 7
+ },
+ {
+  "ticker": "LITE",
+  "period": "Q1 FY27 (Sep-26)",
+  "rev_ttm_b": null,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 136.5,
+  "organic_share": 1.0,
+  "gross_margin_pct": 51.0,
+  "gross_margin_prior_pct": 34.0,
+  "op_margin_pct": 28.5,
+  "op_margin_prior_pct": 1.3,
+  "fcf_ttm_b": null,
+  "cash_b": 1.98,
+  "debt_b": 1.4,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": null,
+  "contracts_90d": [
+   {
+    "what": "Second major NPO/CPO design win backed by more than $5B of customer purchase commitments",
+    "value_b": 5.0,
+    "date": null,
+    "source": "Lumentum IR",
+    "url": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-First-Quarter-of-Fiscal-Year-2027-Financial-Results/default.aspx"
+   }
+  ],
+  "investments": "R&D about 15% of revenue ($192M in FQ1); expanding EML/laser capacity.",
+  "news_90d": [
+   {
+    "what": "FQ1 revenue up 137% to $1.26B; GAAP gross margin 51% vs 34%; FQ2 guide $1.575-1.625B",
+    "tone": "good",
+    "date": null,
+    "source": "Lumentum IR",
+    "url": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-First-Quarter-of-Fiscal-Year-2027-Financial-Results/default.aspx"
+   }
+  ],
+  "industries_served": [
+   "AI data centers",
+   "telecom",
+   "cloud/hyperscale",
+   "3D sensing",
+   "industrial lasers"
+  ],
+  "bottleneck_note": "Supply-constrained leader in EML lasers and a key co-packaged optics supplier; competes with Coherent, Broadcom and Asian laser makers; few large customers.",
+  "sources": [
+   "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-First-Quarter-of-Fiscal-Year-2027-Financial-Results/default.aspx"
+  ],
+  "rev_size_est_b": 4.5
+ },
+ {
+  "ticker": "CIEN",
+  "period": "Q3 FY26 (Aug-26)",
+  "rev_ttm_b": null,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 37.0,
+  "organic_share": 1.0,
+  "gross_margin_pct": 45.4,
+  "gross_margin_prior_pct": 41.3,
+  "op_margin_pct": 18.0,
+  "op_margin_prior_pct": 6.0,
+  "fcf_ttm_b": null,
+  "cash_b": 2.63,
+  "debt_b": 3.23,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "raised",
+  "contracts_90d": [],
+  "investments": "R&D about 14% of revenue ($237M); 9M capex $195M; total debt roughly doubled to $3.2B since Nov-25.",
+  "news_90d": [
+   {
+    "what": "FQ3 revenue up 37% to $1.67B; FY26 revenue outlook raised to $6.42B",
+    "tone": "good",
+    "date": null,
+    "source": "Ciena 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000936395/000162828026060245/ex9912026q3earningspressre.htm"
+   }
+  ],
+  "industries_served": [
+   "AI data centers",
+   "telecom",
+   "cloud/hyperscale",
+   "submarine networks",
+   "government"
+  ],
+  "bottleneck_note": "Leading coherent optical (WaveLogic) and DCI vendor; competes with Nokia/Infinera, Cisco/Acacia, Huawei; two customers are 41.7% of revenue.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0000936395/000162828026060245/ex9912026q3earningspressre.htm",
+   "https://goldesel.de/aktien/news/ciena-ubertrifft-q3-erwartungen-und-hebt-fy26-umsatzprognose-auf-642-mrd-dollar"
+  ],
+  "rev_size_est_b": 6
+ },
+ {
+  "ticker": "CBRS",
+  "period": "Q2 FY26 (Jun-26); Q3 due 2026-11-12",
+  "rev_ttm_b": null,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 74.4,
+  "organic_share": 1.0,
+  "gross_margin_pct": 14.2,
+  "gross_margin_prior_pct": 31.1,
+  "op_margin_pct": -265.0,
+  "op_margin_prior_pct": -55.4,
+  "fcf_ttm_b": null,
+  "cash_b": 7.92,
+  "debt_b": 0.92,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": 25.4,
+  "backlog_growth_pct": null,
+  "guidance": "raised",
+  "contracts_90d": [],
+  "investments": "R&D larger than revenue ($320M in Q2); 6M capex $549M for inference cloud build; IPO proceeds give about $8.6B of liquidity.",
+  "news_90d": [
+   {
+    "what": "Shares fell more than 10% after Q2 results on soft Q3 guidance despite FY core revenue raise",
+    "tone": "bad",
+    "date": null,
+    "source": "Chartmill",
+    "url": "https://www.chartmill.com/news/CBRS/Chartmill-50195-Cerebras-Systems-NASDAQCBRS-Earnings-Beat-Overshadowed-by-Soft-Guidance-Shares-Fall-Over-10"
+   },
+   {
+    "what": "Q3 FY26 results scheduled for Nov 12, 2026",
+    "tone": "neutral",
+    "date": null,
+    "source": "Cerebras",
+    "url": "https://www.cerebras.ai/press-release/cerebras-systems-announces-date-of-third-quarter-2026-financial-results-3384934"
+   }
+  ],
+  "industries_served": [
+   "AI data centers",
+   "AI inference cloud",
+   "sovereign AI",
+   "scientific computing"
+  ],
+  "bottleneck_note": "Only wafer-scale AI processor vendor, differentiated on inference speed; competes with Nvidia, AMD, Groq and custom ASICs; extreme concentration (G42/MBZUAI, OpenAI, AWS).",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0002021728/000162828026056186/cbrsannouncesfinancialresu.htm"
+  ],
+  "rev_size_est_b": 0.8
+ },
+ {
+  "ticker": "SMCI",
+  "period": "Q1 FY27 (Sep-26)",
+  "rev_ttm_b": null,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 297.5,
+  "organic_share": 1.0,
+  "gross_margin_pct": 12.7,
+  "gross_margin_prior_pct": 9.3,
+  "op_margin_pct": 10.4,
+  "op_margin_prior_pct": 3.6,
+  "fcf_ttm_b": null,
+  "cash_b": 6.9,
+  "debt_b": 8.65,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": null,
+  "contracts_90d": [],
+  "investments": "R&D about 1% of revenue ($227M); quarterly OCF -$434M on working capital; $4.7B convertible notes outstanding.",
+  "news_90d": [
+   {
+    "what": "Q1 FY27 net sales about $19.9B, nearly 4x a year ago; FY27 outlook $72-82B",
+    "tone": "good",
+    "date": null,
+    "source": "Supermicro 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001375365/000137536526000026/exhibit991_20260930.htm"
+   }
+  ],
+  "industries_served": [
+   "AI data centers",
+   "cloud/hyperscale",
+   "neoclouds",
+   "enterprise IT"
+  ],
+  "bottleneck_note": "Fast rack-scale integrator for Nvidia/AMD systems with liquid cooling; low switching costs vs Dell, HPE and Taiwanese ODMs; governance history.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001375365/000137536526000026/exhibit991_20260930.htm"
+  ],
+  "rev_size_est_b": 60
+ },
+ {
+  "ticker": "DELL",
+  "period": "Q2 FY27 (Jul-26); Q3 reports late Nov",
+  "rev_ttm_b": null,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 57.7,
+  "organic_share": 1.0,
+  "gross_margin_pct": 20.9,
+  "gross_margin_prior_pct": 18.3,
+  "op_margin_pct": 11.5,
+  "op_margin_prior_pct": 6.0,
+  "fcf_ttm_b": null,
+  "cash_b": 11.57,
+  "debt_b": 34.47,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": 95.0,
+  "backlog_growth_pct": null,
+  "guidance": "raised",
+  "contracts_90d": [],
+  "investments": "R&D about 2% of revenue ($1.1B in Q2); 6M capex $2.2B; GAAP FCF weak ($0.99B in Q2) on AI-server working capital.",
+  "news_90d": [
+   {
+    "what": "Q2 FY27 revenue up 58% to $47.0B; AI server backlog $95B; FY27 revenue outlook raised to $192B from $167B",
+    "tone": "good",
+    "date": null,
+    "source": "Dell IR",
+    "url": "https://investors.delltechnologies.com/static-files/86d4752c-0d07-45e8-b920-d83e8727005b"
+   },
+   {
+    "what": "Expanded Dell AI Factory with Nvidia and new servers",
+    "tone": "good",
+    "date": "2026-10-21",
+    "source": "StreetInsider",
+    "url": "https://www.streetinsider.com/entities/Michael+Dell"
+   }
+  ],
+  "industries_served": [
+   "AI data centers",
+   "enterprise IT",
+   "neoclouds",
+   "PCs",
+   "storage"
+  ],
+  "bottleneck_note": "Largest enterprise AI server/storage integrator with global service reach; competes with Supermicro, HPE, Lenovo and ODMs; thin hardware margins.",
+  "sources": [
+   "https://investors.delltechnologies.com/static-files/86d4752c-0d07-45e8-b920-d83e8727005b",
+   "https://www.storagenewsletter.com/2026/09/03/dell-technologies-fiscal-2q27-financial-results/"
+  ],
+  "rev_size_est_b": 170
+ },
+ {
+  "ticker": "CLS",
+  "period": "Q3 FY26 (Sep-26)",
+  "rev_ttm_b": null,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 82.5,
+  "organic_share": 1.0,
+  "gross_margin_pct": 11.0,
+  "gross_margin_prior_pct": 13.0,
+  "op_margin_pct": 7.9,
+  "op_margin_prior_pct": 10.2,
+  "fcf_ttm_b": null,
+  "cash_b": 3.96,
+  "debt_b": 0.82,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "raised",
+  "contracts_90d": [],
+  "investments": "9M capex $767M (vs $107M); 2027 capex planned at $1.5-2.0B; FY26 FCF outlook cut to $460M from $600M to fund working capital.",
+  "news_90d": [
+   {
+    "what": "Q3 revenue up 83% to $5.83B; FY26 revenue raised to $21.0B; first 2027 outlook of $40B revenue",
+    "tone": "good",
+    "date": null,
+    "source": "Celestica 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001030894/000103089426000049/cls-20260930prcondensedfs.htm"
+   },
+   {
+    "what": "FY26 free cash flow outlook cut to $460M from $600M",
+    "tone": "bad",
+    "date": null,
+    "source": "Celestica 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001030894/000103089426000049/cls-20260930prcondensedfs.htm"
+   }
+  ],
+  "industries_served": [
+   "AI data centers",
+   "cloud/hyperscale",
+   "networking equipment",
+   "aerospace and defense",
+   "industrial"
+  ],
+  "bottleneck_note": "Leading ODM for hyperscaler custom switches and AI servers; competes with Accton, Foxconn, Quanta, Jabil; moderate switching costs, thin margins.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001030894/000103089426000049/cls-20260930prcondensedfs.htm",
+   "https://finviz.com/news/408117/celestica-announces-third-quarter-2026-financial-results-and-will-hold-2026-investor-and-analyst-day"
+  ],
+  "rev_size_est_b": 30
+ }
+]

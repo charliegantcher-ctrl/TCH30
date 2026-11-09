@@ -1,0 +1,497 @@
+[
+ {
+  "ticker": "NVDA",
+  "period": "Q2 FY27 (Jul-26)",
+  "rev_ttm_b": 303.0,
+  "rev_growth_ttm_pct": 83.4,
+  "rev_growth_q_pct": 106.0,
+  "organic_share": 1.0,
+  "gross_margin_pct": 75.0,
+  "gross_margin_prior_pct": 72.4,
+  "op_margin_pct": 66.2,
+  "op_margin_prior_pct": 60.9,
+  "fcf_ttm_b": 127.0,
+  "cash_b": 62.5,
+  "debt_b": 33.4,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "raised",
+  "contracts_90d": [
+   {
+    "what": "Multiyear next-gen memory technology partnership with SK hynix",
+    "value_b": null,
+    "date": "2026-08-26",
+    "source": "StorageNewsletter (Nvidia release)",
+    "url": "https://www.storagenewsletter.com/2026/08/27/nvidia-fiscal-2q27-financial-results/"
+   },
+   {
+    "what": "Financing platforms with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR targeting over $500B of third-party capital (not yet definitive)",
+    "value_b": null,
+    "date": "2026-08-26",
+    "source": "StorageNewsletter (Nvidia release)",
+    "url": "https://www.storagenewsletter.com/2026/08/27/nvidia-fiscal-2q27-financial-results/"
+   },
+   {
+    "what": "SB Energy partnership for land, power and shell capacity at an Ohio campus",
+    "value_b": null,
+    "date": "2026-08-26",
+    "source": "StorageNewsletter (Nvidia release)",
+    "url": "https://www.storagenewsletter.com/2026/08/27/nvidia-fiscal-2q27-financial-results/"
+   }
+  ],
+  "investments": "Q2 revenue $96.2B; Q3 outlook $108B +/-2% excluding China data-center compute. Returned about $26B to holders in Q2 with $99B buyback authorization left. R&D % not collected.",
+  "news_90d": [
+   {
+    "what": "Q2 FY27 revenue doubled YoY to $96.2B and Q3 guided to $108B",
+    "tone": "good",
+    "date": "2026-08-26",
+    "source": "XTB",
+    "url": "https://www.xtb.com/ae-en/market-analysis/news-and-research/nvidia-shares-react-to-solid-earnings-report-and-stonger-guidance-what-s-next-for-the-ai-giant"
+   }
+  ],
+  "industries_served": [
+   "AI data centers",
+   "gaming",
+   "professional visualization",
+   "automotive",
+   "robotics"
+  ],
+  "bottleneck_note": "Dominant AI accelerator supplier with CUDA software lock-in and full-stack networking; competitors AMD, Broadcom/Marvell custom ASICs, hyperscaler in-house chips.",
+  "sources": [
+   "https://stockanalysis.com/stocks/nvda/financials/?p=quarterly",
+   "https://pulse2.com/nvidia-operating-income-jumps-124-to-63-7-billion-as-revenue-doubles-and-q3-outlook-hits-108-billion/",
+   "https://www.iphoneincanada.ca/2026/08/27/nvidia-blows-past-expectations-with-96-2-billion-revenue-in-q2-2027/",
+   "https://www.storagenewsletter.com/2026/08/27/nvidia-fiscal-2q27-financial-results/",
+   "https://stockanalysis.com/stocks/nvda/statistics/"
+  ]
+ },
+ {
+  "ticker": "TSM",
+  "period": "Q3 2026 (Sep-26)",
+  "rev_ttm_b": 155.2,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 41.0,
+  "organic_share": 1.0,
+  "gross_margin_pct": 66.4,
+  "gross_margin_prior_pct": null,
+  "op_margin_pct": 58.7,
+  "op_margin_prior_pct": null,
+  "fcf_ttm_b": 45.2,
+  "cash_b": 126.0,
+  "debt_b": 25.7,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": null,
+  "contracts_90d": [],
+  "investments": "Q4 2026 guide $52.3-54.3B revenue, 65-67% GM, 56.5-58.5% op margin. Capex plan not collected.",
+  "news_90d": [
+   {
+    "what": "Q3 2026 revenue up 41% YoY in USD to $46.7B, record profit",
+    "tone": "good",
+    "date": "2026-10-15",
+    "source": "TSMC",
+    "url": "https://pr.tsmc.com/english/news/3346"
+   }
+  ],
+  "industries_served": [
+   "AI accelerators",
+   "smartphones",
+   "HPC/data centers",
+   "PCs",
+   "automotive",
+   "IoT"
+  ],
+  "bottleneck_note": "Near-monopoly in leading-edge foundry and advanced packaging (CoWoS); alternatives Samsung Foundry and Intel Foundry trail on yield and scale.",
+  "sources": [
+   "https://pr.tsmc.com/english/news/3346",
+   "https://stockanalysis.com/stocks/tsm/statistics/"
+  ]
+ },
+ {
+  "ticker": "AVGO",
+  "period": "FQ3 FY26 (Aug-26)",
+  "rev_ttm_b": 89.1,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 86.0,
+  "organic_share": 1.0,
+  "gross_margin_pct": 69.3,
+  "gross_margin_prior_pct": 67.1,
+  "op_margin_pct": 53.9,
+  "op_margin_prior_pct": 36.9,
+  "fcf_ttm_b": 39.4,
+  "cash_b": 24.0,
+  "debt_b": 59.4,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": null,
+  "contracts_90d": [],
+  "investments": "Q4 FY26 guide about $34.8B revenue (+93% YoY) with AI semis about $21.7B. Qtr FCF $13.7B (46% of revenue). R&D % not collected.",
+  "news_90d": [
+   {
+    "what": "FQ3 revenue +86% to $29.6B; AI semiconductor revenue $16.7B, +221% YoY",
+    "tone": "good",
+    "date": "2026-09-03",
+    "source": "Pulse 2.0",
+    "url": "https://pulse2.com/broadcom-q3-fiscal-2026-revenue-jumps-86-to-29-6-billion-as-ai-semiconductor-revenue-reaches-16-7-billion/"
+   }
+  ],
+  "industries_served": [
+   "AI data centers (custom ASICs)",
+   "networking",
+   "infrastructure software (VMware)",
+   "broadband",
+   "wireless",
+   "storage"
+  ],
+  "bottleneck_note": "Leading custom AI ASIC and Ethernet switch supplier to hyperscalers, plus sticky VMware software; competitors Marvell, Nvidia (networking), MediaTek/Alchip in custom silicon.",
+  "sources": [
+   "https://pulse2.com/broadcom-q3-fiscal-2026-revenue-jumps-86-to-29-6-billion-as-ai-semiconductor-revenue-reaches-16-7-billion/",
+   "https://stockanalysis.com/stocks/avgo/statistics/"
+  ]
+ },
+ {
+  "ticker": "AMD",
+  "period": "Q3 2026 (Sep-26)",
+  "rev_ttm_b": 45.4,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 45.0,
+  "organic_share": 1.0,
+  "gross_margin_pct": 54.0,
+  "gross_margin_prior_pct": 52.0,
+  "op_margin_pct": 21.2,
+  "op_margin_prior_pct": 13.7,
+  "fcf_ttm_b": 7.06,
+  "cash_b": 15.8,
+  "debt_b": 9.2,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": null,
+  "contracts_90d": [
+   {
+    "what": "Vultr to deploy first AMD Helios rack systems via HPE",
+    "value_b": null,
+    "date": "2026-09",
+    "source": "AMD Q3 release",
+    "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results"
+   },
+   {
+    "what": "Oracle OCI E7 instances on 6th Gen EPYC; LUMI-AI selected MI430X",
+    "value_b": null,
+    "date": null,
+    "source": "AMD Q3 release",
+    "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results"
+   }
+  ],
+  "investments": "Qtr FCF only about $0.55B due to inventory build. Data center +97% YoY; Q4 guide implies about +66% YoY.",
+  "news_90d": [
+   {
+    "what": "Q3 revenue +45% to $13.4B; Q4 guided to about $17B (+66% YoY); Anthropic, Meta, Microsoft, OpenAI and OCI running on first Helios systems",
+    "tone": "good",
+    "date": "2026-11-03",
+    "source": "AMD",
+    "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results"
+   },
+   {
+    "what": "Q3 FCF fell to $0.55B from $1.53B on inventory build",
+    "tone": "bad",
+    "date": "2026-11-03",
+    "source": "AMD",
+    "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results"
+   }
+  ],
+  "industries_served": [
+   "AI data centers",
+   "server CPUs",
+   "PCs",
+   "gaming consoles",
+   "embedded/industrial"
+  ],
+  "bottleneck_note": "Main merchant alternative to Nvidia GPUs and Intel x86 CPUs; replaceable at the margin but scale and x86 duopoly limit substitutes.",
+  "sources": [
+   "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+   "https://stockanalysis.com/stocks/amd/statistics/"
+  ]
+ },
+ {
+  "ticker": "ARM",
+  "period": "FQ2 FY27 (Sep-26)",
+  "rev_ttm_b": 5.46,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 27.0,
+  "organic_share": 1.0,
+  "gross_margin_pct": null,
+  "gross_margin_prior_pct": null,
+  "op_margin_pct": 14.0,
+  "op_margin_prior_pct": null,
+  "fcf_ttm_b": 1.21,
+  "cash_b": 3.62,
+  "debt_b": 0.5,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": null,
+  "contracts_90d": [],
+  "investments": "Moving into own silicon (AGI CPU), expecting up to about $2B of revenue over FYE27-FYE28. Royalty $670M, licensing $773M (+50%) in qtr. SoftBank is majority owner.",
+  "news_90d": [
+   {
+    "what": "Data-center royalties doubled YoY; Arm says its share of top-hyperscaler server CPUs is above 50%",
+    "tone": "good",
+    "date": "2026-11-04",
+    "source": "Arm newsroom",
+    "url": "https://newsroom.arm.com/news/arm-q2-fye27-results"
+   }
+  ],
+  "industries_served": [
+   "smartphones",
+   "data center CPUs",
+   "PCs",
+   "automotive",
+   "IoT/embedded"
+  ],
+  "bottleneck_note": "De facto instruction-set standard for mobile and growing in servers with very high switching costs; main alternatives x86 (Intel/AMD) and RISC-V.",
+  "sources": [
+   "https://newsroom.arm.com/news/arm-q2-fye27-results",
+   "https://www.sec.gov/Archives/edgar/data/0001973239/000197323926000141/exhibit991fye27q230-sepx26.htm",
+   "https://stockanalysis.com/stocks/arm/statistics/"
+  ]
+ },
+ {
+  "ticker": "MRVL",
+  "period": "FQ2 FY27 (Aug-26)",
+  "rev_ttm_b": 9.45,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 36.5,
+  "organic_share": null,
+  "gross_margin_pct": 53.1,
+  "gross_margin_prior_pct": 50.4,
+  "op_margin_pct": 16.8,
+  "op_margin_prior_pct": null,
+  "fcf_ttm_b": 1.73,
+  "cash_b": 3.93,
+  "debt_b": 5.29,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "raised",
+  "contracts_90d": [],
+  "investments": "Spent about $1.27B on acquisitions in H1 FY27; divested auto Ethernet in Aug 2025. Heavy GAAP amortization; R&D % not collected.",
+  "news_90d": [],
+  "industries_served": [
+   "AI data centers (custom XPU)",
+   "optical interconnect",
+   "networking",
+   "carrier infrastructure",
+   "enterprise storage"
+  ],
+  "bottleneck_note": "Number-two custom AI ASIC house and leader in optical DSPs; competes with Broadcom, plus Credo and others in interconnect; hyperscaler program wins are lumpy.",
+  "sources": [
+   "https://investor.marvell.com/news-events/press-releases/detail/1031/marvell-technology-inc-reports-second-quarter-of-fiscal-year-2027-financial-results",
+   "https://stockanalysis.com/stocks/mrvl/statistics/"
+  ]
+ },
+ {
+  "ticker": "INTC",
+  "period": "Q3 2026 (Sep-26)",
+  "rev_ttm_b": 59.9,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 20.9,
+  "organic_share": 1.0,
+  "gross_margin_pct": 43.0,
+  "gross_margin_prior_pct": 38.2,
+  "op_margin_pct": 15.3,
+  "op_margin_prior_pct": null,
+  "fcf_ttm_b": 3.77,
+  "cash_b": 54.0,
+  "debt_b": 50.1,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": null,
+  "contracts_90d": [
+   {
+    "what": "Multiyear Xeon collaboration with Oracle OCI",
+    "value_b": null,
+    "date": null,
+    "source": "Intel 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000188/q326earningsrelease.htm"
+   }
+  ],
+  "investments": "Gross capex about $4.2B in the quarter for 18A/14A foundry build-out; adjusted qtr FCF about $1.6B.",
+  "news_90d": [
+   {
+    "what": "Guided Q4 revenue and gross margin down sequentially, citing a PC slowdown through 1H27",
+    "tone": "bad",
+    "date": null,
+    "source": "Intel 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000188/q326earningsrelease.htm"
+   },
+   {
+    "what": "Data center (DCAI) revenue +78% YoY, foundry +58%",
+    "tone": "good",
+    "date": null,
+    "source": "Intel 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000188/q326earningsrelease.htm"
+   }
+  ],
+  "industries_served": [
+   "PCs",
+   "data center CPUs",
+   "foundry services",
+   "AI accelerators",
+   "edge/networking"
+  ],
+  "bottleneck_note": "Only US-based leading-edge logic maker, which gives it policy importance; product share lost to AMD and Arm, foundry trails TSMC.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000188/q326earningsrelease.htm",
+   "https://stockanalysis.com/stocks/intc/statistics/"
+  ]
+ },
+ {
+  "ticker": "MPWR",
+  "period": "Q3 2026 (Sep-26)",
+  "rev_ttm_b": 3.74,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 63.1,
+  "organic_share": 1.0,
+  "gross_margin_pct": 55.4,
+  "gross_margin_prior_pct": 55.1,
+  "op_margin_pct": 29.7,
+  "op_margin_prior_pct": null,
+  "fcf_ttm_b": null,
+  "cash_b": null,
+  "debt_b": 0.02,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": null,
+  "contracts_90d": [],
+  "investments": "Sampling GaN for 800V data-center power. Qtr operating cash flow about $0.29B; capex not disclosed.",
+  "news_90d": [
+   {
+    "what": "Enterprise Data revenue +165% YoY on AI/server power demand, about 42% of sales",
+    "tone": "good",
+    "date": null,
+    "source": "MPWR 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001280452/000162828026068202/mpwr-20260930xexx991.htm"
+   }
+  ],
+  "industries_served": [
+   "AI data centers/servers",
+   "communications",
+   "automotive",
+   "industrial",
+   "consumer"
+  ],
+  "bottleneck_note": "Share-gaining supplier of high-current power delivery for AI accelerators; competitors Infineon, Renesas, Vicor, TI; exposed to share shifts on Nvidia platforms.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001280452/000162828026068202/mpwr-20260930xexx991.htm",
+   "https://stockanalysis.com/stocks/mpwr/statistics/"
+  ]
+ },
+ {
+  "ticker": "ON",
+  "period": "Q3 2026 (Oct-26)",
+  "rev_ttm_b": 6.37,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 11.1,
+  "organic_share": 1.0,
+  "gross_margin_pct": 41.4,
+  "gross_margin_prior_pct": 37.9,
+  "op_margin_pct": 22.0,
+  "op_margin_prior_pct": null,
+  "fcf_ttm_b": 1.62,
+  "cash_b": null,
+  "debt_b": null,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": null,
+  "contracts_90d": [],
+  "investments": "Agreed to buy Ferric (AI processor power delivery); Synaptics acquisition revised to about $5.7B cash. Raised 2030 AI data-center revenue target to over $3B.",
+  "news_90d": [
+   {
+    "what": "Synaptics acquisition terms revised to about $5.7B in cash",
+    "tone": "neutral",
+    "date": null,
+    "source": "onsemi 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001097864/000114036126041580/ef20084671_ex99-1.htm"
+   },
+   {
+    "what": "AI data-center revenue +175% YoY from a small base",
+    "tone": "good",
+    "date": null,
+    "source": "onsemi 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001097864/000114036126041580/ef20084671_ex99-1.htm"
+   }
+  ],
+  "industries_served": [
+   "automotive/EV",
+   "industrial",
+   "AI data-center power",
+   "sensing/imaging"
+  ],
+  "bottleneck_note": "Scale silicon-carbide and power-semis supplier but faces Infineon, STMicro, Wolfspeed and low-cost Chinese SiC; moderate switching costs.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001097864/000114036126041580/ef20084671_ex99-1.htm",
+   "https://stockanalysis.com/stocks/on/statistics/"
+  ]
+ }
+]

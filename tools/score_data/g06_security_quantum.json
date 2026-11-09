@@ -1,0 +1,586 @@
+[
+ {
+  "ticker": "CRWD",
+  "period": "Q2 FY27 (qtr ended Jul 31, 2026); TTM to Jul-26",
+  "rev_ttm_b": 5.4,
+  "rev_growth_ttm_pct": 24.3,
+  "rev_growth_q_pct": 25.8,
+  "organic_share": null,
+  "gross_margin_pct": 74.6,
+  "gross_margin_prior_pct": 73.6,
+  "op_margin_pct": -2.3,
+  "op_margin_prior_pct": -9.0,
+  "fcf_ttm_b": 1.52,
+  "cash_b": 5.01,
+  "debt_b": 0.75,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "raised",
+  "contracts_90d": [
+   {
+    "what": "Strategic AI-inference collaboration with Cerebras Systems",
+    "value_b": null,
+    "date": null,
+    "source": "CrowdStrike release",
+    "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-second-quarter-fiscal-year-2027-financial"
+   },
+   {
+    "what": "Expanded partnership with Schwarz Digits to sell Falcon to European enterprises; agreed to buy XM Cyber technology assets",
+    "value_b": null,
+    "date": null,
+    "source": "CrowdStrike release",
+    "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-second-quarter-fiscal-year-2027-financial"
+   }
+  ],
+  "investments": "H1 FY27 capex $222M (~2x prior year) plus $881M spent on acquisitions; XM Cyber asset deal pending. R&D % of revenue not collected.",
+  "news_90d": [
+   {
+    "what": "Q2 FY27 beat with net new ARR +51% to $333M; FY27 net new ARR growth outlook raised to 34%",
+    "tone": "good",
+    "date": null,
+    "source": "CrowdStrike release",
+    "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-second-quarter-fiscal-year-2027-financial"
+   }
+  ],
+  "industries_served": [
+   "enterprise endpoint security",
+   "cloud security",
+   "identity protection",
+   "SIEM/SecOps",
+   "AI security",
+   "government"
+  ],
+  "bottleneck_note": "Leading endpoint/XDR platform with telemetry data moat and high multi-module adoption; moderate-high switching costs. Competitors: Microsoft Defender, Palo Alto, SentinelOne.",
+  "sources": [
+   "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-second-quarter-fiscal-year-2027-financial",
+   "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000007/crwd-20260303xex991.htm"
+  ]
+ },
+ {
+  "ticker": "NET",
+  "period": "Q3 2026 (qtr ended Sep 30, 2026); TTM to Sep-26",
+  "rev_ttm_b": 2.73,
+  "rev_growth_ttm_pct": 35.7,
+  "rev_growth_q_pct": 39.2,
+  "organic_share": 1.0,
+  "gross_margin_pct": 71.2,
+  "gross_margin_prior_pct": 74.0,
+  "op_margin_pct": -8.7,
+  "op_margin_prior_pct": -6.7,
+  "fcf_ttm_b": 0.32,
+  "cash_b": 5.13,
+  "debt_b": 4.44,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": 2.88,
+  "backlog_growth_pct": null,
+  "guidance": "raised",
+  "contracts_90d": [],
+  "investments": "Capex up ~44% YoY to build AI inference capacity (Workers AI), pressuring gross margin; restructuring to an AI-first operating model ($11M charges); convertibles grew to $4.4B.",
+  "news_90d": [
+   {
+    "what": "Q3 revenue +39% but GAAP gross margin fell ~3 pts on AI capex; new President of Revenue",
+    "tone": "neutral",
+    "date": null,
+    "source": "Cloudflare 8-K / 247wallst",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001477333/000147733326000060/q326exhibit991.htm"
+   }
+  ],
+  "industries_served": [
+   "CDN/edge networking",
+   "zero trust/SASE",
+   "application security",
+   "developer platform/AI inference",
+   "enterprise"
+  ],
+  "bottleneck_note": "One of few global edge networks at scale (~20% of web traffic); strong network effects. Competitors: Akamai, Zscaler, Fastly, hyperscalers.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001477333/000147733326000060/q326exhibit991.htm",
+   "https://www.businesswire.com/news/home/20260210624682/en/Cloudflare-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Financial-Results/",
+   "https://247wallst.com/cards/cloudflare-q3-2026-earnings-net-01m6psg0byw1kqkd514aq3zgkb"
+  ]
+ },
+ {
+  "ticker": "ZS",
+  "period": "Q4 FY26 (qtr ended Jul 31, 2026); TTM = FY26",
+  "rev_ttm_b": 3.35,
+  "rev_growth_ttm_pct": 25.4,
+  "rev_growth_q_pct": 24.9,
+  "organic_share": 0.79,
+  "gross_margin_pct": 76.7,
+  "gross_margin_prior_pct": 76.1,
+  "op_margin_pct": -1.7,
+  "op_margin_prior_pct": -4.5,
+  "fcf_ttm_b": 0.78,
+  "cash_b": 3.47,
+  "debt_b": 1.7,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "none",
+  "contracts_90d": [],
+  "investments": "Q4 capex surged to $218.5M (FCF margin fell to 7% in Q4); Red Canary acquisition adds MDR/SecOps ($141M ARR).",
+  "news_90d": [
+   {
+    "what": "FY27 guide implies growth slowing to ~17% (organic ARR growth ~20%, net new ARR +17%)",
+    "tone": "bad",
+    "date": null,
+    "source": "Zscaler 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001713683/000171368326000156/zs-07312026_991.htm"
+   }
+  ],
+  "industries_served": [
+   "enterprise network security",
+   "zero trust/SSE",
+   "cloud workload security",
+   "SecOps/MDR",
+   "government"
+  ],
+  "bottleneck_note": "Largest pure-play security service edge cloud; sticky inline deployment. Competitors: Palo Alto (Prisma), Netskope, Cloudflare, Cisco.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001713683/000171368326000156/zs-07312026_991.htm"
+  ]
+ },
+ {
+  "ticker": "PANW",
+  "period": "Q4 FY26 (qtr ended Jul 31, 2026); TTM = FY26",
+  "rev_ttm_b": 11.48,
+  "rev_growth_ttm_pct": 24.5,
+  "rev_growth_q_pct": 34.5,
+  "organic_share": null,
+  "gross_margin_pct": 67.6,
+  "gross_margin_prior_pct": 73.2,
+  "op_margin_pct": 5.0,
+  "op_margin_prior_pct": 19.6,
+  "fcf_ttm_b": 4.11,
+  "cash_b": 3.07,
+  "debt_b": 1.77,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": 21.2,
+  "backlog_growth_pct": 34.0,
+  "guidance": "none",
+  "contracts_90d": [
+   {
+    "what": "Acquired Console (AI-native agentic workflow platform); also paid for Koi Security",
+    "value_b": null,
+    "date": null,
+    "source": "PANW 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001327567/000132756726000019/ex991q426earningsrelease.htm"
+   }
+  ],
+  "investments": "Goodwill rose from $4.6B to $22.0B on the CyberArk acquisition; serial AI-security tuck-ins (Console, Koi). R&D % not collected.",
+  "news_90d": [
+   {
+    "what": "GAAP operating margin fell to 5% from 20% on CyberArk amortization/integration; FY27 guide +23-24% revenue",
+    "tone": "bad",
+    "date": null,
+    "source": "PANW 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001327567/000132756726000019/ex991q426earningsrelease.htm"
+   }
+  ],
+  "industries_served": [
+   "network security/firewalls",
+   "cloud security",
+   "SecOps",
+   "identity/privileged access",
+   "enterprise",
+   "government"
+  ],
+  "bottleneck_note": "Largest security platform consolidator; firewall installed base and broad platform create high switching costs. Competitors: Fortinet, Cisco, CrowdStrike, Zscaler, Microsoft.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001327567/000132756726000019/ex991q426earningsrelease.htm"
+  ]
+ },
+ {
+  "ticker": "OKTA",
+  "period": "Q2 FY27 (qtr ended Jul 31, 2026)",
+  "rev_ttm_b": null,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 11.0,
+  "organic_share": 1.0,
+  "gross_margin_pct": null,
+  "gross_margin_prior_pct": null,
+  "op_margin_pct": 13.3,
+  "op_margin_prior_pct": 6.0,
+  "fcf_ttm_b": null,
+  "cash_b": 2.3,
+  "debt_b": 0.0,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": 107.0,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": 4.86,
+  "backlog_growth_pct": 17.0,
+  "guidance": "none",
+  "contracts_90d": [],
+  "investments": "Shifting professional services to partners (~1pt revenue headwind); settled remaining $350M 2026 convertible notes in cash.",
+  "news_90d": [
+   {
+    "what": "FY27 guide implies only ~10-11% growth; $1M+ ACV customers +22%",
+    "tone": "neutral",
+    "date": null,
+    "source": "Okta release",
+    "url": "https://www.okta.com/newsroom/press-releases/okta-announces-second-quarter-2027-financial-results/"
+   }
+  ],
+  "industries_served": [
+   "workforce identity",
+   "customer identity (Auth0)",
+   "AI agent identity",
+   "enterprise",
+   "public sector"
+  ],
+  "bottleneck_note": "Leading independent identity provider; meaningful switching costs but Microsoft Entra bundling and Palo Alto/CyberArk compete hard.",
+  "sources": [
+   "https://www.okta.com/newsroom/press-releases/okta-announces-second-quarter-2027-financial-results/",
+   "https://www.sec.gov/Archives/edgar/data/1660134/000166013426000016/okta-1312026_ex991.htm",
+   "https://s205.q4cdn.com/566291348/files/doc_financials/2027/q2/Q2FY27PostedCommentaryforwebsite.pdf"
+  ],
+  "rev_size_est_b": 2.9
+ },
+ {
+  "ticker": "S",
+  "period": "Q2 FY27 (qtr ended Jul 31, 2026); TTM to Jul-26",
+  "rev_ttm_b": 1.1,
+  "rev_growth_ttm_pct": 21.1,
+  "rev_growth_q_pct": 20.6,
+  "organic_share": null,
+  "gross_margin_pct": 72.1,
+  "gross_margin_prior_pct": 75.0,
+  "op_margin_pct": -31.1,
+  "op_margin_prior_pct": -33.3,
+  "fcf_ttm_b": 0.031,
+  "cash_b": 0.81,
+  "debt_b": 0.0,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "raised",
+  "contracts_90d": [],
+  "investments": "Expanding into AI SIEM/data lake and AI-prompt security (Prompt Security, Observo AI); FY27 includes ~$31M ITA cash tax payments.",
+  "news_90d": [
+   {
+    "what": "Raised FY27 revenue and operating income outlook; Q2 FCF negative",
+    "tone": "neutral",
+    "date": null,
+    "source": "SentinelOne release",
+    "url": "https://s28.q4cdn.com/399982429/files/doc_financials/2027/q2/SentinelOne-Q2-27-Earnings-Press-Release.pdf"
+   }
+  ],
+  "industries_served": [
+   "endpoint/XDR security",
+   "cloud security",
+   "SIEM/data lake",
+   "AI security",
+   "enterprise",
+   "SMB/MSSP"
+  ],
+  "bottleneck_note": "Credible #3 endpoint vendor but sub-scale; low switching barrier vs CrowdStrike, Microsoft and Palo Alto.",
+  "sources": [
+   "https://s28.q4cdn.com/399982429/files/doc_financials/2027/q2/SentinelOne-Q2-27-Earnings-Press-Release.pdf",
+   "https://www.sec.gov/Archives/edgar/data/1583708/000158370826000014/sentineloneq426exhibit991.htm"
+  ]
+ },
+ {
+  "ticker": "RBRK",
+  "period": "Q2 FY27 (qtr ended Jul 31, 2026)",
+  "rev_ttm_b": null,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 37.9,
+  "organic_share": null,
+  "gross_margin_pct": 78.4,
+  "gross_margin_prior_pct": 79.5,
+  "op_margin_pct": null,
+  "op_margin_prior_pct": null,
+  "fcf_ttm_b": null,
+  "cash_b": 1.75,
+  "debt_b": 1.13,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "raised",
+  "contracts_90d": [
+   {
+    "what": "Rubrik Agent Cloud integration for Anthropic Claude Code",
+    "value_b": null,
+    "date": null,
+    "source": "Rubrik release",
+    "url": "https://www.rubrik.com/company/newsroom/press-releases/26/rubrik-reports-second-quarter-fiscal-year-2027-financial-results"
+   },
+   {
+    "what": "Project Hourglass GSI alliance with Cognizant, Deloitte, HCLTech, NTT DATA, Wipro",
+    "value_b": null,
+    "date": null,
+    "source": "Rubrik release",
+    "url": "https://www.rubrik.com/company/newsroom/press-releases/26/rubrik-reports-second-quarter-fiscal-year-2027-financial-results"
+   }
+  ],
+  "investments": "Acquired Strata.io for identity resilience; FY27 FCF guide $323-333M. Subscription ARR $1.66B (+33%), Cloud ARR $1.48B (+39%).",
+  "news_90d": [
+   {
+    "what": "Raised all FY27 guided metrics after +38% revenue quarter",
+    "tone": "good",
+    "date": null,
+    "source": "Rubrik release",
+    "url": "https://www.rubrik.com/company/newsroom/press-releases/26/rubrik-reports-second-quarter-fiscal-year-2027-financial-results"
+   }
+  ],
+  "industries_served": [
+   "data backup/cyber recovery",
+   "data security posture",
+   "identity resilience",
+   "AI data governance",
+   "enterprise"
+  ],
+  "bottleneck_note": "Strong cyber-recovery position with sticky backup data; competitors Cohesity/Veritas, Commvault, Veeam, and platform vendors.",
+  "sources": [
+   "https://www.rubrik.com/company/newsroom/press-releases/26/rubrik-reports-second-quarter-fiscal-year-2027-financial-results",
+   "https://www.sec.gov/Archives/edgar/data/1943896/000194389626000004/rubrikinc-991pressrelease1.htm"
+  ],
+  "rev_size_est_b": 1.6
+ },
+ {
+  "ticker": "IONQ",
+  "period": "Q3 2026 (qtr ended Sep 30, 2026); TTM to Sep-26",
+  "rev_ttm_b": 0.38,
+  "rev_growth_ttm_pct": 377.0,
+  "rev_growth_q_pct": 336.0,
+  "organic_share": 0.35,
+  "gross_margin_pct": 21.9,
+  "gross_margin_prior_pct": 46.7,
+  "op_margin_pct": -249.0,
+  "op_margin_prior_pct": -423.0,
+  "fcf_ttm_b": null,
+  "cash_b": 1.66,
+  "debt_b": 0.07,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": 1.2,
+  "backlog_growth_pct": null,
+  "guidance": "raised",
+  "contracts_90d": [
+   {
+    "what": "SDT multi-product contract (Superion 256 + quantum memory)",
+    "value_b": 0.033,
+    "date": null,
+    "source": "IonQ 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001824920/000119312526449779/ionq-ex99_1.htm"
+   },
+   {
+    "what": "DARPA optical atomic clocks contract ($28M + $30M option)",
+    "value_b": 0.028,
+    "date": null,
+    "source": "IonQ 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001824920/000119312526449779/ionq-ex99_1.htm"
+   },
+   {
+    "what": "Florida International University Superion 256 deployment",
+    "value_b": 0.025,
+    "date": null,
+    "source": "IonQ 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001824920/000119312526449779/ionq-ex99_1.htm"
+   }
+  ],
+  "investments": "Roll-up strategy: SkyWater foundry ($926M cash for acquisitions in 9M), Elisity announced; $2.0B equity offering closed Oct 16, 2026 (pro forma cash $3.7B).",
+  "news_90d": [
+   {
+    "what": "Q3 revenue $174M (48% from SkyWater foundry); FY26 guide raised to $505-515M; RPO $1.2B",
+    "tone": "good",
+    "date": "2026-11-05",
+    "source": "IonQ release",
+    "url": "https://ionq.com/news/ionq-announces-record-3q26-revenues-and-raises-fy2026-guidance-to-505---515-million-as-backlog-grows-to-1-2-billion"
+   },
+   {
+    "what": "$2.0B equity offering closed (dilution)",
+    "tone": "bad",
+    "date": "2026-10-16",
+    "source": "IonQ release",
+    "url": "https://ionq.com/news/ionq-announces-record-3q26-revenues-and-raises-fy2026-guidance-to-505---515-million-as-backlog-grows-to-1-2-billion"
+   },
+   {
+    "what": "Advanced to Stage C of DARPA Quantum Benchmarking Initiative (up to $300M potential)",
+    "tone": "good",
+    "date": null,
+    "source": "IonQ 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001824920/000119312526449779/ionq-ex99_1.htm"
+   }
+  ],
+  "industries_served": [
+   "quantum computing",
+   "quantum networking/security",
+   "sensing/timing",
+   "semiconductor foundry",
+   "government/defense",
+   "academia"
+  ],
+  "bottleneck_note": "Largest quantum pure-play by revenue; trapped-ion tech competes with IBM, Google, Quantinuum, and other modalities; moat unproven.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001824920/000119312526449779/ionq-ex99_1.htm",
+   "https://ionq.com/news/ionq-announces-record-3q26-revenues-and-raises-fy2026-guidance-to-505---515-million-as-backlog-grows-to-1-2-billion",
+   "https://ionq.com/news/ionq-announces-fourth-quarter-and-full-year-2025-financial-results"
+  ]
+ },
+ {
+  "ticker": "RGTI",
+  "period": "Q2 2026 (qtr ended Jun 30, 2026); Q3 reports Nov 10, 2026",
+  "rev_ttm_b": null,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 185.3,
+  "organic_share": 1.0,
+  "gross_margin_pct": 42.6,
+  "gross_margin_prior_pct": 31.4,
+  "op_margin_pct": -547.0,
+  "op_margin_prior_pct": null,
+  "fcf_ttm_b": null,
+  "cash_b": 0.54,
+  "debt_b": 0.0,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "none",
+  "contracts_90d": [],
+  "investments": "H1 2026 capex $16.4M; $100M CHIPS Act letter of intent; HPE supercomputing partnership.",
+  "news_90d": [],
+  "industries_served": [
+   "quantum computing",
+   "government/defense research",
+   "academia",
+   "HPC"
+  ],
+  "bottleneck_note": "Small superconducting QPU maker; competes with IBM and Google on fidelity with far less scale; low moat.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001838359/000110465926091979/rgti-20260806xex99d1.htm",
+   "https://quantumcomputingreport.com/rigetti-computing-reports-fourth-quarter-and-full-year-2025-financial-results/"
+  ],
+  "rev_size_est_b": 0.02
+ },
+ {
+  "ticker": "QBTS",
+  "period": "Q2 2026 (qtr ended Jun 30, 2026); Q3 reports Nov 10, 2026",
+  "rev_ttm_b": 0.0126,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": -0.6,
+  "organic_share": null,
+  "gross_margin_pct": 55.4,
+  "gross_margin_prior_pct": 63.8,
+  "op_margin_pct": -1733.0,
+  "op_margin_prior_pct": null,
+  "fcf_ttm_b": null,
+  "cash_b": 0.55,
+  "debt_b": 0.035,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": 0.041,
+  "backlog_growth_pct": null,
+  "guidance": "none",
+  "contracts_90d": [],
+  "investments": "Quantum Circuits acquisition (closed Jan 2026) adds gate-model roadmap; opex roughly doubling; foundry agreement with SkyWater/IonQ.",
+  "news_90d": [],
+  "industries_served": [
+   "quantum annealing/optimization",
+   "logistics/manufacturing",
+   "government",
+   "research"
+  ],
+  "bottleneck_note": "Only commercial-scale quantum annealer vendor (niche moat), but gate-model rivals (IBM, Google, IonQ) threaten; lumpy system sales.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001907982/000190798226000127/qbts-20260806xexx991.htm",
+   "https://www.dwavequantum.com/company/newsroom/press-release/d-wave-reports-fourth-quarter-and-year-end-2025-results/"
+  ]
+ },
+ {
+  "ticker": "QUBT",
+  "period": "Q2 2026 (qtr ended Jun 30, 2026); latest found",
+  "rev_ttm_b": null,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": null,
+  "organic_share": 0.0,
+  "gross_margin_pct": null,
+  "gross_margin_prior_pct": null,
+  "op_margin_pct": null,
+  "op_margin_prior_pct": null,
+  "fcf_ttm_b": null,
+  "cash_b": 1.3,
+  "debt_b": null,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": 0.0425,
+  "backlog_growth_pct": null,
+  "guidance": "none",
+  "contracts_90d": [],
+  "investments": "~$115M of acquisitions completed in Q1 2026 incl. NHanced Semiconductors; building thin-film lithium niobate photonic foundry; ~$1.3B cash from equity raises.",
+  "news_90d": [],
+  "industries_served": [
+   "photonic chips/foundry",
+   "quantum computing",
+   "sensing",
+   "government research"
+  ],
+  "bottleneck_note": "Early-stage photonics/foundry player with mostly acquired revenue and unproven tech; no meaningful moat.",
+  "sources": [
+   "https://www.quiverquant.com/news/Quantum+Computing+Q2+Revenue+Jumps+to+$5.6+Million",
+   "https://rallies.ai/news/quantum-computing-inc-q1-revenue-jumps-to-37m-completes-115m-acquisitions"
+  ],
+  "rev_size_est_b": 0.02
+ }
+]

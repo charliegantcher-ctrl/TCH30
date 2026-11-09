@@ -1,0 +1,499 @@
+[
+ {
+  "ticker": "VRT",
+  "period": "Q3 2026 (Sep-26)",
+  "rev_ttm_b": 13.12,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 61.2,
+  "organic_share": 0.9,
+  "gross_margin_pct": 38.1,
+  "gross_margin_prior_pct": 37.8,
+  "op_margin_pct": 22.8,
+  "op_margin_prior_pct": 19.3,
+  "fcf_ttm_b": null,
+  "cash_b": 3.51,
+  "debt_b": 2.93,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "raised",
+  "contracts_90d": [],
+  "investments": "Closed UtilityInnovation Group (microgrid/behind-the-meter power) for ~$1.45B cash plus up to $1.15B earnout; quarterly capex tripled YoY to $139M ($425M YTD) for capacity ramp.",
+  "news_90d": [
+   {
+    "what": "Q3 sales +61% with organic orders more than doubling; FY26 sales guide midpoint raised ~$650M to $14.45-14.85B",
+    "tone": "good",
+    "date": "2026-10-28",
+    "source": "SEC 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001674101/000162828026067707/q32026exhibit991vrt10282026.htm"
+   },
+   {
+    "what": "Completed acquisition of UtilityInnovation Group, valued up to ~$2.6B including earnout",
+    "tone": "neutral",
+    "date": "2026-10-27",
+    "source": "Pulse 2.0",
+    "url": "https://pulse2.com/vertiv-completes-utilityinnovation-group-acquisition-for-up-to-2-6-billion/"
+   }
+  ],
+  "industries_served": [
+   "AI/hyperscale data centers",
+   "colocation",
+   "enterprise IT",
+   "telecom",
+   "industrial"
+  ],
+  "bottleneck_note": "Leading independent data-center power and thermal (UPS, liquid cooling, 800V DC) supplier with NVIDIA reference-design ties; competes with Schneider Electric, Eaton, ABB; moderately hard to replace given qualification and scale.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001674101/000162828026067707/q32026exhibit991vrt10282026.htm",
+   "https://pulse2.com/vertiv-completes-utilityinnovation-group-acquisition-for-up-to-2-6-billion/"
+  ]
+ },
+ {
+  "ticker": "ETN",
+  "period": "Q3 2026 (Sep-26)",
+  "rev_ttm_b": 31.98,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 28.0,
+  "organic_share": 0.68,
+  "gross_margin_pct": 34.7,
+  "gross_margin_prior_pct": 38.3,
+  "op_margin_pct": null,
+  "op_margin_prior_pct": null,
+  "fcf_ttm_b": null,
+  "cash_b": 0.82,
+  "debt_b": 20.11,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": 46.0,
+  "guidance": "raised",
+  "contracts_90d": [],
+  "investments": "Acquisition-led data-center push: Boyd Thermal ($9.55B, closed Mar-26), Ultra PCS ($1.53B), COL Group (~$0.9B) pending; quarterly capex $275M.",
+  "news_90d": [
+   {
+    "what": "Q3 sales +28% (19% organic), record 25.3% segment margin, Electrical backlog +46% YoY; organic growth guidance raised",
+    "tone": "good",
+    "date": "2026-10-28",
+    "source": "SEC 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001551182/000155118226000037/etn09302026exhibit99.htm"
+   },
+   {
+    "what": "Gross margin fell ~3.6 pts YoY as acquisitions (Boyd) dilute mix; pre-tax margin down to 15.3% from 18.2%",
+    "tone": "bad",
+    "date": "2026-10-28",
+    "source": "SEC 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001551182/000155118226000037/etn09302026exhibit99.htm"
+   }
+  ],
+  "industries_served": [
+   "data centers",
+   "utilities/grid",
+   "commercial & residential buildings",
+   "industrial",
+   "aerospace",
+   "vehicles/eMobility"
+  ],
+  "bottleneck_note": "Scale incumbent in switchgear, transformers, UPS and now liquid cooling, with long lead times and installed-base switching costs; competes with Schneider, ABB, Siemens, Vertiv.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001551182/000155118226000037/etn09302026exhibit99.htm"
+  ]
+ },
+ {
+  "ticker": "GEV",
+  "period": "Q3 2026 (Sep-26)",
+  "rev_ttm_b": 44.04,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 27.0,
+  "organic_share": 0.67,
+  "gross_margin_pct": null,
+  "gross_margin_prior_pct": null,
+  "op_margin_pct": null,
+  "op_margin_prior_pct": null,
+  "fcf_ttm_b": null,
+  "cash_b": 16.8,
+  "debt_b": null,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": 197.0,
+  "backlog_growth_pct": null,
+  "guidance": "raised",
+  "contracts_90d": [
+   {
+    "what": "Framework with Venture Global (with Baker Hughes) for up to 16 x 720 MW gas power islands for LNG sites and possible AI data centers; only reservation fees firm",
+    "value_b": 17.2,
+    "date": "2026-10-09",
+    "source": "TIKR",
+    "url": "https://www.tikr.com/es/blog/ge-vernova-and-venture-global-sign-a-power-deal-worth-up-to-17-2-billion-heres-whats-firm"
+   }
+  ],
+  "investments": "Agreed to buy Trench Group for ~$9.0B (close late 2027); Prolec GE acquisition already consolidated; FCF boosted by customer down-payments and turbine slot reservations.",
+  "news_90d": [
+   {
+    "what": "Q3 orders $29.3B (+96% organic), backlog $197B (+$20B QoQ); FY26 revenue, margin and FCF ($16-17B) guidance raised",
+    "tone": "good",
+    "date": "2026-10-28",
+    "source": "SEC 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001996810/000199681026000162/gevpressrelease3q26.htm"
+   },
+   {
+    "what": "Wind remains loss-making; 2026 wind EBITDA loss guide widened to $400-500M",
+    "tone": "bad",
+    "date": "2026-10-28",
+    "source": "SEC 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001996810/000199681026000162/gevpressrelease3q26.htm"
+   }
+  ],
+  "industries_served": [
+   "utilities",
+   "AI data centers",
+   "LNG/oil & gas",
+   "grid/transmission",
+   "wind energy"
+  ],
+  "bottleneck_note": "One of three global heavy-duty gas turbine makers (with Siemens Energy, Mitsubishi) with slots sold out years ahead, plus grid equipment; very hard to replace near term.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001996810/000199681026000162/gevpressrelease3q26.htm",
+   "https://www.tikr.com/es/blog/ge-vernova-and-venture-global-sign-a-power-deal-worth-up-to-17-2-billion-heres-whats-firm"
+  ]
+ },
+ {
+  "ticker": "BE",
+  "period": "Q3 2026 (Sep-26)",
+  "rev_ttm_b": null,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 138.1,
+  "organic_share": 1.0,
+  "gross_margin_pct": 33.8,
+  "gross_margin_prior_pct": 29.2,
+  "op_margin_pct": 18.2,
+  "op_margin_prior_pct": 1.5,
+  "fcf_ttm_b": null,
+  "cash_b": 2.49,
+  "debt_b": 2.48,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "raised",
+  "contracts_90d": [],
+  "investments": "Doubling Fremont fuel-cell capacity toward 2 GW; Q3 capex jumped to $153.5M (vs $12.3M), leaving quarterly FCF about -$181M.",
+  "news_90d": [
+   {
+    "what": "Q3 revenue +138% with GAAP op margin 18%; FY26 guide raised for the third time to $4.4-4.6B",
+    "tone": "good",
+    "date": "2026-10-29",
+    "source": "SEC 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001664703/000162828026066890/ex991_q326financialresults.htm"
+   },
+   {
+    "what": "Operating cash flow turned negative in Q3 (-$27M) as capex ramped",
+    "tone": "bad",
+    "date": "2026-10-29",
+    "source": "SEC 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001664703/000162828026066890/ex991_q326financialresults.htm"
+   }
+  ],
+  "industries_served": [
+   "AI data centers",
+   "utilities",
+   "commercial & industrial",
+   "hospitals",
+   "manufacturing"
+  ],
+  "bottleneck_note": "Leading scaled solid-oxide fuel-cell maker offering fast behind-the-meter power that skips grid queues; competes with gas turbines/recips (Caterpillar, GEV aeroderivatives) and grid power; moderate replaceability.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001664703/000162828026066890/ex991_q326financialresults.htm",
+   "https://rallies.ai/news/oracle-signs-3b-deal-for-28gw-bloom-energy-fuel-cells-microsoft-data-center-boost"
+  ],
+  "rev_size_est_b": 3.5
+ },
+ {
+  "ticker": "CRWV",
+  "period": "Q2 2026 (Jun-26); Q3 reports Nov 10",
+  "rev_ttm_b": null,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 112.5,
+  "organic_share": 1.0,
+  "gross_margin_pct": 65.9,
+  "gross_margin_prior_pct": 74.2,
+  "op_margin_pct": -1.9,
+  "op_margin_prior_pct": 1.6,
+  "fcf_ttm_b": null,
+  "cash_b": 5.52,
+  "debt_b": 35.1,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": 36.0,
+  "top3_customers_pct": 72.0,
+  "backlog_b": 104.2,
+  "backlog_growth_pct": null,
+  "guidance": "raised",
+  "contracts_90d": [],
+  "investments": "FY26 capex guide $35-39B vs revenue guide $12.4-13.2B; funded by DDTL 5.5 ($2.6B, Aug-26) and $3.7B 2.875% converts due 2033 (Sep-26); Reuters puts total debt near $50B.",
+  "news_90d": [
+   {
+    "what": "Reuters: CDS pricing implies ~63% five-year default probability, up from ~30% a year earlier; total debt ~ $50B",
+    "tone": "bad",
+    "date": "2026-10-15",
+    "source": "Reuters (via WHBL)",
+    "url": "https://whbl.com/2026/10/15/factbox-coreweaves-ai-contracts-and-the-lenders-financing-its-build-out/"
+   },
+   {
+    "what": "Priced $3.7B of 2.875% convertible notes due 2033",
+    "tone": "neutral",
+    "date": "2026-09-15",
+    "source": "Reuters (via WHBL)",
+    "url": "https://whbl.com/2026/10/15/factbox-coreweaves-ai-contracts-and-the-lenders-financing-its-build-out/"
+   }
+  ],
+  "industries_served": [
+   "AI labs/model training",
+   "hyperscalers",
+   "enterprise AI inference",
+   "finance/quant"
+  ],
+  "bottleneck_note": "Largest independent GPU cloud with early NVIDIA allocation and multi-year take-or-pay contracts (Microsoft, OpenAI, Meta, Anthropic); competes with hyperscalers, Nebius, Oracle, Lambda; replaceable over time.",
+  "sources": [
+   "https://beancount.io/blog/2026/09/22/coreweave-fy2026-q2-earnings-analysis",
+   "https://whbl.com/2026/10/15/factbox-coreweaves-ai-contracts-and-the-lenders-financing-its-build-out/"
+  ],
+  "rev_size_est_b": 10
+ },
+ {
+  "ticker": "NBIS",
+  "period": "Q2 2026 (Jun-26); Q3 reports Nov 12",
+  "rev_ttm_b": null,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 454.0,
+  "organic_share": 1.0,
+  "gross_margin_pct": 77.1,
+  "gross_margin_prior_pct": 71.4,
+  "op_margin_pct": -30.2,
+  "op_margin_prior_pct": -105.8,
+  "fcf_ttm_b": null,
+  "cash_b": 8.0,
+  "debt_b": null,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": 40.0,
+  "backlog_growth_pct": null,
+  "guidance": "maintained",
+  "contracts_90d": [],
+  "investments": "Q2 capex ~$5.7B (~10x revenue); targeting 5 GW contracted power by YE26 and >1 GW/yr deployments from 2027; funded by ~$2.8B ATM equity, $775M asset-backed facility and >$9B expected customer prepayments.",
+  "news_90d": [
+   {
+    "what": "Q2 revenue +454%, ARR $3.0B, >$40B customer commitments; contracted-power target raised to 5 GW",
+    "tone": "good",
+    "date": "2026-08-12",
+    "source": "SEC 6-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001513845/000110465926094568/tm2622968d1_ex99-2.htm"
+   }
+  ],
+  "industries_served": [
+   "AI labs/model training",
+   "hyperscalers (Microsoft, Meta)",
+   "enterprise AI",
+   "quant finance",
+   "life sciences"
+  ],
+  "bottleneck_note": "Full-stack European/US AI cloud with own data centers and software; competes with CoreWeave, hyperscalers, Oracle; replaceable but capacity-constrained market.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001513845/000110465926094568/tm2622968d1_ex99-2.htm",
+   "https://www.streetinsider.com/Basic+Content/Nebius+secures+%2427+billion+AI+infrastructure+deal+with+Meta/26162165.html"
+  ],
+  "rev_size_est_b": 1.5
+ },
+ {
+  "ticker": "IREN",
+  "period": "Q1 FY27 (Sep-26)",
+  "rev_ttm_b": null,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": null,
+  "organic_share": 1.0,
+  "gross_margin_pct": 79.8,
+  "gross_margin_prior_pct": null,
+  "op_margin_pct": -81.6,
+  "op_margin_prior_pct": null,
+  "fcf_ttm_b": null,
+  "cash_b": 3.52,
+  "debt_b": 10.21,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": 20.3,
+  "backlog_growth_pct": null,
+  "guidance": "none",
+  "contracts_90d": [
+   {
+    "what": "Expanded contract with unnamed frontier AI lab plus new 5-year contract (~$22M/IT-MW, customer prepays 90% of GPU capex)",
+    "value_b": null,
+    "date": "2026-11-05",
+    "source": "SEC 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001878848/000187884826000065/irenreportsq1-fy27result.htm"
+   }
+  ],
+  "investments": "$15B of remaining FY27 capex, $9B funded by cash/GPU financing/prepayments and $6B still to be raised; targeting 0.8 GW data-center capacity by end-2027.",
+  "news_90d": [
+   {
+    "what": ">$4B ARR target slipped from YE26 to Jan (possibly Feb) 2027; net debt jumped to $4.4B from $0.2B",
+    "tone": "bad",
+    "date": "2026-11-05",
+    "source": "SEC 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001878848/000187884826000065/irenreportsq1-fy27result.htm"
+   },
+   {
+    "what": "Revenue +66% QoQ to $228M, AI Cloud $200M; backlog $20.3B (+22% QoQ); contract pricing up 11-12%",
+    "tone": "good",
+    "date": "2026-11-05",
+    "source": "SEC 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001878848/000187884826000065/irenreportsq1-fy27result.htm"
+   }
+  ],
+  "industries_served": [
+   "AI labs/model training",
+   "hyperscalers (Microsoft)",
+   "AI inference",
+   "bitcoin mining"
+  ],
+  "bottleneck_note": "Owns large powered sites (key scarce input) and runs GPU cloud; competes with CoreWeave, Nebius, Applied Digital, Cipher/TeraWulf; moderate replaceability.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001878848/000187884826000065/irenreportsq1-fy27result.htm"
+  ],
+  "rev_size_est_b": 2
+ },
+ {
+  "ticker": "APLD",
+  "period": "FQ1 FY27 (Aug-26)",
+  "rev_ttm_b": null,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 322.0,
+  "organic_share": 1.0,
+  "gross_margin_pct": 15.3,
+  "gross_margin_prior_pct": 27.2,
+  "op_margin_pct": -18.3,
+  "op_margin_prior_pct": -12.1,
+  "fcf_ttm_b": null,
+  "cash_b": 2.95,
+  "debt_b": 6.38,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": 36.0,
+  "backlog_growth_pct": null,
+  "guidance": "none",
+  "contracts_90d": [],
+  "investments": "Quarterly capex $2.07B (6x revenue) building Polaris Forge 1-3 and Delta Forge 1-2; issued $1.59B 7% secured notes due 2031; Finland power deal up to ~1 GW.",
+  "news_90d": [
+   {
+    "what": "FQ1 revenue +322% to $342M, but $183.5M was one-off tenant fit-out; base rent only ~$66M; op loss widened to $62M",
+    "tone": "neutral",
+    "date": "2026-10-07",
+    "source": "SEC 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001144879/000114487926000057/apldq127earningsrelease.htm"
+   }
+  ],
+  "industries_served": [
+   "hyperscalers",
+   "AI neoclouds (CoreWeave)",
+   "AI training/inference hosting"
+  ],
+  "bottleneck_note": "Developer/lessor of powered AI campuses (1.41 GW leased) on 15-year take-or-pay leases; competes with other powered-land developers (IREN, Cipher, Galaxy, colo REITs); limited moat beyond power access.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001144879/000114487926000057/apldq127earningsrelease.htm",
+   "https://stocktwits.com/news-articles/markets/equity/apld-stock-rallies-after-hours-on-massive-7.5-billion-hyperscaler-lease/cZXxQg3RenY"
+  ],
+  "rev_size_est_b": 1
+ },
+ {
+  "ticker": "EQIX",
+  "period": "Q3 2026 (Sep-26)",
+  "rev_ttm_b": null,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 11.0,
+  "organic_share": 1.0,
+  "gross_margin_pct": 51.1,
+  "gross_margin_prior_pct": 50.7,
+  "op_margin_pct": 23.3,
+  "op_margin_prior_pct": 20.5,
+  "fcf_ttm_b": null,
+  "cash_b": 3.6,
+  "debt_b": 22.84,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "raised",
+  "contracts_90d": [],
+  "investments": "FY26 capex $5-6B (9M $4.4B vs $2.9B); completed atNorth JV investment with CPP Investments; launched Fabric One and Inference Exchange (NVIDIA, Together AI).",
+  "news_90d": [
+   {
+    "what": "Q3 revenue +11% (+12% normalized), op income +27%; FY26 revenue/EBITDA/AFFO guidance raised for third straight quarter",
+    "tone": "good",
+    "date": "2026-10-28",
+    "source": "SEC 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001101239/000110123926000178/a991eqix-q326xpr.htm"
+   },
+   {
+    "what": "Debt ex-finance leases rose to $22.8B from $19.1B at YE25 as capex accelerates; 9M FCF negative",
+    "tone": "bad",
+    "date": "2026-10-28",
+    "source": "SEC 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001101239/000110123926000178/a991eqix-q326xpr.htm"
+   }
+  ],
+  "industries_served": [
+   "cloud/network interconnection",
+   "financial services",
+   "enterprise hybrid IT",
+   "telecom",
+   "AI inference"
+  ],
+  "bottleneck_note": "Largest global interconnection-rich colocation platform with strong network effects and switching costs; competes with Digital Realty, hyperscaler self-build and regional colos.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001101239/000110123926000178/a991eqix-q326xpr.htm"
+  ],
+  "rev_size_est_b": 9.3
+ }
+]

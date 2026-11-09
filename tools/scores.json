@@ -1,0 +1,5902 @@
+{
+ "MSFT": {
+  "score": 764,
+  "parts": {
+   "growth": {
+    "pts": 95,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 132,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 99,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 48,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 75,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 79,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 209,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "GOOGL": {
+  "score": 745,
+  "parts": {
+   "growth": {
+    "pts": 130,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 110,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 86,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 48,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 57,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 79,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 209,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "AMZN": {
+  "score": 680,
+  "parts": {
+   "growth": {
+    "pts": 71,
+    "max": 127,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 93,
+    "max": 173,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 43,
+    "max": 87,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 29,
+    "max": 35,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 53,
+    "max": 116,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 73,
+    "max": 145,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 87,
+    "max": 87,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 231,
+    "max": 231,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "META": {
+  "score": 673,
+  "parts": {
+   "growth": {
+    "pts": 109,
+    "max": 127,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 110,
+    "max": 173,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 43,
+    "max": 87,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 29,
+    "max": 35,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 53,
+    "max": 116,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 46,
+    "max": 145,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 87,
+    "max": 87,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 197,
+    "max": 231,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "AAPL": {
+  "score": 695,
+  "parts": {
+   "growth": {
+    "pts": 77,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 105,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 127,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 48,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 55,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 79,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 178,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "ORCL": {
+  "score": 724,
+  "parts": {
+   "growth": {
+    "pts": 84,
+    "max": 127,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 141,
+    "max": 173,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 43,
+    "max": 87,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 29,
+    "max": 35,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 53,
+    "max": 116,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 108,
+    "max": 145,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 69,
+    "max": 87,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 197,
+    "max": 231,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "IBM": {
+  "score": 554,
+  "parts": {
+   "growth": {
+    "pts": 22,
+    "max": 199,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 0,
+    "max": 0,
+    "of": 150,
+    "missing": true
+   },
+   "cash": {
+    "pts": 60,
+    "max": 99,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 34,
+    "max": 40,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 60,
+    "max": 132,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 94,
+    "max": 166,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 99,
+    "max": 99,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 185,
+    "max": 265,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "NVDA": {
+  "score": 877,
+  "parts": {
+   "growth": {
+    "pts": 157,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 148,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 131,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 67,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 99,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 79,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 209,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": -40,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "TSM": {
+  "score": 864,
+  "parts": {
+   "growth": {
+    "pts": 127,
+    "max": 127,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 116,
+    "max": 116,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 143,
+    "max": 145,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 29,
+    "max": 35,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 74,
+    "max": 116,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 61,
+    "max": 145,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 87,
+    "max": 87,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 231,
+    "max": 231,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": -4,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "AVGO": {
+  "score": 834,
+  "parts": {
+   "growth": {
+    "pts": 157,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 157,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 120,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 67,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 55,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 79,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 209,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": -37,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "AMD": {
+  "score": 749,
+  "parts": {
+   "growth": {
+    "pts": 157,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 109,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 106,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 67,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 69,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 79,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 147,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": -10,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "ARM": {
+  "score": 696,
+  "parts": {
+   "growth": {
+    "pts": 67,
+    "max": 127,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 52,
+    "max": 116,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 129,
+    "max": 145,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 29,
+    "max": 35,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 74,
+    "max": 116,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 61,
+    "max": 145,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 87,
+    "max": 87,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 197,
+    "max": 231,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "MRVL": {
+  "score": 701,
+  "parts": {
+   "growth": {
+    "pts": 120,
+    "max": 166,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 55,
+    "max": 110,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 113,
+    "max": 138,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 28,
+    "max": 33,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 71,
+    "max": 110,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 81,
+    "max": 138,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 83,
+    "max": 83,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 155,
+    "max": 221,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": -4,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "INTC": {
+  "score": 616,
+  "parts": {
+   "growth": {
+    "pts": 107,
+    "max": 166,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 52,
+    "max": 110,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 94,
+    "max": 138,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 28,
+    "max": 33,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 71,
+    "max": 110,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 59,
+    "max": 138,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 83,
+    "max": 83,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 122,
+    "max": 221,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "MPWR": {
+  "score": 722,
+  "parts": {
+   "growth": {
+    "pts": 192,
+    "max": 192,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 93,
+    "max": 128,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 0,
+    "max": 0,
+    "of": 125,
+    "missing": true
+   },
+   "customers": {
+    "pts": 33,
+    "max": 38,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 82,
+    "max": 128,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 68,
+    "max": 160,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 96,
+    "max": 96,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 179,
+    "max": 256,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": -22,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "ON": {
+  "score": 596,
+  "parts": {
+   "growth": {
+    "pts": 48,
+    "max": 175,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 69,
+    "max": 117,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 79,
+    "max": 88,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 30,
+    "max": 35,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 75,
+    "max": 117,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 62,
+    "max": 146,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 70,
+    "max": 88,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 164,
+    "max": 234,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "MU": {
+  "score": 672,
+  "parts": {
+   "growth": {
+    "pts": 102,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 102,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 131,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 85,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 49,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 79,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 178,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": -80,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "SKHY": {
+  "score": 655,
+  "parts": {
+   "growth": {
+    "pts": 85,
+    "max": 131,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 116,
+    "max": 179,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 60,
+    "max": 60,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 30,
+    "max": 36,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 97,
+    "max": 119,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 56,
+    "max": 149,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 89,
+    "max": 89,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 202,
+    "max": 238,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": -80,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "SNDK": {
+  "score": 585,
+  "parts": {
+   "growth": {
+    "pts": 102,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 102,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 99,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 85,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 56,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 47,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 147,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": -80,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "P": {
+  "score": 647,
+  "parts": {
+   "growth": {
+    "pts": 96,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 67,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 84,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 85,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 79,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 63,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 147,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "ASML": {
+  "score": 834,
+  "parts": {
+   "growth": {
+    "pts": 166,
+    "max": 181,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 179,
+    "max": 181,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 0,
+    "max": 0,
+    "of": 125,
+    "missing": true
+   },
+   "customers": {
+    "pts": 31,
+    "max": 36,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 82,
+    "max": 120,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 85,
+    "max": 151,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 54,
+    "max": 90,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 241,
+    "max": 241,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": -4,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "AMAT": {
+  "score": 725,
+  "parts": {
+   "growth": {
+    "pts": 68,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 120,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 99,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 71,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 82,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 79,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 178,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "LRCX": {
+  "score": 771,
+  "parts": {
+   "growth": {
+    "pts": 154,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 139,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 99,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 71,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 48,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 63,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 178,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": -8,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "KLAC": {
+  "score": 763,
+  "parts": {
+   "growth": {
+    "pts": 80,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 140,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 125,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 71,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 48,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 63,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 209,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "TER": {
+  "score": 721,
+  "parts": {
+   "growth": {
+    "pts": 143,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 131,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 114,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 71,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 55,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 63,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 147,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": -29,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "SNPS": {
+  "score": 683,
+  "parts": {
+   "growth": {
+    "pts": 62,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 80,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 82,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 71,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 74,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 79,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 209,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "CDNS": {
+  "score": 702,
+  "parts": {
+   "growth": {
+    "pts": 56,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 80,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 94,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 71,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 86,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 79,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 209,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "ANET": {
+  "score": 805,
+  "parts": {
+   "growth": {
+    "pts": 157,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 136,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 99,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 89,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 60,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 79,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 178,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": -19,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "ALAB": {
+  "score": 642,
+  "parts": {
+   "growth": {
+    "pts": 157,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 116,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 99,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 89,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 55,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 31,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 147,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": -80,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "CRDO": {
+  "score": 602,
+  "parts": {
+   "growth": {
+    "pts": 164,
+    "max": 181,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 98,
+    "max": 181,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 0,
+    "max": 0,
+    "of": 125,
+    "missing": true
+   },
+   "customers": {
+    "pts": 31,
+    "max": 36,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 102,
+    "max": 120,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 63,
+    "max": 151,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 54,
+    "max": 90,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 169,
+    "max": 241,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": -80,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "COHR": {
+  "score": 647,
+  "parts": {
+   "growth": {
+    "pts": 157,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 79,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 50,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 89,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 48,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 79,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 147,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": -27,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "LITE": {
+  "score": 753,
+  "parts": {
+   "growth": {
+    "pts": 170,
+    "max": 170,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 137,
+    "max": 170,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 57,
+    "max": 57,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 29,
+    "max": 34,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 97,
+    "max": 114,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 99,
+    "max": 142,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 85,
+    "max": 85,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 159,
+    "max": 227,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": -80,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "CIEN": {
+  "score": 730,
+  "parts": {
+   "growth": {
+    "pts": 126,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 107,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 84,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 89,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 81,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 79,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 147,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": -9,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "CBRS": {
+  "score": 484,
+  "parts": {
+   "growth": {
+    "pts": 115,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 0,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 64,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 89,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 70,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 63,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 115,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": -59,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "SMCI": {
+  "score": 564,
+  "parts": {
+   "growth": {
+    "pts": 157,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 89,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 50,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 89,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 55,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 63,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 115,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": -80,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "DELL": {
+  "score": 691,
+  "parts": {
+   "growth": {
+    "pts": 157,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 86,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 58,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 89,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 86,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 79,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 147,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": -37,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "CLS": {
+  "score": 655,
+  "parts": {
+   "growth": {
+    "pts": 157,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 53,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 99,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 89,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 74,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 79,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 147,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": -70,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "VRT": {
+  "score": 780,
+  "parts": {
+   "growth": {
+    "pts": 148,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 99,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 99,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 91,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 81,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 79,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 178,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": -21,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "ETN": {
+  "score": 717,
+  "parts": {
+   "growth": {
+    "pts": 89,
+    "max": 186,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 0,
+    "max": 0,
+    "of": 150,
+    "missing": true
+   },
+   "cash": {
+    "pts": 99,
+    "max": 155,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 32,
+    "max": 37,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 107,
+    "max": 124,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 85,
+    "max": 155,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 93,
+    "max": 93,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 211,
+    "max": 248,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "GEV": {
+  "score": 777,
+  "parts": {
+   "growth": {
+    "pts": 83,
+    "max": 154,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 0,
+    "max": 0,
+    "of": 150,
+    "missing": true
+   },
+   "cash": {
+    "pts": 63,
+    "max": 105,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 36,
+    "max": 42,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 121,
+    "max": 140,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 132,
+    "max": 175,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 105,
+    "max": 105,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 238,
+    "max": 280,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "BE": {
+  "score": 661,
+  "parts": {
+   "growth": {
+    "pts": 157,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 107,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 92,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 91,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 74,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 79,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 115,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": -80,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "CRWV": {
+  "score": 473,
+  "parts": {
+   "growth": {
+    "pts": 157,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 26,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 22,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 11,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 89,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 70,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 63,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 115,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": -80,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "NBIS": {
+  "score": 592,
+  "parts": {
+   "growth": {
+    "pts": 181,
+    "max": 181,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 66,
+    "max": 181,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 0,
+    "max": 0,
+    "of": 125,
+    "missing": true
+   },
+   "customers": {
+    "pts": 31,
+    "max": 36,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 102,
+    "max": 120,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 70,
+    "max": 151,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 90,
+    "max": 90,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 133,
+    "max": 241,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": -80,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "IREN": {
+  "score": 436,
+  "parts": {
+   "growth": {
+    "pts": 0,
+    "max": 0,
+    "of": 150,
+    "missing": true
+   },
+   "profit": {
+    "pts": 0,
+    "max": 132,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 28,
+    "max": 166,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 34,
+    "max": 40,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 113,
+    "max": 132,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 71,
+    "max": 166,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 79,
+    "max": 99,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 111,
+    "max": 265,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "APLD": {
+  "score": 412,
+  "parts": {
+   "growth": {
+    "pts": 157,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 11,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 22,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 89,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 51,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 47,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 88,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": -80,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "EQIX": {
+  "score": 631,
+  "parts": {
+   "growth": {
+    "pts": 36,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 98,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 50,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 89,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 74,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 79,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 178,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "IONQ": {
+  "score": 647,
+  "parts": {
+   "growth": {
+    "pts": 104,
+    "max": 170,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 57,
+    "max": 170,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 57,
+    "max": 57,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 29,
+    "max": 34,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 92,
+    "max": 114,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 127,
+    "max": 142,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 85,
+    "max": 85,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 95,
+    "max": 227,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "RGTI": {
+  "score": 542,
+  "parts": {
+   "growth": {
+    "pts": 166,
+    "max": 166,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 0,
+    "max": 110,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 68,
+    "max": 138,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 28,
+    "max": 33,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 90,
+    "max": 110,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 54,
+    "max": 138,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 66,
+    "max": 83,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 71,
+    "max": 221,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "QBTS": {
+  "score": 376,
+  "parts": {
+   "growth": {
+    "pts": 0,
+    "max": 166,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 0,
+    "max": 110,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 68,
+    "max": 138,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 28,
+    "max": 33,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 90,
+    "max": 110,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 54,
+    "max": 138,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 66,
+    "max": 83,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 71,
+    "max": 221,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "QUBT": {
+  "score": 489,
+  "parts": {
+   "growth": {
+    "pts": 0,
+    "max": 0,
+    "of": 150,
+    "missing": true
+   },
+   "profit": {
+    "pts": 0,
+    "max": 0,
+    "of": 150,
+    "missing": true
+   },
+   "cash": {
+    "pts": 0,
+    "max": 0,
+    "of": 125,
+    "missing": true
+   },
+   "customers": {
+    "pts": 48,
+    "max": 57,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 153,
+    "max": 189,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 92,
+    "max": 236,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 113,
+    "max": 142,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 83,
+    "max": 377,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "CRWD": {
+  "score": 707,
+  "parts": {
+   "growth": {
+    "pts": 71,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 65,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 128,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 62,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 98,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 79,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 178,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "NET": {
+  "score": 627,
+  "parts": {
+   "growth": {
+    "pts": 104,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 34,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 99,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 62,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 77,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 79,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 147,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "ZS": {
+  "score": 595,
+  "parts": {
+   "growth": {
+    "pts": 65,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 54,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 119,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 62,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 43,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 79,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 147,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "PANW": {
+  "score": 648,
+  "parts": {
+   "growth": {
+    "pts": 83,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 30,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 131,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 62,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 59,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 79,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 178,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "OKTA": {
+  "score": 567,
+  "parts": {
+   "growth": {
+    "pts": 23,
+    "max": 115,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 91,
+    "max": 156,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 99,
+    "max": 130,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 52,
+    "max": 78,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 61,
+    "max": 104,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 49,
+    "max": 130,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 78,
+    "max": 78,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 115,
+    "max": 208,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "S": {
+  "score": 522,
+  "parts": {
+   "growth": {
+    "pts": 47,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 33,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 83,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 62,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 77,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 79,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 115,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "RBRK": {
+  "score": 679,
+  "parts": {
+   "growth": {
+    "pts": 110,
+    "max": 186,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 0,
+    "max": 0,
+    "of": 150,
+    "missing": true
+   },
+   "cash": {
+    "pts": 118,
+    "max": 155,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 32,
+    "max": 37,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 73,
+    "max": 124,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 116,
+    "max": 155,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 93,
+    "max": 93,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 137,
+    "max": 248,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "PLTR": {
+  "score": 876,
+  "parts": {
+   "growth": {
+    "pts": 157,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 157,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 131,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 66,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 81,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 79,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 178,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "NOW": {
+  "score": 620,
+  "parts": {
+   "growth": {
+    "pts": 57,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 39,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 124,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 66,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 51,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 79,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 178,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "CRM": {
+  "score": 596,
+  "parts": {
+   "growth": {
+    "pts": 30,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 77,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 112,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 66,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 58,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 79,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 147,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "SNOW": {
+  "score": 671,
+  "parts": {
+   "growth": {
+    "pts": 91,
+    "max": 150,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 62,
+    "max": 150,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 110,
+    "max": 125,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 67,
+    "max": 75,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 63,
+    "max": 100,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 64,
+    "max": 125,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 75,
+    "max": 75,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 140,
+    "max": 200,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "DDOG": {
+  "score": 679,
+  "parts": {
+   "growth": {
+    "pts": 98,
+    "max": 150,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 73,
+    "max": 150,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 122,
+    "max": 125,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 52,
+    "max": 75,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 63,
+    "max": 100,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 55,
+    "max": 125,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 75,
+    "max": 75,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 140,
+    "max": 200,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "MDB": {
+  "score": 677,
+  "parts": {
+   "growth": {
+    "pts": 81,
+    "max": 150,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 77,
+    "max": 150,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 115,
+    "max": 125,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 53,
+    "max": 75,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 63,
+    "max": 100,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 74,
+    "max": 125,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 75,
+    "max": 75,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 140,
+    "max": 200,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "IOT": {
+  "score": 593,
+  "parts": {
+   "growth": {
+    "pts": 83,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 70,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 103,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 66,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 51,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 79,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 115,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "APP": {
+  "score": 828,
+  "parts": {
+   "growth": {
+    "pts": 166,
+    "max": 166,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 110,
+    "max": 110,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 137,
+    "max": 138,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 28,
+    "max": 33,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 70,
+    "max": 110,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 63,
+    "max": 138,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 66,
+    "max": 83,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 188,
+    "max": 221,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "FIG": {
+  "score": 670,
+  "parts": {
+   "growth": {
+    "pts": 121,
+    "max": 150,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 55,
+    "max": 150,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 102,
+    "max": 125,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 70,
+    "max": 75,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 63,
+    "max": 100,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 74,
+    "max": 125,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 75,
+    "max": 75,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 110,
+    "max": 200,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "TEM": {
+  "score": 536,
+  "parts": {
+   "growth": {
+    "pts": 74,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 54,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 60,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 66,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 77,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 63,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 115,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "GTLB": {
+  "score": 511,
+  "parts": {
+   "growth": {
+    "pts": 50,
+    "max": 150,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 10,
+    "max": 150,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 108,
+    "max": 125,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 48,
+    "max": 75,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 63,
+    "max": 100,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 46,
+    "max": 125,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 75,
+    "max": 75,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 110,
+    "max": 200,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "CEG": {
+  "score": 768,
+  "parts": {
+   "growth": {
+    "pts": 141,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 122,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 82,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 48,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 111,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 63,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 178,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": -4,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "VST": {
+  "score": 667,
+  "parts": {
+   "growth": {
+    "pts": 109,
+    "max": 166,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 130,
+    "max": 166,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 50,
+    "max": 83,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 28,
+    "max": 33,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 51,
+    "max": 110,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 95,
+    "max": 138,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 50,
+    "max": 83,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 155,
+    "max": 221,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "BWXT": {
+  "score": 602,
+  "parts": {
+   "growth": {
+    "pts": 43,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 78,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 86,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 48,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 63,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 79,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 178,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "CCJ": {
+  "score": 501,
+  "parts": {
+   "growth": {
+    "pts": 2,
+    "max": 205,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 0,
+    "max": 0,
+    "of": 150,
+    "missing": true
+   },
+   "cash": {
+    "pts": 64,
+    "max": 68,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 35,
+    "max": 41,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 63,
+    "max": 137,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 23,
+    "max": 171,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 82,
+    "max": 103,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 233,
+    "max": 274,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "LEU": {
+  "score": 339,
+  "parts": {
+   "growth": {
+    "pts": 0,
+    "max": 135,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 0,
+    "max": 123,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 14,
+    "max": 92,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 31,
+    "max": 37,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 56,
+    "max": 123,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 47,
+    "max": 153,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 55,
+    "max": 92,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 135,
+    "max": 245,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "OKLO": {
+  "score": 288,
+  "parts": {
+   "growth": {
+    "pts": 0,
+    "max": 175,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 0,
+    "max": 117,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 0,
+    "max": 88,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 30,
+    "max": 35,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 54,
+    "max": 117,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 59,
+    "max": 146,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 70,
+    "max": 88,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 75,
+    "max": 234,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "SMR": {
+  "score": 261,
+  "parts": {
+   "growth": {
+    "pts": 0,
+    "max": 175,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 0,
+    "max": 117,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 0,
+    "max": 88,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 30,
+    "max": 35,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 54,
+    "max": 117,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 50,
+    "max": 146,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 53,
+    "max": 88,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 75,
+    "max": 234,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "NNE": {
+  "score": 262,
+  "parts": {
+   "growth": {
+    "pts": 0,
+    "max": 175,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 0,
+    "max": 117,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 0,
+    "max": 88,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 30,
+    "max": 35,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 54,
+    "max": 117,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 57,
+    "max": 146,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 70,
+    "max": 88,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 51,
+    "max": 234,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "STDN": {
+  "score": 436,
+  "parts": {
+   "growth": {
+    "pts": 135,
+    "max": 135,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 0,
+    "max": 123,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 14,
+    "max": 92,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 31,
+    "max": 37,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 56,
+    "max": 123,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 66,
+    "max": 153,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 55,
+    "max": 92,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 79,
+    "max": 245,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "FRVO": {
+  "score": 251,
+  "parts": {
+   "growth": {
+    "pts": 0,
+    "max": 175,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 0,
+    "max": 117,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 0,
+    "max": 88,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 30,
+    "max": 35,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 54,
+    "max": 117,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 40,
+    "max": 146,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 53,
+    "max": 88,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 75,
+    "max": 234,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "EOSE": {
+  "score": 510,
+  "parts": {
+   "growth": {
+    "pts": 127,
+    "max": 127,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 58,
+    "max": 173,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 13,
+    "max": 87,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 29,
+    "max": 35,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 50,
+    "max": 116,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 66,
+    "max": 145,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 69,
+    "max": 87,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 97,
+    "max": 231,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "FLNC": {
+  "score": 368,
+  "parts": {
+   "growth": {
+    "pts": 17,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 16,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 63,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 45,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 22,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 63,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 115,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "FSLR": {
+  "score": 562,
+  "parts": {
+   "growth": {
+    "pts": 15,
+    "max": 170,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 169,
+    "max": 170,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 57,
+    "max": 57,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 29,
+    "max": 34,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 49,
+    "max": 114,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 33,
+    "max": 142,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 51,
+    "max": 85,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 159,
+    "max": 227,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "QS": {
+  "score": 298,
+  "parts": {
+   "growth": {
+    "pts": 0,
+    "max": 166,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 0,
+    "max": 110,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 55,
+    "max": 138,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 28,
+    "max": 33,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 48,
+    "max": 110,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 69,
+    "max": 138,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 50,
+    "max": 83,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 49,
+    "max": 221,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "ALB": {
+  "score": 651,
+  "parts": {
+   "growth": {
+    "pts": 84,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 91,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 99,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 45,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 80,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 79,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 147,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "MP": {
+  "score": 643,
+  "parts": {
+   "growth": {
+    "pts": 157,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 65,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 64,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 45,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 60,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 79,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 147,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "SPCX": {
+  "score": 769,
+  "parts": {
+   "growth": {
+    "pts": 129,
+    "max": 135,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 66,
+    "max": 123,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 46,
+    "max": 92,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 31,
+    "max": 37,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 92,
+    "max": 123,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 103,
+    "max": 153,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 92,
+    "max": 92,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 209,
+    "max": 245,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "RKLB": {
+  "score": 674,
+  "parts": {
+   "growth": {
+    "pts": 141,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 49,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 64,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 79,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 89,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 79,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 147,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "ASTS": {
+  "score": 601,
+  "parts": {
+   "growth": {
+    "pts": 139,
+    "max": 139,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 0,
+    "max": 127,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 55,
+    "max": 63,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 32,
+    "max": 38,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 95,
+    "max": 127,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 64,
+    "max": 158,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 76,
+    "max": 95,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 139,
+    "max": 253,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "FLY": {
+  "score": 606,
+  "parts": {
+   "growth": {
+    "pts": 143,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 52,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 64,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 79,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 91,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 63,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 88,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "PL": {
+  "score": 715,
+  "parts": {
+   "growth": {
+    "pts": 163,
+    "max": 170,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 73,
+    "max": 170,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 57,
+    "max": 57,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 29,
+    "max": 34,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 85,
+    "max": 114,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 97,
+    "max": 142,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 85,
+    "max": 85,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 125,
+    "max": 227,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "LUNR": {
+  "score": 532,
+  "parts": {
+   "growth": {
+    "pts": 109,
+    "max": 120,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 64,
+    "max": 164,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 33,
+    "max": 137,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 28,
+    "max": 33,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 82,
+    "max": 109,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 58,
+    "max": 137,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 66,
+    "max": 82,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 92,
+    "max": 219,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "RDW": {
+  "score": 564,
+  "parts": {
+   "growth": {
+    "pts": 99,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 61,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 53,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 79,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 96,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 63,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 88,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "KTOS": {
+  "score": 581,
+  "parts": {
+   "growth": {
+    "pts": 71,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 39,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 74,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 55,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 90,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 79,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 147,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "AVAV": {
+  "score": 553,
+  "parts": {
+   "growth": {
+    "pts": 35,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 72,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 78,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 55,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 62,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 79,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 147,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "ISRG": {
+  "score": 665,
+  "parts": {
+   "growth": {
+    "pts": 77,
+    "max": 181,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 66,
+    "max": 120,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 60,
+    "max": 60,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 31,
+    "max": 36,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 63,
+    "max": 120,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 55,
+    "max": 151,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 72,
+    "max": 90,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 241,
+    "max": 241,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "SYM": {
+  "score": 536,
+  "parts": {
+   "growth": {
+    "pts": 72,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 82,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 64,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 55,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 59,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 63,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 115,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "SERV": {
+  "score": 439,
+  "parts": {
+   "growth": {
+    "pts": 55,
+    "max": 120,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 55,
+    "max": 164,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 67,
+    "max": 137,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 28,
+    "max": 33,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 57,
+    "max": 109,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 80,
+    "max": 137,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 49,
+    "max": 82,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 48,
+    "max": 219,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "TSLA": {
+  "score": 480,
+  "parts": {
+   "growth": {
+    "pts": 11,
+    "max": 166,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 48,
+    "max": 166,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 50,
+    "max": 83,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 28,
+    "max": 33,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 58,
+    "max": 110,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 48,
+    "max": 138,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 83,
+    "max": 83,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 155,
+    "max": 221,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "MBLY": {
+  "score": 516,
+  "parts": {
+   "growth": {
+    "pts": 5,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 58,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 99,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 55,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 94,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 63,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 115,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "ACHR": {
+  "score": 317,
+  "parts": {
+   "growth": {
+    "pts": 0,
+    "max": 166,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 0,
+    "max": 110,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 55,
+    "max": 138,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 28,
+    "max": 33,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 58,
+    "max": 110,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 77,
+    "max": 138,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 50,
+    "max": 83,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 49,
+    "max": 221,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ },
+ "JOBY": {
+  "score": 539,
+  "parts": {
+   "growth": {
+    "pts": 123,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "profit": {
+    "pts": 52,
+    "max": 157,
+    "of": 150,
+    "missing": false
+   },
+   "cash": {
+    "pts": 64,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "customers": {
+    "pts": 27,
+    "max": 31,
+    "of": 75,
+    "missing": false
+   },
+   "momentum": {
+    "pts": 55,
+    "max": 105,
+    "of": 100,
+    "missing": false
+   },
+   "forward": {
+    "pts": 104,
+    "max": 131,
+    "of": 125,
+    "missing": false
+   },
+   "utility": {
+    "pts": 47,
+    "max": 79,
+    "of": 75,
+    "missing": false
+   },
+   "durability": {
+    "pts": 67,
+    "max": 209,
+    "of": 200,
+    "missing": false
+   },
+   "boom": {
+    "pts": 0,
+    "max": 0,
+    "of": 80,
+    "missing": false
+   }
+  }
+ }
+}

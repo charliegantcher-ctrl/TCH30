@@ -1,0 +1,525 @@
+[
+ {
+  "ticker": "LUNR",
+  "period": "Q2 2026 (Jun-26); TTM to Jun-26 (Q3 not yet reported)",
+  "rev_ttm_b": 0.49,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 309.8,
+  "organic_share": null,
+  "gross_margin_pct": 17.4,
+  "gross_margin_prior_pct": -23.5,
+  "op_margin_pct": -22.9,
+  "op_margin_prior_pct": -56.9,
+  "fcf_ttm_b": -0.188,
+  "cash_b": 0.367,
+  "debt_b": 0.336,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": 1.76,
+  "backlog_growth_pct": null,
+  "guidance": "maintained",
+  "contracts_90d": [],
+  "investments": "Bought Lanteris (Jan 2026) for about $447M cash net plus $404M stock; R&D small at about 3-4% of revenue; H1 capex $34M.",
+  "news_90d": [
+   {
+    "what": "Backlog reached $1.76B, but $613M of it came with Lanteris; cash fell to $367M from $583M at year-end",
+    "tone": "neutral",
+    "date": null,
+    "source": "Company 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001844452/000162828026056476/lunr-20260630xexx991.htm"
+   }
+  ],
+  "industries_served": [
+   "NASA lunar services",
+   "space infrastructure",
+   "satellite buses",
+   "defense/national security space"
+  ],
+  "bottleneck_note": "One of a few NASA CLPS lunar lander/data-relay providers; replaceable by Firefly, Astrobotic, Blue Origin, SpaceX; Lanteris adds satellite-bus scale vs Maxar/Airbus/Lockheed.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001844452/000162828026056476/lunr-20260630xexx991.htm",
+   "https://www.sec.gov/Archives/edgar/data/0001844452/000162828026056821/lunr-20260630.htm",
+   "https://www.sec.gov/Archives/edgar/data/1844452/000162828026019633/lunr-20251231xexx991earnin.htm"
+  ]
+ },
+ {
+  "ticker": "RDW",
+  "period": "Q3 2026 (Sep-26); TTM to Sep-26",
+  "rev_ttm_b": 0.432,
+  "rev_growth_ttm_pct": 45.8,
+  "rev_growth_q_pct": 5.4,
+  "organic_share": 1.0,
+  "gross_margin_pct": 32.3,
+  "gross_margin_prior_pct": 16.3,
+  "op_margin_pct": -24.1,
+  "op_margin_prior_pct": -40.5,
+  "fcf_ttm_b": -0.145,
+  "cash_b": 0.489,
+  "debt_b": 0.047,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": 0.62,
+  "backlog_growth_pct": 75.0,
+  "guidance": "maintained",
+  "contracts_90d": [
+   {
+    "what": "DARPA contract for more testing of scaled SabreSat VLEO spacecraft",
+    "value_b": 0.02,
+    "date": null,
+    "source": "Company 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001819810/000181981026000139/exhibit991redwire09302026e.htm"
+   },
+   {
+    "what": "Axiom Space follow-on for two ROSA solar array wings",
+    "value_b": null,
+    "date": null,
+    "source": "Company 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001819810/000181981026000139/exhibit991redwire09302026e.htm"
+   },
+   {
+    "what": "Stalker drone follow-on orders incl. US National Guard",
+    "value_b": null,
+    "date": null,
+    "source": "Company 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001819810/000181981026000139/exhibit991redwire09302026e.htm"
+   }
+  ],
+  "investments": "R&D $14.4M in Q3 (13% of revenue, up 87% YoY); cash rose to $489M from $95M at Dec-25 after capital raising.",
+  "news_90d": [
+   {
+    "what": "Q3 revenue up only 5% but book-to-bill 1.73 and FY26 $450-500M guide reaffirmed",
+    "tone": "neutral",
+    "date": null,
+    "source": "Company 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001819810/000181981026000139/exhibit991redwire09302026e.htm"
+   }
+  ],
+  "industries_served": [
+   "space infrastructure",
+   "defense drones (Edge Autonomy)",
+   "civil space",
+   "national security space"
+  ],
+  "bottleneck_note": "Niche supplier of roll-out solar arrays and space components plus Stalker/Penguin drones; moderate switching costs; competes with Northrop, Maxar, AeroVironment, Teledyne FLIR.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001819810/000181981026000139/exhibit991redwire09302026e.htm",
+   "https://www.businesswire.com/news/home/20260225862857/en/Redwire-Corporation-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results-Achieves-Top-End-of-2025-Revenue-Guidance-Range-with-Record-Contracted-Backlog"
+  ]
+ },
+ {
+  "ticker": "KTOS",
+  "period": "Q3 2026 (Sep-26); TTM to Sep-26",
+  "rev_ttm_b": 1.647,
+  "rev_growth_ttm_pct": 28.2,
+  "rev_growth_q_pct": 35.7,
+  "organic_share": 0.65,
+  "gross_margin_pct": 22.5,
+  "gross_margin_prior_pct": 22.2,
+  "op_margin_pct": -1.0,
+  "op_margin_prior_pct": 2.0,
+  "fcf_ttm_b": -0.123,
+  "cash_b": 1.404,
+  "debt_b": 0.19,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": 2.65,
+  "backlog_growth_pct": null,
+  "guidance": "raised",
+  "contracts_90d": [
+   {
+    "what": "More contract funding on MACH-TB hypersonic test program plus space awards",
+    "value_b": null,
+    "date": null,
+    "source": "Company 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001069258/000106925826000085/ktos202609278kexhibit991.htm"
+   }
+  ],
+  "investments": "Heavy capacity buildout: FY26 capex guide $100-110M; R&D $15M in Q3 (3% of revenue); no term debt after equity raises.",
+  "news_90d": [
+   {
+    "what": "Q3 bookings $1.04B (book-to-bill 2.2), backlog $2.65B; FY26 guidance raised",
+    "tone": "good",
+    "date": null,
+    "source": "Company 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001069258/000106925826000085/ktos202609278kexhibit991.htm"
+   }
+  ],
+  "industries_served": [
+   "defense drones/target drones",
+   "hypersonics",
+   "propulsion",
+   "space & satellite ground systems",
+   "microwave electronics"
+  ],
+  "bottleneck_note": "Leading low-cost attritable jet drone (Valkyrie) and target-drone supplier, key hypersonic test provider; competes with Anduril, General Atomics, Boeing, Northrop.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001069258/000106925826000085/ktos202609278kexhibit991.htm",
+   "https://ir.kratosdefense.com/node/32181"
+  ]
+ },
+ {
+  "ticker": "AVAV",
+  "period": "Q1 FY27 (Aug-26); TTM to Aug-26",
+  "rev_ttm_b": 2.003,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 5.7,
+  "organic_share": 1.0,
+  "gross_margin_pct": 25.9,
+  "gross_margin_prior_pct": 20.9,
+  "op_margin_pct": -2.3,
+  "op_margin_prior_pct": -15.2,
+  "fcf_ttm_b": -0.025,
+  "cash_b": 0.58,
+  "debt_b": 0.73,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": 1.5,
+  "backlog_growth_pct": 37.0,
+  "guidance": "maintained",
+  "contracts_90d": [],
+  "investments": "Q1 capex $44M (expanding Switchblade/munitions capacity); R&D $24M (5% of revenue); BlueHalo acquisition (closed May 2025) added space/cyber/counter-UAS.",
+  "news_90d": [
+   {
+    "what": "Q1 FY27 revenue +6% with drone/munitions (AxS) +21% but space/cyber segment -21%; record $1.5B funded backlog",
+    "tone": "neutral",
+    "date": "2026-09-10",
+    "source": "BusinessWire (company)",
+    "url": "https://www.businesswire.com/news/home/20260910537472/en/AeroVironment-Announces-Fiscal-2027-First-Quarter-Results"
+   }
+  ],
+  "industries_served": [
+   "defense drones",
+   "loitering munitions",
+   "counter-UAS",
+   "space & cyber",
+   "directed energy"
+  ],
+  "bottleneck_note": "Incumbent US supplier of small UAS (Puma/Raven) and Switchblade loitering munitions; switching costs via program-of-record; competes with Anduril, Kratos, Teledyne FLIR, Red Cat.",
+  "sources": [
+   "https://www.businesswire.com/news/home/20260910537472/en/AeroVironment-Announces-Fiscal-2027-First-Quarter-Results",
+   "https://www.sec.gov/Archives/edgar/data/0001368622/000110465926078824/avav-20260629xex99d1.htm"
+  ]
+ },
+ {
+  "ticker": "SYM",
+  "period": "Q3 FY26 (Jun-26); TTM to Jun-26 (Q4 FY26 not yet reported)",
+  "rev_ttm_b": 2.645,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 21.7,
+  "organic_share": null,
+  "gross_margin_pct": 22.3,
+  "gross_margin_prior_pct": 18.9,
+  "op_margin_pct": 4.6,
+  "op_margin_prior_pct": -4.4,
+  "fcf_ttm_b": null,
+  "cash_b": 1.746,
+  "debt_b": 0.0,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": 22.5,
+  "backlog_growth_pct": null,
+  "guidance": "none",
+  "contracts_90d": [
+   {
+    "what": "Southern Glazer's Wine & Spirits signs for a second facility",
+    "value_b": null,
+    "date": "2026-08-06",
+    "source": "MarketBeat",
+    "url": "https://www.marketbeat.com/instant-alerts/symbotic-q3-earnings-call-highlights-2026-08-06/"
+   }
+  ],
+  "investments": "R&D $43.8M in Q3 (6% of revenue); bought Walmart's Advanced Systems & Robotics unit; Exol (ex-GreenBox) JV for warehouse-as-a-service; SoftBank is a major holder.",
+  "news_90d": [
+   {
+    "what": "Backlog $22.5B, slightly down QoQ; company expects positive FCF in fiscal Q4",
+    "tone": "neutral",
+    "date": "2026-08-06",
+    "source": "MarketBeat",
+    "url": "https://www.marketbeat.com/instant-alerts/symbotic-q3-earnings-call-highlights-2026-08-06/"
+   }
+  ],
+  "industries_served": [
+   "retail distribution",
+   "grocery",
+   "wholesale/food distribution",
+   "e-commerce fulfillment"
+  ],
+  "bottleneck_note": "Scale leader in end-to-end AI case-handling warehouse automation with deep Walmart integration; heavy Walmart concentration; competes with Ocado, AutoStore, Dematic, Knapp.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001837240/000183724026000042/q3268-k_ex991.htm",
+   "https://www.itiger.com/news/2586477909",
+   "https://www.marketbeat.com/instant-alerts/symbotic-q3-earnings-call-highlights-2026-08-06/"
+  ]
+ },
+ {
+  "ticker": "SERV",
+  "period": "Q3 2026 (Sep-26); TTM to Sep-26",
+  "rev_ttm_b": 0.0099,
+  "rev_growth_ttm_pct": 411.0,
+  "rev_growth_q_pct": 312.7,
+  "organic_share": null,
+  "gross_margin_pct": -266.5,
+  "gross_margin_prior_pct": -637.4,
+  "op_margin_pct": -2158.3,
+  "op_margin_prior_pct": -5067.8,
+  "fcf_ttm_b": null,
+  "cash_b": 0.198,
+  "debt_b": 0.0,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "raised",
+  "contracts_90d": [],
+  "investments": "R&D $22.6M in Q3 (about 8x revenue); bought Diligent Robotics (hospital robots) in 2026 for about $21M net cash; non-GAAP opex guide cut to $150M.",
+  "news_90d": [
+   {
+    "what": "FY26 revenue guide raised to $12M; daily active robots 917 vs 312; gross loss widened",
+    "tone": "neutral",
+    "date": null,
+    "source": "Company 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001832483/000183248326000048/serv-20260930_ex991earning.htm"
+   }
+  ],
+  "industries_served": [
+   "food delivery",
+   "last-mile logistics",
+   "hospital robotics"
+  ],
+  "bottleneck_note": "Easily replaceable at this stage: small sidewalk-robot fleet reliant on Uber Eats and other platforms; competes with Starship, Coco, Kiwibot and drone delivery.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001832483/000183248326000048/serv-20260930_ex991earning.htm",
+   "https://investors.serverobotics.com/news-releases/news-release-details/serve-robotics-announces-fourth-quarter-and-full-year-2025"
+  ]
+ },
+ {
+  "ticker": "MBLY",
+  "period": "Q3 2026 (Sep-26); TTM to Sep-26",
+  "rev_ttm_b": 2.004,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": -2.4,
+  "organic_share": null,
+  "gross_margin_pct": 53.0,
+  "gross_margin_prior_pct": 48.0,
+  "op_margin_pct": -17.0,
+  "op_margin_prior_pct": -22.0,
+  "fcf_ttm_b": null,
+  "cash_b": 1.499,
+  "debt_b": 0.0,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "raised",
+  "contracts_90d": [
+   {
+    "what": "Stellantis nominates Mobileye for Cloud-Enhanced ADAS (US from 2027, later Europe)",
+    "value_b": null,
+    "date": null,
+    "source": "Company 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001910139/000110465926119830/tm2628197d1_ex99-1.htm"
+   },
+   {
+    "what": "Deutsche Bahn picks HOLON Urban shuttle with Mobileye self-driving for German transit",
+    "value_b": null,
+    "date": null,
+    "source": "Company 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001910139/000110465926119830/tm2628197d1_ex99-1.htm"
+   }
+  ],
+  "investments": "R&D $284M in Q3 (58% of revenue); acquired Mentee Robotics (humanoids) for $591M cash; Intel retains majority control.",
+  "news_90d": [
+   {
+    "what": "Q3 revenue -2% YoY but FY26 revenue guide nudged up to $1.995-2.02B; $3.8B goodwill impairment earlier in 2026",
+    "tone": "neutral",
+    "date": null,
+    "source": "Company 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001910139/000110465926119830/tm2628197d1_ex99-1.htm"
+   }
+  ],
+  "industries_served": [
+   "automotive ADAS",
+   "autonomous driving/robotaxi",
+   "public transit",
+   "humanoid robotics"
+  ],
+  "bottleneck_note": "Dominant ADAS vision-chip supplier across global OEMs with high validation switching costs; losing share in China and at the high end to Nvidia, Qualcomm, Horizon Robotics and in-house OEM stacks.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001910139/000110465926119830/tm2628197d1_ex99-1.htm",
+   "https://autonews.gasgoo.com/articles/news/mobileye-reports-fiscal-2025-revenue-of-1894-billion-2031586701590245377"
+  ]
+ },
+ {
+  "ticker": "ACHR",
+  "period": "Q3 2026 (Sep-26)",
+  "rev_ttm_b": null,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": null,
+  "organic_share": 0.0,
+  "gross_margin_pct": 2.0,
+  "gross_margin_prior_pct": null,
+  "op_margin_pct": null,
+  "op_margin_prior_pct": null,
+  "fcf_ttm_b": null,
+  "cash_b": 1.354,
+  "debt_b": 0.092,
+  "pre_revenue": true,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "none",
+  "contracts_90d": [
+   {
+    "what": "Pending acquisition of Boeing's Wisk, Insitu and SkyGrid; Boeing to become largest holder (Insitu >$200M annual revenue)",
+    "value_b": null,
+    "date": "2026-11-09",
+    "source": "Company 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001824502/000182450226000087/archerq326earningspressr.htm"
+   },
+   {
+    "what": "Multi-year Formula 1 alliance for air taxi services at Grand Prix events",
+    "value_b": null,
+    "date": "2026-11-09",
+    "source": "Company 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001824502/000182450226000087/archerq326earningspressr.htm"
+   },
+   {
+    "what": "First Omen engines delivered to Anduril; Halo/Thunder hybrid VTOL engine testing began",
+    "value_b": null,
+    "date": "2026-11-09",
+    "source": "Company 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001824502/000182450226000087/archerq326earningspressr.htm"
+   }
+  ],
+  "investments": "R&D $198M in Q3; 9M capex $101M; cash down to $1.35B from $1.56B in a quarter; Q4 adj. EBITDA loss guide $185-205M.",
+  "news_90d": [
+   {
+    "what": "FAA special airworthiness certificate for Midnight to start piloted LA ops",
+    "tone": "good",
+    "date": "2026-11-09",
+    "source": "Company 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001824502/000182450226000087/archerq326earningspressr.htm"
+   },
+   {
+    "what": "Shares fell after Q3 on dilution and cost concerns",
+    "tone": "bad",
+    "date": "2026-11-09",
+    "source": "TipRanks",
+    "url": "https://www.tipranks.com/news/archer-aviation-beats-q3-eps-but-stock-falls-as-investors-focus-on-dilution-and-high-costs"
+   }
+  ],
+  "industries_served": [
+   "urban air mobility",
+   "defense (hybrid VTOL, drones via Insitu)",
+   "aircraft engines"
+  ],
+  "bottleneck_note": "Uncertified; no moat yet beyond FAA progress and Stellantis/Anduril/Boeing ties; competes with Joby, Beta, Eve, Vertical and EHang.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001824502/000182450226000087/archerq326earningspressr.htm",
+   "https://www.tipranks.com/news/archer-aviation-beats-q3-eps-but-stock-falls-as-investors-focus-on-dilution-and-high-costs"
+  ],
+  "rev_size_est_b": 0.02
+ },
+ {
+  "ticker": "JOBY",
+  "period": "Q3 2026 (Sep-26); TTM to Sep-26",
+  "rev_ttm_b": 0.149,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 144.0,
+  "organic_share": null,
+  "gross_margin_pct": 29.2,
+  "gross_margin_prior_pct": 55.4,
+  "op_margin_pct": -504.8,
+  "op_margin_prior_pct": -804.8,
+  "fcf_ttm_b": null,
+  "cash_b": 2.198,
+  "debt_b": 0.703,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "raised",
+  "contracts_90d": [
+   {
+    "what": "US Air Force autonomy contracts expanded to about $37M",
+    "value_b": 0.037,
+    "date": "2026-11-04",
+    "source": "Company 8-K",
+    "url": "https://ir.jobyaviation.com/sec-filings/all-sec-filings/content/0001819848-26-000531/joby-8kx20261104xexx99_1.htm"
+   },
+   {
+    "what": "Planned acquisition of Resonant Sciences, an EBITDA-positive defense tech firm with $100M+ TTM revenue",
+    "value_b": null,
+    "date": "2026-11-04",
+    "source": "Company 8-K",
+    "url": "https://ir.jobyaviation.com/sec-filings/all-sec-filings/content/0001819848-26-000531/joby-8kx20261104xexx99_1.htm"
+   }
+  ],
+  "investments": "R&D $209M in Q3; 9M capex $131M for Marina/Dayton production (17 aircraft in production); raised $690M convertible notes in 2026; Toyota investing in tranches.",
+  "news_90d": [
+   {
+    "what": "FY26 revenue outlook raised 15% to $135-140M, but TIA flight testing slips to H1 2027 and Dubai launch not yet started",
+    "tone": "neutral",
+    "date": "2026-11-04",
+    "source": "Company 8-K",
+    "url": "https://ir.jobyaviation.com/sec-filings/all-sec-filings/content/0001819848-26-000531/joby-8kx20261104xexx99_1.htm"
+   }
+  ],
+  "industries_served": [
+   "urban air mobility",
+   "helicopter passenger services (Blade)",
+   "defense autonomy"
+  ],
+  "bottleneck_note": "Furthest-along US eVTOL in FAA type certification with Toyota manufacturing backing; still uncertified; competes with Archer, Beta, Eve, Wisk and helicopters.",
+  "sources": [
+   "https://ir.jobyaviation.com/sec-filings/all-sec-filings/content/0001819848-26-000531/joby-8kx20261104xexx99_1.htm",
+   "https://ir.jobyaviation.com/sec-filings/all-sec-filings/content/0001819848-26-000531/0001819848-26-000531.pdf",
+   "https://www.chartmill.com/news/JOBY/Chartmill-42985-Joby-Aviation-NYSEJOBY-Posts-Q4-Earnings-Beat-Amid-Focus-on-2026-Commercial-Launch"
+  ]
+ }
+]

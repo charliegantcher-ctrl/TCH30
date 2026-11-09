@@ -1,0 +1,645 @@
+[
+ {
+  "ticker": "EOSE",
+  "period": "Q3 2026 (Sep-26)",
+  "rev_ttm_b": null,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 171.1,
+  "organic_share": 1.0,
+  "gross_margin_pct": -53.4,
+  "gross_margin_prior_pct": -111.1,
+  "op_margin_pct": -95.9,
+  "op_margin_prior_pct": -200.7,
+  "fcf_ttm_b": null,
+  "cash_b": 0.344,
+  "debt_b": null,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": 0.765,
+  "backlog_growth_pct": 19.0,
+  "guidance": "cut",
+  "contracts_90d": [
+   {
+    "what": "10 MW/100 MWh Z3 long-duration storage project with MN8 Energy serving Google data centers in West Virginia",
+    "value_b": null,
+    "date": null,
+    "source": "Eos Q3 2026 release (SEC 8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001805077/000162828026070528/eoseq3fy26earningsreleas.htm"
+   },
+   {
+    "what": "$100M purchase order converted under an existing capacity reservation agreement",
+    "value_b": 0.1,
+    "date": null,
+    "source": "Eos Q3 2026 release (SEC 8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001805077/000162828026070528/eoseq3fy26earningsreleas.htm"
+   }
+  ],
+  "investments": "Scaling zinc-battery manufacturing (Thorn Hill consolidation); received $87M first advance of second DOE loan tranche; Cerberus credit agreement. 9M operating cash burn $262M.",
+  "news_90d": [
+   {
+    "what": "Q3 revenue up 171% to $82.7M with gross margin improving to about -53% from -111%, but still deeply gross-negative",
+    "tone": "mixed",
+    "date": "2026-10-19",
+    "source": "Energy-Storage.news",
+    "url": "https://www.energy-storage.news/eos-releases-preliminary-q3-results-reports-record-quarterly-revenue-as-gross-margin-losses-narrow/"
+   },
+   {
+    "what": "FY2026 revenue now expected in lower half of $300-350M range; Thorn Hill consolidation to cut Q4 capacity",
+    "tone": "bad",
+    "date": null,
+    "source": "Eos Q3 2026 release (SEC 8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001805077/000162828026070528/eoseq3fy26earningsreleas.htm"
+   },
+   {
+    "what": "About $68M of Q3 revenue came from related-party customers; Q3 net income driven by non-cash mark-to-market gains",
+    "tone": "bad",
+    "date": null,
+    "source": "Eos Q3 2026 release (SEC 8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001805077/000162828026070528/eoseq3fy26earningsreleas.htm"
+   }
+  ],
+  "industries_served": [
+   "utility grid storage",
+   "data centers",
+   "commercial & industrial",
+   "renewables firming"
+  ],
+  "bottleneck_note": "Niche non-lithium zinc long-duration storage; differentiated chemistry and US manufacturing but easily substituted by lithium-ion BESS (Tesla, Fluence, Wartsila, Chinese LFP) and other LDES (Form Energy, ESS).",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001805077/000162828026070528/eoseq3fy26earningsreleas.htm",
+   "https://www.energy-storage.news/eos-releases-preliminary-q3-results-reports-record-quarterly-revenue-as-gross-margin-losses-narrow/"
+  ],
+  "rev_size_est_b": 0.25
+ },
+ {
+  "ticker": "FLNC",
+  "period": "Q3 FY26 (Jun-26); FQ4 not yet reported",
+  "rev_ttm_b": null,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 7.9,
+  "organic_share": 1.0,
+  "gross_margin_pct": 5.1,
+  "gross_margin_prior_pct": 14.8,
+  "op_margin_pct": -8.8,
+  "op_margin_prior_pct": 0.7,
+  "fcf_ttm_b": null,
+  "cash_b": 0.365,
+  "debt_b": 0.392,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": 6.4,
+  "backlog_growth_pct": null,
+  "guidance": "cut",
+  "contracts_90d": [],
+  "investments": "Light capex (9M ~$21M); ~$15M upfront cost for planned battery supply agreement to localize cells; 9M FCF -$299M; liquidity ~$863M. Siemens and AES are founding shareholders.",
+  "news_90d": [
+   {
+    "what": "FY26 guidance cut: revenue to $2.9-3.1B from $3.2-3.6B and adj. EBITDA to about -$30M to $10M as ~$400M of deliveries slip to FY27 on contract-manufacturing delays",
+    "tone": "bad",
+    "date": "2026-08-05",
+    "source": "Fluence FQ3 release (SEC 8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001868941/000186894126000028/flncq3fy26earningspressrel.htm"
+   },
+   {
+    "what": "Record ~$6.4B backlog; ~$850M of data-center business secured incl. ~$550M hyperscaler awards in July",
+    "tone": "good",
+    "date": "2026-08-05",
+    "source": "Fluence FQ3 release (SEC 8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001868941/000186894126000028/flncq3fy26earningspressrel.htm"
+   }
+  ],
+  "industries_served": [
+   "utility grid storage",
+   "renewables",
+   "data centers",
+   "energy trading software"
+  ],
+  "bottleneck_note": "Top-3 global BESS integrator with bankable track record and software, but low-margin, commoditizing integration business; competes with Tesla Megapack, Sungrow, BYD, Wartsila, Powin.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001868941/000186894126000028/flncq3fy26earningspressrel.htm",
+   "https://www.pulse.bot/climatetech/news/fluence-energy-signs-master-supply-agreements-with-two-major-hyperscalers-ab152262-12ca-4748-906d-ce9e2b811a11/"
+  ],
+  "rev_size_est_b": 3
+ },
+ {
+  "ticker": "FSLR",
+  "period": "Q3 2026 (Sep-26)",
+  "rev_ttm_b": 5.0,
+  "rev_growth_ttm_pct": -1.1,
+  "rev_growth_q_pct": -22.8,
+  "organic_share": 1.0,
+  "gross_margin_pct": 57.9,
+  "gross_margin_prior_pct": 38.3,
+  "op_margin_pct": 44.4,
+  "op_margin_prior_pct": 29.2,
+  "fcf_ttm_b": null,
+  "cash_b": 1.624,
+  "debt_b": 0.108,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": 13.5,
+  "backlog_growth_pct": null,
+  "guidance": "cut",
+  "contracts_90d": [
+   {
+    "what": "About 1.4 GW of new US module bookings at ~$0.36/W since prior call",
+    "value_b": null,
+    "date": "2026-10-30",
+    "source": "Mercom",
+    "url": "https://mercomindia.com/first-solar-cuts-2026-guidance-as-q3-revenue-falls-23-yoy"
+   }
+  ],
+  "investments": "2026 capex guide lowered to $0.6-0.8B from $0.8-1.0B; new $500M buyback; 9M operating cash flow negative (-$403M) with $435M capex.",
+  "news_90d": [
+   {
+    "what": "Q3 sales fell 23% YoY and 2026 net sales guide cut to $4.6-4.9B and volume to 16-17 GW, while gross margin rose to ~58%",
+    "tone": "bad",
+    "date": "2026-10-30",
+    "source": "Mercom",
+    "url": "https://mercomindia.com/first-solar-cuts-2026-guidance-as-q3-revenue-falls-23-yoy"
+   },
+   {
+    "what": "Board authorized $500M share repurchase",
+    "tone": "good",
+    "date": "2026-10-30",
+    "source": "First Solar Q3 release (SEC 8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001274494/000127449426000211/ex991pressreleaseq3-2026.htm"
+   }
+  ],
+  "industries_served": [
+   "utility-scale solar",
+   "independent power producers",
+   "data-center power procurement"
+  ],
+  "bottleneck_note": "Only scaled US maker of non-Chinese thin-film CdTe modules; tariff/FEOC rules and 45X credits create a protected niche; competes with Chinese crystalline-silicon makers (LONGi, JinkoSolar, Trina) and new US c-Si fabs.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001274494/000127449426000211/ex991pressreleaseq3-2026.htm",
+   "https://mercomindia.com/first-solar-cuts-2026-guidance-as-q3-revenue-falls-23-yoy",
+   "https://www.pv-tech.org/first-solar-net-sales-gross-profit-tick-upwards-2025/"
+  ]
+ },
+ {
+  "ticker": "QS",
+  "period": "Q3 2026 (Sep-26)",
+  "rev_ttm_b": null,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": null,
+  "organic_share": 1.0,
+  "gross_margin_pct": null,
+  "gross_margin_prior_pct": null,
+  "op_margin_pct": null,
+  "op_margin_prior_pct": null,
+  "fcf_ttm_b": null,
+  "cash_b": 0.82,
+  "debt_b": 0.0,
+  "pre_revenue": true,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "maintained",
+  "contracts_90d": [
+   {
+    "what": "Ecosystem partnership with Muehlbauer for cell-assembly equipment for planned 100-MWh line",
+    "value_b": null,
+    "date": "2026-10-21",
+    "source": "QuantumScape Q3 2026 shareholder letter (SEC 8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001811414/000119312526427862/qs-ex99_1.htm"
+   },
+   {
+    "what": "Agreement with a new unnamed mobility customer; Honda billings began",
+    "value_b": null,
+    "date": "2026-10-21",
+    "source": "QuantumScape Q3 2026 shareholder letter (SEC 8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001811414/000119312526427862/qs-ex99_1.htm"
+   }
+  ],
+  "investments": "R&D $74M in Q3 (9M $241M); 2026 capex guide $27-37M; capital-light licensing model with PowerCo; liquidity ~$820M (~2.8 yrs at guided burn).",
+  "news_90d": [
+   {
+    "what": "PowerCo statement of work being realigned and IP license pending, with risk no agreement is reached on updated milestones",
+    "tone": "bad",
+    "date": "2026-10-21",
+    "source": "QuantumScape Q3 2026 shareholder letter (SEC 8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001811414/000119312526427862/qs-ex99_1.htm"
+   },
+   {
+    "what": "Q3 customer billings of $9.8M; 2026 adj. EBITDA loss guide of $250-275M reiterated",
+    "tone": "neutral",
+    "date": "2026-10-21",
+    "source": "QuantumScape Q3 2026 shareholder letter (SEC 8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001811414/000119312526427862/qs-ex99_1.htm"
+   }
+  ],
+  "industries_served": [
+   "electric vehicles",
+   "automotive OEMs",
+   "energy storage"
+  ],
+  "bottleneck_note": "Leading solid-state cell IP with OEM licensing deals (VW PowerCo, Honda), but unproven at scale; competes with Solid Power, Factorial, Samsung SDI, Toyota, CATL and improving lithium-ion.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001811414/000119312526427862/qs-ex99_1.htm"
+  ]
+ },
+ {
+  "ticker": "ALB",
+  "period": "Q3 2026 (Sep-26)",
+  "rev_ttm_b": null,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 18.8,
+  "organic_share": 1.0,
+  "gross_margin_pct": 19.4,
+  "gross_margin_prior_pct": 9.0,
+  "op_margin_pct": 9.5,
+  "op_margin_prior_pct": -16.6,
+  "fcf_ttm_b": null,
+  "cash_b": 1.846,
+  "debt_b": 1.881,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "raised",
+  "contracts_90d": [],
+  "investments": "2026 capex cut to $300-350M from ~$500M; R&D ~0.5% of revenue ($8M in Q3); Ketjen controlling stake and Eurecat divested in Q1 2026.",
+  "news_90d": [
+   {
+    "what": "Q3 sales up 19% (about 43% ex-divested catalysts) on realized lithium price nearly doubling to ~$20/kg; Energy Storage volume down 19%",
+    "tone": "good",
+    "date": "2026-11-04",
+    "source": "Albemarle Q3 release (SEC 8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000915913/000091591326000128/a3q26earningsreleaseex991.htm"
+   },
+   {
+    "what": "Specialties EBITDA outlook raised; Q4 expected to fall sequentially on lower lithium prices; Talison CGP3 delay after fire",
+    "tone": "mixed",
+    "date": "2026-11-04",
+    "source": "Albemarle Q3 release (SEC 8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000915913/000091591326000128/a3q26earningsreleaseex991.htm"
+   }
+  ],
+  "industries_served": [
+   "EV batteries",
+   "grid/data-center storage",
+   "pharma & agrochemicals",
+   "electronics",
+   "fire safety (bromine)"
+  ],
+  "bottleneck_note": "Largest Western lithium producer with tier-1 resources (Greenbushes, Atacama); commodity pricing limits moat; competes with SQM, Ganfeng, Tianqi, Pilbara, Arcadium/Rio Tinto.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0000915913/000091591326000128/a3q26earningsreleaseex991.htm"
+  ],
+  "rev_size_est_b": 5
+ },
+ {
+  "ticker": "MP",
+  "period": "Q3 2026 (Sep-26)",
+  "rev_ttm_b": null,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 175.6,
+  "organic_share": 1.0,
+  "gross_margin_pct": 42.0,
+  "gross_margin_prior_pct": 9.5,
+  "op_margin_pct": -15.0,
+  "op_margin_prior_pct": -125.0,
+  "fcf_ttm_b": null,
+  "cash_b": 1.338,
+  "debt_b": 0.936,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "none",
+  "contracts_90d": [],
+  "investments": "9M capex $420M (10X magnet facility, Independence magnets); US Department of Defense/War is a major equity holder with price-floor agreement ($68M 9M PPA income); Apple long-term magnet supply deal.",
+  "news_90d": [
+   {
+    "what": "Q3 revenue $148M (+176%) incl. one-time $31.6M SEG+ sale to US aerospace/defense customer; adj. EBITDA turned positive",
+    "tone": "good",
+    "date": "2026-11-05",
+    "source": "MP Q3 release (SEC 8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001801368/000180136826000056/mpmcq32026er.htm"
+   },
+   {
+    "what": "GM magnet qualification complete; saleable magnet deliveries and revenue begin Q4 2026",
+    "tone": "good",
+    "date": "2026-11-05",
+    "source": "MP Q3 release (SEC 8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001801368/000180136826000056/mpmcq32026er.htm"
+   }
+  ],
+  "industries_served": [
+   "EV motors",
+   "defense",
+   "consumer electronics",
+   "robotics",
+   "wind",
+   "industrial motors"
+  ],
+  "bottleneck_note": "Only scaled US mine-to-magnet rare-earth chain, backed by DoD price floor and offtake; strategic near-monopoly outside China; competitors Lynas, USA Rare Earth, Neo Performance, Chinese producers.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001801368/000180136826000056/mpmcq32026er.htm"
+  ],
+  "rev_size_est_b": 0.4
+ },
+ {
+  "ticker": "RKLB",
+  "period": "Q3 2026 (Sep-26)",
+  "rev_ttm_b": 0.882,
+  "rev_growth_ttm_pct": 59.1,
+  "rev_growth_q_pct": 72.7,
+  "organic_share": null,
+  "gross_margin_pct": 33.6,
+  "gross_margin_prior_pct": 36.9,
+  "op_margin_pct": -29.6,
+  "op_margin_prior_pct": -38.0,
+  "fcf_ttm_b": null,
+  "cash_b": 4.704,
+  "debt_b": 0.001,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": 3.57,
+  "backlog_growth_pct": null,
+  "guidance": "none",
+  "contracts_90d": [
+   {
+    "what": "About $1B of new launch contracts across Electron, HASTE and Neutron in Q3, incl. >$515M Neutron deals with constellation operators (16 Neutron missions in backlog)",
+    "value_b": 1.0,
+    "date": "2026-11-09",
+    "source": "Rocket Lab Q3 release (SEC 8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001819994/000181999426000073/rklb-11092026ex991.htm"
+   },
+   {
+    "what": "$470M of new Space Systems contracts signed",
+    "value_b": 0.47,
+    "date": "2026-11-09",
+    "source": "Rocket Lab Q3 release (SEC 8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001819994/000181999426000073/rklb-11092026ex991.htm"
+   }
+  ],
+  "investments": "Neutron medium-lift development; 9M capex $84M; pending Iridium Communications acquisition funded by completed ATM equity offering; prior Mynaric, Motiv, Geost acquisitions.",
+  "news_90d": [
+   {
+    "what": "Q3 revenue $268M (+73%) and backlog ~$3.6B (+52% QoQ); first positive quarterly operating cash flow (~$7M)",
+    "tone": "good",
+    "date": "2026-11-09",
+    "source": "Rocket Lab Q3 release (SEC 8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001819994/000181999426000073/rklb-11092026ex991.htm"
+   },
+   {
+    "what": "Pending acquisition of Iridium Communications, funded via ATM equity raise (dilution)",
+    "tone": "mixed",
+    "date": "2026-11-09",
+    "source": "Rocket Lab Q3 release (SEC 8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001819994/000181999426000073/rklb-11092026ex991.htm"
+   }
+  ],
+  "industries_served": [
+   "launch services",
+   "satellite manufacturing & components",
+   "defense/national security",
+   "hypersonic testing",
+   "satellite communications"
+  ],
+  "bottleneck_note": "Second-most-active US launcher and vertically integrated space prime; strong position in small launch and spacecraft components; competes with SpaceX, Firefly, Blue Origin, ULA, and satellite builders.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001819994/000181999426000073/rklb-11092026ex991.htm",
+   "https://ground.news/article/rocket-lab-announces-fourth-quarter-and-full-year-2025-financial-results-posts-record-quarterly-revenue-of-180m-record-annual-revenue-of-60"
+  ]
+ },
+ {
+  "ticker": "ASTS",
+  "period": "Q2 2026 (Jun-26); Q3 not yet retrieved",
+  "rev_ttm_b": null,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 2616.0,
+  "organic_share": 1.0,
+  "gross_margin_pct": 25.1,
+  "gross_margin_prior_pct": null,
+  "op_margin_pct": -944.8,
+  "op_margin_prior_pct": null,
+  "fcf_ttm_b": null,
+  "cash_b": 2.723,
+  "debt_b": 2.972,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": 1.3,
+  "backlog_growth_pct": null,
+  "guidance": "maintained",
+  "contracts_90d": [],
+  "investments": "6M capex ~$859M building BlueBird constellation (production through BlueBird 46); $1.15B 1.625% convertible notes raised July 2026 (pro forma cash >$3.7B); Japan J-LEO JV with Rakuten could bring up to ~$1B government capital.",
+  "news_90d": [
+   {
+    "what": "FY2026 revenue guide $150-200M reiterated; ~$1.3B contracted revenue and 60+ MNO partners",
+    "tone": "good",
+    "date": null,
+    "source": "AST Q2 2026 release (SEC 8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001780312/000119312526342540/asts-ex99_1.htm"
+   },
+   {
+    "what": "Q2 operating loss ~$298M including $126M loss on involuntary conversion (satellite loss)",
+    "tone": "bad",
+    "date": null,
+    "source": "AST Q2 2026 release (SEC 8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001780312/000119312526342540/asts-ex99_1.htm"
+   }
+  ],
+  "industries_served": [
+   "mobile network operators",
+   "US government/defense",
+   "consumer broadband",
+   "IoT"
+  ],
+  "bottleneck_note": "Large spectrum/patent and MNO-partnership moat in direct-to-cell broadband, but faces SpaceX Starlink Direct-to-Cell (T-Mobile), Lynk, and Apple/Globalstar; execution risk on deployment.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001780312/000119312526342540/asts-ex99_1.htm"
+  ],
+  "rev_size_est_b": 0.1
+ },
+ {
+  "ticker": "FLY",
+  "period": "Q2 2026 (Jun-26); Q3 reports Nov 10",
+  "rev_ttm_b": null,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 659.4,
+  "organic_share": null,
+  "gross_margin_pct": 20.3,
+  "gross_margin_prior_pct": 25.8,
+  "op_margin_pct": -80.9,
+  "op_margin_prior_pct": -351.0,
+  "fcf_ttm_b": null,
+  "cash_b": 0.635,
+  "debt_b": 0.027,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "none",
+  "contracts_90d": [
+   {
+    "what": "NASA CLPS award for a rapid Blue Ghost lunar mission",
+    "value_b": 0.144,
+    "date": null,
+    "source": "Firefly Q2 2026 release (SEC 8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001860160/000186016026000022/fly-ex99_1.htm"
+   },
+   {
+    "what": "Space Force Ground-Based Radar Digitization contract",
+    "value_b": 0.094,
+    "date": null,
+    "source": "Firefly Q2 2026 release (SEC 8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001860160/000186016026000022/fly-ex99_1.htm"
+   },
+   {
+    "what": "JPL subcontract for NASA MoonFall mission (Elytra spacecraft delivering lunar drones)",
+    "value_b": 0.075,
+    "date": null,
+    "source": "Firefly Q2 2026 release (SEC 8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001860160/000186016026000022/fly-ex99_1.htm"
+   }
+  ],
+  "investments": "Alpha Block II and Eclipse (with Northrop) launch development; 6M capex $41M; acquisitions of SciTec (defense software) and Space-ng; 6M FCF about -$185M.",
+  "news_90d": [
+   {
+    "what": "Lockheed Martin Alpha launch agreement extended to up to 25 launches through 2031",
+    "tone": "good",
+    "date": null,
+    "source": "Firefly Q2 2026 release (SEC 8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001860160/000186016026000022/fly-ex99_1.htm"
+   },
+   {
+    "what": "Q3 2026 results scheduled for Nov 10, 2026",
+    "tone": "neutral",
+    "date": "2026-11-10",
+    "source": "Finviz/Business Wire",
+    "url": "https://finviz.com/news/402667/firefly-aerospace-to-announce-third-quarter-2026-financial-results-on-november-10-2026"
+   }
+  ],
+  "industries_served": [
+   "launch services",
+   "lunar landers",
+   "defense/missile-tracking software",
+   "NASA science"
+  ],
+  "bottleneck_note": "One of few US small/medium launch plus lunar lander providers (Blue Ghost success); competes with Rocket Lab, SpaceX, Intuitive Machines, Astrobotic; Alpha reliability still unproven.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001860160/000186016026000022/fly-ex99_1.htm",
+   "https://finviz.com/news/402667/firefly-aerospace-to-announce-third-quarter-2026-financial-results-on-november-10-2026"
+  ],
+  "rev_size_est_b": 0.4
+ },
+ {
+  "ticker": "PL",
+  "period": "Q2 FY27 (Jul-26)",
+  "rev_ttm_b": null,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 58.2,
+  "organic_share": 1.0,
+  "gross_margin_pct": 56.5,
+  "gross_margin_prior_pct": 57.6,
+  "op_margin_pct": -11.6,
+  "op_margin_prior_pct": -24.5,
+  "fcf_ttm_b": null,
+  "cash_b": 0.865,
+  "debt_b": 0.448,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": 0.815,
+  "backlog_growth_pct": null,
+  "guidance": "none",
+  "contracts_90d": [
+   {
+    "what": "German government tender for dedicated satellite services (max EUR 25M over 5 years)",
+    "value_b": null,
+    "date": null,
+    "source": "Planet Q2 FY27 release (SEC 8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001836833/000119312526381874/pl-ex99_1.htm"
+   },
+   {
+    "what": "NGA $8M OTA award to deploy Global Monitoring Service",
+    "value_b": 0.008,
+    "date": "2026-08",
+    "source": "Planet Q2 FY27 release (SEC 8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001836833/000119312526381874/pl-ex99_1.htm"
+   }
+  ],
+  "investments": "6M capex $47M on satellite fleet (Pelican, Tanager); $448M convertible notes outstanding; 6M operating cash flow +$68M.",
+  "news_90d": [
+   {
+    "what": "Q2 FY27 revenue +58% to $116M with positive adj. EBITDA, but Q3 guide of $101-105M implies sequential decline; backlog fell to $815M from $900M in January",
+    "tone": "mixed",
+    "date": null,
+    "source": "Planet Q2 FY27 release (SEC 8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001836833/000119312526381874/pl-ex99_1.htm"
+   },
+   {
+    "what": "Renewal with a hyperscaler AI developer for global data-center and semiconductor facility monitoring",
+    "tone": "good",
+    "date": null,
+    "source": "Planet Q2 FY27 release (SEC 8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001836833/000119312526381874/pl-ex99_1.htm"
+   }
+  ],
+  "industries_served": [
+   "defense & intelligence",
+   "civil government",
+   "agriculture",
+   "AI/hyperscalers",
+   "insurance & finance"
+  ],
+  "bottleneck_note": "Largest daily-revisit Earth-imaging fleet with deep archive; moderate switching costs; competes with Maxar/Vantor, Airbus, BlackSky, Satellogic and government systems.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001836833/000119312526381874/pl-ex99_1.htm"
+  ],
+  "rev_size_est_b": 0.35
+ }
+]

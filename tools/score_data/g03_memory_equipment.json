@@ -1,0 +1,656 @@
+[
+ {
+  "ticker": "MU",
+  "period": "FQ4 FY26 (qtr ended Sep 3, 2026); TTM = FY26",
+  "rev_ttm_b": 133.19,
+  "rev_growth_ttm_pct": 256.3,
+  "rev_growth_q_pct": 379.3,
+  "organic_share": 1.0,
+  "gross_margin_pct": 86.8,
+  "gross_margin_prior_pct": 44.7,
+  "op_margin_pct": 80.7,
+  "op_margin_prior_pct": 32.3,
+  "fcf_ttm_b": 62.31,
+  "cash_b": 73.45,
+  "debt_b": 5.18,
+  "pre_revenue": false,
+  "peak_cycle": true,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": 150.0,
+  "backlog_growth_pct": null,
+  "guidance": "none",
+  "contracts_90d": [
+   {
+    "what": "26 strategic customer agreements signed, expected to cover >35% of revenue through 2030; ~$12.7B of customer deposits received in FY26",
+    "value_b": null,
+    "date": "2026-09-30",
+    "source": "Micron earnings call via Mitrade / SEC 8-K",
+    "url": "https://www.mitrade.com/insights/news/live-news/article-0-2129335-20261001"
+   }
+  ],
+  "investments": "FY26 net capex $27.4B and rising; FQ4 R&D $1.9B (~3.5% of revenue). A $4.5B Taiwan fab was reportedly paused (Bloomberg, unverified).",
+  "news_90d": [
+   {
+    "what": "Record FQ4: revenue $54.2B, GAAP GM 86.8%; FQ1 FY27 guide $61.5B +/- $1.5B",
+    "tone": "good",
+    "date": "2026-09-30",
+    "source": "SEC 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000723125/000072312526000018/a2026q4ex991-pressrelease.htm"
+   },
+   {
+    "what": "Stock fell ~17.5% in one day amid AI-infrastructure and semis selloff (SOX ~-12%)",
+    "tone": "bad",
+    "date": "2026-11-05",
+    "source": "INDmoney",
+    "url": "https://www.indmoney.com/blog/us-stocks/inside-sandisk-sndk-micron-mu-stock-crash"
+   },
+   {
+    "what": "Bloomberg reported Micron suspended work on a $4.5B Taiwan memory plant amid a labor dispute (not confirmed by Reuters)",
+    "tone": "bad",
+    "date": "2026-11-05",
+    "source": "Bloomberg via INDmoney",
+    "url": "https://www.indmoney.com/blog/us-stocks/inside-sandisk-sndk-micron-mu-stock-crash"
+   }
+  ],
+  "industries_served": [
+   "AI data centers (HBM, server DRAM)",
+   "PCs",
+   "smartphones",
+   "automotive",
+   "industrial",
+   "SSD storage"
+  ],
+  "bottleneck_note": "One of three scaled DRAM/HBM makers (oligopoly with SK Hynix and Samsung) and the only US-based one; CXMT is an emerging China rival.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0000723125/000072312526000018/a2026q4ex991-pressrelease.htm",
+   "https://www.mitrade.com/insights/news/live-news/article-0-2129335-20261001",
+   "https://www.indmoney.com/blog/us-stocks/inside-sandisk-sndk-micron-mu-stock-crash"
+  ]
+ },
+ {
+  "ticker": "SKHY",
+  "period": "Q3 2026 (qtr ended Sep 30, 2026); TTM Q4-25 to Q3-26; KRW converted at ~1,331 KRW/USD",
+  "rev_ttm_b": 202.4,
+  "rev_growth_ttm_pct": 220.3,
+  "rev_growth_q_pct": 327.9,
+  "organic_share": 1.0,
+  "gross_margin_pct": null,
+  "gross_margin_prior_pct": null,
+  "op_margin_pct": 79.7,
+  "op_margin_prior_pct": 46.6,
+  "fcf_ttm_b": null,
+  "cash_b": 86.0,
+  "debt_b": 11.9,
+  "pre_revenue": false,
+  "peak_cycle": true,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "none",
+  "contracts_90d": [
+   {
+    "what": "Long-term agreements (typically 5-year) with 14 major customers covering >50% of 2027-28 capacity",
+    "value_b": null,
+    "date": "2026-10-27",
+    "source": "SK hynix release via Webull/PR Newswire",
+    "url": "https://www.webull.com/news/15822865136734208"
+   }
+  ],
+  "investments": "Yongin Phase 1 enters full operation in 2027; M15X ramping to max capacity by end-2026 for HBM4; infrastructure capex to rise significantly in 2027. ~KRW100T 2026 shareholder return (>=30T dividends, >=60T buybacks).",
+  "news_90d": [
+   {
+    "what": "Record Q3: revenue KRW104.6T (+328%), op profit KRW83.3T; memory supply seen short of demand through 2030",
+    "tone": "good",
+    "date": "2026-10-27",
+    "source": "Korea Times",
+    "url": "https://www.koreatimes.co.kr/business/companies/20261028/sk-hynix-logs-record-q3-operating-profit-of-628-bil"
+   },
+   {
+    "what": "Shares fell ~4% as Seoul selloff revived AI-spending fears",
+    "tone": "bad",
+    "date": "2026-10-20",
+    "source": "24/7 Wall St",
+    "url": "https://247wallst.com/investing/2026/10/20/sk-hynix-sinks-4-as-seoul-selloff-revives-ai-spending-fears-sandisk-drops-3-micron-eases/"
+   },
+   {
+    "what": "Memory stocks routed in broad AI/semis selloff after South Korean market rout",
+    "tone": "bad",
+    "date": "2026-11-05",
+    "source": "INDmoney",
+    "url": "https://www.indmoney.com/blog/us-stocks/inside-sandisk-sndk-micron-mu-stock-crash"
+   }
+  ],
+  "industries_served": [
+   "AI accelerators (HBM)",
+   "data center servers",
+   "smartphones",
+   "PCs",
+   "enterprise SSD"
+  ],
+  "bottleneck_note": "HBM share leader for Nvidia-class accelerators; DRAM oligopoly with Samsung and Micron; long-term agreements raise switching costs.",
+  "sources": [
+   "https://www.webull.com/news/15822865136734208",
+   "https://www.koreatimes.co.kr/business/companies/20261028/sk-hynix-logs-record-q3-operating-profit-of-628-bil",
+   "https://www.storagenewsletter.com/2026/02/10/sk-hynix-fiscal-4q25-and-fy25-financial-results/",
+   "https://index.vn/en/news/sk-hynix-reports-first-quarter-2026-revenue-of-525763-trillion-won-operating-profit-of-376103-trillion-won-and-net-profit-of-403459-trillion-won"
+  ]
+ },
+ {
+  "ticker": "SNDK",
+  "period": "FQ1 FY27 (qtr ended Oct 2, 2026); TTM = FQ2 FY26 to FQ1 FY27",
+  "rev_ttm_b": 28.97,
+  "rev_growth_ttm_pct": 272.4,
+  "rev_growth_q_pct": 377.9,
+  "organic_share": 1.0,
+  "gross_margin_pct": 85.0,
+  "gross_margin_prior_pct": 29.8,
+  "op_margin_pct": 79.6,
+  "op_margin_prior_pct": 7.6,
+  "fcf_ttm_b": null,
+  "cash_b": 5.14,
+  "debt_b": 0.0,
+  "pre_revenue": false,
+  "peak_cycle": true,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "none",
+  "contracts_90d": [
+   {
+    "what": "Agreements with eight customers expected to cover about half of FY27 bit volumes",
+    "value_b": null,
+    "date": "2026-10-29",
+    "source": "INDmoney (citing Q1 results)",
+    "url": "https://www.indmoney.com/blog/us-stocks/inside-sandisk-sndk-micron-mu-stock-crash"
+   }
+  ],
+  "investments": "Minimal capex ($54M in FQ1); NAND output via Kioxia JV. Spent $5.0B on buybacks in the quarter; 8-for-1 split trades Nov 20, 2026.",
+  "news_90d": [
+   {
+    "what": "FQ1 revenue $11.0B (+378%), GAAP GM 85%; FQ2 guide $12.2-12.6B",
+    "tone": "good",
+    "date": "2026-10-29",
+    "source": "SanDisk release",
+    "url": "https://www.sandisk.com/company/newsroom/press-releases/2026/2026-10-29-sandisk-reports-fiscal-first-quarter-2027-financial-results"
+   },
+   {
+    "what": "Stock fell ~22% in one day in AI/semis selloff; already ~56% below its high",
+    "tone": "bad",
+    "date": "2026-11-05",
+    "source": "INDmoney",
+    "url": "https://www.indmoney.com/blog/us-stocks/inside-sandisk-sndk-micron-mu-stock-crash"
+   }
+  ],
+  "industries_served": [
+   "AI/data center enterprise SSD",
+   "PCs and smartphones (edge)",
+   "consumer storage"
+  ],
+  "bottleneck_note": "One of a handful of scaled NAND makers (vs Samsung, SK Hynix/Solidigm, Kioxia partner, Micron, YMTC); commodity product with low switching costs.",
+  "sources": [
+   "https://www.sandisk.com/company/newsroom/press-releases/2026/2026-10-29-sandisk-reports-fiscal-first-quarter-2027-financial-results",
+   "https://www.sec.gov/Archives/edgar/data/0002023554/000162828026028879/sndkq3-26ex991xpressrelease.htm",
+   "https://www.indmoney.com/blog/us-stocks/inside-sandisk-sndk-micron-mu-stock-crash"
+  ]
+ },
+ {
+  "ticker": "P",
+  "period": "Q2 FY27 (qtr ended Aug 2, 2026); TTM to Aug-26",
+  "rev_ttm_b": 4.26,
+  "rev_growth_ttm_pct": 27.2,
+  "rev_growth_q_pct": 37.7,
+  "organic_share": 1.0,
+  "gross_margin_pct": 68.4,
+  "gross_margin_prior_pct": 70.2,
+  "op_margin_pct": 5.3,
+  "op_margin_prior_pct": 0.6,
+  "fcf_ttm_b": 0.13,
+  "cash_b": 1.01,
+  "debt_b": 0.0,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": 4.1,
+  "backlog_growth_pct": 44.0,
+  "guidance": "raised",
+  "contracts_90d": [
+   {
+    "what": "Second top-five hyperscaler design win (DirectFlash)",
+    "value_b": null,
+    "date": "2026-08-10",
+    "source": "Everpure release",
+    "url": "https://www.placera.se/pressmeddelanden/everpure-everpure-announces-second-quarter-fiscal-2027-financial-results-20260826"
+   }
+  ],
+  "investments": "Capex rising ($101M in Q2); acquired 1touch ($125M cash). Subscription ARR $2.1B (+20%).",
+  "news_90d": [
+   {
+    "what": "Raised FY27 revenue guide to $5.03-5.07B from $4.41-4.51B, citing historic industry price increases",
+    "tone": "good",
+    "date": "2026-08-26",
+    "source": "Everpure release",
+    "url": "https://www.placera.se/pressmeddelanden/everpure-everpure-announces-second-quarter-fiscal-2027-financial-results-20260826"
+   },
+   {
+    "what": "Free cash flow turned negative in Q2 (-$238M) on working capital/NAND costs",
+    "tone": "bad",
+    "date": "2026-08-26",
+    "source": "Everpure release",
+    "url": "https://www.placera.se/pressmeddelanden/everpure-everpure-announces-second-quarter-fiscal-2027-financial-results-20260826"
+   }
+  ],
+  "industries_served": [
+   "hyperscale data centers",
+   "enterprise storage",
+   "AI data pipelines",
+   "cloud"
+  ],
+  "bottleneck_note": "Leading all-flash array vendor with Evergreen subscription lock-in; competes with Dell, NetApp, HPE and hyperscaler in-house storage.",
+  "sources": [
+   "https://www.placera.se/pressmeddelanden/everpure-everpure-announces-second-quarter-fiscal-2027-financial-results-20260826",
+   "https://www.sec.gov/Archives/edgar/data/1474432/000147443226000015/pstg-ex991q4fy2026.htm"
+  ]
+ },
+ {
+  "ticker": "ASML",
+  "period": "Q3 2026 (qtr ended Sep 27, 2026); TTM to Sep-26; EUR converted at assumed ~1.16 USD/EUR",
+  "rev_ttm_b": 45.8,
+  "rev_growth_ttm_pct": 22.6,
+  "rev_growth_q_pct": 55.2,
+  "organic_share": 1.0,
+  "gross_margin_pct": 57.5,
+  "gross_margin_prior_pct": 51.6,
+  "op_margin_pct": 44.4,
+  "op_margin_prior_pct": 32.8,
+  "fcf_ttm_b": null,
+  "cash_b": 14.8,
+  "debt_b": null,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "raised",
+  "contracts_90d": [],
+  "investments": "Plans +30% low-NA EUV and DUV immersion capacity in 2027, studying more for 2028; Q4 R&D ~EUR1.2B (~8% of sales). Customer prepayments (non-current contract liabilities) up to EUR9.3B.",
+  "news_90d": [
+   {
+    "what": "Q3 sales EUR11.7B (+55%); CEO says 2027-28 supply will not fully meet demand; some customers seek 2029-30 orders",
+    "tone": "good",
+    "date": "2026-10-14",
+    "source": "ASML 6-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000937966/000162828026065813/pressreleasefinancialresul.htm"
+   },
+   {
+    "what": "Shares fell ~3% on narrow revenue miss vs consensus",
+    "tone": "bad",
+    "date": "2026-10-15",
+    "source": "Beancount analysis",
+    "url": "https://beancount.io/blog/2026/10/20/asml-fy2026-q3-earnings-analysis"
+   }
+  ],
+  "industries_served": [
+   "semiconductor foundry/logic",
+   "DRAM/HBM",
+   "NAND"
+  ],
+  "bottleneck_note": "Sole supplier of EUV lithography (monopoly); DUV competitors Nikon and Canon.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0000937966/000162828026065813/pressreleasefinancialresul.htm",
+   "https://beancount.io/blog/2026/10/20/asml-fy2026-q3-earnings-analysis",
+   "https://www.asml.com/en/news/press-releases/2026/q1-2026-financial-results"
+  ]
+ },
+ {
+  "ticker": "AMAT",
+  "period": "FQ3 FY26 (qtr ended Jul 26, 2026); TTM to Jul-26 (FQ4 FY26 due mid-Nov)",
+  "rev_ttm_b": 30.84,
+  "rev_growth_ttm_pct": 7.8,
+  "rev_growth_q_pct": 24.8,
+  "organic_share": 1.0,
+  "gross_margin_pct": 50.3,
+  "gross_margin_prior_pct": 48.8,
+  "op_margin_pct": 33.7,
+  "op_margin_prior_pct": 30.6,
+  "fcf_ttm_b": null,
+  "cash_b": 9.23,
+  "debt_b": 6.54,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "raised",
+  "contracts_90d": [
+   {
+    "what": "Three new EPIC Center R&D partnerships (Broadcom, UC Berkeley, SCREEN SPE)",
+    "value_b": null,
+    "date": "2026-08-13",
+    "source": "Applied Materials release",
+    "url": "https://www.appliedmaterials.com/us/en/newsroom/press-releases/081326-applied-materials-announces-third-quarter-2026-results.html"
+   }
+  ],
+  "investments": "Adding manufacturing capacity for demand through decade end, incl. $500M Singapore Tampines campus; R&D $1.1B/qtr (~12% of revenue).",
+  "news_90d": [
+   {
+    "what": "FQ4 guide $10.25B (+/-0.5B); raised CY26 Semiconductor Systems outlook; China share fell to 28% from 35%",
+    "tone": "good",
+    "date": "2026-08-13",
+    "source": "Applied Materials release",
+    "url": "https://www.appliedmaterials.com/us/en/newsroom/press-releases/081326-applied-materials-announces-third-quarter-2026-results.html"
+   },
+   {
+    "what": "Semis selloff: Philadelphia Semiconductor Index fell ~12% in a day",
+    "tone": "bad",
+    "date": "2026-11-05",
+    "source": "INDmoney",
+    "url": "https://www.indmoney.com/blog/us-stocks/inside-sandisk-sndk-micron-mu-stock-crash"
+   }
+  ],
+  "industries_served": [
+   "semiconductor foundry/logic",
+   "DRAM/HBM",
+   "NAND",
+   "advanced packaging",
+   "displays"
+  ],
+  "bottleneck_note": "Largest WFE supplier with broadest deposition/materials-engineering portfolio; competes with Lam, Tokyo Electron, KLA.",
+  "sources": [
+   "https://www.appliedmaterials.com/us/en/newsroom/press-releases/081326-applied-materials-announces-third-quarter-2026-results.html"
+  ]
+ },
+ {
+  "ticker": "LRCX",
+  "period": "FQ1 FY27 (qtr ended Sep 27, 2026); TTM to Sep-26",
+  "rev_ttm_b": 26.13,
+  "rev_growth_ttm_pct": 33.4,
+  "rev_growth_q_pct": 54.4,
+  "organic_share": 1.0,
+  "gross_margin_pct": 52.3,
+  "gross_margin_prior_pct": 50.4,
+  "op_margin_pct": 40.0,
+  "op_margin_prior_pct": 34.4,
+  "fcf_ttm_b": null,
+  "cash_b": 7.44,
+  "debt_b": 3.73,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "none",
+  "contracts_90d": [],
+  "investments": "R&D $666M/qtr (~8% of revenue); capex $258M in quarter.",
+  "news_90d": [
+   {
+    "what": "Sep-qtr revenue $8.22B (+54%); Dec-qtr guide $8.60B; China 35% of revenue",
+    "tone": "good",
+    "date": null,
+    "source": "SEC 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000707549/000070754926000052/lrcx_exhibitx991xq1x2027.htm"
+   },
+   {
+    "what": "Semis selloff: Philadelphia Semiconductor Index fell ~12% in a day",
+    "tone": "bad",
+    "date": "2026-11-05",
+    "source": "INDmoney",
+    "url": "https://www.indmoney.com/blog/us-stocks/inside-sandisk-sndk-micron-mu-stock-crash"
+   }
+  ],
+  "industries_served": [
+   "NAND",
+   "DRAM/HBM",
+   "semiconductor foundry/logic",
+   "advanced packaging"
+  ],
+  "bottleneck_note": "Etch/deposition leader, dominant in high-aspect-ratio NAND etch; competes with Applied Materials and Tokyo Electron.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0000707549/000070754926000052/lrcx_exhibitx991xq1x2027.htm",
+   "https://www.sec.gov/Archives/edgar/data/0000707549/000070754926000033/lrcx_exhibitx991xq4x2026.htm"
+  ]
+ },
+ {
+  "ticker": "KLAC",
+  "period": "FQ1 FY27 (qtr ended Sep 30, 2026); TTM to Sep-26",
+  "rev_ttm_b": 14.51,
+  "rev_growth_ttm_pct": 15.8,
+  "rev_growth_q_pct": 28.9,
+  "organic_share": 1.0,
+  "gross_margin_pct": 61.8,
+  "gross_margin_prior_pct": 61.3,
+  "op_margin_pct": 45.0,
+  "op_margin_prior_pct": 41.7,
+  "fcf_ttm_b": 4.04,
+  "cash_b": 4.74,
+  "debt_b": 5.72,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "none",
+  "contracts_90d": [],
+  "investments": "R&D $395M/qtr (~10% of revenue); 10-for-1 stock split effective Jun 2026.",
+  "news_90d": [
+   {
+    "what": "FQ1 revenue $4.14B (+29%); Dec-qtr guide $4.7B (+/-0.2B)",
+    "tone": "good",
+    "date": null,
+    "source": "SEC 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000319201/000031920126000032/exhibit991earningsrelease0.htm"
+   },
+   {
+    "what": "Semis selloff: Philadelphia Semiconductor Index fell ~12% in a day",
+    "tone": "bad",
+    "date": "2026-11-05",
+    "source": "INDmoney",
+    "url": "https://www.indmoney.com/blog/us-stocks/inside-sandisk-sndk-micron-mu-stock-crash"
+   }
+  ],
+  "industries_served": [
+   "semiconductor foundry/logic",
+   "DRAM/HBM",
+   "NAND",
+   "advanced packaging"
+  ],
+  "bottleneck_note": "Dominant process-control/inspection supplier (majority share), highest margins in WFE; competitors Applied Materials, Onto, Hitachi High-Tech.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0000319201/000031920126000032/exhibit991earningsrelease0.htm",
+   "https://www.placera.se/pressmeddelanden/kla-corporation-reports-fiscal-2026-fourth-quarter-and-full-year-results-20260728"
+  ]
+ },
+ {
+  "ticker": "TER",
+  "period": "Q3 2026 (qtr ended Sep 27, 2026); TTM to Sep-26",
+  "rev_ttm_b": 5.0,
+  "rev_growth_ttm_pct": 74.9,
+  "rev_growth_q_pct": 69.8,
+  "organic_share": null,
+  "gross_margin_pct": 59.1,
+  "gross_margin_prior_pct": 58.4,
+  "op_margin_pct": 30.8,
+  "op_margin_prior_pct": 18.9,
+  "fcf_ttm_b": 1.02,
+  "cash_b": 0.62,
+  "debt_b": 0.0,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "none",
+  "contracts_90d": [],
+  "investments": "R&D $163M/qtr (~12% of revenue); $166M of acquisitions in 9M 2026; repaid revolver to zero debt.",
+  "news_90d": [
+   {
+    "what": "Q3 revenue $1.31B (+70%) beat high end of guidance; memory test records; robotics turned profitable",
+    "tone": "good",
+    "date": null,
+    "source": "SEC 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000097210/000119312526434981/ter-ex99_1.htm"
+   },
+   {
+    "what": "Q4 guide $1.25-1.35B, roughly flat sequentially",
+    "tone": "neutral",
+    "date": null,
+    "source": "SEC 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000097210/000119312526434981/ter-ex99_1.htm"
+   }
+  ],
+  "industries_served": [
+   "AI/compute SoC test",
+   "memory/HBM test",
+   "hard disk drive test",
+   "industrial robotics"
+  ],
+  "bottleneck_note": "ATE duopoly with Advantest (Advantest stronger in GPU/HBM test); robotics faces many competitors.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0000097210/000119312526434981/ter-ex99_1.htm",
+   "https://www.sec.gov/Archives/edgar/data/97210/000119312526034348/ter-ex99_1.htm"
+  ]
+ },
+ {
+  "ticker": "SNPS",
+  "period": "FQ3 FY26 (qtr ended Jul 31, 2026); TTM to Jul-26 (FQ4 due early Dec)",
+  "rev_ttm_b": 9.42,
+  "rev_growth_ttm_pct": 46.3,
+  "rev_growth_q_pct": 42.4,
+  "organic_share": 0.1,
+  "gross_margin_pct": 72.6,
+  "gross_margin_prior_pct": 78.1,
+  "op_margin_pct": 14.4,
+  "op_margin_prior_pct": 9.5,
+  "fcf_ttm_b": null,
+  "cash_b": 3.61,
+  "debt_b": 10.04,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "raised",
+  "contracts_90d": [],
+  "investments": "R&D $720M/qtr (~29% of revenue); $2.0B private-placement equity raised in FY26; repaid $3.5B debt; divested Optical Solutions and Processor IP.",
+  "news_90d": [
+   {
+    "what": "Raised FY26 revenue guide to $9.69-9.74B and FCF to ~$2.6B; Q3 beat high end of guidance",
+    "tone": "good",
+    "date": "2026-08-26",
+    "source": "SEC 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000883241/000119312526368620/d157153dex991.htm"
+   },
+   {
+    "what": "FY26 restructuring charges guided to $380-410M",
+    "tone": "bad",
+    "date": "2026-08-26",
+    "source": "SEC 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000883241/000119312526368620/d157153dex991.htm"
+   }
+  ],
+  "industries_served": [
+   "semiconductor design",
+   "AI chip design",
+   "automotive",
+   "aerospace/simulation",
+   "industrial"
+  ],
+  "bottleneck_note": "EDA duopoly with Cadence (Siemens EDA distant third) plus Ansys simulation; very high switching costs.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0000883241/000119312526368620/d157153dex991.htm"
+  ]
+ },
+ {
+  "ticker": "CDNS",
+  "period": "Q3 2026 (qtr ended Sep 30, 2026); TTM to Sep-26",
+  "rev_ttm_b": 6.13,
+  "rev_growth_ttm_pct": 17.6,
+  "rev_growth_q_pct": 22.0,
+  "organic_share": null,
+  "gross_margin_pct": 85.6,
+  "gross_margin_prior_pct": 86.4,
+  "op_margin_pct": 26.2,
+  "op_margin_prior_pct": 31.8,
+  "fcf_ttm_b": null,
+  "cash_b": 1.45,
+  "debt_b": 2.63,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": 8.2,
+  "backlog_growth_pct": null,
+  "guidance": "raised",
+  "contracts_90d": [],
+  "investments": "R&D $538M/qtr (~33% of revenue); $2.14B spent on acquisitions in 9M 2026; new $2.5B buyback authorization.",
+  "news_90d": [
+   {
+    "what": "Raised FY26 revenue guide to $6.387-6.417B (~21% growth); record $8.2B backlog",
+    "tone": "good",
+    "date": "2026-10-26",
+    "source": "SEC 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000813672/000081367226000116/cdns10262026ex9901.htm"
+   },
+   {
+    "what": "Launched Maestro domain-specific AI models; >100 AI Super Agent customer engagements",
+    "tone": "good",
+    "date": "2026-10-26",
+    "source": "SEC 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000813672/000081367226000116/cdns10262026ex9901.htm"
+   }
+  ],
+  "industries_served": [
+   "semiconductor design",
+   "AI chip design",
+   "systems analysis",
+   "automotive",
+   "aerospace"
+  ],
+  "bottleneck_note": "EDA duopoly with Synopsys (Siemens EDA third); deep workflow lock-in and subscription model.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0000813672/000081367226000116/cdns10262026ex9901.htm"
+  ]
+ }
+]

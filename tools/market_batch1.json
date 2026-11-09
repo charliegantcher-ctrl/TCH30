@@ -1,0 +1,223 @@
+[
+ {
+  "ticker": "NVDA",
+  "name": "Nvidia",
+  "price": 186.64,
+  "price_date": "2026-11-06",
+  "mcap_b": 4510,
+  "mcap_date": "2026-11-06",
+  "chg_1m_pct": -22.0,
+  "chg_1m_basis": "close 239.24 on 2026-10-06 -> 186.64 on 2026-11-06",
+  "chg_1y_pct": -4.39,
+  "rev_ttm_b": 302.97,
+  "ni_ttm_b": 192.88,
+  "book_b": 228.98,
+  "div_ttm_b": 24.16,
+  "div_basis": "annual DPS $1.0 x implied shares 24.164B (mcap/price); run-rate, not cash-flow TTM",
+  "asof": "2026-11-06 close (pages fetched 2026-11-09)",
+  "sources": [
+   "https://stockanalysis.com/stocks/nvda/statistics/",
+   "https://stockanalysis.com/stocks/nvda/history"
+  ],
+  "notes": "Dividend $1.00/share is annualized run-rate per stockanalysis (TTM cash actually paid may be lower if the dividend was raised recently). Next earnings Nov 17, 2026."
+ },
+ {
+  "ticker": "TSM",
+  "name": "TSMC ADR",
+  "price": 375.44,
+  "price_date": "2026-11-06",
+  "mcap_b": 1765.5,
+  "mcap_date": "2026-11-06",
+  "chg_1m_pct": -22.2,
+  "chg_1m_basis": "close 482.3 on 2026-10-06 -> 375.44 on 2026-11-06",
+  "chg_1y_pct": 35.84,
+  "rev_ttm_b": 155.16,
+  "ni_ttm_b": 79.31,
+  "book_b": 221.0,
+  "div_ttm_b": 19.09,
+  "div_basis": "annual DPS $4.06 x implied shares 4.702B (mcap/price); run-rate, not cash-flow TTM",
+  "asof": "2026-11-06 close (pages fetched 2026-11-09)",
+  "sources": [
+   "https://www.stockanalysis.com/stocks/tsm/statistics/",
+   "https://stockanalysis.com/stocks/tsm/history/"
+  ],
+  "notes": "Stats page showed $389.16 intraday Nov 9, 2026 with mcap $1.83T; mcap_b here is rescaled to the Nov 6 close (1830*375.44/389.16). 1y change (+35.84%) is as of Nov 9 intraday. Financials shown with '$' on the USD-listed ADR page (stockanalysis converts TWD reporting to listing currency); not independently converted."
+ },
+ {
+  "ticker": "ASML",
+  "name": "ASML ADR",
+  "price": 1424.75,
+  "price_date": "2026-11-06",
+  "mcap_b": 547.27,
+  "mcap_date": "2026-11-06",
+  "chg_1m_pct": -19.5,
+  "chg_1m_basis": "close 1770 on 2026-10-08 -> 1424.75 on 2026-11-06",
+  "chg_1y_pct": 36.5,
+  "rev_ttm_b": 44.98,
+  "ni_ttm_b": 15.36,
+  "book_b": 25.14,
+  "div_ttm_b": 3.04,
+  "div_basis": "annual DPS $7.91 x implied shares 0.384B (mcap/price); run-rate, not cash-flow TTM",
+  "asof": "2026-11-06 close (pages fetched 2026-11-09)",
+  "sources": [
+   "https://stockanalysis.com/stocks/asml/statistics/",
+   "https://twelvedata.com/markets/346040/stock/nasdaq/asml/historical-data"
+  ],
+  "notes": "1m change uses Oct 8, 2026 close shown rounded as 1.77K on twelvedata (Oct 5-7 unavailable), so approximate. ASML reports in EUR; stockanalysis USD-listing page shows '$' figures (presumed converted to USD by the site, not verified)."
+ },
+ {
+  "ticker": "AVGO",
+  "name": "Broadcom",
+  "price": 293.69,
+  "price_date": "2026-11-06",
+  "mcap_b": 1400,
+  "mcap_date": "2026-11-06",
+  "chg_1m_pct": -21.9,
+  "chg_1m_basis": "close 375.81 on 2026-10-06 -> 293.69 on 2026-11-06",
+  "chg_1y_pct": -18.19,
+  "rev_ttm_b": 89.1,
+  "ni_ttm_b": 38.27,
+  "book_b": 99.69,
+  "div_ttm_b": 12.39,
+  "div_basis": "annual DPS $2.6 x implied shares 4.767B (mcap/price); run-rate, not cash-flow TTM",
+  "asof": "2026-11-06 close (pages fetched 2026-11-09)",
+  "sources": [
+   "https://stockanalysis.com/stocks/avgo/statistics/",
+   "https://stockanalysis.com/stocks/avgo/history/"
+  ],
+  "notes": ""
+ },
+ {
+  "ticker": "MSFT",
+  "name": "Microsoft",
+  "price": 530.61,
+  "price_date": "2026-11-06",
+  "mcap_b": 3940,
+  "mcap_date": "2026-11-06",
+  "chg_1m_pct": 0.2,
+  "chg_1m_basis": "close 529.3 on 2026-10-06 -> 530.61 on 2026-11-06",
+  "chg_1y_pct": 4.62,
+  "rev_ttm_b": 346.45,
+  "ni_ttm_b": 142.63,
+  "book_b": 470.51,
+  "div_ttm_b": 29.11,
+  "div_basis": "annual DPS $3.92 x implied shares 7.425B (mcap/price); run-rate, not cash-flow TTM",
+  "asof": "2026-11-06 close (pages fetched 2026-11-09)",
+  "sources": [
+   "https://stockanalysis.com/stocks/msft/statistics/",
+   "https://stockanalysis.com/stocks/msft/history/"
+  ],
+  "notes": ""
+ },
+ {
+  "ticker": "PLTR",
+  "name": "Palantir",
+  "price": 160.38,
+  "price_date": "2026-11-06",
+  "mcap_b": 386.44,
+  "mcap_date": "2026-11-06",
+  "chg_1m_pct": -16.5,
+  "chg_1m_basis": "close 192.07 on 2026-10-06 -> 160.38 on 2026-11-06",
+  "chg_1y_pct": -14.65,
+  "rev_ttm_b": 7.29,
+  "ni_ttm_b": 3.67,
+  "book_b": 11.35,
+  "div_ttm_b": 0.0,
+  "div_basis": "no dividend",
+  "asof": "2026-11-06 close (pages fetched 2026-11-09)",
+  "sources": [
+   "https://stockanalysis.com/stocks/pltr/statistics/",
+   "https://ycharts.com/companies/PLTR/price"
+  ],
+  "notes": "No dividend. YCharts showed $169.11 intraday Nov 9, 2026."
+ },
+ {
+  "ticker": "GOOGL",
+  "name": "Alphabet",
+  "price": 284.78,
+  "price_date": "2026-11-06",
+  "mcap_b": 3500,
+  "mcap_date": "2026-11-06",
+  "chg_1m_pct": -17.4,
+  "chg_1m_basis": "close 344.59 on 2026-10-06 -> 284.78 on 2026-11-06",
+  "chg_1y_pct": 0.17,
+  "rev_ttm_b": 471.1,
+  "ni_ttm_b": 235.69,
+  "book_b": 677.55,
+  "div_ttm_b": 10.82,
+  "div_basis": "annual DPS $0.88 x implied shares 12.290B (mcap/price); run-rate, not cash-flow TTM",
+  "asof": "2026-11-06 close (pages fetched 2026-11-09)",
+  "sources": [
+   "https://stockanalysis.com/stocks/googl/statistics/",
+   "https://stockanalysis.com/stocks/goog/history"
+  ],
+  "notes": "1m change computed from GOOG (class C) history as a proxy (GOOG 344.59 on Oct 6 -> 283.93 on Nov 6). Market cap is total company (all share classes)."
+ },
+ {
+  "ticker": "ANET",
+  "name": "Arista",
+  "price": 170.8,
+  "price_date": "2026-11-06",
+  "mcap_b": 215.79,
+  "mcap_date": "2026-11-06",
+  "chg_1m_pct": -20.7,
+  "chg_1m_basis": "close 215.36 on 2026-10-06 -> 170.8 on 2026-11-06",
+  "chg_1y_pct": 21.64,
+  "rev_ttm_b": 11.89,
+  "ni_ttm_b": 4.75,
+  "book_b": 16.45,
+  "div_ttm_b": 0.0,
+  "div_basis": "no dividend",
+  "asof": "2026-11-06 close (pages fetched 2026-11-09)",
+  "sources": [
+   "https://stockanalysis.com/stocks/anet/statistics/",
+   "https://stockanalysis.com/stocks/anet/history/"
+  ],
+  "notes": "No dividend."
+ },
+ {
+  "ticker": "KLAC",
+  "name": "KLA",
+  "price": 138.49,
+  "price_date": "2026-11-06",
+  "mcap_b": 180.45,
+  "mcap_date": "2026-11-06",
+  "chg_1m_pct": -29.9,
+  "chg_1m_basis": "close 197.46 on 2026-10-06 -> 138.49 on 2026-11-06",
+  "chg_1y_pct": 12.86,
+  "rev_ttm_b": 14.51,
+  "ni_ttm_b": 5.26,
+  "book_b": 6.52,
+  "div_ttm_b": 1.2,
+  "div_basis": "annual DPS $0.92 x implied shares 1.303B (mcap/price); run-rate, not cash-flow TTM",
+  "asof": "2026-11-06 close (pages fetched 2026-11-09)",
+  "sources": [
+   "https://stockanalysis.com/stocks/klac/statistics/",
+   "https://stockanalysis.com/stocks/klac/history/",
+   "https://stockanalysis.com/stocks/klac/"
+  ],
+  "notes": "Price ~$138 with ~1.30B implied shares suggests a split-adjusted series (KLA had ~130M shares pre-2026); no split note found on page - verify. 52-wk range shown 107.20-307.37."
+ },
+ {
+  "ticker": "GEV",
+  "name": "GE Vernova",
+  "price": 774.11,
+  "price_date": "2026-11-06",
+  "mcap_b": 203.81,
+  "mcap_date": "2026-11-06",
+  "chg_1m_pct": -24.8,
+  "chg_1m_basis": "close 1029.21 on 2026-10-06 -> 774.11 on 2026-11-06",
+  "chg_1y_pct": 38.31,
+  "rev_ttm_b": 44.04,
+  "ni_ttm_b": 10.37,
+  "book_b": 12.54,
+  "div_ttm_b": 0.53,
+  "div_basis": "annual DPS $2.0 x implied shares 0.263B (mcap/price); run-rate, not cash-flow TTM",
+  "asof": "2026-11-06 close (pages fetched 2026-11-09)",
+  "sources": [
+   "https://stockanalysis.com/stocks/gev/statistics/",
+   "https://stockanalysis.com/stocks/gev/history/"
+  ],
+  "notes": "TTM net income $10.37B looks high vs revenue (23.5% margin) - may include one-off gains; verify before use."
+ }
+]

@@ -1,0 +1,156 @@
+[
+ {
+  "ticker": "LITE",
+  "name": "Lumentum Holdings",
+  "price": 538.59,
+  "price_date": "2026-11-06",
+  "mcap_b": 48.84,
+  "chg_1m_pct": -52.5,
+  "chg_1y_pct": 131.4,
+  "rev_ttm_b": 3.74,
+  "ni_ttm_b": null,
+  "book_b": 4.57,
+  "div_ttm_b": 0,
+  "asof": "2026-11-06 close (stats page updated 2026-11-07)",
+  "sources": [
+   "https://stockanalysis.com/stocks/lite/statistics/",
+   "https://stockanalysis.com/stocks/lite/history/"
+  ],
+  "notes": "1m = 538.59 vs Oct 6 close 1133.40. NI TTM -6.58B on 3.74B revenue looks anomalous (large one-off charge?) - verify. History table cached only through Oct 30 (840.70). | ni_ttm_b set to null: source figure (-6.58B on 3.74B revenue) looks wrong."
+ },
+ {
+  "ticker": "CIEN",
+  "name": "Ciena",
+  "price": 243.39,
+  "price_date": "2026-11-06",
+  "mcap_b": 34.51,
+  "chg_1m_pct": -45.1,
+  "chg_1y_pct": 24.3,
+  "rev_ttm_b": 6.02,
+  "ni_ttm_b": 0.654,
+  "book_b": 3.06,
+  "div_ttm_b": 0,
+  "asof": "2026-11-06 close (stats page updated 2026-11-08)",
+  "sources": [
+   "https://stockanalysis.com/stocks/cien/statistics/",
+   "https://stockanalysis.com/stocks/cien/history/"
+  ],
+  "notes": "1m = 243.39 vs Oct 6 close 443.65. No dividend."
+ },
+ {
+  "ticker": "ORCL",
+  "name": "Oracle",
+  "price": 116.1,
+  "price_date": "2026-11-06",
+  "mcap_b": 361.97,
+  "chg_1m_pct": -19.8,
+  "chg_1y_pct": -53.62,
+  "rev_ttm_b": 71.78,
+  "ni_ttm_b": 18.74,
+  "book_b": 67.2,
+  "div_ttm_b": 6.24,
+  "asof": "2026-11-06 close (stats page updated 2026-11-07)",
+  "sources": [
+   "https://stockanalysis.com/stocks/orcl/statistics/",
+   "https://stockanalysis.com/stocks/orcl/history/"
+  ],
+  "notes": "1m = 116.10 vs Oct 6 close 144.77. Dividend = $2.00/sh annual rate x 3.12B shares."
+ },
+ {
+  "ticker": "TER",
+  "name": "Teradyne",
+  "price": 218.22,
+  "price_date": "2026-11-06",
+  "mcap_b": 34.07,
+  "chg_1m_pct": -49.3,
+  "chg_1y_pct": 51.4,
+  "rev_ttm_b": 4.46,
+  "ni_ttm_b": 1.15,
+  "book_b": 3.47,
+  "div_ttm_b": 0.081,
+  "asof": "price/mcap 2026-11-06 close; fundamentals from stats page snapshot 2026-10-27",
+  "sources": [
+   "https://stockanalysis.com/stocks/ter/",
+   "https://stockanalysis.com/stocks/ter/statistics/",
+   "https://stockanalysis.com/stocks/ter/history/"
+  ],
+  "notes": "1m = 218.22 vs Oct 6 close 430.32. 1y is DERIVED/approx: stats page showed +119.14% at 315.83 on Oct 27, implying base ~144.1, rebased to Nov 6 close. Fundamentals (rev/NI/book) from Oct 27 snapshot - may predate late-Oct Q3 report. Shares 156.12M; div $0.52/sh."
+ },
+ {
+  "ticker": "PL",
+  "name": "Planet Labs PBC",
+  "price": 12.55,
+  "price_date": "2026-11-06",
+  "mcap_b": 4.57,
+  "chg_1m_pct": null,
+  "chg_1y_pct": -5.28,
+  "rev_ttm_b": 0.378,
+  "ni_ttm_b": -0.36,
+  "book_b": 0.564,
+  "div_ttm_b": 0,
+  "asof": "2026-11-06 close (stats page updated 2026-11-07)",
+  "sources": [
+   "https://stockanalysis.com/stocks/pl/statistics/",
+   "https://www.digrin.com/stocks/detail/PL/price"
+  ],
+  "notes": "Oct 6 close not found (stockanalysis history page failed to load; digrin only monthly: Oct 2026 13.47). Rough 1m vs that monthly figure ~ -7%, not used."
+ },
+ {
+  "ticker": "MRVL",
+  "name": "Marvell Technology",
+  "price": 141.2,
+  "price_date": "2026-11-06",
+  "mcap_b": 123.97,
+  "chg_1m_pct": -50.8,
+  "chg_1y_pct": 51.99,
+  "rev_ttm_b": 9.45,
+  "ni_ttm_b": 2.64,
+  "book_b": 18.53,
+  "div_ttm_b": 0.211,
+  "asof": "2026-11-06 close (stats page updated 2026-11-08)",
+  "sources": [
+   "https://stockanalysis.com/stocks/mrvl/statistics/",
+   "https://stockanalysis.com/stocks/mrvl/history/"
+  ],
+  "notes": "1m = 141.20 vs Oct 6 close 287.01. Div $0.24/sh x 877.99M sh. 50-day MA 234 consistent with the sharp Oct-Nov drop."
+ },
+ {
+  "ticker": "AAPL",
+  "name": "Apple",
+  "price": 342.37,
+  "price_date": "2026-11-06",
+  "mcap_b": 4975,
+  "chg_1m_pct": 2.6,
+  "chg_1y_pct": 26.74,
+  "rev_ttm_b": 478.83,
+  "ni_ttm_b": 132.18,
+  "book_b": 112.09,
+  "div_ttm_b": 15.69,
+  "asof": "2026-11-06 close (stats page updated 2026-11-08)",
+  "sources": [
+   "https://stockanalysis.com/stocks/aapl/statistics/",
+   "https://stockanalysis.com/stocks/aapl/history/"
+  ],
+  "notes": "1m = 342.37 vs Oct 6 close 333.63. Mcap = 342.37 x 14.53B sh (page: $4.98T). Div $1.08/sh."
+ },
+ {
+  "ticker": "DELL",
+  "name": "Dell Technologies",
+  "price": 328.53,
+  "price_date": "2026-11-06",
+  "mcap_b": 208.88,
+  "chg_1m_pct": -42.8,
+  "chg_1y_pct": 100.8,
+  "rev_ttm_b": 151.2,
+  "ni_ttm_b": 11.38,
+  "book_b": -1.43,
+  "div_ttm_b": 1.602,
+  "asof": "price/mcap 2026-11-06 close; fundamentals from stats page snapshot 2026-10-30",
+  "sources": [
+   "https://stockanalysis.com/stocks/dell/",
+   "https://stockanalysis.com/stocks/dell/statistics/",
+   "https://stockanalysis.com/stocks/dell/history/"
+  ],
+  "notes": "1m = 328.53 vs Oct 6 close 574.00. 1y is DERIVED/approx: stats page showed +159.35% at 424.30 on Oct 30, implying base ~163.6, rebased to Nov 6. Negative book equity (-1.43B). Mcap uses 635.81M total shares (all classes). Div $2.52/sh."
+ }
+]

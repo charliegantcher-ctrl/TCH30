@@ -1,0 +1,607 @@
+[
+ {
+  "ticker": "MSFT",
+  "period": "Q1 FY27 (Sep-26); TTM to Sep-26",
+  "rev_ttm_b": 346.4,
+  "rev_growth_ttm_pct": 17.9,
+  "rev_growth_q_pct": 18.8,
+  "organic_share": 1.0,
+  "gross_margin_pct": 67.8,
+  "gross_margin_prior_pct": 69.0,
+  "op_margin_pct": 49.8,
+  "op_margin_prior_pct": 48.9,
+  "fcf_ttm_b": null,
+  "cash_b": 64.5,
+  "debt_b": 35.5,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": 677.0,
+  "backlog_growth_pct": 73.0,
+  "guidance": "none",
+  "contracts_90d": [],
+  "investments": "Quarterly capex $39.4B, roughly double a year earlier, for AI data centers; operating cash flow $58.0B in the quarter (+29%).",
+  "news_90d": [
+   {
+    "what": "Azure grew 48% and revenue rose 19% to $92.3B in Q1 FY27",
+    "tone": "good",
+    "date": "2026-10-28",
+    "source": "Vested Finance",
+    "url": "https://vestedfinance.com/blog/microsoft-q1-fy27-results-revenue-jumps-19-to-92-3-billion-as-azure-grows-48/"
+   },
+   {
+    "what": "Commercial RPO reached $677B, up 73%, with capex doubling YoY",
+    "tone": "good",
+    "date": "2026-10-28",
+    "source": "SEC 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000789019/000119312526436122/msft-ex99_1.htm"
+   }
+  ],
+  "industries_served": [
+   "enterprise software",
+   "cloud infrastructure",
+   "AI platforms",
+   "gaming",
+   "security",
+   "developer tools"
+  ],
+  "bottleneck_note": "Entrenched enterprise standard (Windows, Office, Azure, GitHub) with very high switching costs; competes with AWS, Google Cloud, Oracle and Salesforce.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0000789019/000119312526436122/msft-ex99_1.htm",
+   "https://stockanalysis.com/stocks/msft/revenue/"
+  ]
+ },
+ {
+  "ticker": "GOOGL",
+  "period": "Q3 2026 (Sep-26); TTM to Sep-26",
+  "rev_ttm_b": 471.1,
+  "rev_growth_ttm_pct": 22.2,
+  "rev_growth_q_pct": 24.6,
+  "organic_share": 0.96,
+  "gross_margin_pct": 59.7,
+  "gross_margin_prior_pct": 59.6,
+  "op_margin_pct": 31.8,
+  "op_margin_prior_pct": 30.5,
+  "fcf_ttm_b": 19.75,
+  "cash_b": 265.1,
+  "debt_b": 125.1,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": 567.7,
+  "backlog_growth_pct": null,
+  "guidance": "maintained",
+  "contracts_90d": [],
+  "investments": "Q3 capex $51.4B (+114%); 2026 capex guide $195-205B kept, 2027 to rise significantly. A $80B equity program from June 2026 included a $10B Berkshire Hathaway private placement.",
+  "news_90d": [
+   {
+    "what": "Google Cloud revenue roughly doubled (+103%) to $30.7B; first $100B+ revenue quarter",
+    "tone": "good",
+    "date": "2026-10-28",
+    "source": "MarketBeat",
+    "url": "https://www.marketbeat.com/originals/alphabet-crushes-q3-earnings-reports-first-100-billion-quarter/"
+   },
+   {
+    "what": "Quarterly FCF turned negative (-$9.1B) as capex more than doubled",
+    "tone": "bad",
+    "date": "2026-10-28",
+    "source": "money365",
+    "url": "https://www.money365.market/articles/alphabet-q3-2026-earnings-analysis"
+   }
+  ],
+  "industries_served": [
+   "digital advertising",
+   "cloud infrastructure",
+   "AI models/TPUs",
+   "consumer devices",
+   "autonomous vehicles",
+   "cybersecurity"
+  ],
+  "bottleneck_note": "Near-monopoly in search and dominant in video (YouTube) and Android; own TPU stack; competes with Microsoft/OpenAI, Meta, Amazon and AWS/Azure in cloud.",
+  "sources": [
+   "https://www.money365.market/articles/alphabet-q3-2026-earnings-analysis",
+   "https://stockanalysis.com/stocks/googl/revenue/"
+  ]
+ },
+ {
+  "ticker": "AMZN",
+  "period": "Q3 2026 (Sep-26); TTM to Sep-26",
+  "rev_ttm_b": 797.4,
+  "rev_growth_ttm_pct": 15.3,
+  "rev_growth_q_pct": 12.0,
+  "organic_share": 1.0,
+  "gross_margin_pct": null,
+  "gross_margin_prior_pct": null,
+  "op_margin_pct": 13.9,
+  "op_margin_prior_pct": 9.7,
+  "fcf_ttm_b": -42.4,
+  "cash_b": null,
+  "debt_b": null,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": 578.0,
+  "backlog_growth_pct": null,
+  "guidance": "maintained",
+  "contracts_90d": [
+   {
+    "what": "Prime partnership with Uber Eats for $0 delivery",
+    "value_b": null,
+    "date": "2026-10-29",
+    "source": "Amazon",
+    "url": "https://aboutamazon.com/news/company-news/amazon-earnings-q3-2026-report"
+   }
+  ],
+  "investments": "2026 cash capex about $220B (TTM property purchases up $94.8B YoY) for AI/AWS; plans EUR16B investment in Germany in 2027.",
+  "news_90d": [
+   {
+    "what": "AWS growth reaccelerated to 39% ($46.0B); company projects 40%+ in 2027-28",
+    "tone": "good",
+    "date": "2026-10-29",
+    "source": "Amazon",
+    "url": "https://aboutamazon.com/news/company-news/amazon-earnings-q3-2026-report"
+   },
+   {
+    "what": "TTM free cash flow fell to -$42.4B on AI capex; shares slid on spending concerns",
+    "tone": "bad",
+    "date": "2026-10-29",
+    "source": "KuCoin",
+    "url": "https://www.kucoin.com/blog/ph-amazon-q3-2026-earnings-aws-growth-ai-spending"
+   }
+  ],
+  "industries_served": [
+   "e-commerce",
+   "cloud infrastructure",
+   "advertising",
+   "logistics",
+   "AI chips/models",
+   "media"
+  ],
+  "bottleneck_note": "Largest cloud provider and US e-commerce/logistics network with huge scale advantages; competes with Microsoft Azure, Google Cloud, Walmart, Shopify.",
+  "sources": [
+   "https://aboutamazon.com/news/company-news/amazon-earnings-q3-2026-report",
+   "https://stockanalysis.com/stocks/amzn/revenue/"
+  ]
+ },
+ {
+  "ticker": "META",
+  "period": "Q3 2026 (Sep-26); TTM to Sep-26",
+  "rev_ttm_b": 241.6,
+  "rev_growth_ttm_pct": 27.5,
+  "rev_growth_q_pct": 26.1,
+  "organic_share": 1.0,
+  "gross_margin_pct": null,
+  "gross_margin_prior_pct": null,
+  "op_margin_pct": 20.1,
+  "op_margin_prior_pct": 40.0,
+  "fcf_ttm_b": null,
+  "cash_b": null,
+  "debt_b": null,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "maintained",
+  "contracts_90d": [],
+  "investments": "Q3 capex $34.9B; 2026 capex range narrowed to $135-145B; Reality Labs lost $4.1B in the quarter; no buybacks in 9M 2026.",
+  "news_90d": [
+   {
+    "what": "$9.9B charge for settlement with state attorneys general over youth-harm design claims",
+    "tone": "bad",
+    "date": "2026-10-29",
+    "source": "Stock Analysis",
+    "url": "https://stockanalysis.com/news/meta-q3-2026-earnings/"
+   },
+   {
+    "what": "New Mexico judge ordered $25B payment over misleading users on data privacy; Meta to appeal",
+    "tone": "bad",
+    "date": null,
+    "source": "Stock Analysis",
+    "url": "https://stockanalysis.com/news/meta-q3-2026-earnings/"
+   },
+   {
+    "what": "Announced non-voting Class C shares via 2-for-1 distribution effective Jan 2027",
+    "tone": "neutral",
+    "date": "2026-10-29",
+    "source": "Stock Analysis",
+    "url": "https://stockanalysis.com/news/meta-q3-2026-earnings/"
+   }
+  ],
+  "industries_served": [
+   "digital advertising",
+   "social media/messaging",
+   "AI models",
+   "VR/AR hardware",
+   "small business commerce"
+  ],
+  "bottleneck_note": "3.6B daily users across Facebook/Instagram/WhatsApp give strong network effects; competes with Google, TikTok, Amazon ads and AI assistants.",
+  "sources": [
+   "https://stockanalysis.com/news/meta-q3-2026-earnings/",
+   "https://letsdatascience.com/news/meta-narrows-2026-capital-spending-range-to-135-billion-145-46f12e07",
+   "https://stockanalysis.com/stocks/meta/revenue/"
+  ],
+  "op_margin_adj_pct": 35.0
+ },
+ {
+  "ticker": "AAPL",
+  "period": "FQ4 2026 (Sep-26); FY26 = TTM",
+  "rev_ttm_b": 478.8,
+  "rev_growth_ttm_pct": 15.1,
+  "rev_growth_q_pct": 11.7,
+  "organic_share": 1.0,
+  "gross_margin_pct": 47.9,
+  "gross_margin_prior_pct": 47.2,
+  "op_margin_pct": 31.1,
+  "op_margin_prior_pct": 31.6,
+  "fcf_ttm_b": 136.1,
+  "cash_b": 56.7,
+  "debt_b": 80.1,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "none",
+  "contracts_90d": [],
+  "investments": "FY26 capex only $9.0B (down from $12.7B); relies on partners for AI compute. Holds another $80.2B in non-current marketable securities.",
+  "news_90d": [
+   {
+    "what": "Record September-quarter revenue of $114.5B (+12%), Mac +24%",
+    "tone": "good",
+    "date": "2026-10-30",
+    "source": "MacStories",
+    "url": "https://www.macstories.net/news/apple-reports-q4-2026-revenue-of-114-5-billion/"
+   }
+  ],
+  "industries_served": [
+   "consumer electronics",
+   "app/services platforms",
+   "payments",
+   "wearables/health",
+   "media"
+  ],
+  "bottleneck_note": "iOS ecosystem with 2B+ devices and very high switching costs; competes with Samsung/Android, Google, Microsoft.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000024/a8-kex991q4202609262026.htm"
+  ]
+ },
+ {
+  "ticker": "ORCL",
+  "period": "Q1 FY27 (Aug-26); TTM to Aug-26",
+  "rev_ttm_b": 71.8,
+  "rev_growth_ttm_pct": 21.6,
+  "rev_growth_q_pct": 29.6,
+  "organic_share": 1.0,
+  "gross_margin_pct": 58.5,
+  "gross_margin_prior_pct": null,
+  "op_margin_pct": 34.8,
+  "op_margin_prior_pct": 28.7,
+  "fcf_ttm_b": null,
+  "cash_b": null,
+  "debt_b": null,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": 664.0,
+  "backlog_growth_pct": 45.9,
+  "guidance": "raised",
+  "contracts_90d": [
+   {
+    "what": "More than $30B of additional AI cloud contracts booked in FQ1",
+    "value_b": 30.0,
+    "date": "2026-09-09",
+    "source": "beancount.io",
+    "url": "https://beancount.io/blog/2026/09/13/oracle-fy2027-q1-earnings-analysis"
+   }
+  ],
+  "investments": "Quarterly capex $28.5B against $23.1B operating cash flow (FCF -$5.4B); interest expense up 55% as debt-funded AI buildout continues.",
+  "news_90d": [
+   {
+    "what": "FY27 revenue outlook raised to at least $90B; OCI revenue +121%",
+    "tone": "good",
+    "date": "2026-09-09",
+    "source": "beancount.io",
+    "url": "https://beancount.io/blog/2026/09/13/oracle-fy2027-q1-earnings-analysis"
+   },
+   {
+    "what": "Negative FCF and rising interest costs from debt-funded data-center buildout",
+    "tone": "bad",
+    "date": "2026-09-09",
+    "source": "beancount.io",
+    "url": "https://beancount.io/blog/2026/09/13/oracle-fy2027-q1-earnings-analysis"
+   }
+  ],
+  "industries_served": [
+   "enterprise databases",
+   "cloud infrastructure",
+   "AI training/inference hosting",
+   "ERP/healthcare software"
+  ],
+  "bottleneck_note": "Database and ERP lock-in plus large GPU cloud capacity; RPO heavily concentrated in a few AI labs; competes with AWS, Azure, Google Cloud, CoreWeave, SAP.",
+  "sources": [
+   "https://beancount.io/blog/2026/09/13/oracle-fy2027-q1-earnings-analysis",
+   "https://sec-api.io/insights/oracle-corporation-orcl-financial-and-ratio-analysis-q1-fy2027-filings-cloud-backlog-debt-and-capital-spending-scenarios-to-fy2030"
+  ]
+ },
+ {
+  "ticker": "IBM",
+  "period": "Q3 2026 (Sep-26)",
+  "rev_ttm_b": null,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 4.9,
+  "organic_share": null,
+  "gross_margin_pct": 56.8,
+  "gross_margin_prior_pct": 57.3,
+  "op_margin_pct": null,
+  "op_margin_prior_pct": null,
+  "fcf_ttm_b": null,
+  "cash_b": null,
+  "debt_b": null,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "raised",
+  "contracts_90d": [],
+  "investments": "$11.4B spent on acquisitions YTD 2026 (goodwill up to $74.9B); ongoing quantum computing and Red Hat/AI software investment.",
+  "news_90d": [
+   {
+    "what": "Q3 revenue +5% (software +8%); full-year FCF outlook raised to more than $1B above 2025",
+    "tone": "good",
+    "date": "2026-10-21",
+    "source": "SEC 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000051143/000005114326000093/ibm-20261021xex991.htm"
+   },
+   {
+    "what": "Consulting revenue flat YoY",
+    "tone": "bad",
+    "date": "2026-10-21",
+    "source": "SEC 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000051143/000005114326000093/ibm-20261021xex991.htm"
+   }
+  ],
+  "industries_served": [
+   "banking/financial services",
+   "government",
+   "enterprise IT",
+   "mainframe computing",
+   "hybrid cloud",
+   "quantum computing"
+  ],
+  "bottleneck_note": "Mainframe near-monopoly in bank transaction processing and Red Hat's enterprise Linux/OpenShift create high switching costs; competes with Accenture, hyperscalers, VMware/Broadcom.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0000051143/000005114326000093/ibm-20261021xex991.htm"
+  ],
+  "rev_size_est_b": 66
+ },
+ {
+  "ticker": "SPCX",
+  "period": "Q3 2026 (Sep-26)",
+  "rev_ttm_b": 28.3,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": 160.7,
+  "organic_share": 0.93,
+  "gross_margin_pct": null,
+  "gross_margin_prior_pct": null,
+  "op_margin_pct": 19.2,
+  "op_margin_prior_pct": null,
+  "fcf_ttm_b": null,
+  "cash_b": 89.9,
+  "debt_b": null,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "none",
+  "contracts_90d": [
+   {
+    "what": "Agreed to buy 800 MHz spectrum licenses for Starlink Mobile (close expected H1 2027)",
+    "value_b": null,
+    "date": "2026-10-08",
+    "source": "TeslaNorth",
+    "url": "https://teslanorth.com/2026/10/20/spacex-q3-2026-results/"
+   },
+   {
+    "what": "Closed Cursor acquisition at ~$60B implied equity value",
+    "value_b": 60.0,
+    "date": "2026-08-14",
+    "source": "TeslaNorth",
+    "url": "https://teslanorth.com/2026/10/20/spacex-q3-2026-results/"
+   },
+   {
+    "what": "Three additional NASA crew missions to the ISS and 18 National Security Space Launch missions",
+    "value_b": null,
+    "date": "2026-10-20",
+    "source": "TeslaNorth",
+    "url": "https://teslanorth.com/2026/10/20/spacex-q3-2026-results/"
+   }
+  ],
+  "investments": "Q3 capex $19.6B ($16.4B for AI/Super Intelligence), 9M capex $48.1B, funded by the ~$85.7B June IPO; heavy Starship R&D.",
+  "news_90d": [
+   {
+    "what": "Q3 revenue +161% to $14.6B and first profitable quarter since the IPO (net income $4.4B)",
+    "tone": "good",
+    "date": "2026-10-20",
+    "source": "TeslaNorth",
+    "url": "https://teslanorth.com/2026/10/20/spacex-q3-2026-results/"
+   },
+   {
+    "what": "Starlink reached 13.6M consumer subscribers; Connectivity revenue +69%",
+    "tone": "good",
+    "date": "2026-10-20",
+    "source": "Broadband Breakfast",
+    "url": "https://broadbandbreakfast.com/starlink-reaches-13-6-million-subscribers-globally-as-spacex-revenue-jumps-161/"
+   },
+   {
+    "what": "Launches fell to 35 from 44 YoY; AI capex far exceeds EBITDA",
+    "tone": "bad",
+    "date": "2026-10-20",
+    "source": "TeslaNorth",
+    "url": "https://teslanorth.com/2026/10/20/spacex-q3-2026-results/"
+   }
+  ],
+  "industries_served": [
+   "satellite broadband",
+   "launch services",
+   "defense/national security",
+   "AI compute and coding tools",
+   "mobile connectivity"
+  ],
+  "bottleneck_note": "Only scaled reusable launch provider and largest LEO broadband network; near-monopoly in commercial launch; competitors include Blue Origin, Rocket Lab, Amazon Kuiper, AST SpaceMobile.",
+  "sources": [
+   "https://teslanorth.com/2026/10/20/spacex-q3-2026-results/",
+   "https://broadbandbreakfast.com/starlink-reaches-13-6-million-subscribers-globally-as-spacex-revenue-jumps-161/"
+  ]
+ },
+ {
+  "ticker": "TSLA",
+  "period": "Q3 2026 (Sep-26)",
+  "rev_ttm_b": null,
+  "rev_growth_ttm_pct": null,
+  "rev_growth_q_pct": -0.2,
+  "organic_share": 1.0,
+  "gross_margin_pct": 19.6,
+  "gross_margin_prior_pct": 18.0,
+  "op_margin_pct": 2.6,
+  "op_margin_prior_pct": 5.8,
+  "fcf_ttm_b": null,
+  "cash_b": 45.4,
+  "debt_b": null,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": "maintained",
+  "contracts_90d": [],
+  "investments": "2026 capex guided above $25B (9M $13.0B; Q3 $4.7B, double YoY) for AI compute, Cybercab, Optimus; R&D rising.",
+  "news_90d": [
+   {
+    "what": "GAAP operating income fell 56% and FCF dropped to $1.53B from $3.99B",
+    "tone": "bad",
+    "date": "2026-10-21",
+    "source": "Electrek",
+    "url": "https://electrek.co/2026/10/21/tesla-tsla-q3-2026-financial-results/"
+   },
+   {
+    "what": "Unsupervised FSD reportedly pushed to Q2 2027, limited to Robotaxi zones",
+    "tone": "bad",
+    "date": "2026-10-21",
+    "source": "Electrek",
+    "url": "https://electrek.co/2026/10/21/tesla-tsla-q3-2026-financial-results/"
+   },
+   {
+    "what": "FSD active subscriptions 1.74M (+67%); Cybercab added to Austin robotaxi fleet",
+    "tone": "good",
+    "date": "2026-10-21",
+    "source": "Electrek",
+    "url": "https://electrek.co/2026/10/21/tesla-tsla-q3-2026-financial-results/"
+   }
+  ],
+  "industries_served": [
+   "electric vehicles",
+   "grid energy storage",
+   "autonomous driving/robotaxi",
+   "humanoid robotics",
+   "solar"
+  ],
+  "bottleneck_note": "Scale EV and battery-storage maker with large driving-data fleet; replaceable in autos (BYD, legacy OEMs) and storage (Fluence, BYD), less so in FSD data.",
+  "sources": [
+   "https://electrek.co/2026/10/21/tesla-tsla-q3-2026-financial-results/"
+  ],
+  "rev_size_est_b": 95
+ },
+ {
+  "ticker": "ISRG",
+  "period": "Q3 2026 (Sep-26); TTM to Sep-26",
+  "rev_ttm_b": 11.57,
+  "rev_growth_ttm_pct": 20.4,
+  "rev_growth_q_pct": 21.7,
+  "organic_share": null,
+  "gross_margin_pct": 68.4,
+  "gross_margin_prior_pct": 66.4,
+  "op_margin_pct": 19.4,
+  "op_margin_prior_pct": null,
+  "fcf_ttm_b": null,
+  "cash_b": 6.8,
+  "debt_b": 0.0,
+  "pre_revenue": false,
+  "peak_cycle": false,
+  "customer_growth_pct": null,
+  "rev_per_customer_growth_pct": null,
+  "nrr_pct": null,
+  "top_customer_pct": null,
+  "top3_customers_pct": null,
+  "backlog_b": null,
+  "backlog_growth_pct": null,
+  "guidance": null,
+  "contracts_90d": [],
+  "investments": "Bought back $2.94B of stock in Q3; small distributor acquisitions in Italy/Spain/Portugal; non-GAAP opex growth guided 11-13%.",
+  "news_90d": [
+   {
+    "what": "$450M antitrust settlement charge cut GAAP operating margin to ~19%",
+    "tone": "bad",
+    "date": "2026-10-21",
+    "source": "SEC 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001035267/000103526726000067/q326ex-991earningsrelease.htm"
+   },
+   {
+    "what": "Procedures +15% (Ion +31%) and 546 da Vinci placements vs 427",
+    "tone": "good",
+    "date": "2026-10-21",
+    "source": "SEC 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001035267/000103526726000067/q326ex-991earningsrelease.htm"
+   }
+  ],
+  "industries_served": [
+   "hospitals",
+   "surgical robotics",
+   "medical devices",
+   "lung biopsy/diagnostics"
+  ],
+  "bottleneck_note": "Dominant surgical-robot installed base (12,094 da Vinci) with surgeon training lock-in and recurring instrument revenue; rivals Medtronic Hugo, J&J Ottava, CMR.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001035267/000103526726000067/q326ex-991earningsrelease.htm",
+   "https://stockanalysis.com/stocks/isrg/revenue/"
+  ]
+ }
+]
