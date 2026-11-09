@@ -334,7 +334,7 @@ function openDrawer(t){
     ${scoreBars(c)}
     <h3 style="margin-top:18px;font-size:15px">The eight data points</h3>
     <div class="mgrid">${METRICS.map(([k,l,why]) => `<div class="metric ${cls(c.signs[k])}"><span class="lbl">${esc(l)}</span><span class="val">${esc(c[k])}</span><span class="why">${esc(why)}</span></div>`).join("")}</div>
-    <p class="note"><b>Why it ranks here.</b> ${esc(c.why)}</p>
+    <p class="note"><b>Why it ranks here.</b> ${esc(c.why).replace(/\[([^\]]+)\]\((https:[^)\s]+)\)/g,'<a href="$2" target="_blank" rel="noopener">$1</a>')}</p>
     <h3 style="margin-top:18px;font-size:15px">Market vs. business</h3>
     <div class="facts">
       <div class="fact"><small>Price (${esc(D.asof)})</small><b>${usd(m.price)}</b></div>
