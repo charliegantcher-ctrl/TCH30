@@ -18,6 +18,8 @@ Write a JSON array to the output path you were given. One object per ticker with
   "gross_margin_prior_pct": 72.4,     // same quarter a year earlier
   "op_margin_pct": 66.2,              // GAAP operating margin, latest quarter
   "op_margin_prior_pct": 62.0,        // same quarter a year earlier
+  "rev_growth_hist_pct": [126, 114, -3],  // revenue growth % for each of the last 3 completed fiscal years, newest first (smoothing)
+  "op_margin_hist_pct": [62, 54, 16],     // GAAP operating margin % for the same 3 fiscal years
   "fcf_ttm_b": 80.0,                  // TTM free cash flow, USD billions (negative if burning)
   "cash_b": 60.0,                     // cash + short-term investments
   "debt_b": 8.5,                      // total debt (exclude operating leases)

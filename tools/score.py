@@ -69,11 +69,22 @@ def full_growth(rev):
         return 60.0
     return max(25.0, min(60.0, 60 - 12 * math.log10(max(rev, 1))))
 
+def hist_mean(d, key):
+    h = [x for x in (d.get(key) or []) if isinstance(x, (int, float))]
+    return sum(h) / len(h) if h else None
+
 def rev_growth(d):
+    """Current growth (TTM blended with latest quarter), smoothed with up to 3 prior fiscal
+    years' growth when available (rev_growth_hist_pct) so one boom year can't carry a company."""
     t, q = num(d.get("rev_growth_ttm_pct")), num(d.get("rev_growth_q_pct"))
     if t is not None and q is not None:
-        return 0.6 * t + 0.4 * q
-    return t if t is not None else q
+        cur = 0.6 * t + 0.4 * q
+    else:
+        cur = t if t is not None else q
+    h = hist_mean(d, "rev_growth_hist_pct")
+    if cur is not None and h is not None:
+        return 0.5 * cur + 0.5 * h
+    return cur
 
 def subparts(d, peers, news_extra, fcf_sign=0):
     f = {}
@@ -104,6 +115,9 @@ def subparts(d, peers, news_extra, fcf_sign=0):
     if pre:
         f["level"], f["trend"] = 0.0, None
     else:
+        h = hist_mean(d, "op_margin_hist_pct")       # smoothing: blend with prior fiscal years
+        if om is not None and h is not None:
+            om = 0.6 * om + 0.4 * h
         if om is None:
             f["level"] = None
         elif om < 0:
