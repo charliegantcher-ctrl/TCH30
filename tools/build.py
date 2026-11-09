@@ -4,7 +4,7 @@
 Usage: python3 build.py [asof_label]
 - companies.json : all 100 companies with the 8 metrics + signs (+1 green, -1 red, 0 gray), tier/rank/why for the top 30
 - market_batch*.json : market cap, price, 1m/1y change, TTM revenue, net income, book value, dividends for the top 30
-Weights: market-cap share of the 30 members (like the S&P 500). The fundamental share
+Weights: half market-cap share, half equal weight (1/30). The fundamental share
 (equal blend of sales, earnings>=0, book value, dividends) is still computed and shown for reference.
 """
 import json, glob, sys, html, datetime
@@ -32,7 +32,7 @@ for c in top:
     t = c["ticker"]
     fund = (sa[t] + ea[t] + bk[t] + dv[t]) / 4
     c["w_mcap"], c["w_fund"] = mc[t], fund
-    c["weight"] = mc[t]  # market-cap weighted (fundamental share kept for reference only)
+    c["weight"] = 0.5 * mc[t] + 0.5 / len(top)  # half market cap, half equal (fundamental share kept for reference only)
     m = mk[t]
     c["mkt"] = {k: m.get(k) for k in ("price", "mcap_b", "chg_1m_pct", "chg_1y_pct", "chg_since_ipo_pct",
                                       "rev_ttm_b", "ni_ttm_b", "book_b", "div_ttm_b", "price_date")}

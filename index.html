@@ -164,7 +164,7 @@ h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0}
   <section class="view" id="v-tch30">
     <div class="index-head">
       <div>
-        <div class="idx-name">TCH30 · market-cap weighted</div>
+        <div class="idx-name">TCH30 · half cap, half equal weighted</div>
         <div class="idx-val num" id="idxval">1,000.00</div>
         <div id="idxchg"></div>
         <p class="idx-sub" id="idxsub"></p>
@@ -212,7 +212,7 @@ h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0}
       <tr><td>AI boom risk</td><td>up to −80</td><td>Deducted when results lean on the AI build-out of a few big buyers in a position rivals can enter</td></tr></table>
     <p>Metrics a company doesn't report are left out and the rest is scaled up, so no one loses points for silence. Colors: <span class="score" style="background:#3B6D11;color:#fff">800+</span> elite, <span class="score" style="background:#97C459;color:#173404">650</span> strong, <span class="score" style="background:#EF9F27;color:#412402">550</span> fair, <span class="score" style="background:#D85A30;color:#fff">450</span> below average, <span class="score" style="background:#E24B4A;color:#fff">300</span> weak, <span class="score" style="background:#791F1F;color:#fff">0</span> very weak.</p>
     <h2>Weighting</h2>
-    <p>Each member's weight is its share of the 30 members' total market capitalisation, the same way the S&amp;P 500 is weighted. Bigger companies by market value count for more.</p>
+    <p>Each member's weight is half its share of the 30 members' total market capitalisation plus half an equal share (1/30). Bigger companies still count for more, but no stock is too small to matter: the largest sits around 11% and the smallest around 1.7%.</p>
     <p>Each company page also shows a "business weight" for comparison: its share of the group's trailing-12-month sales, net income (losses count as zero), book value and dividends, equally blended. When a company's market weight is far above its business weight, the market is pricing in a lot of future growth; when it is below, the market is paying less for today's business.</p>
     <p>The index started at 1,000.00 on <span id="m-asof"></span>. The prior-month figure shown on the index page is hypothetical: today's weights applied to each member's price change over the month before launch.</p>
     <h2>Colors</h2>
@@ -370,7 +370,7 @@ function openDrawer(t){
     ${scoreBars(c)}
     <h3 style="margin-top:18px;font-size:15px">The eight data points</h3>
     <div class="mgrid">${METRICS.map(([k,l,why]) => `<div class="metric ${cls(c.signs[k])}"><span class="lbl">${esc(l)}</span><span class="val">${esc(c[k])}</span><span class="why">${esc(why)}</span></div>`).join("")}</div>
-    <p class="note"><b>Why it ranks here.</b> ${esc(c.why)}</p>
+    <p class="note"><b>Why it ranks here.</b> ${esc(c.why).replace(/\[([^\]]+)\]\((https:[^)\s]+)\)/g,'<a href="$2" target="_blank" rel="noopener">$1</a>')}</p>
     <h3 style="margin-top:18px;font-size:15px">Market vs. business</h3>
     <div class="facts">
       <div class="fact"><small>Price (${esc(P && P.latest[c.ticker] ? P.latest[c.ticker].date : D.asof)})</small><b>${usd(m.price)}</b></div>

@@ -21,7 +21,7 @@ A = L.append
 A("# Top 100 tech stocks ranked\n")
 A(f"*Updated {date}. Rankings use the TCH score (0–1,000). Latest-quarter data as reported by each company; quarters differ by company. Not financial advice.*\n")
 A("## How the ranking works\n")
-A("Every stock gets a TCH score out of 1,000. About 70% comes straight from reported data and the rest from fixed rubrics. TCH30, the index, holds the 30 highest scores, market-cap weighted.\n")
+A("Every stock gets a TCH score out of 1,000. About 70% comes straight from reported data and the rest from fixed rubrics. TCH30, the index, holds the 30 highest scores, weighted half by market cap and half equally.\n")
 A("| Part | Points | What it measures |\n|---|---|---|")
 for r in [("Growth", "150", "Revenue and gross-profit growth, size-adjusted, discounted when acquired; smoothed with prior years when available"),
           ("Profitability", "150", "Operating margin level and trend; peak-cycle margins count less"),
