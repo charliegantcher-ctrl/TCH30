@@ -16,3 +16,12 @@ The live site reads `../site_data.json`, `../prices.json` (daily, from GitHub Ac
 - `refresh_scores.py`: copies updated scores into `site_data_claude.json` and `../site_data.json` without changing members or the index
 - `companies.json`: the 100 companies with the 8 data points, signs, scores, tiers
 - `market_batch*.json`: market data used for the current TCH30 weights (Nov 6, 2026 close)
+
+## Membership rules (decided Nov 10, 2026)
+- Research and scoring: every month, plus extra stocks Charlie asks for mid-month.
+- TCH30 membership: 15-point buffer (apply_scores.py). An outsider only replaces the weakest member
+  if it scores at least 15 points higher. Seats freed by companies removed from the list are refilled
+  with the best outsiders.
+- For now membership can change every month. Planned later, once the dataset is larger (Charlie will
+  say when): membership changes only on June 1 and December 1, and weights reset every 3 months
+  (Mar 1, Jun 1, Sep 1, Dec 1).
