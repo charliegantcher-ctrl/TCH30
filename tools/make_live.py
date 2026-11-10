@@ -86,18 +86,57 @@ sub("function spark(m, w=260, h=54, t=null){", """function idxRange(r){
     if (s.length < 2) s = ix.slice(-2);
   }
   const chg = (s[s.length-1][1] / s[0][1] - 1) * 100;
+  const b = benchFor(s, r);
+  const bchg = b && b[b.length-1] != null && b[0] != null ? (b[b.length-1] / b[0] - 1) * 100 : null;
   const label = {"1D": P.intraday ? "on " + P.intraday.date : "last day", "1W": "past week", "1M": "past month", "1Y": "past year", "5Y": "past 5 years"}[r];
   const note = r === "5Y" && (new Date(ix[0][0]) - new Date(end)) / 864e5 > -365 * 5 + 10 ? ` (back-test starts ${ix[0][0]})` : "";
-  $("#idxchg").innerHTML = `<span class="pill ${tone(chg)}">${pct(chg)}</span> <span style="color:var(--muted);font-size:13px">${label}${note}</span>`;
-  $("#idxchart").innerHTML = lineChart(s, 420, 90, chg >= 0, r === "1D" ? null : P.base_date) +
-    `<div class="xh-line" hidden></div><div class="xh-dot" hidden></div><div class="xh-tip" hidden></div>`;
-  idxHover(s, r);
+  const vs = bchg != null ? ` <span style="color:var(--muted);font-size:13px">· ${esc(P.bench_name)} ${pct(bchg)} · <b class="${tone(chg - bchg)}">${chg >= bchg ? "beating" : "trailing"} by ${Math.abs(chg - bchg).toFixed(1)} pts</b></span>` : "";
+  $("#idxchg").innerHTML = `<span class="pill ${tone(chg)}">${pct(chg)}</span> <span style="color:var(--muted);font-size:13px">${label}${note}</span>${vs}`;
+  const ch = idxChart(s, b, 420, 90, chg >= 0, r === "1D" ? null : P.base_date);
+  $("#idxchart").innerHTML = ch.svg +
+    `<div class="xh-line" hidden></div><div class="xh-dot" hidden></div><div class="xh-tip" hidden></div>` +
+    (b ? `<span class="bxlg"><i class="lg-i" style="border-top-color:${chg >= 0 ? "var(--up)" : "var(--down)"}"></i> TCH30 <i class="lg-b"></i> ${esc(P.bench_name)} (scaled to the same start)</span>` : "");
+  idxHover(s, r, b, ch.lo, ch.hi);
   document.querySelectorAll(".rng button").forEach(b => b.setAttribute("aria-selected", b.dataset.r === r));
 }
-function idxHover(s, r){
+function benchFor(s, r){
+  // QQQ values on the same x points as s, rescaled to start at the same level as the index
+  let raw;
+  if (r === "1D") {
+    if (!(P.intraday && P.intraday.bench && P.intraday.points === s)) return null;
+    raw = P.intraday.bench.map(p => p[1]);
+  } else {
+    if (!P.bench || !P.bench.length) return null;
+    const bd = new Map(P.bench); let last = null, j = 0;
+    raw = s.map(p => { while (j < P.bench.length && P.bench[j][0] <= p[0]) last = P.bench[j++][1]; return last; });
+  }
+  const k = raw.findIndex(v => v != null);
+  if (k < 0) return null;
+  const f = s[k][1] / raw[k];
+  return raw.map(v => v == null ? null : v * f);
+}
+function idxChart(s, b, w, h, up, baseDate){
+  const ys = s.map(p => p[1]).concat(b ? b.filter(v => v != null) : []);
+  const lo = Math.min(...ys), hi = Math.max(...ys), pad = 6, n = s.length;
+  const X = i => pad + i/(n-1)*(w-2*pad), Y = y => pad + (hi-y)/((hi-lo)||1)*(h-2*pad-10);
+  const col = up ? "var(--up)" : "var(--down)";
+  const line = s.map((p,i) => X(i).toFixed(1) + "," + Y(p[1]).toFixed(1)).join(" ");
+  const bl = b ? b.map((v,i) => v == null ? null : X(i).toFixed(1) + "," + Y(v).toFixed(1)).filter(Boolean).join(" ") : "";
+  const bi = baseDate ? s.findIndex(p => p[0] >= baseDate) : -1;
+  return {lo, hi, svg: `<svg class="spark" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none" aria-label="TCH30${b ? " vs " + P.bench_name : ""}, ${s[0][0]} to ${s[n-1][0]}">
+    <line x1="${pad}" x2="${w-pad}" y1="${h-10}" y2="${h-10}" stroke="var(--rule)"/>
+    ${bi > 0 ? `<line x1="${X(bi)}" x2="${X(bi)}" y1="${pad}" y2="${h-10}" stroke="var(--muted)" stroke-dasharray="2 3"/>` : ""}
+    <polygon points="${X(0)},${h-10} ${line} ${X(n-1)},${h-10}" fill="${col}" opacity=".12"/>
+    ${bl ? `<polyline points="${bl}" fill="none" stroke="var(--bench)" stroke-width="1.4" stroke-dasharray="4 3" vector-effect="non-scaling-stroke"/>` : ""}
+    <polyline points="${line}" fill="none" stroke="${col}" stroke-width="1.8" vector-effect="non-scaling-stroke"/>
+    <circle cx="${X(n-1)}" cy="${Y(s[n-1][1])}" r="3" fill="${col}"/>
+    <text x="${pad}" y="${h-1}" font-size="9" fill="var(--muted)" font-family="IBM Plex Mono, monospace">${s[0][0]}</text>
+    <text x="${w-pad}" y="${h-1}" font-size="9" fill="var(--muted)" text-anchor="end" font-family="IBM Plex Mono, monospace">${s[n-1][0]}</text></svg>`};
+}
+function idxHover(s, r, b, lo, hi){
   const box = $("#idxchart"), svg = box.querySelector("svg"), line = box.querySelector(".xh-line"),
         dot = box.querySelector(".xh-dot"), tip = box.querySelector(".xh-tip");
-  const w = 420, h = 90, pad = 6, n = s.length, ys = s.map(p => p[1]), lo = Math.min(...ys), hi = Math.max(...ys);
+  const w = 420, h = 90, pad = 6, n = s.length;
   const hide = () => { line.hidden = dot.hidden = tip.hidden = true; };
   const show = e => {
     const rc = svg.getBoundingClientRect(), fx = (e.clientX - rc.left) / rc.width;
@@ -108,7 +147,9 @@ function idxHover(s, r){
     const when = r === "1D" ? (s[i][0] === "Prev close" ? "Previous close" : P.intraday.date + " " + s[i][0] + " ET") : s[i][0];
     line.style.left = px + "px"; line.style.height = rc.height - 10 / h * rc.height + "px";
     dot.style.left = px + "px"; dot.style.top = py + "px";
-    tip.innerHTML = `<b>${v.toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2})}</b> <span class="${tone(c)}">${pct(c)}</span><br><span>${esc(when)}</span>`;
+    const bc = b && b[i] != null && b[0] != null ? (b[i] / b[0] - 1) * 100 : null;
+    tip.innerHTML = `<b>${v.toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2})}</b> <span class="${tone(c)}">${pct(c)}</span>` +
+      (bc != null ? ` <span>· ${esc(P.bench_name)}</span> <span class="${tone(bc)}">${pct(bc)}</span>` : "") + `<br><span>${esc(when)}</span>`;
     line.hidden = dot.hidden = tip.hidden = false;
     tip.style.left = Math.max(0, Math.min(rc.width - tip.offsetWidth, px - tip.offsetWidth / 2)) + "px";
   };
@@ -127,7 +168,7 @@ sub("renderIndex(); renderOthers(); renderNews(); route();",
   fetch("news.json", {cache: "no-cache"}).then(r => r.ok ? r.json() : null).catch(() => null)
 ]).then(([d, p, n]) => { D = d; P = p; if (n) D.news = n; renderIndex(); renderOthers(); renderNews(); route(); })
   .catch(e => { document.querySelector("main").innerHTML = "<p style='padding:40px 0'>Could not load site_data.json. Open this page from a web server (GitHub Pages), not as a local file.</p>"; });""")
-sub('.idx-sub{color:var(--muted);font-size:13px;max-width:44ch}', '.idx-sub{color:var(--muted);font-size:13px;max-width:52ch}\n.idx-sub .spark{height:90px;margin:6px 0}\n.rng{display:flex;gap:4px;margin:2px 0 4px}\n.rng button{font:600 12px IBM Plex Mono,monospace;padding:4px 10px;border:1px solid var(--rule);background:transparent;color:var(--muted);border-radius:999px;cursor:pointer}\n.rng button[aria-selected=true]{background:var(--ink);color:var(--paper);border-color:var(--ink)}\n#idxchart{position:relative;padding-top:34px}\n#idxchart svg{cursor:crosshair;display:block}\n.xh-line{position:absolute;top:34px;width:0;border-left:1px dashed var(--muted);pointer-events:none}\n.xh-dot{position:absolute;width:8px;height:8px;margin:30px 0 0 -4px;border-radius:50%;background:var(--ink);pointer-events:none}\n.xh-tip{position:absolute;top:0;white-space:nowrap;font:12px/1.3 IBM Plex Mono,monospace;color:var(--ink);background:var(--card);border:1px solid var(--rule);border-radius:6px;padding:2px 7px;pointer-events:none}\n.xh-tip span{color:var(--muted)} .xh-tip .up{color:var(--up)} .xh-tip .down{color:var(--down)}')
+sub('.idx-sub{color:var(--muted);font-size:13px;max-width:44ch}', '.idx-sub{color:var(--muted);font-size:13px;max-width:52ch}\n.idx-sub .spark{height:90px;margin:6px 0}\n.rng{display:flex;gap:4px;margin:2px 0 4px}\n.rng button{font:600 12px IBM Plex Mono,monospace;padding:4px 10px;border:1px solid var(--rule);background:transparent;color:var(--muted);border-radius:999px;cursor:pointer}\n.rng button[aria-selected=true]{background:var(--ink);color:var(--paper);border-color:var(--ink)}\n#idxchart{position:relative;padding-top:34px}\n#idxchart svg{cursor:crosshair;display:block}\n.xh-line{position:absolute;top:34px;width:0;border-left:1px dashed var(--muted);pointer-events:none}\n.xh-dot{position:absolute;width:8px;height:8px;margin:30px 0 0 -4px;border-radius:50%;background:var(--ink);pointer-events:none}\n.xh-tip{position:absolute;top:0;white-space:nowrap;font:12px/1.3 IBM Plex Mono,monospace;color:var(--ink);background:var(--card);border:1px solid var(--rule);border-radius:6px;padding:2px 7px;pointer-events:none}\n.bxlg{display:block;font-size:11px;color:var(--muted);margin-top:2px;white-space:nowrap}\n.lg-i,.lg-b{display:inline-block;width:16px;height:0;vertical-align:middle;border-top:2px solid var(--up)}\n.lg-b{border-top:2px dashed var(--bench);margin-left:10px}\n:root{--bench:#6b5bd6}\n.xh-tip span{color:var(--muted)} .xh-tip .up{color:var(--up)} .xh-tip .down{color:var(--down)}')
 
 import os
 os.makedirs("live", exist_ok=True)

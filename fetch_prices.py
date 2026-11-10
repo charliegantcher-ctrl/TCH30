@@ -18,11 +18,13 @@ members = {c["ticker"]: c["weight"] for c in site["top"]}
 base_value = site.get("index_value", 1000.0)
 base_date = site.get("base_date")  # e.g. "2026-11-06"; set by the monthly refresh
 
+BENCH = "QQQ"  # benchmark shown on the index chart
+
 # Yahoo symbols that differ from the exchange ticker can be mapped here.
 YAHOO = {}
 symbols = [YAHOO.get(t, t) for t in members]
 
-raw = yf.download(symbols, period="5y", interval="1d", auto_adjust=True, progress=False, group_by="ticker")
+raw = yf.download(symbols + [BENCH], period="5y", interval="1d", auto_adjust=True, progress=False, group_by="ticker")
 full = {}
 for t in members:
     s = YAHOO.get(t, t)
@@ -32,6 +34,11 @@ for t in members:
         print(f"no data for {t}")
         continue
     full[t] = [[d.strftime("%Y-%m-%d"), round(float(v), 4)] for d, v in closes.items()]
+bench = []
+try:
+    bench = [[d.strftime("%Y-%m-%d"), round(float(v), 4)] for d, v in raw[BENCH]["Close"].dropna().items()]
+except KeyError:
+    print("no benchmark data")
 # per-stock charts only need the last year
 cut = (datetime.date.today() - datetime.timedelta(days=366)).isoformat()
 series = {t: [p for p in s if p[0] >= cut] for t, s in full.items()}
@@ -90,7 +97,7 @@ index = [[d, round(value[d], 2)] for d in dates if d in value and value[d] is no
 # Today's (or the latest session's) 5-minute index values for the 1-day chart
 intraday = None
 try:
-    ir = yf.download(symbols, period="1d", interval="5m", auto_adjust=True, progress=False, group_by="ticker", prepost=False)
+    ir = yf.download(symbols + [BENCH], period="1d", interval="5m", auto_adjust=True, progress=False, group_by="ticker", prepost=False)
     session = None
     px, pts = {}, []
     ticks = sorted({ts for t in members if YAHOO.get(t, t) in ir.columns.get_level_values(0)
@@ -101,17 +108,26 @@ try:
         px = {t: lookup[t].get(prev) for t in members if t in lookup}
         pts.append(["Prev close", round(official(px), 2)])
         cols = {t: ir[YAHOO.get(t, t)]["Close"] for t in members if YAHOO.get(t, t) in ir.columns.get_level_values(0)}
+        bd = dict(bench)
+        bprev = bd.get(prev)
+        bcol = ir[BENCH]["Close"] if BENCH in ir.columns.get_level_values(0) else None
+        bpts = [["Prev close", bprev]]
         for ts in ticks:
+            if bcol is not None:
+                v = bcol.get(ts)
+                if v is not None and not math.isnan(v):
+                    bprev = round(float(v), 4)
+            bpts.append([ts.tz_convert("America/New_York").strftime("%H:%M"), bprev])
             for t, c in cols.items():
                 v = c.get(ts)
                 if v is not None and not math.isnan(v):
                     px[t] = float(v)
             pts.append([ts.tz_convert("America/New_York").strftime("%H:%M"), round(official(px), 2)])
-        intraday = {"date": session, "points": pts}
+        intraday = {"date": session, "points": pts, "bench": bpts}
 except Exception as e:
     print("intraday skipped:", e)
 
 json.dump({"updated": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
-           "base_date": base_date, "series": series, "latest": latest, "index": index, "intraday": intraday},
+           "base_date": base_date, "series": series, "latest": latest, "index": index, "intraday": intraday, "bench_name": BENCH, "bench": bench},
           open("prices.json", "w"))
 print(f"prices.json: {len(series)} members, index {index[0]} .. {index[-1]}, intraday {len(intraday['points']) if intraday else 0} pts")
