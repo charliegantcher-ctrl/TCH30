@@ -161,12 +161,12 @@ function idxHover(s, r, b, lo, hi){
 function spark(m, w=260, h=54, t=null){""")
 
 # Load data at runtime
-sub("renderIndex(); renderOthers(); renderNews(); route();",
+sub("renderIndex(); renderOthers(); renderNews(); renderSectors(); route();",
 """Promise.all([
   fetch("site_data.json", {cache: "no-cache"}).then(r => r.json()),
   fetch("prices.json", {cache: "no-cache"}).then(r => r.ok ? r.json() : null).catch(() => null),
   fetch("news.json", {cache: "no-cache"}).then(r => r.ok ? r.json() : null).catch(() => null)
-]).then(([d, p, n]) => { D = d; P = p; if (n) D.news = n; renderIndex(); renderOthers(); renderNews(); route(); })
+]).then(([d, p, n]) => { D = d; P = p; if (n) D.news = n; renderIndex(); renderOthers(); renderNews(); renderSectors(); route(); })
   .catch(e => { document.querySelector("main").innerHTML = "<p style='padding:40px 0'>Could not load site_data.json. Open this page from a web server (GitHub Pages), not as a local file.</p>"; });""")
 sub('.idx-sub{color:var(--muted);font-size:13px;max-width:44ch}', '.idx-sub{color:var(--muted);font-size:13px;max-width:52ch}\n.idx-sub .spark{height:90px;margin:6px 0}\n.rng{display:flex;gap:4px;margin:2px 0 4px}\n.rng button{font:600 12px IBM Plex Mono,monospace;padding:4px 10px;border:1px solid var(--rule);background:transparent;color:var(--muted);border-radius:999px;cursor:pointer}\n.rng button[aria-selected=true]{background:var(--ink);color:var(--paper);border-color:var(--ink)}\n#idxchart{position:relative;padding-top:34px}\n#idxchart svg{cursor:crosshair;display:block}\n.xh-line{position:absolute;top:34px;width:0;border-left:1px dashed var(--muted);pointer-events:none}\n.xh-dot{position:absolute;width:8px;height:8px;margin:30px 0 0 -4px;border-radius:50%;background:var(--ink);pointer-events:none}\n.xh-tip{position:absolute;top:0;white-space:nowrap;font:12px/1.3 IBM Plex Mono,monospace;color:var(--ink);background:var(--card);border:1px solid var(--rule);border-radius:6px;padding:2px 7px;pointer-events:none}\n.bxlg{display:block;font-size:11px;color:var(--muted);margin-top:2px;white-space:nowrap}\n.lg-i,.lg-b{display:inline-block;width:16px;height:0;vertical-align:middle;border-top:2px solid var(--up)}\n.lg-b{border-top:2px dashed var(--bench);margin-left:10px}\n:root{--bench:#6b5bd6}\n.xh-tip span{color:var(--muted)} .xh-tip .up{color:var(--up)} .xh-tip .down{color:var(--down)}')
 

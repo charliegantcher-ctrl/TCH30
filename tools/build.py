@@ -40,6 +40,13 @@ for c in top:
 
 idx_1m = sum(c["weight"] * (c["mkt"]["chg_1m_pct"] or 0) for c in top)
 
+# Sector mix of this month's 30 (kept in the history so the Sectors page can show how it shifts)
+sectors = {}
+for c in top:
+    s_ = sectors.setdefault(c["section"], {"count": 0, "weight": 0.0})
+    s_["count"] += 1
+    s_["weight"] = round(s_["weight"] + c["weight"], 6)
+
 # Index level: carry forward from index_state.json (previous refresh) if present.
 # New value = old value x (1 + sum over OLD members of old weight x price return since last refresh).
 # Old members that have left the list need a current price in prices_extra.json {"TICKER": price}.
@@ -55,10 +62,10 @@ if state:
             sys.exit(f"need current price for former member {t} in prices_extra.json")
         ret += w * (cur_prices[t] / state["prices"][t] - 1)
     value, period_ret, since = state["value"] * (1 + ret), ret * 100, state["asof"]
-    history = state.get("history", []) + [{"asof": ASOF, "value": round(value, 2)}]
+    history = state.get("history", []) + [{"asof": ASOF, "value": round(value, 2), "sectors": sectors}]
 else:
     value, period_ret, since = 1000.0, None, None
-    history = [{"asof": ASOF, "value": 1000.0}]
+    history = [{"asof": ASOF, "value": 1000.0, "sectors": sectors}]
 json.dump({"value": value, "asof": ASOF, "history": history,
            "weights": {c["ticker"]: c["weight"] for c in top},
            "prices": {c["ticker"]: mk[c["ticker"]]["price"] for c in top}},

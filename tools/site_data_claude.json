@@ -112,7 +112,45 @@
  "history": [
   {
    "asof": "Nov 6, 2026 close",
-   "value": 1000.0
+   "value": 1000.0,
+   "sectors": {
+    "Semiconductors: compute, IP and power chips": {
+     "count": 7,
+     "weight": 0.282421
+    },
+    "Data, AI and application software": {
+     "count": 2,
+     "weight": 0.043074
+    },
+    "Semiconductor equipment and EDA": {
+     "count": 6,
+     "weight": 0.125747
+    },
+    "AI networking, optics and servers": {
+     "count": 4,
+     "weight": 0.076256
+    },
+    "Data-center power, cooling and grid equipment": {
+     "count": 3,
+     "weight": 0.057683
+    },
+    "Space": {
+     "count": 2,
+     "weight": 0.067774
+    },
+    "Power generation and nuclear": {
+     "count": 1,
+     "weight": 0.018338
+    },
+    "Megacap platforms and enterprise cloud": {
+     "count": 4,
+     "weight": 0.307842
+    },
+    "Security software": {
+     "count": 1,
+     "weight": 0.020868
+    }
+   }
   }
  ],
  "asof": "Nov 6, 2026 close",
