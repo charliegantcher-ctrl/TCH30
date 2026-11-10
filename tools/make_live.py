@@ -87,10 +87,35 @@ sub("function spark(m, w=260, h=54, t=null){", """function idxRange(r){
   }
   const chg = (s[s.length-1][1] / s[0][1] - 1) * 100;
   const label = {"1D": P.intraday ? "on " + P.intraday.date : "last day", "1W": "past week", "1M": "past month", "1Y": "past year", "5Y": "past 5 years"}[r];
-  const note = r === "5Y" && ix[0][0] > new Date(new Date(end).setFullYear(new Date(end).getFullYear()-5)).toISOString().slice(0,10) ? ` (back-test starts ${ix[0][0]})` : "";
+  const note = r === "5Y" && (new Date(ix[0][0]) - new Date(end)) / 864e5 > -365 * 5 + 10 ? ` (back-test starts ${ix[0][0]})` : "";
   $("#idxchg").innerHTML = `<span class="pill ${tone(chg)}">${pct(chg)}</span> <span style="color:var(--muted);font-size:13px">${label}${note}</span>`;
-  $("#idxchart").innerHTML = lineChart(s, 420, 90, chg >= 0, r === "1D" ? null : P.base_date);
+  $("#idxchart").innerHTML = lineChart(s, 420, 90, chg >= 0, r === "1D" ? null : P.base_date) +
+    `<div class="xh-line" hidden></div><div class="xh-dot" hidden></div><div class="xh-tip" hidden></div>`;
+  idxHover(s, r);
   document.querySelectorAll(".rng button").forEach(b => b.setAttribute("aria-selected", b.dataset.r === r));
+}
+function idxHover(s, r){
+  const box = $("#idxchart"), svg = box.querySelector("svg"), line = box.querySelector(".xh-line"),
+        dot = box.querySelector(".xh-dot"), tip = box.querySelector(".xh-tip");
+  const w = 420, h = 90, pad = 6, n = s.length, ys = s.map(p => p[1]), lo = Math.min(...ys), hi = Math.max(...ys);
+  const hide = () => { line.hidden = dot.hidden = tip.hidden = true; };
+  const show = e => {
+    const rc = svg.getBoundingClientRect(), fx = (e.clientX - rc.left) / rc.width;
+    const i = Math.max(0, Math.min(n - 1, Math.round((fx * w - pad) / (w - 2 * pad) * (n - 1))));
+    const px = (pad + i / (n - 1) * (w - 2 * pad)) / w * rc.width;
+    const py = (pad + (hi - s[i][1]) / ((hi - lo) || 1) * (h - 2 * pad - 10)) / h * rc.height;
+    const v = s[i][1], c = (v / s[0][1] - 1) * 100;
+    const when = r === "1D" ? (s[i][0] === "Prev close" ? "Previous close" : P.intraday.date + " " + s[i][0] + " ET") : s[i][0];
+    line.style.left = px + "px"; line.style.height = rc.height - 10 / h * rc.height + "px";
+    dot.style.left = px + "px"; dot.style.top = py + "px";
+    tip.innerHTML = `<b>${v.toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2})}</b> <span class="${tone(c)}">${pct(c)}</span><br><span>${esc(when)}</span>`;
+    line.hidden = dot.hidden = tip.hidden = false;
+    tip.style.left = Math.max(0, Math.min(rc.width - tip.offsetWidth, px - tip.offsetWidth / 2)) + "px";
+  };
+  svg.addEventListener("pointermove", show);
+  svg.addEventListener("pointerdown", show);
+  svg.addEventListener("pointerleave", hide);
+  svg.style.touchAction = "pan-y";
 }
 function spark(m, w=260, h=54, t=null){""")
 
@@ -102,7 +127,7 @@ sub("renderIndex(); renderOthers(); renderNews(); route();",
   fetch("news.json", {cache: "no-cache"}).then(r => r.ok ? r.json() : null).catch(() => null)
 ]).then(([d, p, n]) => { D = d; P = p; if (n) D.news = n; renderIndex(); renderOthers(); renderNews(); route(); })
   .catch(e => { document.querySelector("main").innerHTML = "<p style='padding:40px 0'>Could not load site_data.json. Open this page from a web server (GitHub Pages), not as a local file.</p>"; });""")
-sub('.idx-sub{color:var(--muted);font-size:13px;max-width:44ch}', '.idx-sub{color:var(--muted);font-size:13px;max-width:52ch}\n.idx-sub .spark{height:90px;margin:6px 0}\n.rng{display:flex;gap:4px;margin:2px 0 4px}\n.rng button{font:600 12px IBM Plex Mono,monospace;padding:4px 10px;border:1px solid var(--rule);background:transparent;color:var(--muted);border-radius:999px;cursor:pointer}\n.rng button[aria-selected=true]{background:var(--ink);color:var(--paper);border-color:var(--ink)}')
+sub('.idx-sub{color:var(--muted);font-size:13px;max-width:44ch}', '.idx-sub{color:var(--muted);font-size:13px;max-width:52ch}\n.idx-sub .spark{height:90px;margin:6px 0}\n.rng{display:flex;gap:4px;margin:2px 0 4px}\n.rng button{font:600 12px IBM Plex Mono,monospace;padding:4px 10px;border:1px solid var(--rule);background:transparent;color:var(--muted);border-radius:999px;cursor:pointer}\n.rng button[aria-selected=true]{background:var(--ink);color:var(--paper);border-color:var(--ink)}\n#idxchart{position:relative;padding-top:34px}\n#idxchart svg{cursor:crosshair;display:block}\n.xh-line{position:absolute;top:34px;width:0;border-left:1px dashed var(--muted);pointer-events:none}\n.xh-dot{position:absolute;width:8px;height:8px;margin:30px 0 0 -4px;border-radius:50%;background:var(--ink);pointer-events:none}\n.xh-tip{position:absolute;top:0;white-space:nowrap;font:12px/1.3 IBM Plex Mono,monospace;color:var(--ink);background:var(--card);border:1px solid var(--rule);border-radius:6px;padding:2px 7px;pointer-events:none}\n.xh-tip span{color:var(--muted)} .xh-tip .up{color:var(--up)} .xh-tip .down{color:var(--down)}')
 
 import os
 os.makedirs("live", exist_ok=True)
