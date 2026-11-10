@@ -69,8 +69,8 @@ function renderBoard(){
 # Load data at runtime
 sub("renderIndex(); renderOthers(); renderNews(); route();",
 """Promise.all([
-  fetch("site_data.json").then(r => r.json()),
-  fetch("prices.json").then(r => r.ok ? r.json() : null).catch(() => null),
+  fetch("site_data.json", {cache: "no-cache"}).then(r => r.json()),
+  fetch("prices.json", {cache: "no-cache"}).then(r => r.ok ? r.json() : null).catch(() => null),
   fetch("news.json", {cache: "no-cache"}).then(r => r.ok ? r.json() : null).catch(() => null)
 ]).then(([d, p, n]) => { D = d; P = p; if (n) D.news = n; renderIndex(); renderOthers(); renderNews(); route(); })
   .catch(e => { document.querySelector("main").innerHTML = "<p style='padding:40px 0'>Could not load site_data.json. Open this page from a web server (GitHub Pages), not as a local file.</p>"; });""")
