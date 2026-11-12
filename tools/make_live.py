@@ -42,6 +42,10 @@ sub("function card(c){\n  const m = c.mkt;",
 function card(c){
   const m = withLive(c);""")
 sub("    ${spark(m)}\n    ${dots(c)}", "    ${spark(m, 260, 54, c.ticker)}\n    ${dots(c)}")
+sub('<span class="pill ${tone(m.chg_1m_pct)}">${pct(m.chg_1m_pct)} 1m</span></div></div>\n    ${spark(m, 260, 54, c.ticker)}',
+    '${m.chg_1d_pct != null ? `<span class="pill ${tone(m.chg_1d_pct)}">${pct(m.chg_1d_pct)} today</span><div class="m1">${pct(m.chg_1m_pct)} 1m</div>` : `<span class="pill ${tone(m.chg_1m_pct)}">${pct(m.chg_1m_pct)} 1m</span>`}</div></div>\n    ${spark(m, 260, 54, c.ticker)}')
+sub('<div class="fact"><small>1-month change</small>',
+    '${m.chg_1d_pct != null ? `<div class="fact"><small>1-day change</small><b class="${tone(m.chg_1d_pct)}">${pct(m.chg_1d_pct)}</b></div>` : ""}<div class="fact"><small>1-month change</small>')
 sub("const c = D.top.find(x => x.ticker === t), m = c.mkt;", "const c = D.top.find(x => x.ticker === t), m = withLive(c);")
 sub("${spark(m, 520, 80)}", "${spark(m, 520, 80, c.ticker)}")
 sub('<div class="fact"><small>Price (${esc(D.asof)})</small>', '<div class="fact"><small>Price (${esc(P && P.latest[c.ticker] ? P.latest[c.ticker].date : D.asof)})</small>')
@@ -67,6 +71,27 @@ sub("""Live tracking is not available on this page.`;
 }
 function renderBoard(){
   const top""")
+
+# "What moved the index today" panel
+sub('  $("#dotkey").innerHTML = dotKey();', '  $("#dotkey").innerHTML = dotKey();\n  renderMovers();')
+sub("function spark(m, w=260, h=54, t=null){", """function renderMovers(){
+  const box = $("#movers");
+  if (!(P && P.latest)) { box.innerHTML = ""; return; }
+  const rows = D.top.map(c => { const L = P.latest[c.ticker]; return L && L.chg_1d_pct != null ? {t: c.ticker, d: L.chg_1d_pct, pts: c.weight * L.chg_1d_pct, date: L.date} : null; }).filter(Boolean);
+  if (!rows.length) { box.innerHTML = ""; return; }
+  rows.sort((a, b) => b.pts - a.pts);
+  const tot = rows.reduce((s, r) => s + r.pts, 0), mx = Math.max(...rows.map(r => Math.abs(r.pts))) || 1;
+  const up = rows.filter(r => r.d > 0).length, dn = rows.filter(r => r.d < 0).length;
+  const bar = r => `<div class="mv-row" title="${r.t}: ${pct(r.d)} today, ${r.pts >= 0 ? "adds" : "takes"} ${Math.abs(r.pts).toFixed(2)} pts of % to the index">
+      <span class="mv-t">${r.t}</span><span class="mv-d ${tone(r.d)}">${pct(r.d)}</span>
+      <span class="mv-bar"><i style="${r.pts >= 0 ? "left:50%" : "right:50%"};width:${(Math.abs(r.pts) / mx * 50).toFixed(1)}%;background:${r.pts >= 0 ? "var(--up)" : "var(--down)"}"></i></span>
+      <span class="mv-c ${tone(r.pts)}">${r.pts >= 0 ? "+" : "−"}${Math.abs(r.pts).toFixed(2)}</span></div>`;
+  box.innerHTML = `<details class="movers" open><summary><b>What moved the index on ${esc(rows[0].date)}</b>
+      <span>${up} up · ${dn} down · total <b class="${tone(tot)}">${pct(tot)}</b></span></summary>
+    <p class="mv-note">Each stock's daily change, and how much it added to or took from TCH30 (its weight × its move, in % points). Biggest boosts at the top, biggest drags at the bottom.</p>
+    <div class="mv-grid">${rows.map(bar).join("")}</div></details>`;
+}
+function spark(m, w=260, h=54, t=null){""")
 
 # Range buttons for the index chart
 sub("function spark(m, w=260, h=54, t=null){", """function idxRange(r){
@@ -168,7 +193,7 @@ sub("renderIndex(); renderOthers(); renderNews(); renderSectors(); route();",
   fetch("news.json", {cache: "no-cache"}).then(r => r.ok ? r.json() : null).catch(() => null)
 ]).then(([d, p, n]) => { D = d; P = p; if (n) D.news = n; renderIndex(); renderOthers(); renderNews(); renderSectors(); route(); })
   .catch(e => { document.querySelector("main").innerHTML = "<p style='padding:40px 0'>Could not load site_data.json. Open this page from a web server (GitHub Pages), not as a local file.</p>"; });""")
-sub('.idx-sub{color:var(--muted);font-size:13px;max-width:44ch}', '.idx-sub{color:var(--muted);font-size:13px;max-width:52ch}\n.idx-sub .spark{height:90px;margin:6px 0}\n.rng{display:flex;gap:4px;margin:2px 0 4px}\n.rng button{font:600 12px IBM Plex Mono,monospace;padding:4px 10px;border:1px solid var(--rule);background:transparent;color:var(--muted);border-radius:999px;cursor:pointer}\n.rng button[aria-selected=true]{background:var(--ink);color:var(--paper);border-color:var(--ink)}\n#idxchart{position:relative;padding-top:34px}\n#idxchart svg{cursor:crosshair;display:block}\n.xh-line{position:absolute;top:34px;width:0;border-left:1px dashed var(--muted);pointer-events:none}\n.xh-dot{position:absolute;width:8px;height:8px;margin:30px 0 0 -4px;border-radius:50%;background:var(--ink);pointer-events:none}\n.xh-tip{position:absolute;top:0;white-space:nowrap;font:12px/1.3 IBM Plex Mono,monospace;color:var(--ink);background:var(--card);border:1px solid var(--rule);border-radius:6px;padding:2px 7px;pointer-events:none}\n.bxlg{display:block;font-size:11px;color:var(--muted);margin-top:2px;white-space:nowrap}\n.lg-i,.lg-b{display:inline-block;width:16px;height:0;vertical-align:middle;border-top:2px solid var(--up)}\n.lg-b{border-top:2px dashed var(--bench);margin-left:10px}\n:root{--bench:#6b5bd6}\n.xh-tip span{color:var(--muted)} .xh-tip .up{color:var(--up)} .xh-tip .down{color:var(--down)}')
+sub('.idx-sub{color:var(--muted);font-size:13px;max-width:44ch}', '.idx-sub{color:var(--muted);font-size:13px;max-width:52ch}\n.idx-sub .spark{height:90px;margin:6px 0}\n.m1{font-size:11px;color:var(--muted);text-align:right;margin-top:3px;font-family:IBM Plex Mono,monospace}\n.movers{background:var(--card);border:1px solid var(--rule);border-radius:12px;padding:12px 16px;margin:18px 0}\n.movers summary{cursor:pointer;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:15px}\n.movers summary span{color:var(--muted);font-size:13px}\n.mv-note{color:var(--muted);font-size:12.5px;margin:8px 0 10px}\n.mv-grid{columns:3 280px;column-gap:28px}\n.mv-row{display:grid;grid-template-columns:48px 62px 1fr 48px;gap:8px;align-items:center;break-inside:avoid;margin-bottom:4px;font:12.5px IBM Plex Mono,monospace}\n.mv-t{font-weight:600}\n.mv-d,.mv-c{text-align:right}\n.mv-bar{position:relative;height:10px;background:var(--na-soft);border-radius:3px}\n.mv-bar i{position:absolute;top:0;bottom:0;border-radius:3px}\n.mv-bar::after{content:'';position:absolute;left:50%;top:-2px;bottom:-2px;border-left:1px solid var(--muted)}\n.rng{display:flex;gap:4px;margin:2px 0 4px}\n.rng button{font:600 12px IBM Plex Mono,monospace;padding:4px 10px;border:1px solid var(--rule);background:transparent;color:var(--muted);border-radius:999px;cursor:pointer}\n.rng button[aria-selected=true]{background:var(--ink);color:var(--paper);border-color:var(--ink)}\n#idxchart{position:relative;padding-top:34px}\n#idxchart svg{cursor:crosshair;display:block}\n.xh-line{position:absolute;top:34px;width:0;border-left:1px dashed var(--muted);pointer-events:none}\n.xh-dot{position:absolute;width:8px;height:8px;margin:30px 0 0 -4px;border-radius:50%;background:var(--ink);pointer-events:none}\n.xh-tip{position:absolute;top:0;white-space:nowrap;font:12px/1.3 IBM Plex Mono,monospace;color:var(--ink);background:var(--card);border:1px solid var(--rule);border-radius:6px;padding:2px 7px;pointer-events:none}\n.bxlg{display:block;font-size:11px;color:var(--muted);margin-top:2px;white-space:nowrap}\n.lg-i,.lg-b{display:inline-block;width:16px;height:0;vertical-align:middle;border-top:2px solid var(--up)}\n.lg-b{border-top:2px dashed var(--bench);margin-left:10px}\n:root{--bench:#6b5bd6}\n.xh-tip span{color:var(--muted)} .xh-tip .up{color:var(--up)} .xh-tip .down{color:var(--down)}')
 
 import os
 os.makedirs("live", exist_ok=True)
