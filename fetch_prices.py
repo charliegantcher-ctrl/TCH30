@@ -10,7 +10,7 @@ Dates before the base date are a hypothetical back-test using today's weights, c
 day by day so members that IPO'd later simply join when they start trading (up to 5 years).
 Also saves today's 5-minute index values for the 1-day chart.
 """
-import json, datetime, math
+import json, datetime, math, os, time
 import yfinance as yf  # unofficial Yahoo Finance library; personal/educational use
 
 site = json.load(open("site_data.json"))
@@ -24,21 +24,54 @@ BENCH = "QQQ"  # benchmark shown on the index chart
 YAHOO = {}
 symbols = [YAHOO.get(t, t) for t in members]
 
+def rows(closes):
+    return [[d.strftime("%Y-%m-%d"), round(float(v), 4)] for d, v in closes.items()]
+
+def from_batch(sym):
+    try:
+        return rows(raw[sym]["Close"].dropna())
+    except KeyError:
+        return []
+
+def retry(sym, tries=3):
+    """Yahoo's batch download sometimes drops a ticker; fetch it on its own."""
+    for k in range(tries):
+        time.sleep(2 * (k + 1))
+        try:
+            h = yf.Ticker(sym).history(period="5y", interval="1d", auto_adjust=True)["Close"].dropna()
+            if len(h) > 1:
+                return rows(h)
+        except Exception as e:
+            print(f"retry {k + 1} for {sym} failed: {e}")
+    return []
+
+# Last run's file: if a ticker still fails after retries, keep its old prices instead of wiping them.
+old = {}
+if os.path.exists("prices.json"):
+    try:
+        old = json.load(open("prices.json"))
+    except Exception:
+        old = {}
+
 raw = yf.download(symbols + [BENCH], period="5y", interval="1d", auto_adjust=True, progress=False, group_by="ticker")
 full = {}
 for t in members:
     s = YAHOO.get(t, t)
-    try:
-        closes = raw[s]["Close"].dropna()
-    except KeyError:
-        print(f"no data for {t}")
+    data = from_batch(s)
+    if len(data) < 2:
+        print(f"{t}: missing from batch download, retrying on its own")
+        data = retry(s)
+        if len(data) < 2 and len((old.get("series") or {}).get(t) or []) > 1:
+            print(f"{t}: still no data, keeping last run's prices")
+            data = old["series"][t]
+    if len(data) < 2:
+        print(f"WARNING: no data for {t}")
         continue
-    full[t] = [[d.strftime("%Y-%m-%d"), round(float(v), 4)] for d, v in closes.items()]
-bench = []
-try:
-    bench = [[d.strftime("%Y-%m-%d"), round(float(v), 4)] for d, v in raw[BENCH]["Close"].dropna().items()]
-except KeyError:
-    print("no benchmark data")
+    full[t] = data
+bench = from_batch(BENCH)
+if len(bench) < 2:
+    print(f"{BENCH}: missing from batch download, retrying on its own")
+    bench = retry(BENCH) or old.get("bench") or []
 # per-stock charts only need the last year
 cut = (datetime.date.today() - datetime.timedelta(days=366)).isoformat()
 series = {t: [p for p in s if p[0] >= cut] for t, s in full.items()}
