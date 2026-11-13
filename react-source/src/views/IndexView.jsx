@@ -244,8 +244,13 @@ const SORTS = [
   ["weight", "Weight"],
   ["today", "Today"],
   ["m1", "1 month"],
-  ["score", "Score"],
+  ["small", "Smallest first"],
 ];
+
+const SORT_NOTES = {
+  small:
+    "Smallest companies by market value first. A smaller company has more room to double than a giant, but it can also fall harder. This is size, not a forecast.",
+};
 
 function Board({ D, P, onOpen }) {
   const [q, setQ] = useState("");
@@ -258,7 +263,7 @@ function Board({ D, P, onOpen }) {
     weight: (c) => c.weight,
     today: (c) => withLive(c, P).chg_1d_pct ?? -1e9,
     m1: (c) => withLive(c, P).chg_1m_pct ?? -1e9,
-    score: (c) => c.score ?? 0,
+    small: (c) => -(withLive(c, P).mcap_b ?? 1e9),
   }[sort];
 
   return (
@@ -289,8 +294,9 @@ function Board({ D, P, onOpen }) {
         <section className="tier">
           <div className="tier-h">
             <h2>{needle ? `${list.length} match${list.length === 1 ? "" : "es"}` : "All 30"}</h2>
-            <p>Sorted by {SORTS.find((x) => x[0] === sort)[1].toLowerCase()}</p>
+            <p>{sort === "small" ? "Smallest market value first" : `Sorted by ${SORTS.find((x) => x[0] === sort)[1].toLowerCase()}`}</p>
           </div>
+          {SORT_NOTES[sort] && !needle && <p className="sort-note">{SORT_NOTES[sort]}</p>}
           {list.length ? (
             <div className="grid">
               {[...list].sort(key ? (a, b) => key(b) - key(a) : (a, b) => a.rank - b.rank).map((c, i) => (

@@ -150,6 +150,7 @@ nav a[aria-current="page"] { background: var(--accent-soft); color: var(--accent
 .tier-h { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; border-bottom: 2px solid var(--ink); padding-bottom: 6px; margin-bottom: 14px }
 .tier-h h2 { font-size: 22px }
 .tier-h p { margin: 0; color: var(--muted); font-size: 13.5px }
+.sort-note { margin: -4px 0 14px; color: var(--muted); font-size: 12.5px; max-width: 80ch }
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(272px, 1fr)); gap: 14px }
 .card { background: var(--card); border: 1px solid var(--rule); border-radius: 14px; padding: 14px 14px 12px; cursor: pointer; display: grid; gap: 9px; text-align: left; width: 100%; box-shadow: var(--shadow); transition: border-color .15s, transform .15s, box-shadow .15s; animation: fade .3s ease-out both }
 .card:hover { border-color: var(--accent); transform: translateY(-2px); box-shadow: 0 14px 30px -16px color-mix(in srgb, var(--accent) 45%, transparent) }
