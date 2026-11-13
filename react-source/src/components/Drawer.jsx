@@ -3,7 +3,7 @@ import LineChart from "./LineChart";
 import { ScoreBars, ScoreChip, Seg } from "./Bits";
 import { METRICS } from "../lib/constants";
 import { cls, linkify, money, pct, tone, usd, wpct } from "../lib/format";
-import { fallbackSeries, liveSeries, withLive } from "../lib/useTchData";
+import { daySeries, fallbackSeries, liveSeries, withLive } from "../lib/useTchData";
 
 function cut(s, r) {
   if (!s || r === "1Y") return s;
@@ -38,8 +38,12 @@ export default function Drawer({ D, P, ticker, onClose }) {
   if (c) {
     const m = withLive(c, P);
     const live = liveSeries(P, c.ticker);
-    const s = live ? cut(live, r) : fallbackSeries(m);
+    const day = daySeries(P, c.ticker, m);
+    const isDay = r === "1D" && day;
+    const s = isDay ? day : live ? cut(live, r) : fallbackSeries(m);
     const chg = (s[s.length - 1][1] / s[0][1] - 1) * 100;
+    const ranges = [...(day ? ["1D"] : []), ...(live ? ["1M", "3M", "1Y"] : [])];
+    const sessionDate = (P && P.intraday && P.intraday.date) || m.date || "";
     const [headline, detail] = (c.why || "").split(" | ");
     const ratio = c.w_fund ? c.weight / c.w_fund : null;
     body = (
@@ -64,9 +68,19 @@ export default function Drawer({ D, P, ticker, onClose }) {
         <div className="dr-price">
           <span className="num big">{usd(m.price)}</span>
           {m.chg_1d_pct != null && <span className={"pill " + tone(m.chg_1d_pct)}>{pct(m.chg_1d_pct)} today</span>}
-          {live && <Seg value={r} options={["1M", "3M", "1Y"]} onChange={setR} label="Price range" />}
+          {ranges.length > 1 && <Seg value={r} options={ranges} onChange={setR} label="Price range" />}
         </div>
-        <LineChart s={s} height={150} up={chg >= 0} interactive axis valueFmt={usd} ariaLabel={`${c.ticker} price`} />
+        <LineChart
+          s={s}
+          height={150}
+          up={chg >= 0}
+          interactive
+          axis
+          valueFmt={usd}
+          refLine={isDay ? s[0][1] : null}
+          whenLabel={(p) => (!isDay ? p[0] : p[0] === "Prev close" ? "Previous close" : p[0] === "Close" ? `${sessionDate} close` : `${sessionDate} ${p[0]} ET`)}
+          ariaLabel={`${c.ticker} price`}
+        />
 
         <h3 className="dr-h">
           TCH score <ScoreChip s={c.score} />

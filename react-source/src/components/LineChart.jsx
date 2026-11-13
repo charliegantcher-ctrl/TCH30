@@ -30,6 +30,7 @@ export default function LineChart({
   whenLabel = (p) => p[0],
   benchName = "",
   valueFmt = num2,
+  refLine = null,
   className = "",
   ariaLabel,
 }) {
@@ -42,7 +43,7 @@ export default function LineChart({
   if (n < 2) return <div ref={ref} className={"chart " + className} style={{ height }} />;
 
   const padL = 4, padR = axis ? 52 : 4, padT = 10, padB = axis ? 22 : 14;
-  const ys = s.map((p) => p[1]).concat(bench ? bench.filter((v) => v != null) : []);
+  const ys = s.map((p) => p[1]).concat(bench ? bench.filter((v) => v != null) : [], refLine != null ? [refLine] : []);
   let lo = Math.min(...ys), hi = Math.max(...ys);
   const span = hi - lo || Math.abs(hi) * 0.02 || 1;
   lo -= span * 0.06;
@@ -104,6 +105,7 @@ export default function LineChart({
           </g>
         ))}
         <line x1={padL} x2={w - padR} y1={base} y2={base} stroke="var(--rule)" />
+        {refLine != null && <line x1={padL} x2={w - padR} y1={Y(refLine)} y2={Y(refLine)} stroke="var(--muted)" strokeDasharray="2 3" opacity=".6" />}
         {bi > 0 && <line x1={X(bi)} x2={X(bi)} y1={padT} y2={base} stroke="var(--muted)" strokeDasharray="3 4" opacity=".7" />}
         <path d={area} fill={`url(#${gid})`} />
         {bpath && <path d={bpath} fill="none" stroke="var(--bench)" strokeWidth="1.4" strokeDasharray="4 3" />}

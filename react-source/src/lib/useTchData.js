@@ -61,6 +61,17 @@ export const withLive = (c, P) => {
   return L ? { ...c.mkt, price: L.price, chg_1m_pct: L.chg_1m_pct, chg_1y_pct: L.chg_1y_pct, chg_1d_pct: L.chg_1d_pct, date: L.date } : c.mkt;
 };
 
+/**
+ * The latest session for one stock: previous close, then 5-minute prices.
+ * Falls back to a straight previous-close → close line when no 5-minute data was saved.
+ */
+export const daySeries = (P, t, m) => {
+  const s = P && P.intraday && P.intraday.stocks && P.intraday.stocks[t];
+  if (s && s.length > 2) return s;
+  if (m && m.price != null && m.chg_1d_pct != null) return [["Prev close", m.price / (1 + m.chg_1d_pct / 100)], ["Close", m.price]];
+  return null;
+};
+
 /** Fallback 3-point "sparkline" when no daily series is published for a ticker. */
 export const fallbackSeries = (m) => {
   const now = m.price, pts = [];

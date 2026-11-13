@@ -145,18 +145,23 @@ try:
         bprev = bd.get(prev)
         bcol = ir[BENCH]["Close"] if BENCH in ir.columns.get_level_values(0) else None
         bpts = [["Prev close", bprev]]
+        # each member's own 5-minute line for the day, starting from its previous close
+        stock_pts = {t: [["Prev close", px[t]]] for t in cols if px.get(t) is not None}
         for ts in ticks:
+            hm = ts.tz_convert("America/New_York").strftime("%H:%M")
             if bcol is not None:
                 v = bcol.get(ts)
                 if v is not None and not math.isnan(v):
                     bprev = round(float(v), 4)
-            bpts.append([ts.tz_convert("America/New_York").strftime("%H:%M"), bprev])
+            bpts.append([hm, bprev])
             for t, c in cols.items():
                 v = c.get(ts)
                 if v is not None and not math.isnan(v):
                     px[t] = float(v)
-            pts.append([ts.tz_convert("America/New_York").strftime("%H:%M"), round(official(px), 2)])
-        intraday = {"date": session, "points": pts, "bench": bpts}
+            for t in stock_pts:
+                stock_pts[t].append([hm, round(px[t], 4)])
+            pts.append([hm, round(official(px), 2)])
+        intraday = {"date": session, "points": pts, "bench": bpts, "stocks": stock_pts}
 except Exception as e:
     print("intraday skipped:", e)
 

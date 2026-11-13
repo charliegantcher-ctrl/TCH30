@@ -3,7 +3,7 @@ import LineChart from "../components/LineChart";
 import { DotKey, Dots, ScoreChip, Seg } from "../components/Bits";
 import { PALETTE, RANGES, TIERS } from "../lib/constants";
 import { money, num2, pct, tone, usd, wpct } from "../lib/format";
-import { fallbackSeries, liveSeries, withLive } from "../lib/useTchData";
+import { daySeries, fallbackSeries, liveSeries, withLive } from "../lib/useTchData";
 
 function sliceRange(P, r) {
   const ix = P.index, end = ix[ix.length - 1][0];
@@ -191,7 +191,11 @@ function Movers({ D, P }) {
 
 export function StockCard({ c, P, onOpen, i = 0 }) {
   const m = withLive(c, P);
-  const s = liveSeries(P, c.ticker) || fallbackSeries(m);
+  // default view: the latest trading day, same day as "What moved the index"
+  const day = daySeries(P, c.ticker, m);
+  const s = day || liveSeries(P, c.ticker) || fallbackSeries(m);
+  const up = day ? s[s.length - 1][1] >= s[0][1] : (m.chg_1m_pct ?? 0) >= 0;
+  const labelled = day ? s.map((p, i) => (i === s.length - 1 ? [p[0] === "Close" ? "Close" : p[0] + " ET", p[1]] : p)) : s;
   return (
     <button className="card" onClick={() => onOpen(c.ticker)} aria-label={`Open ${c.name} fundamentals`} style={{ animationDelay: `${Math.min(i, 12) * 25}ms` }}>
       <div className="card-top">
@@ -215,7 +219,13 @@ export function StockCard({ c, P, onOpen, i = 0 }) {
           )}
         </div>
       </div>
-      <LineChart s={s} height={58} up={(m.chg_1m_pct ?? 0) >= 0} ariaLabel={`${c.ticker} price`} />
+      <LineChart
+        s={labelled}
+        height={58}
+        up={up}
+        refLine={day ? s[0][1] : null}
+        ariaLabel={day ? `${c.ticker} price on ${m.date || "the latest session"}, from previous close` : `${c.ticker} price`}
+      />
       <Dots c={c} />
       <div className="card-foot">
         <span>
