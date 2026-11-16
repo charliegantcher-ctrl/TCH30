@@ -1,6 +1,6 @@
 {
  "MSFT": {
-  "score": 764,
+  "score": 757,
   "parts": {
    "growth": {
     "pts": 95,
@@ -33,7 +33,7 @@
     "missing": false
    },
    "forward": {
-    "pts": 75,
+    "pts": 68,
     "max": 131,
     "of": 125,
     "missing": false
@@ -59,7 +59,7 @@
   }
  },
  "GOOGL": {
-  "score": 745,
+  "score": 733,
   "parts": {
    "growth": {
     "pts": 130,
@@ -92,7 +92,7 @@
     "missing": false
    },
    "forward": {
-    "pts": 57,
+    "pts": 46,
     "max": 131,
     "of": 125,
     "missing": false
@@ -118,7 +118,7 @@
   }
  },
  "AMZN": {
-  "score": 680,
+  "score": 675,
   "parts": {
    "growth": {
     "pts": 71,
@@ -151,7 +151,7 @@
     "missing": false
    },
    "forward": {
-    "pts": 73,
+    "pts": 68,
     "max": 145,
     "of": 125,
     "missing": false
@@ -472,7 +472,7 @@
   }
  },
  "TSM": {
-  "score": 864,
+  "score": 869,
   "parts": {
    "growth": {
     "pts": 127,
@@ -505,7 +505,7 @@
     "missing": false
    },
    "forward": {
-    "pts": 61,
+    "pts": 66,
     "max": 145,
     "of": 125,
     "missing": false
@@ -590,7 +590,7 @@
   }
  },
  "AMD": {
-  "score": 749,
+  "score": 745,
   "parts": {
    "growth": {
     "pts": 157,
@@ -623,7 +623,7 @@
     "missing": false
    },
    "forward": {
-    "pts": 69,
+    "pts": 65,
     "max": 131,
     "of": 125,
     "missing": false
@@ -1593,7 +1593,7 @@
   }
  },
  "ANET": {
-  "score": 805,
+  "score": 801,
   "parts": {
    "growth": {
     "pts": 157,
@@ -1626,7 +1626,7 @@
     "missing": false
    },
    "forward": {
-    "pts": 60,
+    "pts": 55,
     "max": 131,
     "of": 125,
     "missing": false
@@ -2714,7 +2714,7 @@
   }
  },
  "IONQ": {
-  "score": 647,
+  "score": 642,
   "parts": {
    "growth": {
     "pts": 104,
@@ -2747,7 +2747,7 @@
     "missing": false
    },
    "forward": {
-    "pts": 127,
+    "pts": 123,
     "max": 142,
     "of": 125,
     "missing": false
@@ -3363,7 +3363,7 @@
   }
  },
  "PLTR": {
-  "score": 876,
+  "score": 871,
   "parts": {
    "growth": {
     "pts": 157,
@@ -3396,7 +3396,7 @@
     "missing": false
    },
    "forward": {
-    "pts": 81,
+    "pts": 77,
     "max": 131,
     "of": 125,
     "missing": false
@@ -3599,7 +3599,7 @@
   }
  },
  "DDOG": {
-  "score": 679,
+  "score": 675,
   "parts": {
    "growth": {
     "pts": 98,
@@ -3632,7 +3632,7 @@
     "missing": false
    },
    "forward": {
-    "pts": 55,
+    "pts": 50,
     "max": 125,
     "of": 125,
     "missing": false
@@ -3776,7 +3776,7 @@
   }
  },
  "APP": {
-  "score": 828,
+  "score": 824,
   "parts": {
    "growth": {
     "pts": 166,
@@ -3809,7 +3809,7 @@
     "missing": false
    },
    "forward": {
-    "pts": 63,
+    "pts": 58,
     "max": 138,
     "of": 125,
     "missing": false
@@ -4956,7 +4956,7 @@
   }
  },
  "SPCX": {
-  "score": 769,
+  "score": 774,
   "parts": {
    "growth": {
     "pts": 129,
@@ -4989,7 +4989,7 @@
     "missing": false
    },
    "forward": {
-    "pts": 103,
+    "pts": 108,
     "max": 153,
     "of": 125,
     "missing": false
@@ -5015,7 +5015,7 @@
   }
  },
  "RKLB": {
-  "score": 674,
+  "score": 675,
   "parts": {
    "growth": {
     "pts": 141,
@@ -5048,7 +5048,7 @@
     "missing": false
    },
    "forward": {
-    "pts": 89,
+    "pts": 90,
     "max": 131,
     "of": 125,
     "missing": false

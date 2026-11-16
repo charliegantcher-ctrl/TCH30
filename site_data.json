@@ -288,8 +288,8 @@
     "fcf": 1,
     "nrr": 0
    },
-   "why": "Score 876/1000. Strongest in growth and profitability; weakest in forward signals. | Revenue rose +96% organically, US commercial +148%. GAAP operating margin was 47% and adjusted FCF margin 53%, and FY26 is guided to +91% (Palantir 8-K). Reliance on government revenue and the difficulty of sustaining this pace are the main risks.",
-   "score": 876,
+   "why": "Score 871/1000. Strongest in growth and profitability; weakest in forward signals. | Revenue rose +96% organically, US commercial +148%. GAAP operating margin was 47% and adjusted FCF margin 53%, and FY26 is guided to +91% ([Palantir 8-K](https://www.sec.gov/Archives/edgar/data/0001321655/000132165526000045/a2026q3ex991pressrelease.htm)). Reliance on government revenue and the difficulty of sustaining this pace are the main risks.",
+   "score": 871,
    "score_parts": {
     "growth": {
      "pts": 157,
@@ -322,7 +322,7 @@
      "missing": false
     },
     "forward": {
-     "pts": 81,
+     "pts": 77,
      "max": 131,
      "of": 125,
      "missing": false
@@ -395,8 +395,8 @@
     "fcf": 0,
     "nrr": 0
    },
-   "why": "Score 864/1000. Strongest in growth and profitability; weakest in forward signals. Loses 4 points for AI boom risk. | Revenue rose +41% in USD, gross profit +69% and operating margin reached 58.7%. Q4 is guided at +58% YoY. It is the leading-edge foundry that every AI chip in this list depends on.",
-   "score": 864,
+   "why": "Score 869/1000. Strongest in growth and profitability; weakest in forward signals. Loses 4 points for AI boom risk. | Revenue rose +41% in USD, gross profit +69% and operating margin reached 58.7%. Q4 is guided at +58% YoY. It is the leading-edge foundry that every AI chip in this list depends on.",
+   "score": 869,
    "score_parts": {
     "growth": {
      "pts": 127,
@@ -429,7 +429,7 @@
      "missing": false
     },
     "forward": {
-     "pts": 61,
+     "pts": 66,
      "max": 145,
      "of": 125,
      "missing": false
@@ -716,8 +716,8 @@
     "fcf": 1,
     "nrr": 0
    },
-   "why": "Score 828/1000. Strongest in growth and profitability; weakest in forward signals. | Revenue rose +55% with a ~78% GAAP operating margin and $1.42B FCF (65%) (AppLovin 8-K). Its financials are top-tier, but ad-tech is less clearly \"necessary\" in 15 years, and it depends on the Apple and Google platforms.",
-   "score": 828,
+   "why": "Score 824/1000. Strongest in growth and profitability; weakest in forward signals. | Revenue rose +55% with a ~78% GAAP operating margin and $1.42B FCF (65%) ([AppLovin 8-K](https://www.sec.gov/Archives/edgar/data/0001751008/000175100826000068/exhibit991-3q26earningspre.htm)). Its financials are top-tier, but ad-tech is less clearly \"necessary\" in 15 years, and it depends on the Apple and Google platforms.",
+   "score": 824,
    "score_parts": {
     "growth": {
      "pts": 166,
@@ -750,7 +750,7 @@
      "missing": false
     },
     "forward": {
-     "pts": 63,
+     "pts": 58,
      "max": 138,
      "of": 125,
      "missing": false
@@ -823,8 +823,8 @@
     "fcf": 1,
     "nrr": 0
    },
-   "why": "Score 805/1000. Strongest in growth and cross-industry use; weakest in forward signals. Loses 19 points for AI boom risk. | Revenue rose +58.5% with no acquisitions, at a 44.9% GAAP operating margin and ~$3.8B of 9-month FCF (Arista 8-K). Concentration in a few large buyers is the flagged risk.",
-   "score": 805,
+   "why": "Score 801/1000. Strongest in growth and cross-industry use; weakest in forward signals. Loses 19 points for AI boom risk. | Revenue rose +58.5% with no acquisitions, at a 44.9% GAAP operating margin and ~$3.8B of 9-month FCF ([Arista 8-K](https://www.sec.gov/Archives/edgar/data/0001596532/000159653226000252/ex991q326-earningsrelease.htm)). Concentration in a few large buyers is the flagged risk.",
+   "score": 801,
    "score_parts": {
     "growth": {
      "pts": 157,
@@ -857,7 +857,7 @@
      "missing": false
     },
     "forward": {
-     "pts": 60,
+     "pts": 55,
      "max": 131,
      "of": 125,
      "missing": false
@@ -930,7 +930,7 @@
     "fcf": 1,
     "nrr": 0
    },
-   "why": "Score 780/1000. Strongest in cross-industry use and growth; weakest in forward signals. Loses 21 points for AI boom risk. | Revenue rose +61% (+55% organic), organic orders more than doubled, GAAP operating margin was 22.8% and adjusted FCF $652M (Vertiv 8-K). It has the most diversified customer base among the AI-hardware names.",
+   "why": "Score 780/1000. Strongest in cross-industry use and growth; weakest in forward signals. Loses 21 points for AI boom risk. | Revenue rose +61% (+55% organic), organic orders more than doubled, GAAP operating margin was 22.8% and adjusted FCF $652M ([Vertiv 8-K](https://www.sec.gov/Archives/edgar/data/0001674101/000162828026067707/q32026exhibit991vrt10282026.htm)). It has the most diversified customer base among the AI-hardware names.",
    "score": 780,
    "score_parts": {
     "growth": {
@@ -1037,7 +1037,7 @@
     "fcf": 1,
     "nrr": 0
    },
-   "why": "Score 777/1000. Strongest in cross-industry use and industry momentum; weakest in growth. | Revenue rose +27% (+18% organic) and orders +96% organic. Backlog is $197B and quarterly FCF $5.4B (GE Vernova 8-K). Customer deposits inflate that FCF, and wind still loses money.",
+   "why": "Score 777/1000. Strongest in cross-industry use and industry momentum; weakest in growth. | Revenue rose +27% (+18% organic) and orders +96% organic. Backlog is $197B and quarterly FCF $5.4B ([GE Vernova 8-K](https://www.sec.gov/Archives/edgar/data/0001996810/000199681026000162/gevpressrelease3q26.htm)). Customer deposits inflate that FCF, and wind still loses money.",
    "score": 777,
    "score_parts": {
     "growth": {
@@ -1144,7 +1144,7 @@
     "fcf": 1,
     "nrr": 0
    },
-   "why": "Score 771/1000. Strongest in growth and profitability; weakest in forward signals. Loses 8 points for AI boom risk. | Revenue rose +54% organically with a 40% GAAP operating margin and $3.24B quarterly FCF (Lam 8-K). China at 35% of revenue and memory-capex cyclicality are the discounts.",
+   "why": "Score 771/1000. Strongest in growth and profitability; weakest in forward signals. Loses 8 points for AI boom risk. | Revenue rose +54% organically with a 40% GAAP operating margin and $3.24B quarterly FCF ([Lam 8-K](https://www.sec.gov/Archives/edgar/data/0000707549/000070754926000052/lrcx_exhibitx991xq1x2027.htm)). China at 35% of revenue and memory-capex cyclicality are the discounts.",
    "score": 771,
    "score_parts": {
     "growth": {
@@ -1202,7 +1202,7 @@
      "missing": false
     }
    },
-   "score_rank": 10,
+   "score_rank": 11,
    "tier": 2,
    "rank": 10,
    "w_mcap": 0.009452973345182268,
@@ -1251,8 +1251,8 @@
     "fcf": -1,
     "nrr": 0
    },
-   "why": "Score 769/1000. Strongest in cross-industry use and growth; weakest in cash & balance sheet. | Revenue rose +161% (~+150% excluding the Cursor acquisition), Starlink reached 13.6M subscribers with ARPU of $69, and operating margin was ~19%. Q3 capex of $19.6B vs $8.8B adj. EBITDA means deep burn, funded by $89.9B of cash and securities (TeslaNorth). This is a long-dated space bet.",
-   "score": 769,
+   "why": "Score 774/1000. Strongest in cross-industry use and growth; weakest in cash & balance sheet. | Revenue rose +161% (~+150% excluding the Cursor acquisition), Starlink reached 13.6M subscribers with ARPU of $69, and operating margin was ~19%. Q3 capex of $19.6B vs $8.8B adj. EBITDA means deep burn, funded by $89.9B of cash and securities ([TeslaNorth](https://teslanorth.com/2026/10/20/spacex-q3-2026-results/)). This is a long-dated space bet.",
+   "score": 774,
    "score_parts": {
     "growth": {
      "pts": 129,
@@ -1285,7 +1285,7 @@
      "missing": false
     },
     "forward": {
-     "pts": 103,
+     "pts": 108,
      "max": 153,
      "of": 125,
      "missing": false
@@ -1309,7 +1309,7 @@
      "missing": false
     }
    },
-   "score_rank": 11,
+   "score_rank": 10,
    "tier": 2,
    "rank": 11,
    "w_mcap": 0.06870771361114907,
@@ -1358,7 +1358,7 @@
     "fcf": 1,
     "nrr": 0
    },
-   "why": "Score 768/1000. Strongest in growth and customers; weakest in industry momentum. Loses 4 points for AI boom risk. | It signed 20-year PPAs with Google and Amazon and earned a 26.1% GAAP operating margin. Its +45% growth is mostly the Calpine acquisition, and 9-month OCF less capex was only $1.5B (Constellation 8-K).",
+   "why": "Score 768/1000. Strongest in growth and customers; weakest in industry momentum. Loses 4 points for AI boom risk. | It signed 20-year PPAs with Google and Amazon and earned a 26.1% GAAP operating margin. Its +45% growth is mostly the Calpine acquisition, and 9-month OCF less capex was only $1.5B ([Constellation 8-K](https://www.sec.gov/Archives/edgar/data/0001868275/000186827526000116/ceg-20261109991.htm)).",
    "score": 768,
    "score_parts": {
     "growth": {
@@ -1465,8 +1465,8 @@
     "fcf": 1,
     "nrr": 0
    },
-   "why": "Score 764/1000. Strongest in cross-industry use and durability & moat; weakest in industry momentum. | Revenue grew +19% on a very large base, with a 49.7% operating margin. Azure grew +48% and RPO reached $677B (+73%). Quarterly capex of $39.4B is the main watch item.",
-   "score": 764,
+   "why": "Score 757/1000. Strongest in cross-industry use and durability & moat; weakest in industry momentum. | Revenue grew +19% on a very large base, with a 49.7% operating margin. Azure grew +48% and RPO reached $677B (+73%). Quarterly capex of $39.4B is the main watch item.",
+   "score": 757,
    "score_parts": {
     "growth": {
      "pts": 95,
@@ -1499,7 +1499,7 @@
      "missing": false
     },
     "forward": {
-     "pts": 75,
+     "pts": 68,
      "max": 131,
      "of": 125,
      "missing": false
@@ -1523,7 +1523,7 @@
      "missing": false
     }
    },
-   "score_rank": 13,
+   "score_rank": 14,
    "tier": 3,
    "rank": 13,
    "w_mcap": 0.1487408745208392,
@@ -1572,7 +1572,7 @@
     "fcf": 1,
     "nrr": 0
    },
-   "why": "Score 763/1000. Strongest in durability & moat and cash & balance sheet; weakest in forward signals. | Revenue rose +29% at a 45% GAAP operating margin, the highest in wafer-fab equipment, with TTM FCF of $4.0B. Next quarter is guided ~+14% sequentially (KLA 8-K).",
+   "why": "Score 763/1000. Strongest in durability & moat and cash & balance sheet; weakest in forward signals. | Revenue rose +29% at a 45% GAAP operating margin, the highest in wafer-fab equipment, with TTM FCF of $4.0B. Next quarter is guided ~+14% sequentially ([KLA 8-K](https://www.sec.gov/Archives/edgar/data/0000319201/000031920126000032/exhibit991earningsrelease0.htm)).",
    "score": 763,
    "score_parts": {
     "growth": {
@@ -1630,7 +1630,7 @@
      "missing": false
     }
    },
-   "score_rank": 14,
+   "score_rank": 13,
    "tier": 3,
    "rank": 14,
    "w_mcap": 0.006812256550072444,
@@ -1786,8 +1786,8 @@
     "fcf": 1,
     "nrr": 0
    },
-   "why": "Score 749/1000. Strongest in growth and cross-industry use; weakest in forward signals. Loses 10 points for AI boom risk. | Revenue rose +45%, data center +97%, and Q4 is guided at +66%. FCF was only $554M because of inventory build, and GAAP operating margin was 21%.",
-   "score": 749,
+   "why": "Score 745/1000. Strongest in growth and cross-industry use; weakest in forward signals. Loses 10 points for AI boom risk. | Revenue rose +45%, data center +97%, and Q4 is guided at +66%. FCF was only $554M because of inventory build, and GAAP operating margin was 21%.",
+   "score": 745,
    "score_parts": {
     "growth": {
      "pts": 157,
@@ -1820,7 +1820,7 @@
      "missing": false
     },
     "forward": {
-     "pts": 69,
+     "pts": 65,
      "max": 131,
      "of": 125,
      "missing": false
@@ -1893,8 +1893,8 @@
     "fcf": -1,
     "nrr": 0
    },
-   "why": "Score 745/1000. Strongest in cross-industry use and durability & moat; weakest in forward signals. | Revenue rose +25% with a 31.8% operating margin, and Cloud grew +103% at a 36% margin. AI capex pushed quarterly FCF to \u2212$9.1B (TTM still +$19.7B), the main watch item.",
-   "score": 745,
+   "why": "Score 733/1000. Strongest in cross-industry use and durability & moat; weakest in forward signals. | Revenue rose +25% with a 31.8% operating margin, and Cloud grew +103% at a 36% margin. AI capex pushed quarterly FCF to \u2212$9.1B (TTM still +$19.7B), the main watch item.",
+   "score": 733,
    "score_parts": {
     "growth": {
      "pts": 130,
@@ -1927,7 +1927,7 @@
      "missing": false
     },
     "forward": {
-     "pts": 57,
+     "pts": 46,
      "max": 131,
      "of": 125,
      "missing": false
@@ -2107,7 +2107,7 @@
     "fcf": 1,
     "nrr": 0
    },
-   "why": "Score 725/1000. Strongest in cross-industry use and customers; weakest in growth. | Revenue rose +25% with a 33.7% GAAP operating margin and $2.33B FCF, and next quarter is guided ~+12% sequentially (AMAT release). It is solid but grows slower than Lam and KLA.",
+   "why": "Score 725/1000. Strongest in cross-industry use and customers; weakest in growth. | Revenue rose +25% with a 33.7% GAAP operating margin and $2.33B FCF, and next quarter is guided ~+12% sequentially ([AMAT release](https://www.appliedmaterials.com/us/en/newsroom/press-releases/081326-applied-materials-announces-third-quarter-2026-results.html)). It is solid but grows slower than Lam and KLA.",
    "score": 725,
    "score_parts": {
     "growth": {
@@ -2321,7 +2321,7 @@
     "fcf": 0,
     "nrr": 0
    },
-   "why": "Score 722/1000. Strongest in growth and cross-industry use; weakest in forward signals. Loses 22 points for AI boom risk. | Revenue rose +63% organically, gross profit +64% and Enterprise Data +165%, at a 29.7% GAAP operating margin (MPS 8-K). FCF was not disclosed, and revenue is concentrated in AI-GPU power.",
+   "why": "Score 722/1000. Strongest in growth and cross-industry use; weakest in forward signals. Loses 22 points for AI boom risk. | Revenue rose +63% organically, gross profit +64% and Enterprise Data +165%, at a 29.7% GAAP operating margin ([MPS 8-K](https://www.sec.gov/Archives/edgar/data/0001280452/000162828026068202/mpwr-20260930xexx991.htm)). FCF was not disclosed, and revenue is concentrated in AI-GPU power.",
    "score": 722,
    "score_parts": {
     "growth": {
@@ -2535,7 +2535,7 @@
     "fcf": 1,
     "nrr": 0
    },
-   "why": "Score 717/1000. Strongest in cross-industry use and customers; weakest in growth. | Revenue rose +28% (+19% organic), segment margin hit a record 25.3% and FCF was $1.03B. The Boyd Thermal acquisition cut gross margin to 34.7% from 38.3% (Eaton 8-K).",
+   "why": "Score 717/1000. Strongest in cross-industry use and customers; weakest in growth. | Revenue rose +28% (+19% organic), segment margin hit a record 25.3% and FCF was $1.03B. The Boyd Thermal acquisition cut gross margin to 34.7% from 38.3% ([Eaton 8-K](https://www.sec.gov/Archives/edgar/data/0001551182/000155118226000037/etn09302026exhibit99.htm)).",
    "score": 717,
    "score_parts": {
     "growth": {
@@ -2749,7 +2749,7 @@
     "fcf": 1,
     "nrr": 0
    },
-   "why": "Score 707/1000. Strongest in cross-industry use and cash & balance sheet; weakest in profitability. | Revenue rose +26%, ARR +25% and net new ARR +51%, with a 26% FCF margin and rising retention. GAAP operating margin is still \u22122.3% (CrowdStrike IR).",
+   "why": "Score 707/1000. Strongest in cross-industry use and cash & balance sheet; weakest in profitability. | Revenue rose +26%, ARR +25% and net new ARR +51%, with a 26% FCF margin and rising retention. GAAP operating margin is still \u22122.3% ([CrowdStrike IR](https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-second-quarter-fiscal-year-2027-financial)).",
    "score": 707,
    "score_parts": {
     "growth": {
@@ -2856,7 +2856,7 @@
     "fcf": 1,
     "nrr": 0
    },
-   "why": "Score 702/1000. Strongest in cross-industry use and durability & moat; weakest in growth. | Revenue rose +22% with an 85.6% gross margin and 26.2% GAAP operating margin, and backlog reached a record $8.2B (Cadence 8-K). It is one half of the EDA duopoly. $2.14B of 2026 acquisitions blur the organic rate.",
+   "why": "Score 702/1000. Strongest in cross-industry use and durability & moat; weakest in growth. | Revenue rose +22% with an 85.6% gross margin and 26.2% GAAP operating margin, and backlog reached a record $8.2B ([Cadence 8-K](https://www.sec.gov/Archives/edgar/data/0000813672/000081367226000116/cdns10262026ex9901.htm)). It is one half of the EDA duopoly. $2.14B of 2026 acquisitions blur the organic rate.",
    "score": 702,
    "score_parts": {
     "growth": {
@@ -3070,7 +3070,7 @@
     "fcf": 0,
     "nrr": 0
    },
-   "why": "Score 696/1000. Strongest in cross-industry use and cash & balance sheet; weakest in forward signals. | Revenue rose +27% and data-center royalties doubled. Arm holds more than 50% of top-hyperscaler server CPUs (Arm newsroom). GAAP margin is ~14%, FCF was not disclosed, and its move into its own silicon risks conflict with licensees.",
+   "why": "Score 696/1000. Strongest in cross-industry use and cash & balance sheet; weakest in forward signals. | Revenue rose +27% and data-center royalties doubled. Arm holds more than 50% of top-hyperscaler server CPUs ([Arm newsroom](https://newsroom.arm.com/news/arm-q2-fye27-results)). GAAP margin is ~14%, FCF was not disclosed, and its move into its own silicon risks conflict with licensees.",
    "score": 696,
    "score_parts": {
     "growth": {
@@ -3393,8 +3393,8 @@
     "fcf": -1,
     "nrr": 0
    },
-   "why": "Score 680/1000. Strongest in cross-industry use and durability & moat; weakest in industry momentum. | AWS grew +39% and backlog is $578B. A 13.9% operating margin and TTM FCF of \u2212$42.4B hold it in the middle.",
-   "score": 680,
+   "why": "Score 675/1000. Strongest in cross-industry use and durability & moat; weakest in industry momentum. | AWS grew +39% and backlog is $578B. A 13.9% operating margin and TTM FCF of \u2212$42.4B hold it in the middle.",
+   "score": 675,
    "score_parts": {
     "growth": {
      "pts": 71,
@@ -3427,7 +3427,7 @@
      "missing": false
     },
     "forward": {
-     "pts": 73,
+     "pts": 68,
      "max": 145,
      "of": 125,
      "missing": false
@@ -3451,7 +3451,7 @@
      "missing": false
     }
    },
-   "score_rank": 32
+   "score_rank": 34
   },
   {
    "ticker": "META",
@@ -4290,7 +4290,7 @@
      "missing": false
     }
    },
-   "score_rank": 52,
+   "score_rank": 51,
    "why": "Score 642/1000. Strongest in growth and customers; weakest in cross-industry use. Loses 80 points for AI boom risk."
   },
   {
@@ -5241,8 +5241,8 @@
     "fcf": 0,
     "nrr": 0
    },
-   "why": "Score 647/1000. Strongest in cash & balance sheet and cross-industry use; weakest in profitability. | This is the quantum bet. Platform revenue rose +127%, RPO is $1.2B and pro forma cash is $3.7B (~7-year runway). But 48% of revenue is the acquired SkyWater foundry, and adj. EBITDA was \u2212$133.6M (IonQ release).",
-   "score": 647,
+   "why": "Score 642/1000. Strongest in cash & balance sheet and cross-industry use; weakest in profitability. | This is the quantum bet. Platform revenue rose +127%, RPO is $1.2B and pro forma cash is $3.7B (~7-year runway). But 48% of revenue is the acquired SkyWater foundry, and adj. EBITDA was \u2212$133.6M (IonQ release).",
+   "score": 642,
    "score_parts": {
     "growth": {
      "pts": 104,
@@ -5275,7 +5275,7 @@
      "missing": false
     },
     "forward": {
-     "pts": 127,
+     "pts": 123,
      "max": 142,
      "of": 125,
      "missing": false
@@ -5299,7 +5299,7 @@
      "missing": false
     }
    },
-   "score_rank": 50
+   "score_rank": 52
   },
   {
    "ticker": "RGTI",
@@ -6054,7 +6054,7 @@
      "missing": false
     }
    },
-   "score_rank": 33,
+   "score_rank": 32,
    "why": "Score 679/1000. Strongest in cross-industry use and customers; weakest in durability & moat."
   },
   {
@@ -6333,8 +6333,8 @@
     "fcf": 1,
     "nrr": 1
    },
-   "why": "Score 679/1000. Strongest in cross-industry use and cash & balance sheet; weakest in forward signals. | Revenue rose +35%, NRR is in the low-120s and rising, revenue per customer +29% and FCF margin 21%. The Q4 guide is flat because its largest customer cut usage (Datadog 8-K; sec-api).",
-   "score": 679,
+   "why": "Score 675/1000. Strongest in cross-industry use and cash & balance sheet; weakest in forward signals. | Revenue rose +35%, NRR is in the low-120s and rising, revenue per customer +29% and FCF margin 21%. The Q4 guide is flat because its largest customer cut usage (Datadog 8-K; sec-api).",
+   "score": 675,
    "score_parts": {
     "growth": {
      "pts": 98,
@@ -6367,7 +6367,7 @@
      "missing": false
     },
     "forward": {
-     "pts": 55,
+     "pts": 50,
      "max": 125,
      "of": 125,
      "missing": false
@@ -6391,7 +6391,7 @@
      "missing": false
     }
    },
-   "score_rank": 34
+   "score_rank": 35
   },
   {
    "ticker": "MDB",
@@ -6474,7 +6474,7 @@
      "missing": false
     }
    },
-   "score_rank": 35,
+   "score_rank": 33,
    "why": "Score 677/1000. Strongest in cross-industry use and cash & balance sheet; weakest in profitability."
   },
   {
@@ -8070,7 +8070,7 @@
      "missing": false
     }
    },
-   "score_rank": 51,
+   "score_rank": 50,
    "why": "Score 643/1000. Strongest in growth and cross-industry use; weakest in profitability."
   },
   {
@@ -8097,8 +8097,8 @@
     "fcf": -1,
     "nrr": 0
    },
-   "why": "Score 674/1000. Strongest in cross-industry use and growth; weakest in profitability. | Revenue rose +62% and gross profit +82%, backlog reached $2.36B (+137%), adj. EBITDA was near break-even (\u22123.8%) and cash is ~$2.39B (Rocket Lab 8-K). It is a high-risk bet on Neutron.",
-   "score": 674,
+   "why": "Score 675/1000. Strongest in cross-industry use and growth; weakest in profitability. | Revenue rose +62% and gross profit +82%, backlog reached $2.36B (+137%), adj. EBITDA was near break-even (\u22123.8%) and cash is ~$2.39B (Rocket Lab 8-K). It is a high-risk bet on Neutron.",
+   "score": 675,
    "score_parts": {
     "growth": {
      "pts": 141,
@@ -8131,7 +8131,7 @@
      "missing": false
     },
     "forward": {
-     "pts": 89,
+     "pts": 90,
      "max": 131,
      "of": 125,
      "missing": false
