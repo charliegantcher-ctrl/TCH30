@@ -1,6 +1,6 @@
 {
  "MSFT": {
-  "score": 757,
+  "score": 764,
   "parts": {
    "growth": {
     "pts": 95,
@@ -33,7 +33,7 @@
     "missing": false
    },
    "forward": {
-    "pts": 68,
+    "pts": 75,
     "max": 131,
     "of": 125,
     "missing": false
@@ -59,7 +59,7 @@
   }
  },
  "GOOGL": {
-  "score": 733,
+  "score": 745,
   "parts": {
    "growth": {
     "pts": 130,
@@ -92,7 +92,7 @@
     "missing": false
    },
    "forward": {
-    "pts": 46,
+    "pts": 57,
     "max": 131,
     "of": 125,
     "missing": false
@@ -413,7 +413,7 @@
   }
  },
  "NVDA": {
-  "score": 877,
+  "score": 873,
   "parts": {
    "growth": {
     "pts": 157,
@@ -446,7 +446,7 @@
     "missing": false
    },
    "forward": {
-    "pts": 99,
+    "pts": 95,
     "max": 131,
     "of": 125,
     "missing": false
@@ -472,7 +472,7 @@
   }
  },
  "TSM": {
-  "score": 869,
+  "score": 864,
   "parts": {
    "growth": {
     "pts": 127,
@@ -505,7 +505,7 @@
     "missing": false
    },
    "forward": {
-    "pts": 66,
+    "pts": 61,
     "max": 145,
     "of": 125,
     "missing": false
@@ -590,7 +590,7 @@
   }
  },
  "AMD": {
-  "score": 745,
+  "score": 738,
   "parts": {
    "growth": {
     "pts": 157,
@@ -623,7 +623,7 @@
     "missing": false
    },
    "forward": {
-    "pts": 65,
+    "pts": 57,
     "max": 131,
     "of": 125,
     "missing": false
@@ -4012,7 +4012,7 @@
   }
  },
  "CEG": {
-  "score": 768,
+  "score": 763,
   "parts": {
    "growth": {
     "pts": 141,
@@ -4045,7 +4045,7 @@
     "missing": false
    },
    "forward": {
-    "pts": 111,
+    "pts": 106,
     "max": 131,
     "of": 125,
     "missing": false
@@ -4956,7 +4956,7 @@
   }
  },
  "SPCX": {
-  "score": 774,
+  "score": 769,
   "parts": {
    "growth": {
     "pts": 129,
@@ -4989,7 +4989,7 @@
     "missing": false
    },
    "forward": {
-    "pts": 108,
+    "pts": 103,
     "max": 153,
     "of": 125,
     "missing": false

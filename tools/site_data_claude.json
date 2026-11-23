@@ -181,8 +181,8 @@
     "fcf": 1,
     "nrr": 0
    },
-   "why": "Score 877/1000. Strongest in growth and cash & balance sheet; weakest in industry momentum. Loses 40 points for AI boom risk. | Revenue rose +106% and data center +117%, with a 66.2% operating margin and $21.3B of quarterly FCF. Its Q3 guide is $108B. No other company in the set combines growth, margin and cash at this scale.",
-   "score": 877,
+   "why": "Score 873/1000. Strongest in growth and cash & balance sheet; weakest in industry momentum. Loses 40 points for AI boom risk. | Revenue rose +106% and data center +117%, with a 66.2% operating margin and $21.3B of quarterly FCF. Its Q3 guide is $108B. No other company in the set combines growth, margin and cash at this scale.",
+   "score": 873,
    "score_parts": {
     "growth": {
      "pts": 157,
@@ -215,7 +215,7 @@
      "missing": false
     },
     "forward": {
-     "pts": 99,
+     "pts": 95,
      "max": 131,
      "of": 125,
      "missing": false
@@ -395,8 +395,8 @@
     "fcf": 0,
     "nrr": 0
    },
-   "why": "Score 869/1000. Strongest in growth and profitability; weakest in forward signals. Loses 4 points for AI boom risk. | Revenue rose +41% in USD, gross profit +69% and operating margin reached 58.7%. Q4 is guided at +58% YoY. It is the leading-edge foundry that every AI chip in this list depends on.",
-   "score": 869,
+   "why": "Score 864/1000. Strongest in growth and profitability; weakest in forward signals. Loses 4 points for AI boom risk. | Revenue rose +41% in USD, gross profit +69% and operating margin reached 58.7%. Q4 is guided at +58% YoY. It is the leading-edge foundry that every AI chip in this list depends on.",
+   "score": 864,
    "score_parts": {
     "growth": {
      "pts": 127,
@@ -429,7 +429,7 @@
      "missing": false
     },
     "forward": {
-     "pts": 66,
+     "pts": 61,
      "max": 145,
      "of": 125,
      "missing": false
@@ -1202,7 +1202,7 @@
      "missing": false
     }
    },
-   "score_rank": 11,
+   "score_rank": 10,
    "tier": 2,
    "rank": 10,
    "w_mcap": 0.009452973345182268,
@@ -1251,8 +1251,8 @@
     "fcf": -1,
     "nrr": 0
    },
-   "why": "Score 774/1000. Strongest in cross-industry use and growth; weakest in cash & balance sheet. | Revenue rose +161% (~+150% excluding the Cursor acquisition), Starlink reached 13.6M subscribers with ARPU of $69, and operating margin was ~19%. Q3 capex of $19.6B vs $8.8B adj. EBITDA means deep burn, funded by $89.9B of cash and securities ([TeslaNorth](https://teslanorth.com/2026/10/20/spacex-q3-2026-results/)). This is a long-dated space bet.",
-   "score": 774,
+   "why": "Score 769/1000. Strongest in cross-industry use and growth; weakest in cash & balance sheet. | Revenue rose +161% (~+150% excluding the Cursor acquisition), Starlink reached 13.6M subscribers with ARPU of $69, and operating margin was ~19%. Q3 capex of $19.6B vs $8.8B adj. EBITDA means deep burn, funded by $89.9B of cash and securities ([TeslaNorth](https://teslanorth.com/2026/10/20/spacex-q3-2026-results/)). This is a long-dated space bet.",
+   "score": 769,
    "score_parts": {
     "growth": {
      "pts": 129,
@@ -1285,7 +1285,7 @@
      "missing": false
     },
     "forward": {
-     "pts": 108,
+     "pts": 103,
      "max": 153,
      "of": 125,
      "missing": false
@@ -1309,7 +1309,7 @@
      "missing": false
     }
    },
-   "score_rank": 10,
+   "score_rank": 11,
    "tier": 2,
    "rank": 11,
    "w_mcap": 0.06870771361114907,
@@ -1358,8 +1358,8 @@
     "fcf": 1,
     "nrr": 0
    },
-   "why": "Score 768/1000. Strongest in growth and customers; weakest in industry momentum. Loses 4 points for AI boom risk. | It signed 20-year PPAs with Google and Amazon and earned a 26.1% GAAP operating margin. Its +45% growth is mostly the Calpine acquisition, and 9-month OCF less capex was only $1.5B ([Constellation 8-K](https://www.sec.gov/Archives/edgar/data/0001868275/000186827526000116/ceg-20261109991.htm)).",
-   "score": 768,
+   "why": "Score 763/1000. Strongest in growth and customers; weakest in industry momentum. Loses 4 points for AI boom risk. | It signed 20-year PPAs with Google and Amazon and earned a 26.1% GAAP operating margin. Its +45% growth is mostly the Calpine acquisition, and 9-month OCF less capex was only $1.5B ([Constellation 8-K](https://www.sec.gov/Archives/edgar/data/0001868275/000186827526000116/ceg-20261109991.htm)).",
+   "score": 763,
    "score_parts": {
     "growth": {
      "pts": 141,
@@ -1392,7 +1392,7 @@
      "missing": false
     },
     "forward": {
-     "pts": 111,
+     "pts": 106,
      "max": 131,
      "of": 125,
      "missing": false
@@ -1416,7 +1416,7 @@
      "missing": false
     }
    },
-   "score_rank": 12,
+   "score_rank": 14,
    "tier": 2,
    "rank": 12,
    "w_mcap": 0.00334327204252932,
@@ -1465,8 +1465,8 @@
     "fcf": 1,
     "nrr": 0
    },
-   "why": "Score 757/1000. Strongest in cross-industry use and durability & moat; weakest in industry momentum. | Revenue grew +19% on a very large base, with a 49.7% operating margin. Azure grew +48% and RPO reached $677B (+73%). Quarterly capex of $39.4B is the main watch item.",
-   "score": 757,
+   "why": "Score 764/1000. Strongest in cross-industry use and durability & moat; weakest in industry momentum. | Revenue grew +19% on a very large base, with a 49.7% operating margin. Azure grew +48% and RPO reached $677B (+73%). Quarterly capex of $39.4B is the main watch item.",
+   "score": 764,
    "score_parts": {
     "growth": {
      "pts": 95,
@@ -1499,7 +1499,7 @@
      "missing": false
     },
     "forward": {
-     "pts": 68,
+     "pts": 75,
      "max": 131,
      "of": 125,
      "missing": false
@@ -1523,7 +1523,7 @@
      "missing": false
     }
    },
-   "score_rank": 14,
+   "score_rank": 12,
    "tier": 3,
    "rank": 13,
    "w_mcap": 0.1487408745208392,
@@ -1786,8 +1786,8 @@
     "fcf": 1,
     "nrr": 0
    },
-   "why": "Score 745/1000. Strongest in growth and cross-industry use; weakest in forward signals. Loses 10 points for AI boom risk. | Revenue rose +45%, data center +97%, and Q4 is guided at +66%. FCF was only $554M because of inventory build, and GAAP operating margin was 21%.",
-   "score": 745,
+   "why": "Score 738/1000. Strongest in growth and cross-industry use; weakest in forward signals. Loses 10 points for AI boom risk. | Revenue rose +45%, data center +97%, and Q4 is guided at +66%. FCF was only $554M because of inventory build, and GAAP operating margin was 21%.",
+   "score": 738,
    "score_parts": {
     "growth": {
      "pts": 157,
@@ -1820,7 +1820,7 @@
      "missing": false
     },
     "forward": {
-     "pts": 65,
+     "pts": 57,
      "max": 131,
      "of": 125,
      "missing": false
@@ -1844,7 +1844,7 @@
      "missing": false
     }
    },
-   "score_rank": 16,
+   "score_rank": 17,
    "tier": 3,
    "rank": 16,
    "w_mcap": 0.02780246305827849,
@@ -1893,8 +1893,8 @@
     "fcf": -1,
     "nrr": 0
    },
-   "why": "Score 733/1000. Strongest in cross-industry use and durability & moat; weakest in forward signals. | Revenue rose +25% with a 31.8% operating margin, and Cloud grew +103% at a 36% margin. AI capex pushed quarterly FCF to \u2212$9.1B (TTM still +$19.7B), the main watch item.",
-   "score": 733,
+   "why": "Score 745/1000. Strongest in cross-industry use and durability & moat; weakest in forward signals. | Revenue rose +25% with a 31.8% operating margin, and Cloud grew +103% at a 36% margin. AI capex pushed quarterly FCF to \u2212$9.1B (TTM still +$19.7B), the main watch item.",
+   "score": 745,
    "score_parts": {
     "growth": {
      "pts": 130,
@@ -1927,7 +1927,7 @@
      "missing": false
     },
     "forward": {
-     "pts": 46,
+     "pts": 57,
      "max": 131,
      "of": 125,
      "missing": false
@@ -1951,7 +1951,7 @@
      "missing": false
     }
    },
-   "score_rank": 17,
+   "score_rank": 16,
    "tier": 3,
    "rank": 17,
    "w_mcap": 0.13213021848297898,
